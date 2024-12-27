@@ -1,0 +1,243 @@
+/***********************************************************************
+* COMMUNICATION PROTOCOL - Slave side
+* Version 1.5
+* Programmed by: Petteri Loisko
+* 8th of July 2011
+*
+*************************************************************************
+*   FUCTIONALITY
+*   Slacve communication protocol consists of commands related to the
+*   bluetooth communication. It has the functions for listening commands
+*   and parameters and parsing the actual meaning of the command codes.
+*   SlaveCommProtocol.nxc also has functions for sending location data and
+*   acknowledgementa to the master robot.
+*
+*   Function prototypes and constants can be found in the SlaveHeader.nxc -file
+*
+*************************************************************************/
+
+////////////////////////////////////////////////
+// FUNCTION FOR CHECKING THE CONNECTION STATUS
+////////////////////////////////////////////////
+/***********************************************
+* A function that checks the BT status from a line
+* that is given as a parameter. If the comm line
+* isn't working it returns error code -1 so the main program knows
+* something is wrong.
+* ATTENTION: The checks are not really implemented in
+* the current build
+*/
+int CheckConnection(int commLine) {
+    if ( !BluetoothStatus(commLine) == NO_ERR) {
+       TextOut(10, LCD_LINE4, "Error with the");
+       TextOut(10,LCD_LINE5, "connection");
+       Wait(3000);
+       return -1;
+    }
+    return 1;
+}
+
+////////////////////////////////////////////////
+// ACKNOWLEDGEMENT
+////////////////////////////////////////////////
+/***********************************************
+* To make the communication protocol more stable
+* slave is supposed to send acknowledgement to the master
+* when it receives certain commands.
+* ack() sends 0xFF hexadecimal (255 in decimal) number
+* to the masters mailbox so the master knows that the
+* slave has gotten the command and is starting to
+* act accordingly. For now no real fail safe
+* mechanisms are put in place but they are easy to
+* implement in the master's side (for example if
+* there is no ack in 3000ms resend the command etc.)
+************************************************/
+void ack() {
+     SendResponseNumber(OUT_ACK,0xFF);
+}
+
+/////////////////////////////////////////////
+// FUNCTION FOR READIND POSSIBLE PARAMETERS
+/////////////////////////////////////////////
+/********************************************
+* With certain commands comes parameters. For example
+* command could be "move forward" and the parameter
+* would be "this much".
+* Parameters are sent in to a different mailbox than
+* the actual commands.
+*********************************************/
+int getParameter() {
+    int parameter = 0;
+
+    ClearLine(LCD_LINE3);
+    TextOut(0, LCD_LINE3, "Fetching parameter..");
+
+    while (!parameter) {
+        ReceiveRemoteNumber(IN_PARAMETER, true, parameter);
+    }
+    
+    ClearLine(LCD_LINE4);
+    TextOut(0, LCD_LINE4, "Parameter found: " + NumToStr(parameter) );
+    return parameter;
+}
+
+////////////////////////////////////////////
+// COMMAND PARSER
+////////////////////////////////////////////
+/*******************************************
+* Command parser acts as a linguist between the command
+* codes from master and the actual actions that are to be
+* done. It receives the command as a number and calls the
+* appropriate function. In case parameters are needed
+* they are got from the getParameter() function.
+********************************************/
+int parseCommand(int command) {
+
+    ClearScreen();
+
+    textToScreen(LCD_LINE3, "Parsing command: " + NumToStr(command) );
+
+    switch( command ) {
+    
+
+      case IDENTITY: {
+          // ZERG = getParameter();
+           id = getParameter();
+           ClearLine(LCD_LINE2);
+           ClearLine(LCD_LINE3);
+           ClearLine(LCD_LINE4);
+           TextOut(0, LCD_LINE2, "Identity set: " + NumToStr(id) );
+           Wait(150);
+           ack();
+           Wait(1000);
+           ClearScreen();
+           TextOut(0, LCD_LINE2, "Waiting again.. " + NumToStr(id) );
+           break;
+      }
+
+    
+      case MOVE_FORWARD: {
+         forwardCm( getParameter() );
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case MOVE_BACKWARDS: {
+         backwardsCm( getParameter() );
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case TURN_LEFT: {
+         turnLeft();
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case TURN_RIGHT: {
+         turnRight();
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case WHERE_AM_I: {
+        whereAmI();
+        Wait(300);
+        ack();
+        break;
+      }
+      
+      case BEGIN_SEARCH: {
+        Wait(300);
+        ack();
+        
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "STARTING SEARCH");
+
+        
+        StartTask(beginSearch);
+        break;
+      }
+      
+      case GAP_FOUND: {
+        Off(OUT_AC);
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "OTHER Z FOUND GAP");
+        StopTask(sensorPoller);
+        StopTask(searchPattern);
+        
+        ack();
+        break;
+      }
+    }
+
+}
+
+/////////////////////////////////////////////
+// PROTOCOL LISTENER FUCNTION
+/////////////////////////////////////////////
+/********************************************
+* SlaveProtocolHandler thread listens for incoming commands
+* and parameters from the master. After it has succesfully gotten
+* the command it calls for the command parser to
+* make action accordingly. After this it returns to listening state.
+*/
+task slaveProtocolHandler() {
+
+     SetUpConnection();
+     Wait(300);
+
+     int command = 0;
+
+     ClearScreen();
+     textToScreen(LCD_LINE1,"Waiting..");
+
+     while (true) {
+     
+           Wait(200);
+
+            ReceiveRemoteNumber(IN_COMMAND, true, command);
+            if (command != 0) {
+               ClearScreen();
+               textToScreen(LCD_LINE2, "COMMAND!!");
+               textToScreen(LCD_LINE3, "Cmd: " + NumToStr(command) );
+               Wait(250);
+               parseCommand(command);
+            }
+            
+            //if ( LOCATION ) whereAmI();
+            Wait(120);
+            if ( FOUND ) SendResponseNumber(GAP_FOUND, ZERG); //Notification about the gap to the master
+            
+     }
+}
+
+////////////////////////////////////
+// SEND LOCATION INFORMATION
+////////////////////////////////////
+/***********************************
+* Function simply sends location information
+* as a string to the Master.
+************************************/
+void SendLocation(string location) {
+    // The box to which send the data to
+    // at the Master end is set here. ZERG parameter is
+    // set manually until ZERG identity is implemented properly.
+    int queue = 0;
+    if ( ZERG == 1 ) { queue = 4; }
+       else if ( ZERG == 2 ) { queue = 5; }
+
+    // Send data as a response to the Master
+    Wait(200);
+    ClearLine(LCD_LINE1);
+    TextOut(0, LCD_LINE1, NumToStr(queue) + " " + location);
+    SendResponseString( queue, location );
+    Wait(150);
+    LOCATION = false;
+}
+
+

@@ -1,0 +1,285 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	8
+1	__D0main	6	1	4	4	8
+2	__RRNTmpVal	6	1	8	4	4
+3	__signed_stack_002main	6	1	12	4	8
+4	__main_wait_then	5	1	16	4	2
+5	__main_wait_now	5	1	20	4	3
+6	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	24	4	2
+7	__main_7qG2_tmp_7qG2_000	4	1	28	2	5
+8	__constVal200	4	0	30	2	2
+9	__main_wait_ms	3	1	32	2	3
+10	__constVal3000	4	0	34	2	1
+11	__constVal2000	4	0	36	2	1
+12	__constVal0	2	1	38	1	1
+13	__constVal1	2	0	39	1	1
+14	__PFTmp	1	1	40	1	1
+15	____initialize_global_data_return	1	1	41	1	3
+16	__constVal8	2	0	42	1	1
+17	__constVal3	2	0	43	1	1
+18	__constVal16	2	0	44	1	1
+19	__RRNErr	1	1	45	1	1
+20	__zfmain	1	1	46	1	2
+21	__main_wait_return	1	1	47	1	3
+22	__IOMRArgs	8	0	5	16	5
+23	__IOMRArgs.Result	2	1	48	1	5
+24	__IOMRArgs.ModuleName	7	0	50	4	5
+25	__IOMRArgs.ModuleName.ModuleName_type	1	0	0	1	0
+26	__IOMRArgs.Offset	3	1	52	2	5
+27	__IOMRArgs.Count	3	1	54	2	5
+28	__IOMRArgs.Buffer	7	0	56	4	5
+29	__IOMRArgs.Buffer.Buffer_type	1	0	0	1	0
+30	__MRArgs	8	0	4	8	5
+31	__MRArgs.Result	2	1	60	1	5
+32	__MRArgs.QueueID	1	1	61	1	5
+33	__MRArgs.Remove	1	1	62	1	5
+34	__MRArgs.Message	7	0	64	4	5
+35	__MRArgs.Message.Message_type	1	0	0	1	0
+36	__TextOutArgs	8	0	4	16	21
+37	__TextOutArgs.Result	2	1	68	1	21
+38	__TextOutArgs.Location	8	0	2	4	21
+39	__TextOutArgs.Location.X	4	1	72	2	21
+40	__TextOutArgs.Location.Y	4	1	74	2	21
+41	__TextOutArgs.Text	7	0	76	4	21
+42	__TextOutArgs.Text.Text_type	1	0	0	1	0
+43	__TextOutArgs.Options	5	1	80	4	21
+44	__PointOutArgs	8	0	3	12	4
+45	__PointOutArgs.Result	2	1	84	1	4
+46	__PointOutArgs.Location	8	0	2	4	4
+47	__PointOutArgs.Location.X	4	1	88	2	4
+48	__PointOutArgs.Location.Y	4	1	90	2	4
+49	__PointOutArgs.Options	5	1	92	4	4
+50	__constStr0013	7	0	96	4	1
+51	__constStr0013.__constStr0013_type	1	1	0	1	0
+52	__constStr0014	7	0	98	4	1
+53	__constStr0014.__constStr0014_type	1	1	0	1	0
+54	__constStr0015	7	0	100	4	1
+55	__constStr0015.__constStr0015_type	1	1	0	1	0
+56	__strretvalmain	7	0	102	4	6
+57	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+58	__main_7qG2_buf_7qG2_000	7	0	104	4	4
+59	__main_7qG2_buf_7qG2_000.__main_7qG2_buf_7qG2_000_type	1	0	0	1	0
+60	__strbufmain	7	0	106	4	22
+61	__strbufmain.__strbufmain_type	1	0	0	1	0
+62	__ArrHelper__main_244_0	7	0	108	4	2
+63	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+64	__ArrHelper__main_244_1	7	0	110	4	2
+65	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+66	__constStr0011	7	0	112	4	1
+67	__constStr0011.__constStr0011_type	1	1	0	1	0
+68	__constStr0012	7	0	114	4	1
+69	__constStr0012.__constStr0012_type	1	1	0	1	0
+70	__main_7qG2_nimi_7qG2_000	7	0	116	4	7
+71	__main_7qG2_nimi_7qG2_000.__main_7qG2_nimi_7qG2_000_type	1	0	0	1	0
+72	__constStr0009	7	0	118	4	1
+73	__constStr0009.__constStr0009_type	1	1	0	1	0
+74	__constStr0010	7	0	120	4	1
+75	__constStr0010.__constStr0010_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	3	2	#line 3 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	4	2		set __main_7qG2_tmp_7qG2_000, 0
+0	3	5	#line 3 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	6069	5	#line 6069 "NXCDefs.h"
+0	6070	5	#pragma macro 6
+0	6070	5		mov __PointOutArgs.Location.X, __constVal200
+0	6070	7		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	9		mov __PointOutArgs.Options, __constVal1
+0	6070	11		syscall 14, __PointOutArgs
+0	3002	14	#line 3002 "NXCDefs.h"
+0	6069	14	#line 6069 "NXCDefs.h"
+0	4	14	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	5	14	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	6	14		strcat __strbufmain, __constStr0009
+0	5	18	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	6	18		mov __main_7qG2_buf_7qG2_000, __strbufmain
+0	7	20	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	8	20		strcat __strbufmain, __main_7qG2_buf_7qG2_000, __constStr0010
+0	7	25	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	8	25		mov __main_7qG2_buf_7qG2_000, __strbufmain
+0	7	27	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	7	27	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	8	27		set __signed_stack_001main, 0
+0	7	30	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	7	30	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	8	30		set __signed_stack_002main, 56
+0	7	33	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	7	33	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	8	33		strcat __strbufmain, __main_7qG2_buf_7qG2_000
+0	9	37	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	9	37	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	10	37		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	9	39	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	10	39		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	9	41	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	10	41		set __TextOutArgs.Options, 0
+0	9	44	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	10	44		mov __TextOutArgs.Text, __strbufmain
+0	9	46	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	10	46		syscall 13, __TextOutArgs
+0	9	49	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	10	49		mov __D0main, __TextOutArgs.Result
+0	9	51	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	9	51	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	11	51	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	12	51		strcat __strbufmain, __constStr0011
+0	11	55	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	12	55		mov __main_7qG2_nimi_7qG2_000, __strbufmain
+0	11	57	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	12	57		set __D0main, 64
+0	12	60	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	13	60		numtostr __strretvalmain, __D0main
+0	12	63	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	13	63		strcat __strbufmain, __strretvalmain
+0	12	67	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	13	67		mov __main_7qG2_nimi_7qG2_000, __strbufmain
+0	12	69	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	13	69	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	69		strcat __strbufmain, __main_7qG2_nimi_7qG2_000, __constStr0012
+0	13	74	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	74		mov __main_7qG2_nimi_7qG2_000, __strbufmain
+0	13	76	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	13	76	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	76	#pragma macro 23
+0	14	76		mov __IOMRArgs.ModuleName, __constStr0013
+0	14	78		mov __IOMRArgs.Offset, __constVal8
+0	14	80		mov __IOMRArgs.Count, __constVal16
+0	14	82		syscall 32, __IOMRArgs
+0	14	85		mov __strretvalmain, __IOMRArgs.Buffer
+0	3074	87	#line 3074 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	13	87	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	87		strcat __strbufmain, __main_7qG2_nimi_7qG2_000, __strretvalmain
+0	13	92	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	92		mov __main_7qG2_nimi_7qG2_000, __strbufmain
+0	13	94	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	94	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	15	94		set __signed_stack_001main, 0
+0	14	97	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	97	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	15	97		set __signed_stack_002main, 48
+0	14	100	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	14	100	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	15	100		strcat __strbufmain, __main_7qG2_nimi_7qG2_000
+0	16	104	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	16	104	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	104		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	16	106	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	106		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	16	108	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	108		set __TextOutArgs.Options, 0
+0	16	111	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	111		mov __TextOutArgs.Text, __strbufmain
+0	16	113	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	113		syscall 13, __TextOutArgs
+0	16	116	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	16	116	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	16	116	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	16	116	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	116		set __signed_stack_001main, 0
+0	16	119	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	16	119	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	119		set __signed_stack_002main, 40
+0	16	122	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	16	122	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	122		mov __ArrHelper__main_244_0, __constStr0014
+0	16	124	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	124		strcat __strbufmain, __constStr0015
+0	16	128	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	128		mov __ArrHelper__main_244_1, __strbufmain
+0	16	130	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	17	130		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	18	135	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	18	135	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	19	135		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	18	137	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	19	137		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	18	139	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	19	139		set __TextOutArgs.Options, 0
+0	18	142	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	19	142		mov __TextOutArgs.Text, __strbufmain
+0	18	144	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	19	144		syscall 13, __TextOutArgs
+0	18	147	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	18	147	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	18	147	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	18	147	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	19	147		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	18	150	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	7921	150	#line 7921 "NXCDefs.h"
+0	7922	150		mov __main_wait_ms, __constVal2000
+0	7922	152		subcall __main_wait, __main_wait_return
+0	7921	154	#line 7921 "NXCDefs.h"
+0	20	154	#line 20 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	20	154	#line 20 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	20	154	#line 20 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	21	154		not __D0main, __main_7qG2_tmp_7qG2_000
+0	21	157	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	22	157		tst 5, __zfmain, __D0main
+0	21	160	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	22	160		brtst 4, __NXC_Label_504, __zfmain
+0	21	163	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	22	163	#pragma macro 9
+0	22	163		mov __MRArgs.QueueID, __constVal3
+0	22	165		mov __MRArgs.Remove, __constVal0
+0	22	167		set __RRNTmpVal, 0
+0	22	170		syscall 27, __MRArgs
+0	22	173		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	22	178		mov __main_7qG2_tmp_7qG2_000, __RRNTmpVal
+0	22	180		mov __D0main, __MRArgs.Result
+0	3174	182	#line 3174 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	21	182	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	21	182	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	23	182	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	24	182		jmp __NXC_Label_503
+0	23	184	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	23	184	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	24	184		set __signed_stack_001main, 10
+0	23	187	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	23	187	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	24	187		set __signed_stack_002main, 40
+0	23	190	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	23	190	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	24	190		mov __D0main, __main_7qG2_tmp_7qG2_000
+0	23	192	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	24	192		numtostr __strretvalmain, __D0main
+0	23	195	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	24	195		strcat __strbufmain, __strretvalmain
+0	25	199	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	25	199	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	26	199		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	25	201	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	26	201		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	25	203	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	26	203		set __TextOutArgs.Options, 0
+0	25	206	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	26	206		mov __TextOutArgs.Text, __strbufmain
+0	25	208	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	26	208		syscall 13, __TextOutArgs
+0	25	211	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	25	211	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	25	211	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	25	211	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	26	211		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
+0	25	214	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	7921	214	#line 7921 "NXCDefs.h"
+0	7922	214		mov __main_wait_ms, __constVal3000
+0	7922	216		subcall __main_wait, __main_wait_return
+0	7921	218	#line 7921 "NXCDefs.h"
+0	27	218	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+0	28	218		exit -1, -1
+1	0	0		gettick __main_wait_now
+1	0	2		add __main_wait_then, __main_wait_now, __main_wait_ms
+1	0	6	__main_waiting:	gettick __main_wait_now
+1	0	8		brcmp LT, __main_waiting, __main_wait_now, __main_wait_then
+1	0	12		subret __main_wait_return
+2	30	0	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc"
+2	31	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc
+1	__main_wait	221	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc
+2	__initialize_global_data	235	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta3_m.nxc

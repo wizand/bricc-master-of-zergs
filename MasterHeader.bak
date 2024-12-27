@@ -1,0 +1,115 @@
+/////////////////////////
+// ZERG ADDRESS CONSTANTS
+/////////////////////////
+#define ZERG_1 2
+#define ZERG_2 3
+
+bool LOC;
+string locations;
+bool SEARCH;
+
+int FOUNDER;
+
+int coordBuffer[5];
+/*int xx;
+int yy;
+int hh;
+int zz;
+int ff; */
+
+
+/////////////////
+// OUT GOING BOXES
+/////////////////
+#define OUT_COMMAND 1
+#define OUT_PARAMETER 2
+
+#define OUT_LOC 7   // Location information to the Android
+
+#define GAP_FOUND 6
+
+/////////////////
+// INBOUND BOXES
+/////////////////
+
+#define IN_ACK 3
+
+#define IN_CMD 7
+#define IN_PAR 8
+#define IN_DES 9
+
+#define IN_LOCATION_Z1 4
+#define IN_LOCATION_Z2 5
+
+//////////////////////////////
+// DIRECTION CONSTANTS
+//////////////////////////////
+#define NORTH 0
+#define EAST 1
+#define SOUTH 2
+#define WEST 3
+
+////////////////////////////////////////////////
+// FUNCTIONS & CONSTANTS IN MasterActions.nxc
+////////////////////////////////////////////////
+#define MOTOR_A_SPEED 50
+#define MOTOR_B_SPEED 50
+#define MOTOR_C_SPEED 50
+#define MOTOR_AC_SPEED 55
+
+#define DEG_CONVERSION_CONSTANT 25
+
+struct LOCATION {
+       int coordinates[2];
+       int heading;
+};
+
+LOCATION Z1_location;
+LOCATION Z2_location;
+LOCATION M_location;
+
+mutex MOTOR;
+int TurningDegrees = 0;
+
+///////////////////////////
+// FUNCTIONS IN MasterV4.nxc
+///////////////////////////
+
+
+void FormatLocations();
+int ParseCoordinates(string location);
+sub BTWait (int connection);
+int getAck();
+void sendCommand(int cmd, int des);
+void sendParameter(int par, int des);
+void notifyZergs();
+task main();
+
+///////////////////////////
+// FUNCTIONS IN MasterActions.nxc
+///////////////////////////
+void locationUpdate(int distance, int steering);
+void whereAmI();
+void forwardCm(int cm);
+void backwardsCm(int cm);
+void turnLeft();
+void turnRight();
+void move(int cm);
+task turningControl();
+task leftMotor();
+task rightMotor();
+void turn(int dir);
+
+///////////////////////////
+// FUNCTIONS IN MasterSearchProtocol.nxc
+///////////////////////////
+string getMasterLocation();
+void SearchProtocol();
+void moveOverTheBridge();
+void guideZergToBridge();
+void updateLocationsToMap(string z1_location, string z2_location, string m_location);
+
+
+
+
+

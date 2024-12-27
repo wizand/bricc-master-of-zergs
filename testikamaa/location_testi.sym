@@ -1,0 +1,312 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__RandomTmp	5	1	0	4	29
+1	__constVal65536	6	0	4	4	4
+2	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	8	4	2
+3	__SRSTmpLongVal	6	1	12	4	2
+4	__constVal32768	6	0	16	4	4
+5	__signed_stack_001main	6	1	20	4	2
+6	__D0main	6	1	24	4	21
+7	__signed_stack_002main	6	1	28	4	2
+8	__main_7qG2_z_7qG2_000	4	1	32	2	4
+9	__constVal200	4	0	34	2	2
+10	__main_7qG2_x_7qG2_000	4	1	36	2	3
+11	__main_7qG2_y_7qG2_000	4	1	38	2	3
+12	__main_7qG2_h_7qG2_000	4	1	40	2	3
+13	__zfmain	1	1	42	1	2
+14	____initialize_global_data_return	1	1	43	1	3
+15	__constVal7	2	0	44	1	1
+16	__constVal4	2	0	45	1	2
+17	__constVal2	2	0	46	1	1
+18	__constVal3	2	0	47	1	1
+19	__WFRRTmpByte	1	1	48	1	2
+20	__constVal1	2	0	49	1	5
+21	__PointOutArgs	8	0	3	12	4
+22	__PointOutArgs.Result	2	1	52	1	4
+23	__PointOutArgs.Location	8	0	2	4	4
+24	__PointOutArgs.Location.X	4	1	56	2	4
+25	__PointOutArgs.Location.Y	4	1	58	2	4
+26	__PointOutArgs.Options	5	1	60	4	4
+27	__TextOutArgs	8	0	4	16	6
+28	__TextOutArgs.Result	2	1	64	1	6
+29	__TextOutArgs.Location	8	0	2	4	6
+30	__TextOutArgs.Location.X	4	1	68	2	6
+31	__TextOutArgs.Location.Y	4	1	70	2	6
+32	__TextOutArgs.Text	7	0	72	4	6
+33	__TextOutArgs.Text.Text_type	1	0	0	1	0
+34	__TextOutArgs.Options	5	1	76	4	6
+35	__CHSWArgs	8	0	2	8	3
+36	__CHSWArgs.Status	2	1	80	1	3
+37	__CHSWArgs.Buffer	7	0	82	4	3
+38	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+39	__CBTWArgs	8	0	3	8	4
+40	__CBTWArgs.Result	2	1	84	1	4
+41	__CBTWArgs.Connection	1	1	85	1	4
+42	__CBTWArgs.Buffer	7	0	86	4	4
+43	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+44	__RandomArgs	8	0	1	4	12
+45	__RandomArgs.Result	4	1	88	2	12
+46	__constStr0010	7	0	90	4	4
+47	__constStr0010.__constStr0010_type	1	1	0	1	0
+48	__main_7qG2_loc_7qG2_000	7	0	92	4	7
+49	__main_7qG2_loc_7qG2_000.__main_7qG2_loc_7qG2_000_type	1	0	0	1	0
+50	__constStr0009	7	0	94	4	1
+51	__constStr0009.__constStr0009_type	1	1	0	1	0
+52	__strretvalmain	7	0	96	4	8
+53	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+54	__ArrHelper__main_244_0	7	0	98	4	4
+55	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+56	__ArrHelper__main_244_1	7	0	100	4	6
+57	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+58	__ArrHelper__main_244_2	7	0	102	4	4
+59	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+60	__SRSTmpBuf	7	0	104	4	6
+61	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+62	__SRSSendBuf	7	0	106	4	3
+63	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+64	__DCMessageWritePacket	7	0	108	4	1
+65	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+66	__ArrHelper__main_244_6	7	0	110	4	4
+67	__ArrHelper__main_244_6.__ArrHelper__main_244_6_type	1	0	0	1	0
+68	__ArrHelper__main_244_7	7	0	112	4	2
+69	__ArrHelper__main_244_7.__ArrHelper__main_244_7_type	1	0	0	1	0
+70	__strbufmain	7	0	114	4	25
+71	__strbufmain.__strbufmain_type	1	0	0	1	0
+72	__ArrHelper__main_244_3	7	0	116	4	4
+73	__ArrHelper__main_244_3.__ArrHelper__main_244_3_type	1	0	0	1	0
+74	__ArrHelper__main_244_4	7	0	118	4	4
+75	__ArrHelper__main_244_4.__ArrHelper__main_244_4_type	1	0	0	1	0
+76	__ArrHelper__main_244_5	7	0	120	4	4
+77	__ArrHelper__main_244_5.__ArrHelper__main_244_5_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	2	0	#line 2 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	2	2	#line 2 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	3	2	#line 3 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	4	2		set __main_7qG2_x_7qG2_000, 0
+0	3	5	#line 3 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	4	5	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	5	5		set __main_7qG2_y_7qG2_000, 0
+0	4	8	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	5	8	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	6	8		set __main_7qG2_h_7qG2_000, 0
+0	5	11	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	6	11	#line 6 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	7	11		strcat __strbufmain, __constStr0009
+0	6	15	#line 6 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	7	15		mov __main_7qG2_loc_7qG2_000, __strbufmain
+0	9	17	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	10	17		set __main_7qG2_z_7qG2_000, 0
+0	9	20	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	9	20	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	10	20		set __D0main, 1
+0	10	23	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	11	23		tst 5, __zfmain, __D0main
+0	10	26	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	11	26		brtst 4, __NXC_Label_613, __zfmain
+0	10	29	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	11	29		set __D0main, 100
+0	11	32	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	12	32	#pragma macro 8
+0	12	32		syscall 24, __RandomArgs
+0	12	35		mov __RandomTmp, __RandomArgs.Result
+0	12	37		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	12	41		mul __RandomTmp, __RandomTmp, __D0main
+0	12	45		div __RandomTmp, __RandomTmp, __constVal65536
+0	12	49		mov __main_7qG2_x_7qG2_000, __RandomTmp
+0	5941	51	#line 5941 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	11	51	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	11	51	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	11	51	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	12	51		set __D0main, 100
+0	12	54	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	13	54	#pragma macro 8
+0	13	54		syscall 24, __RandomArgs
+0	13	57		mov __RandomTmp, __RandomArgs.Result
+0	13	59		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	13	63		mul __RandomTmp, __RandomTmp, __D0main
+0	13	67		div __RandomTmp, __RandomTmp, __constVal65536
+0	13	71		mov __main_7qG2_y_7qG2_000, __RandomTmp
+0	5952	73	#line 5952 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	12	73	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	12	73	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	12	73	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	13	73		set __D0main, 4
+0	13	76	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	14	76	#pragma macro 8
+0	14	76		syscall 24, __RandomArgs
+0	14	79		mov __RandomTmp, __RandomArgs.Result
+0	14	81		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	14	85		mul __RandomTmp, __RandomTmp, __D0main
+0	14	89		div __RandomTmp, __RandomTmp, __constVal65536
+0	14	93		mov __main_7qG2_h_7qG2_000, __RandomTmp
+0	5963	95	#line 5963 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	13	95	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	13	95	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	13	95	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	14	95		set __D0main, 3
+0	14	98	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	15	98	#pragma macro 8
+0	15	98		syscall 24, __RandomArgs
+0	15	101		mov __RandomTmp, __RandomArgs.Result
+0	15	103		add __RandomTmp, __RandomArgs.Result, __constVal32768
+0	15	107		mul __RandomTmp, __RandomTmp, __D0main
+0	15	111		div __RandomTmp, __RandomTmp, __constVal65536
+0	15	115		mov __main_7qG2_z_7qG2_000, __RandomTmp
+0	5974	117	#line 5974 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	14	117	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	14	117	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	16	117	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	117		add __main_7qG2_z_7qG2_000, __RandomTmp, __constVal1
+0	16	121	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	16	121	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	121		mov __D0main, __main_7qG2_x_7qG2_000
+0	16	123	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	123		numtostr __strretvalmain, __D0main
+0	16	126	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	126		mov __ArrHelper__main_244_0, __strretvalmain
+0	16	128	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	128		mov __ArrHelper__main_244_1, __constStr0010
+0	16	130	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	130		mov __D0main, __main_7qG2_y_7qG2_000
+0	16	132	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	132		numtostr __strretvalmain, __D0main
+0	16	135	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	135		mov __ArrHelper__main_244_2, __strretvalmain
+0	16	137	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	137		mov __ArrHelper__main_244_3, __constStr0010
+0	16	139	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	139		mov __D0main, __main_7qG2_h_7qG2_000
+0	16	141	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	141		numtostr __strretvalmain, __D0main
+0	16	144	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	144		mov __ArrHelper__main_244_4, __strretvalmain
+0	16	146	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	146		mov __ArrHelper__main_244_5, __constStr0010
+0	16	148	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	148		mov __D0main, __main_7qG2_z_7qG2_000
+0	16	150	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	150		numtostr __strretvalmain, __D0main
+0	16	153	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	153		mov __ArrHelper__main_244_6, __strretvalmain
+0	17	155	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	155		strcat __strbufmain, __constStr0010
+0	17	159	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	159		mov __ArrHelper__main_244_7, __strbufmain
+0	17	161	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	161		strcat __strbufmain, __ArrHelper__main_244_6, __ArrHelper__main_244_7
+0	17	166	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	166		mov __ArrHelper__main_244_6, __strbufmain
+0	17	168	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	168		strcat __strbufmain, __ArrHelper__main_244_5, __ArrHelper__main_244_6
+0	17	173	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	173		mov __ArrHelper__main_244_5, __strbufmain
+0	17	175	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	175		strcat __strbufmain, __ArrHelper__main_244_4, __ArrHelper__main_244_5
+0	17	180	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	180		mov __ArrHelper__main_244_4, __strbufmain
+0	17	182	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	182		strcat __strbufmain, __ArrHelper__main_244_3, __ArrHelper__main_244_4
+0	17	187	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	187		mov __ArrHelper__main_244_3, __strbufmain
+0	17	189	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	189		strcat __strbufmain, __ArrHelper__main_244_2, __ArrHelper__main_244_3
+0	17	194	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	194		mov __ArrHelper__main_244_2, __strbufmain
+0	17	196	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	196		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	17	201	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	201		mov __ArrHelper__main_244_1, __strbufmain
+0	17	203	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	203		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	17	208	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	208		mov __main_7qG2_loc_7qG2_000, __strbufmain
+0	17	210	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	17	210	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	210		mov __ArrHelper__main_244_0, __strbufmain
+0	18	212	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	19	212		strcat __strbufmain, __main_7qG2_loc_7qG2_000
+0	18	216	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	19	216		mov __ArrHelper__main_244_1, __strbufmain
+0	18	218	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	19	218		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	18	223	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	19	223		mov __main_7qG2_loc_7qG2_000, __strbufmain
+0	18	225	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	18	225	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	19	225		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	18	228	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	7921	228	#line 7921 "NXCDefs.h"
+0	7922	228		wait 750
+0	7921	230	#line 7921 "NXCDefs.h"
+0	20	230	#line 20 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	6069	230	#line 6069 "NXCDefs.h"
+0	6070	230	#pragma macro 6
+0	6070	230		mov __PointOutArgs.Location.X, __constVal200
+0	6070	232		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	234		mov __PointOutArgs.Options, __constVal1
+0	6070	236		syscall 14, __PointOutArgs
+0	6080	239	#line 6080 "NXCDefs.h"
+0	6069	239	#line 6069 "NXCDefs.h"
+0	21	239	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	21	239	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	22	239		set __signed_stack_001main, 0
+0	21	242	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	21	242	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	22	242		set __signed_stack_002main, 56
+0	21	245	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	21	245	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	22	245		strcat __strbufmain, __main_7qG2_loc_7qG2_000
+0	23	249	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	23	249	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	249		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	23	251	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	251		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	23	253	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	253		set __TextOutArgs.Options, 0
+0	23	256	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	256		mov __TextOutArgs.Text, __strbufmain
+0	23	258	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	258		syscall 13, __TextOutArgs
+0	23	261	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	261		mov __D0main, __TextOutArgs.Result
+0	23	263	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	23	263	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	23	263	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	263	#pragma macro 24
+0	24	263		mov __SRSTmpBuf, __DCMessageWritePacket
+0	24	265		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal7
+0	24	270		arrsize __SRSTmpLongVal, __main_7qG2_loc_7qG2_000
+0	24	273		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+0	24	278		arrbuild __SRSSendBuf, __SRSTmpBuf, __main_7qG2_loc_7qG2_000
+0	24	283		brcmp 0, __ConnWrite_Else0, __constVal1, __constVal4
+0	24	287		sub __WFRRTmpByte, __constVal1, __constVal4
+0	24	291		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+0	24	296		syscall 37, __CHSWArgs
+0	24	299		mov __D0main, __CHSWArgs.Status
+0	24	301		jmp __ConnWrite_EndIf0
+0	24	303		mov __CBTWArgs.Connection, __constVal1
+0	24	305		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	24	307		syscall 29, __CBTWArgs
+0	24	310		mov __D0main, __CBTWArgs.Result
+0	6115	312	#line 6115 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	23	312	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	23	312	#line 23 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	24	312	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	25	312		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	24	315	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	7921	315	#line 7921 "NXCDefs.h"
+0	7922	315		wait 200
+0	7921	317	#line 7921 "NXCDefs.h"
+0	25	317	#line 25 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	28	317	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	29	317		jmp __NXC_Label_612
+0	28	319	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+0	29	319		exit -1, -1
+1	29	0	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc"
+1	30	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc
+1	__initialize_global_data	322	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\location_testi.nxc

@@ -1,0 +1,197 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	6
+1	__D0main	6	1	4	4	5
+2	__signed_stack_002main	6	1	8	4	4
+3	__main_wait_then	5	1	12	4	2
+4	__main_wait_now	5	1	16	4	3
+5	__main_wait_ms	3	1	20	2	2
+6	__ArrHelper__main_73_0	4	1	22	2	2
+7	__constVal200	4	0	24	2	2
+8	__constVal3000	4	0	26	2	1
+9	____initialize_global_data_return	1	1	28	1	3
+10	__FormatPosition_return	1	1	29	1	3
+11	__main_wait_return	1	1	30	1	2
+12	__constVal0	2	1	31	1	2
+13	__constVal1	2	0	32	1	1
+14	__PFTmp	1	1	33	1	1
+15	__constVal2	2	0	34	1	2
+16	I	8	0	3	12	3
+17	I.positionRelative	7	0	36	4	3
+18	I.positionRelative.positionRelative_type	4	0	0	2	0
+19	I.positionOwn	7	0	38	4	3
+20	I.positionOwn.positionOwn_type	4	0	0	2	0
+21	I.heading	4	1	40	2	3
+22	__PointOutArgs	8	0	3	12	4
+23	__PointOutArgs.Result	2	1	44	1	4
+24	__PointOutArgs.Location	8	0	2	4	4
+25	__PointOutArgs.Location.X	4	1	48	2	4
+26	__PointOutArgs.Location.Y	4	1	50	2	4
+27	__PointOutArgs.Options	5	1	52	4	4
+28	__TextOutArgs	8	0	4	16	11
+29	__TextOutArgs.Result	2	1	56	1	11
+30	__TextOutArgs.Location	8	0	2	4	11
+31	__TextOutArgs.Location.X	4	1	60	2	11
+32	__TextOutArgs.Location.Y	4	1	62	2	11
+33	__TextOutArgs.Text	7	0	64	4	11
+34	__TextOutArgs.Text.Text_type	1	0	0	1	0
+35	__TextOutArgs.Options	5	1	68	4	11
+36	__constStr0012	7	0	72	4	1
+37	__constStr0012.__constStr0012_type	1	1	0	1	0
+38	__ArrHelper__main_244_2	7	0	74	4	2
+39	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+40	__ArrHelper__main_244_0	7	0	76	4	4
+41	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+42	__ArrHelper__main_244_1	7	0	78	4	6
+43	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+44	__main_7qG2_coords_7qG2_000	7	0	80	4	2
+45	__main_7qG2_coords_7qG2_000.__main_7qG2_coords_7qG2_000_type	1	0	0	1	0
+46	__main_7qG2_t_7qG2_000	7	0	82	4	3
+47	__main_7qG2_t_7qG2_000.__main_7qG2_t_7qG2_000_type	1	0	0	1	0
+48	__strbufmain	7	0	84	4	16
+49	__strbufmain.__strbufmain_type	1	0	0	1	0
+50	__strretvalmain	7	0	86	4	4
+51	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+52	__constStr0011	7	0	88	4	1
+53	__constStr0011.__constStr0011_type	1	1	0	1	0
+54	__constStr0010	7	0	90	4	1
+55	__constStr0010.__constStr0010_type	1	1	0	1	0
+56	__constStr0009	7	0	92	4	1
+57	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	32	0	#line 32 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	33	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	32	2	#line 32 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6069	2	#line 6069 "NXCDefs.h"
+0	6070	2	#pragma macro 6
+0	6070	2		mov __PointOutArgs.Location.X, __constVal200
+0	6070	4		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	6		mov __PointOutArgs.Options, __constVal1
+0	6070	8		syscall 14, __PointOutArgs
+0	3068	11	#line 3068 "NXCDefs.h"
+0	6069	11	#line 6069 "NXCDefs.h"
+0	34	11	#line 34 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	36	11	#line 36 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	11		strcat __strbufmain, __constStr0009
+0	36	15	#line 36 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	15		mov __main_7qG2_t_7qG2_000, __strbufmain
+0	36	17	#line 36 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	17		mov __ArrHelper__main_244_0, __constStr0010
+0	36	19	#line 36 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	19		mov __ArrHelper__main_244_1, __constStr0011
+0	36	21	#line 36 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	21		set __D0main, 2
+0	37	24	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	24		numtostr __strretvalmain, __D0main
+0	37	27	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	27		strcat __strbufmain, __strretvalmain
+0	37	31	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	31		mov __ArrHelper__main_244_2, __strbufmain
+0	37	33	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	33		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	37	38	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	38		mov __ArrHelper__main_244_1, __strbufmain
+0	37	40	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	40		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	37	45	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	45		mov __main_7qG2_t_7qG2_000, __strbufmain
+0	37	47	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	47	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	47		set __signed_stack_001main, 0
+0	37	50	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	50	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	50		set __signed_stack_002main, 56
+0	37	53	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	37	53	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	38	53		strcat __strbufmain, __main_7qG2_t_7qG2_000
+0	39	57	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	39	57	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	40	57		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	39	59	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	40	59		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	39	61	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	40	61		set __TextOutArgs.Options, 0
+0	39	64	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	40	64		mov __TextOutArgs.Text, __strbufmain
+0	39	66	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	40	66		syscall 13, __TextOutArgs
+0	39	69	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	40	69		mov __D0main, __TextOutArgs.Result
+0	39	71	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	39	71	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	41	71	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	42	71		subcall FormatPosition, __FormatPosition_return
+0	41	73	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	41	73	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	42	73		mov __ArrHelper__main_244_0, __constStr0012
+0	41	75	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	42	75		set __signed_stack_001main, 0
+0	41	78	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	41	78	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	42	78		index __ArrHelper__main_73_0, I.positionOwn, __signed_stack_001main
+0	41	82	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	42	82		mov __D0main, __ArrHelper__main_73_0
+0	43	84	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	84		numtostr __strretvalmain, __D0main
+0	43	87	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	87		strcat __strbufmain, __strretvalmain
+0	43	91	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	91		mov __ArrHelper__main_244_1, __strbufmain
+0	43	93	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	93		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	43	98	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	98		mov __main_7qG2_coords_7qG2_000, __strbufmain
+0	43	100	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	100		set __signed_stack_001main, 0
+0	43	103	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	43	103	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	103		set __signed_stack_002main, 48
+0	43	106	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	43	106	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	106		strcat __strbufmain, __main_7qG2_coords_7qG2_000
+0	44	110	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	110	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	45	110		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	44	112	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	45	112		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	44	114	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	45	114		set __TextOutArgs.Options, 0
+0	44	117	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	45	117		mov __TextOutArgs.Text, __strbufmain
+0	44	119	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	45	119		syscall 13, __TextOutArgs
+0	44	122	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	122	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	122	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	122	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	44	122	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	122	#line 7921 "NXCDefs.h"
+0	7922	122		mov __main_wait_ms, __constVal3000
+0	7922	124		subcall __main_wait, __main_wait_return
+0	7921	126	#line 7921 "NXCDefs.h"
+0	61	126	#line 61 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	62	126		exit -1, -1
+1	20	0	#line 20 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	21	0		arrinit I.positionRelative, __constVal0, __constVal2
+1	20	4	#line 20 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	20	4	#line 20 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	21	4	#line 21 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	22	4		arrinit I.positionOwn, __constVal0, __constVal2
+1	21	8	#line 21 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	21	8	#line 21 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	30	8	#line 30 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	31	8		subret __FormatPosition_return
+2	0	0		gettick __main_wait_now
+2	0	2		add __main_wait_then, __main_wait_now, __main_wait_ms
+2	0	6	__main_waiting:	gettick __main_wait_now
+2	0	8		brcmp LT, __main_waiting, __main_wait_now, __main_wait_then
+2	0	12		subret __main_wait_return
+3	64	0	#line 64 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	65	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+1	FormatPosition	129	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+2	__main_wait	139	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+3	__initialize_global_data	153	C:\Users\Wizand\AppData\Local\Temp\temp.nxc

@@ -1,0 +1,75 @@
+//LINE
+
+
+int lineCmd[20];
+int linePar[20];
+int lineDes[20];
+
+int c_head;
+int p_head;
+int d_head;
+int c_tail;
+int p_tail;
+//int d_tail;
+
+void formatLines() {
+     ArrayInit(lineCmd, 0, 0);
+     ArrayInit(linePar, 0, 0);
+     ArrayInit(lineDes, 0, 0);
+     c_head = 0;
+     p_head = 0;
+     d_head = 0;
+     c_tail = 0;
+     p_tail = 0:
+     d_tail = 0;
+
+}
+void put(int cmd, int par, int des) {
+
+   lineCmd[c_tail] = cmd;
+   linePar[p_tail] = par;
+   lineDes[d_tail] = des;
+   
+   if ( c_tail == 9 ) {
+      c_tail = -1;
+      p_tail = -1;
+      d_tail = -1;
+   }
+   c_tail++;
+   p_tail++;
+   d_tail++;
+
+}
+
+int getCmd() {
+    int temp = 0;
+
+    if ( c_head == c_tail ) return -1;
+    temp = lineCmd[c_head];
+    if ( c_head == 9 ) c_head = -1;
+    c_head++;
+    
+   return temp;
+}
+int getPar() {
+    int temp = 0;
+
+    if ( p_head == p_tail ) return -1;
+    temp = linePar[p_head];
+    if ( p_head == 9 ) p_head = -1;
+    p_head++;
+
+   return temp;
+}
+int getDes() {
+    int temp = 0;
+
+    if ( d_head == d_tail ) return -1;
+    temp = lineDes[d_head];
+    if ( d_head == 9 ) d_head = -1;
+    d_head++;
+
+   return temp;
+}
+
+

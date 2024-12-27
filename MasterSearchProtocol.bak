@@ -1,0 +1,285 @@
+task Aftermath() {
+      ClearScreen();
+      
+      ArrayInit(coordBuffer, 0, 5);
+      FormatLocations();
+
+       string z1_location;
+       string z2_location;
+       string mloc;
+       string buf1;
+       string buf2;
+
+       Wait(1000);
+
+       sendCommand(20, ZERG_1);
+
+       while ( true ) {
+          BTWait(2);
+          ReceiveRemoteString(IN_LOCATION_Z1, true, buf1);
+          BTWait(2);
+          if ( StrLen(buf1) > 4 ) {
+             z1_location = buf1;
+             break;
+          }
+        }
+
+       sendCommand(20, ZERG_2);
+
+        while(true) {
+           BTWait(3);
+           ReceiveRemoteString(IN_LOCATION_Z2, true, buf2);
+           BTWait(3);
+          if ( StrLen(buf2) > 4 ) {
+             z2_location = buf2;
+             break;
+          }
+        }
+
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "Z1: " + z1_location);
+        TextOut(0,LCD_LINE2, "Z2: " + z2_location);
+        
+        ParseCoordinates(z1_location);
+        Z1_location.coordinates[0] = coordBuffer[0];
+        Z1_location.coordinates[1] = coordBuffer[1];
+        Z1_location.heading = coordBuffer[2];
+     /*
+        Z1_location.coordinates[0] = xx;
+        Z1_location.coordinates[1] = yy;
+        Z1_location.heading = hh;
+           */
+
+        ParseCoordinates(z2_location);
+        Z2_location.coordinates[0] = coordBuffer[0];
+        Z2_location.coordinates[1] = coordBuffer[1];
+        Z2_location.heading = coordBuffer[2];
+         /*
+        Z2_location.coordinates[0] = xx;
+        Z2_location.coordinates[1] = yy;
+        Z2_location.heading = hh;
+         */
+         
+         M_location.coordinates[0] = 0;
+         M_location.coordinates[1] = 0;
+         M_location.heading = 0;
+         
+
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "Z1:" );
+        TextOut(40,LCD_LINE1, "Z2:" );
+
+        TextOut(3, LCD_LINE2, "X: " + NumToStr(Z1_location.coordinates[0]) );
+        TextOut(3, LCD_LINE3, "Y: " + NumToStr(Z1_location.coordinates[1]) );
+        TextOut(3, LCD_LINE4, "H: " + NumToStr(Z1_location.heading) );
+
+        TextOut(45, LCD_LINE2, "X: " + NumToStr(Z2_location.coordinates[0]) );
+        TextOut(45, LCD_LINE3, "Y: " + NumToStr(Z2_location.coordinates[1]) );
+        TextOut(45, LCD_LINE4, "H: " + NumToStr(Z2_location.heading) );
+        
+        mloc = getMasterLocation();
+        
+        updateLocationsToMap(z1_location, z2_location, mloc );
+
+        Wait(300);
+        moveOverTheBridge();
+        Wait(500);
+        mloc = getMasterLocation();
+        updateLocationsToMap(z1_location, z2_location, mloc) ;
+      /*sendCommand(4, ZERG_1);
+        sendParameter(20, ZERG_1);
+        getAck();*/
+        
+
+        
+        Wait(1000);
+     //   guideZergToBridge();
+        Wait(1000);
+        while(true)
+}
+
+string getMasterLocation() {
+    string tmp = NumToStr( M_location.coordinates[0] ) + "_" + NumToStr( M_location.coordinates[1] ) + "_";
+        tmp = tmp + NumToStr( M_location.heading ) + "_" + NumToStr( 3 ) + "_" + NumToStr( 2 );
+    return tmp;
+}
+
+void updateLocationsToMap(string z1_location, string z2_location, string m_location) {
+     string combination = z1_location + z2_location + m_location;
+     BTWait(1);
+     SendRemoteString(1, 7, combination);
+     BTWait(1);
+}
+
+void moveOverTheBridge() {
+     int directionX;
+     int directionY;
+
+     int distanceX = 0;
+     int distanceY = 0;
+     
+     LOCATION temp;
+     if ( FOUNDER == 1 ) temp = Z1_location;
+     if ( FOUNDER == 2 ) temp = Z2_location;
+     
+     if ( temp.coordinates[0] > 0 ) {
+          directionX = 1;        // If the gap is on the east side of the master
+     } else if ( temp.coordinates[0] < 0 ) {
+          directionX = -1;        // If the gap is on the west side of the master
+     }  else { directionX = 0; } // If the gap is on the same line on the Y-axel
+     
+     if ( temp.coordinates[1] > 0 ) {
+          directionX = 1;        // If the gap is on the east side of the master
+     } else if ( temp.coordinates[1] < 0 ) {
+          directionX = -1;        // If the gap is on the west side of the master
+     }  else { directionX = 0; } // If the gap is on the same line on the Y-axel
+
+     if ( directionX > 0 ) {
+        turnRight();
+        ClearLine(LCD_LINE6);
+        TextOut(0,LCD_LINE6, "RIGHT");
+        Wait(180);
+        Off(OUT_AC);
+     }
+     else if ( directionX < 0 ) {
+          turnLeft();
+          ClearLine(LCD_LINE6);
+          TextOut(0,LCD_LINE6, "LEFT");
+          Wait(180);
+          Off(OUT_AC);
+     }
+     
+     distanceX = temp.coordinates[0];
+     if ( distanceX < 0 ) {
+        distanceX = distanceX + 19;
+        distanceX = distanceX * -1;
+     } else {
+       distanceX = distanceX -19;
+       if ( distanceX < 0 ) distanceX = distanceX * -1;
+     }
+     
+     Wait(200);
+     forwardCm( distanceX );
+     Wait(150);
+     Off(OUT_AC);
+
+     if ( directionX > 0 ) {
+        turnRight();
+        ClearLine(LCD_LINE6);
+        TextOut(0,LCD_LINE6, "RIGHT");
+        Wait(180);
+        Off(OUT_AC);
+     }
+     else if ( directionX < 0 ) {
+          turnLeft();
+          ClearLine(LCD_LINE6);
+          TextOut(0,LCD_LINE6, "LEFT");
+          Wait(180);
+          Off(OUT_AC);
+     }
+     
+     distanceY = temp.coordinates[1];
+     if ( distanceY < 0 ) {
+        distanceY = distanceY - 55;
+        distanceY = distanceY * -1;
+     } else {
+       distanceY = distanceY +55 ;
+       if ( distanceY < 0 ) distanceY = distanceY * -1;
+     }
+     
+     Wait(200);
+     forwardCm( distanceY );
+     Wait(150);
+     Off(OUT_AC);
+
+}
+
+//////////////////////////////////////
+// GUIDE OTHER ZERG OVER THE BRIDEG
+//////////////////////////////////////
+/**************************************
+* This function will guide the other slave robot over the
+* bridge according to the
+***************************************/
+void guideZergToBridge() {
+    ClearScreen();
+    
+    int distanceX = 0;
+    int distanceY = 0;
+
+    int directionX;
+    int directionY;
+
+    LOCATION tempFounder;
+    LOCATION tempOther;
+    if ( FOUNDER == 1 ) {
+       tempFounder = Z1_location;
+       tempOther = Z2_location;
+    }
+    if ( FOUNDER == 2 ) {
+       tempFounder = Z2_location;
+       tempOther = Z1_location;
+    }
+
+
+
+     if ( tempFounder.coordinates[0] > 0 ) {
+        if ( (tempFounder.heading == 0 && tempOther.heading == 2) ||
+             (tempFounder.heading == 1 && tempOther.heading == 3) ||
+             (tempFounder.heading == 2 && tempOther.heading == 0) ||
+             (tempFounder.heading == 3 && tempOther.heading == 1) ) {
+           directionX = 1;
+        }
+                  // If the gap is on the east side of the master
+     } else if ( tempFounder.coordinates[0] < 0 ) {
+        if ( (tempFounder.heading == 0 && tempOther.heading == 2) ||
+             (tempFounder.heading == 1 && tempOther.heading == 3) ||
+             (tempFounder.heading == 2 && tempOther.heading == 0) ||
+             (tempFounder.heading == 3 && tempOther.heading == 1) ) {
+           directionX = -1;
+        }       // If the gap is on the west side of the master
+     }  else {
+        directionX = 0;
+     } // If the gap is on the same line on the Y-axel
+
+     int who = 0;
+     if ( FOUNDER == 1 ) {
+        who = ZERG_2;
+     } else {
+       who = ZERG_1;
+     }
+
+     if ( directionX > 0 ) {
+       // turnRight();
+        sendCommand(7, who);
+        getAck();
+        ClearLine(LCD_LINE6);
+        TextOut(0,LCD_LINE6, "RIGHT");
+        Wait(180);
+        Off(OUT_AC);
+     }
+     else if ( directionX < 0 ) {
+          sendCommand(6, who);
+          getAck();
+          ClearLine(LCD_LINE6);
+          TextOut(0,LCD_LINE6, "LEFT");
+          Wait(180);
+          Off(OUT_AC);
+     }
+
+
+             /*
+     if ( temp.coordinates[1] > 0 ) {
+          directionY = 1;        // If the gap is on the north side of the master
+     } else if ( temp.coordinates[1] < 0 ) {
+          directionY = -1;        // If the gap is on the south side of the master
+     } else { directionY = 0; } // If the gap is on the same line on the Y-axel
+             */
+
+
+}
+
+
+
+
+

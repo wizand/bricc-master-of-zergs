@@ -1,0 +1,58 @@
+///////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+int ParseCoordinates(string location) {
+       // A temporary struct for the coordinates
+       //LOCATION temp;
+       // Initialization
+       //ArrayInit(temp.coordinates, 0, 2);
+       //temp.heading = 0;
+
+       int i = 0; // For the for-loop index
+       int counter = 0; // To keep track of the underscores
+
+       int underscores[5]; // Underscore positions
+       ArrayInit(underscores,0,5); // Init
+
+       for (; i < StrLen( location ); i++ ) {    // Going through the string
+          if ( StrIndex(location, i) == 0x5F ) { // If the byte in current string index is 0x5F (ascii for '_')
+             underscores[counter] = i;           // mark up the underscore position
+             counter++;                          // On we go
+
+          }
+          if ( counter == 5 ) break;     // If three underscores has been found, break out of the loop
+       }
+
+       // Parsing the substrings between the underscores
+       // x coordinate is between position 0 and underscore one
+       // y coordinate begins from the the underscore one and ends at the next one
+       // etc.. Notice that the third parameter (length) isnt counted from the beginning of the string
+       // but from the offset.
+       string x = SubStr(location, 0, underscores[0]);
+       string y = SubStr(location, underscores[0]+1, underscores[1]-(underscores[0]+1) );
+       string h = SubStr(location, underscores[1]+1, underscores[2]-(underscores[1]+1) );
+       string z = SubStr(location, underscores[2]+1, underscores[3]-(underscores[2]+1) );
+       string f = SubStr(location, underscores[3]+1, underscores[4]-(underscores[3]+1) );
+
+       int found = StrToNum(f);
+
+       return f;
+
+}
+
+
+task main() {
+
+     ClearScreen();
+
+   string s = "-41_-22_2_2_2";
+
+   int x = ParseCoordinates(s);
+   
+   TextOut(0,LCD_LINE1, s);
+   NumOut(0,LCD_LINE2, x);
+   
+   Wait(6000);
+
+
+
+}

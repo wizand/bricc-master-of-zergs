@@ -1,0 +1,378 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001teksti	6	1	0	4	24
+1	__D0teksti	6	1	4	4	32
+2	__signed_stack_003teksti	6	1	8	4	10
+3	__signed_stack_002teksti	6	1	12	4	16
+4	__teksti_7qG2_counter_7qG2_000	4	1	16	2	5
+5	__teksti_7qG2_i_7qG2_000	4	1	18	2	6
+6	__ArrHelper__teksti_73_0	4	1	20	2	20
+7	__constVal0	2	1	22	1	2
+8	__constVal3	2	0	23	1	2
+9	__constVal1	2	0	24	1	7
+10	____initialize_global_data_return	1	1	25	1	3
+11	__teksti_return	1	1	26	1	3
+12	__zfteksti	1	1	27	1	9
+13	__TextOutArgs	8	0	4	16	16
+14	__TextOutArgs.Result	2	1	28	1	16
+15	__TextOutArgs.Location	8	0	2	4	16
+16	__TextOutArgs.Location.X	4	1	32	2	16
+17	__TextOutArgs.Location.Y	4	1	34	2	16
+18	__TextOutArgs.Text	7	0	36	4	16
+19	__TextOutArgs.Text.Text_type	1	0	0	1	0
+20	__TextOutArgs.Options	5	1	40	4	16
+21	__teksti_7qG2_y_7qG2_000	7	0	44	4	2
+22	__teksti_7qG2_y_7qG2_000.__teksti_7qG2_y_7qG2_000_type	1	0	0	1	0
+23	__teksti_7qG2_x_7qG2_000	7	0	46	4	2
+24	__teksti_7qG2_x_7qG2_000.__teksti_7qG2_x_7qG2_000_type	1	0	0	1	0
+25	__teksti_7qG2_us_7qG2_000	7	0	48	4	14
+26	__teksti_7qG2_us_7qG2_000.__teksti_7qG2_us_7qG2_000_type	4	0	0	2	0
+27	__constStr0010	7	0	50	4	3
+28	__constStr0010.__constStr0010_type	1	1	0	1	0
+29	__ArrHelper__teksti_244_0	7	0	52	4	6
+30	__ArrHelper__teksti_244_0.__ArrHelper__teksti_244_0_type	1	0	0	1	0
+31	__teksti_7qG2_z_7qG2_000	7	0	54	4	2
+32	__teksti_7qG2_z_7qG2_000.__teksti_7qG2_z_7qG2_000_type	1	0	0	1	0
+33	__teksti_7qG2_buffer_7qG2_000	7	0	56	4	6
+34	__teksti_7qG2_buffer_7qG2_000.__teksti_7qG2_buffer_7qG2_000_type	1	0	0	1	0
+35	__strbufteksti	7	0	58	4	36
+36	__strbufteksti.__strbufteksti_type	1	0	0	1	0
+37	__strretvalteksti	7	0	60	4	12
+38	__strretvalteksti.__strretvalteksti_type	1	0	0	1	0
+39	__ArrHelper__teksti_244_1	7	0	62	4	12
+40	__ArrHelper__teksti_244_1.__ArrHelper__teksti_244_1_type	1	0	0	1	0
+41	__ArrHelper__teksti_244_2	7	0	64	4	6
+42	__ArrHelper__teksti_244_2.__ArrHelper__teksti_244_2_type	1	0	0	1	0
+43	__constStr0009	7	0	66	4	1
+44	__constStr0009.__constStr0009_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	176	0	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+0	177	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	176	2	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+0	178	2	#line 178 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+0	179	2		subcall teksti, __teksti_return
+0	178	4	#line 178 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+0	178	4	#line 178 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+0	178	4	#line 178 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+0	7921	4	#line 7921 "NXCDefs.h"
+0	7922	4		wait 8000
+0	7921	6	#line 7921 "NXCDefs.h"
+0	180	6	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+0	181	6		exit -1, -1
+1	141	0	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	142	0		strcat __strbufteksti, __constStr0009
+1	141	4	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	142	4		mov __teksti_7qG2_buffer_7qG2_000, __strbufteksti
+1	142	6	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	143	6		set __teksti_7qG2_i_7qG2_000, 0
+1	142	9	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	144	9	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	145	9		set __teksti_7qG2_counter_7qG2_000, 0
+1	144	12	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	145	12	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	146	12		arrinit __teksti_7qG2_us_7qG2_000, __constVal0, __constVal3
+1	145	16	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	146	16		arrinit __teksti_7qG2_us_7qG2_000, __constVal0, __constVal3
+1	145	20	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	145	20	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	147	20	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	20		mov __signed_stack_001teksti, __teksti_7qG2_i_7qG2_000
+1	147	22	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	147	22	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	22		strcat __strbufteksti, __teksti_7qG2_buffer_7qG2_000
+1	147	26	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	26		arrsize __D0teksti, __strbufteksti
+1	148	29		sub __D0teksti, __D0teksti, __constVal1
+1	147	33	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	33		cmp 0, __zfteksti, __signed_stack_001teksti, __D0teksti
+1	147	37	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	37		mov __D0teksti, __zfteksti
+1	147	39	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	39		brtst 4, __NXC_Label_609, __zfteksti
+1	147	42	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	42		jmp __NXC_Label_610
+1	147	44	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	44		add __teksti_7qG2_i_7qG2_000, __teksti_7qG2_i_7qG2_000, __constVal1
+1	148	48	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	149	48		jmp __NXC_Label_608
+1	148	50	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	149	50		strcat __strbufteksti, __teksti_7qG2_buffer_7qG2_000
+1	148	54	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	149	54		mov __D0teksti, __teksti_7qG2_i_7qG2_000
+1	148	56	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	149	56		index __signed_stack_001teksti, __strbufteksti, __D0teksti
+1	148	60	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	148	60	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	149	60		set __D0teksti, 95
+1	148	63	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	149	63		cmp 4, __zfteksti, __signed_stack_001teksti, __D0teksti
+1	148	67	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	149	67		mov __D0teksti, __zfteksti
+1	149	69	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	150	69		brtst 4, __NXC_Label_618, __zfteksti
+1	149	72	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	150	72		mov __signed_stack_001teksti, __teksti_7qG2_counter_7qG2_000
+1	149	74	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	150	74	#line 150 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	151	74		mov __D0teksti, __teksti_7qG2_i_7qG2_000
+1	150	76	#line 150 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	151	76		replace __teksti_7qG2_us_7qG2_000, __teksti_7qG2_us_7qG2_000, __signed_stack_001teksti, __D0teksti
+1	150	81	#line 150 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	152	81	#line 152 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	153	81		add __teksti_7qG2_counter_7qG2_000, __teksti_7qG2_counter_7qG2_000, __constVal1
+1	152	85	#line 152 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	153	85	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	153	85	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	154	85		mov __signed_stack_001teksti, __teksti_7qG2_counter_7qG2_000
+1	153	87	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	153	87	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	154	87		set __D0teksti, 3
+1	153	90	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	154	90		cmp 4, __zfteksti, __signed_stack_001teksti, __D0teksti
+1	153	94	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	154	94		mov __D0teksti, __zfteksti
+1	153	96	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	154	96		brtst 4, __NXC_Label_625, __zfteksti
+1	155	99	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	156	99		jmp __NXC_Label_609
+1	155	101	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	157	101	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	157	101	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	101		jmp __NXC_Label_611
+1	157	103	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	157	103	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	103		strcat __strbufteksti, __teksti_7qG2_buffer_7qG2_000
+1	157	107	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	107		set __signed_stack_001teksti, 0
+1	157	110	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	157	110	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	110		set __signed_stack_002teksti, 0
+1	157	113	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	157	113	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	113		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_002teksti
+1	157	117	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	117		mov __D0teksti, __ArrHelper__teksti_73_0
+1	158	119	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	119		strsubset __strretvalteksti, __strbufteksti, __signed_stack_001teksti, __D0teksti
+1	158	124	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	124		strcat __strbufteksti, __strretvalteksti
+1	158	128	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	128		mov __teksti_7qG2_x_7qG2_000, __strbufteksti
+1	158	130	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	130		strcat __strbufteksti, __teksti_7qG2_buffer_7qG2_000
+1	158	134	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	134		set __signed_stack_001teksti, 0
+1	158	137	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	137	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	137		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_001teksti
+1	158	141	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	141	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	141	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	141	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	141		add __signed_stack_001teksti, __ArrHelper__teksti_73_0, __constVal1
+1	158	145	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	145	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	145		set __signed_stack_002teksti, 1
+1	158	148	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	148	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	148		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_002teksti
+1	158	152	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	152		mov __signed_stack_002teksti, __ArrHelper__teksti_73_0
+1	158	154	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	154	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	154		set __signed_stack_003teksti, 0
+1	158	157	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	157	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	157		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_003teksti
+1	158	161	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	161	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	161	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	158	161	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	161		add __D0teksti, __ArrHelper__teksti_73_0, __constVal1
+1	158	165	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	165		sub __D0teksti, __signed_stack_002teksti, __D0teksti
+1	159	169	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	169		strsubset __strretvalteksti, __strbufteksti, __signed_stack_001teksti, __D0teksti
+1	159	174	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	174		strcat __strbufteksti, __strretvalteksti
+1	159	178	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	178		mov __teksti_7qG2_y_7qG2_000, __strbufteksti
+1	159	180	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	180		strcat __strbufteksti, __teksti_7qG2_buffer_7qG2_000
+1	159	184	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	184		set __signed_stack_001teksti, 1
+1	159	187	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	187	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	187		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_001teksti
+1	159	191	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	191	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	191	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	191	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	191		add __signed_stack_001teksti, __ArrHelper__teksti_73_0, __constVal1
+1	159	195	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	195	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	195		set __signed_stack_002teksti, 2
+1	159	198	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	198	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	198		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_002teksti
+1	159	202	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	202		mov __signed_stack_002teksti, __ArrHelper__teksti_73_0
+1	159	204	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	204	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	204		set __signed_stack_003teksti, 1
+1	159	207	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	207	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	207		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_003teksti
+1	159	211	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	211	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	211	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	159	211	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	211		add __D0teksti, __ArrHelper__teksti_73_0, __constVal1
+1	159	215	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	160	215		sub __D0teksti, __signed_stack_002teksti, __D0teksti
+1	161	219	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	219		strsubset __strretvalteksti, __strbufteksti, __signed_stack_001teksti, __D0teksti
+1	161	224	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	224		strcat __strbufteksti, __strretvalteksti
+1	161	228	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	228		mov __teksti_7qG2_z_7qG2_000, __strbufteksti
+1	161	230	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	230		set __signed_stack_001teksti, 2
+1	161	233	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	161	233	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	233		set __signed_stack_002teksti, 48
+1	161	236	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	161	236	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	236		mov __ArrHelper__teksti_244_0, __teksti_7qG2_x_7qG2_000
+1	161	238	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	238		mov __ArrHelper__teksti_244_1, __constStr0010
+1	161	240	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	240		set __signed_stack_003teksti, 0
+1	161	243	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	161	243	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	243		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_003teksti
+1	161	247	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	247		mov __D0teksti, __ArrHelper__teksti_73_0
+1	161	249	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	249		numtostr __strretvalteksti, __D0teksti
+1	161	252	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	252		strcat __strbufteksti, __strretvalteksti
+1	161	256	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	256		mov __ArrHelper__teksti_244_2, __strbufteksti
+1	161	258	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	258		strcat __strbufteksti, __ArrHelper__teksti_244_1, __ArrHelper__teksti_244_2
+1	161	263	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	263		mov __ArrHelper__teksti_244_1, __strbufteksti
+1	161	265	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	265		strcat __strbufteksti, __ArrHelper__teksti_244_0, __ArrHelper__teksti_244_1
+1	162	270	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	270	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	270		mov __TextOutArgs.Location.X, __signed_stack_001teksti
+1	162	272	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	272		mov __TextOutArgs.Location.Y, __signed_stack_002teksti
+1	162	274	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	274		set __TextOutArgs.Options, 0
+1	162	277	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	277		mov __TextOutArgs.Text, __strbufteksti
+1	162	279	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	279		syscall 13, __TextOutArgs
+1	162	282	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	282	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	282	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	282	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	282		set __signed_stack_001teksti, 2
+1	162	285	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	285	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	285		set __signed_stack_002teksti, 40
+1	162	288	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	288	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	288		mov __ArrHelper__teksti_244_0, __teksti_7qG2_y_7qG2_000
+1	162	290	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	290		mov __ArrHelper__teksti_244_1, __constStr0010
+1	162	292	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	292		set __signed_stack_003teksti, 1
+1	162	295	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	162	295	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	295		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_003teksti
+1	162	299	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	299		mov __D0teksti, __ArrHelper__teksti_73_0
+1	162	301	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	301		numtostr __strretvalteksti, __D0teksti
+1	162	304	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	304		strcat __strbufteksti, __strretvalteksti
+1	162	308	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	308		mov __ArrHelper__teksti_244_2, __strbufteksti
+1	162	310	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	310		strcat __strbufteksti, __ArrHelper__teksti_244_1, __ArrHelper__teksti_244_2
+1	162	315	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	315		mov __ArrHelper__teksti_244_1, __strbufteksti
+1	162	317	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	317		strcat __strbufteksti, __ArrHelper__teksti_244_0, __ArrHelper__teksti_244_1
+1	163	322	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	322	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	322		mov __TextOutArgs.Location.X, __signed_stack_001teksti
+1	163	324	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	324		mov __TextOutArgs.Location.Y, __signed_stack_002teksti
+1	163	326	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	326		set __TextOutArgs.Options, 0
+1	163	329	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	329		mov __TextOutArgs.Text, __strbufteksti
+1	163	331	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	331		syscall 13, __TextOutArgs
+1	163	334	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	334	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	334	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	334	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	334		set __signed_stack_001teksti, 2
+1	163	337	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	337	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	337		set __signed_stack_002teksti, 32
+1	163	340	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	340	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	340		mov __ArrHelper__teksti_244_0, __teksti_7qG2_z_7qG2_000
+1	163	342	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	342		mov __ArrHelper__teksti_244_1, __constStr0010
+1	163	344	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	344		set __signed_stack_003teksti, 2
+1	163	347	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	163	347	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	347		index __ArrHelper__teksti_73_0, __teksti_7qG2_us_7qG2_000, __signed_stack_003teksti
+1	163	351	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	351		mov __D0teksti, __ArrHelper__teksti_73_0
+1	163	353	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	353		numtostr __strretvalteksti, __D0teksti
+1	163	356	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	356		strcat __strbufteksti, __strretvalteksti
+1	163	360	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	360		mov __ArrHelper__teksti_244_2, __strbufteksti
+1	163	362	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	362		strcat __strbufteksti, __ArrHelper__teksti_244_1, __ArrHelper__teksti_244_2
+1	163	367	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	367		mov __ArrHelper__teksti_244_1, __strbufteksti
+1	163	369	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	164	369		strcat __strbufteksti, __ArrHelper__teksti_244_0, __ArrHelper__teksti_244_1
+1	166	374	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	166	374	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	167	374		mov __TextOutArgs.Location.X, __signed_stack_001teksti
+1	166	376	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	167	376		mov __TextOutArgs.Location.Y, __signed_stack_002teksti
+1	166	378	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	167	378		set __TextOutArgs.Options, 0
+1	166	381	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	167	381		mov __TextOutArgs.Text, __strbufteksti
+1	166	383	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	167	383		syscall 13, __TextOutArgs
+1	166	386	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	167	386		mov __D0teksti, __TextOutArgs.Result
+1	166	388	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	166	388	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	168	388	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+1	169	388		subret __teksti_return
+2	183	0	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc"
+2	184	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc
+1	teksti	9	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc
+2	__initialize_global_data	399	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\testikentta.nxc

@@ -1,0 +1,2300 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001GapFound	6	1	0	4	6
+1	__signed_stack_002GapFound	6	1	4	4	4
+2	__signed_stack_001BuildLocationString	6	1	8	4	18
+3	__signed_stack_002BuildLocationString	6	1	12	4	14
+4	__signed_stack_001main	6	1	16	4	12
+5	__signed_stack_002main	6	1	20	4	8
+6	__signed_stack_001getAck	6	1	24	4	10
+7	__signed_stack_002getAck	6	1	28	4	8
+8	__D0sendParameter	6	1	32	4	7
+9	__D0getAck	6	1	36	4	18
+10	__D0main	6	1	40	4	25
+11	__D0BuildLocationString	6	1	44	4	25
+12	__D0GapFound	6	1	48	4	9
+13	__DU0pollZergs	5	1	52	4	2
+14	__D0sendCommand	6	1	56	4	7
+15	__D0ParseCoordinates	6	1	60	4	29
+16	__D0pollZergs	6	1	64	4	27
+17	__signed_stack_001ParseCoordinates	6	1	68	4	23
+18	__signed_stack_002TrackLocations	6	1	72	4	2
+19	__Wait_7qG2_ms_7qG2_000_inline_pollZergs	5	1	76	4	5
+20	__signed_stack_002sendParameter	6	1	80	4	2
+21	__signed_stack_001TrackLocations	6	1	84	4	2
+22	__Wait_7qG2_ms_7qG2_000_inline_getAck	5	1	88	4	2
+23	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	92	4	8
+24	__Wait_7qG2_ms_7qG2_000_inline_GapFound	5	1	96	4	6
+25	__Wait_7qG2_ms_7qG2_000_inline_notifyZergs	5	1	100	4	3
+26	__signed_stack_001sendParameter	6	1	104	4	2
+27	__signed_stack_001pollZergs	6	1	108	4	16
+28	__signed_stack_002pollZergs	6	1	112	4	10
+29	__signed_stack_002ParseCoordinates	6	1	116	4	12
+30	__signed_stack_003ParseCoordinates	6	1	120	4	4
+31	__signed_stack_001sendCommand	6	1	124	4	2
+32	__signed_stack_002sendCommand	6	1	128	4	2
+33	__signed_stack_001SearchProtocol	6	1	132	4	2
+34	__signed_stack_002SearchProtocol	6	1	136	4	2
+35	__RRNTmpVal	6	1	140	4	20
+36	__CBTWMutex	9	0	144	4	8
+37	__MRMutex	9	0	148	4	14
+38	__TextOutMutex	9	0	152	4	46
+39	__PointOutMutex	9	0	156	4	6
+40	__CHSWMutex	9	0	160	4	8
+41	__RemoteMutex	9	0	164	4	8
+42	__SRSTmpLongVal	6	1	168	4	8
+43	__sendCommand_7qG2_des_7qG2_000	4	1	172	2	8
+44	__sendParameter_7qG2_par_7qG2_000	4	1	174	2	6
+45	__sendCommand_7qG2_cmd_7qG2_000	4	1	176	2	6
+46	__constVal200	4	0	178	2	6
+47	__ArrHelper__pollZergs_73_0	4	1	180	2	8
+48	__sendParameter_7qG2_des_7qG2_000	4	1	182	2	8
+49	__main_7qG2_cmd_7qG2_000	4	1	184	2	7
+50	__getAck_7qG2_timeout_7qG2_000	4	1	186	2	4
+51	__getAck_7qG2_ack_7qG2_000	4	1	188	2	4
+52	__main_7qG2_ack_7qG2_003	4	1	190	2	2
+53	__main_7qG2_des_7qG2_000	4	1	192	2	6
+54	__main_7qG2_par_7qG2_000	4	1	194	2	5
+55	__ParseCoordinates_7qG2_counter_7qG2_000	4	1	196	2	5
+56	__notifyZergs_7qG2_msg_7qG2_000	4	1	198	2	4
+57	__notifyZergs_7qG2_zerg_7qG2_000	4	1	200	2	4
+58	__GapFound_7qG2_who_7qG2_000	4	1	202	2	5
+59	__ParseCoordinates_7qG2_i_7qG2_000	4	1	204	2	6
+60	__pollZergs_7qG2_found_7qG2_000	4	1	206	2	6
+61	__BuildLocationString_7qG2_who_7qG2_000	4	1	208	2	4
+62	__ArrHelper__ParseCoordinates_73_0	4	1	210	2	14
+63	__ArrHelper__BuildLocationString_73_0	4	1	212	2	16
+64	__sendParameter_return	1	1	214	1	6
+65	__RRNErr	1	1	215	1	5
+66	__constVal2	2	0	216	1	13
+67	__sendCommand_return	1	1	217	1	6
+68	__constVal6	2	0	218	1	2
+69	__ClearLine_7qG2_line_7qG2_000_inline_getAck	1	1	219	1	2
+70	__WFRRTmpByte	1	1	220	1	8
+71	__constVal0	2	1	221	1	25
+72	__constVal3	2	0	222	1	8
+73	__getAck_return	1	1	223	1	6
+74	__ClearLine_7qG2_line_7qG2_000_inline_GapFound	1	1	224	1	2
+75	__ClearLine_7qG2_line_7qG2_000_inline_pollZergs	1	1	225	1	2
+76	__constVal4	2	0	226	1	10
+77	__GapFound_return	1	1	227	1	4
+78	__BuildLocationString_return	1	1	228	1	5
+79	__ParseCoordinates_return	1	1	229	1	5
+80	__ClearLine_7qG2_line_7qG2_000_inline_BuildLocationString	1	1	230	1	2
+81	__notifyZergs_return	1	1	231	1	4
+82	__constVal5	2	0	232	1	2
+83	__TrackLocations_return	1	1	233	1	3
+84	SCAN	1	1	234	1	2
+85	__FormatLocations_return	1	1	235	1	3
+86	__constVal9	2	0	236	1	1
+87	__zfgetAck	1	1	237	1	9
+88	____initialize_global_data_return	1	1	238	1	3
+89	__zfParseCoordinates	1	1	239	1	9
+90	__constVal7	2	0	240	1	2
+91	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	241	1	8
+92	__zfpollZergs	1	1	242	1	13
+93	__constVal8	2	0	243	1	1
+94	__zfGapFound	1	1	244	1	3
+95	__zfmain	1	1	245	1	8
+96	__constVal1	2	0	246	1	26
+97	M_location	8	0	2	8	5
+98	M_location.coordinates	7	0	248	4	5
+99	M_location.coordinates.coordinates_type	4	0	0	2	0
+100	M_location.heading	4	1	250	2	5
+101	__result_ParseCoordinates	8	0	2	8	2
+102	__result_ParseCoordinates.coordinates	7	0	252	4	2
+103	__result_ParseCoordinates.coordinates.coordinates_type	4	0	0	2	0
+104	__result_ParseCoordinates.heading	4	1	254	2	2
+105	__PointOutArgs	8	0	3	12	12
+106	__PointOutArgs.Result	2	1	256	1	12
+107	__PointOutArgs.Location	8	0	2	4	12
+108	__PointOutArgs.Location.X	4	1	260	2	12
+109	__PointOutArgs.Location.Y	4	1	262	2	12
+110	__PointOutArgs.Options	5	1	264	4	12
+111	Z1_location	8	0	2	8	10
+112	Z1_location.coordinates	7	0	268	4	10
+113	Z1_location.coordinates.coordinates_type	4	0	0	2	0
+114	Z1_location.heading	4	1	270	2	10
+115	__BuildLocationString_7qG2_temp_7qG2_000	8	0	2	8	20
+116	__BuildLocationString_7qG2_temp_7qG2_000.coordinates	7	0	272	4	20
+117	__BuildLocationString_7qG2_temp_7qG2_000.coordinates.coordinates_type	4	0	0	2	0
+118	__BuildLocationString_7qG2_temp_7qG2_000.heading	4	1	274	2	20
+119	__TextOutArgs	8	0	4	16	128
+120	__TextOutArgs.Result	2	1	276	1	128
+121	__TextOutArgs.Location	8	0	2	4	128
+122	__TextOutArgs.Location.X	4	1	280	2	128
+123	__TextOutArgs.Location.Y	4	1	282	2	128
+124	__TextOutArgs.Text	7	0	284	4	128
+125	__TextOutArgs.Text.Text_type	1	0	0	1	0
+126	__TextOutArgs.Options	5	1	288	4	128
+127	Z2_location	8	0	2	8	10
+128	Z2_location.coordinates	7	0	292	4	10
+129	Z2_location.coordinates.coordinates_type	4	0	0	2	0
+130	Z2_location.heading	4	1	294	2	10
+131	__CBTWArgs	8	0	3	8	16
+132	__CBTWArgs.Result	2	1	296	1	16
+133	__CBTWArgs.Connection	1	1	297	1	16
+134	__CBTWArgs.Buffer	7	0	298	4	16
+135	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+136	__CHSWArgs	8	0	2	8	12
+137	__CHSWArgs.Status	2	1	300	1	12
+138	__CHSWArgs.Buffer	7	0	302	4	12
+139	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+140	__pollZergs_7qG2_Z1_tmp_7qG2_000	8	0	2	8	6
+141	__pollZergs_7qG2_Z1_tmp_7qG2_000.coordinates	7	0	304	4	6
+142	__pollZergs_7qG2_Z1_tmp_7qG2_000.coordinates.coordinates_type	4	0	0	2	0
+143	__pollZergs_7qG2_Z1_tmp_7qG2_000.heading	4	1	306	2	6
+144	__ParseCoordinates_7qG2_temp_7qG2_000	8	0	2	8	8
+145	__ParseCoordinates_7qG2_temp_7qG2_000.coordinates	7	0	308	4	8
+146	__ParseCoordinates_7qG2_temp_7qG2_000.coordinates.coordinates_type	4	0	0	2	0
+147	__ParseCoordinates_7qG2_temp_7qG2_000.heading	4	1	310	2	8
+148	__MRArgs	8	0	4	8	35
+149	__MRArgs.Result	2	1	312	1	35
+150	__MRArgs.QueueID	1	1	313	1	35
+151	__MRArgs.Remove	1	1	314	1	35
+152	__MRArgs.Message	7	0	316	4	35
+153	__MRArgs.Message.Message_type	1	0	0	1	0
+154	__pollZergs_7qG2_Z2_tmp_7qG2_000	8	0	2	8	5
+155	__pollZergs_7qG2_Z2_tmp_7qG2_000.coordinates	7	0	320	4	5
+156	__pollZergs_7qG2_Z2_tmp_7qG2_000.coordinates.coordinates_type	4	0	0	2	0
+157	__pollZergs_7qG2_Z2_tmp_7qG2_000.heading	4	1	322	2	5
+158	__constStr0014	7	0	324	4	3
+159	__constStr0014.__constStr0014_type	1	1	0	1	0
+160	__constStr0030	7	0	326	4	1
+161	__constStr0030.__constStr0030_type	1	1	0	1	0
+162	__constStr0031	7	0	328	4	2
+163	__constStr0031.__constStr0031_type	1	1	0	1	0
+164	__constStr0029	7	0	330	4	1
+165	__constStr0029.__constStr0029_type	1	1	0	1	0
+166	__constStr0028	7	0	332	4	1
+167	__constStr0028.__constStr0028_type	1	1	0	1	0
+168	__ParseCoordinates_7qG2_underscores_7qG2_000	7	0	334	4	11
+169	__ParseCoordinates_7qG2_underscores_7qG2_000.__ParseCoordinates_7qG2_underscores_7qG2_000_type	4	0	0	2	0
+170	__ParseCoordinates_7qG2_y_7qG2_000	7	0	336	4	2
+171	__ParseCoordinates_7qG2_y_7qG2_000.__ParseCoordinates_7qG2_y_7qG2_000_type	1	0	0	1	0
+172	__ParseCoordinates_7qG2_x_7qG2_000	7	0	338	4	2
+173	__ParseCoordinates_7qG2_x_7qG2_000.__ParseCoordinates_7qG2_x_7qG2_000_type	1	0	0	1	0
+174	__ArrHelper__BuildLocationString_244_5	7	0	340	4	4
+175	__ArrHelper__BuildLocationString_244_5.__ArrHelper__BuildLocationString_244_5_type	1	0	0	1	0
+176	__BuildLocationString_7qG2_loc_7qG2_000	7	0	342	4	3
+177	__BuildLocationString_7qG2_loc_7qG2_000.__BuildLocationString_7qG2_loc_7qG2_000_type	1	0	0	1	0
+178	__ParseCoordinates_7qG2_h_7qG2_000	7	0	344	4	2
+179	__ParseCoordinates_7qG2_h_7qG2_000.__ParseCoordinates_7qG2_h_7qG2_000_type	1	0	0	1	0
+180	__ArrHelper__BuildLocationString_244_6	7	0	346	4	2
+181	__ArrHelper__BuildLocationString_244_6.__ArrHelper__BuildLocationString_244_6_type	1	0	0	1	0
+182	__constStr0027	7	0	348	4	1
+183	__constStr0027.__constStr0027_type	1	1	0	1	0
+184	__ArrHelper__BuildLocationString_244_3	7	0	350	4	4
+185	__ArrHelper__BuildLocationString_244_3.__ArrHelper__BuildLocationString_244_3_type	1	0	0	1	0
+186	__constStr0020	7	0	352	4	1
+187	__constStr0020.__constStr0020_type	1	1	0	1	0
+188	__ArrHelper__BuildLocationString_244_2	7	0	354	4	4
+189	__ArrHelper__BuildLocationString_244_2.__ArrHelper__BuildLocationString_244_2_type	1	0	0	1	0
+190	__ArrHelper__BuildLocationString_244_4	7	0	356	4	4
+191	__ArrHelper__BuildLocationString_244_4.__ArrHelper__BuildLocationString_244_4_type	1	0	0	1	0
+192	__constStr0025	7	0	358	4	1
+193	__constStr0025.__constStr0025_type	1	1	0	1	0
+194	__constStr0024	7	0	360	4	3
+195	__constStr0024.__constStr0024_type	1	1	0	1	0
+196	__constStr0023	7	0	362	4	1
+197	__constStr0023.__constStr0023_type	1	1	0	1	0
+198	__constStr0021	7	0	364	4	1
+199	__constStr0021.__constStr0021_type	1	1	0	1	0
+200	__constStr0022	7	0	366	4	1
+201	__constStr0022.__constStr0022_type	1	1	0	1	0
+202	__constStr0017	7	0	368	4	1
+203	__constStr0017.__constStr0017_type	1	1	0	1	0
+204	__constStr0026	7	0	370	4	1
+205	__constStr0026.__constStr0026_type	1	1	0	1	0
+206	__constStr0015	7	0	372	4	1
+207	__constStr0015.__constStr0015_type	1	1	0	1	0
+208	__constStr0016	7	0	374	4	1
+209	__constStr0016.__constStr0016_type	1	1	0	1	0
+210	__constStr0018	7	0	376	4	1
+211	__constStr0018.__constStr0018_type	1	1	0	1	0
+212	__GapFound_7qG2_tmp_7qG2_001	7	0	378	4	4
+213	__GapFound_7qG2_tmp_7qG2_001.__GapFound_7qG2_tmp_7qG2_001_type	1	0	0	1	0
+214	__constStr0019	7	0	380	4	2
+215	__constStr0019.__constStr0019_type	1	1	0	1	0
+216	__ArrHelper__BuildLocationString_244_0	7	0	382	4	4
+217	__ArrHelper__BuildLocationString_244_0.__ArrHelper__BuildLocationString_244_0_type	1	0	0	1	0
+218	__ArrHelper__BuildLocationString_244_1	7	0	384	4	6
+219	__ArrHelper__BuildLocationString_244_1.__ArrHelper__BuildLocationString_244_1_type	1	0	0	1	0
+220	__strretvalsendCommand	7	0	386	4	4
+221	__strretvalsendCommand.__strretvalsendCommand_type	1	0	0	1	0
+222	__strbufsendParameter	7	0	388	4	8
+223	__strbufsendParameter.__strbufsendParameter_type	1	0	0	1	0
+224	__strretvalsendParameter	7	0	390	4	4
+225	__strretvalsendParameter.__strretvalsendParameter_type	1	0	0	1	0
+226	__strretvalpollZergs	7	0	392	4	6
+227	__strretvalpollZergs.__strretvalpollZergs_type	1	0	0	1	0
+228	__strbufSearchProtocol	7	0	394	4	2
+229	__strbufSearchProtocol.__strbufSearchProtocol_type	1	0	0	1	0
+230	__strbufsendCommand	7	0	396	4	8
+231	__strbufsendCommand.__strbufsendCommand_type	1	0	0	1	0
+232	__SRSFlattenBuf	7	0	398	4	4
+233	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+234	__ArrHelper__main_244_4	7	0	400	4	4
+235	__ArrHelper__main_244_4.__ArrHelper__main_244_4_type	1	0	0	1	0
+236	__SRSSendBuf	7	0	402	4	12
+237	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+238	__strbufTrackLocations	7	0	404	4	2
+239	__strbufTrackLocations.__strbufTrackLocations_type	1	0	0	1	0
+240	__DCMessageWritePacket	7	0	406	4	4
+241	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+242	__ArrHelper__main_244_5	7	0	408	4	2
+243	__ArrHelper__main_244_5.__ArrHelper__main_244_5_type	1	0	0	1	0
+244	__ArrHelper__pollZergs_244_1	7	0	410	4	4
+245	__ArrHelper__pollZergs_244_1.__ArrHelper__pollZergs_244_1_type	1	0	0	1	0
+246	__strbufgetAck	7	0	412	4	6
+247	__strbufgetAck.__strbufgetAck_type	1	0	0	1	0
+248	__ArrHelper__pollZergs_244_0	7	0	414	4	4
+249	__ArrHelper__pollZergs_244_0.__ArrHelper__pollZergs_244_0_type	1	0	0	1	0
+250	__strretvalBuildLocationString	7	0	416	4	8
+251	__strretvalBuildLocationString.__strretvalBuildLocationString_type	1	0	0	1	0
+252	__strbufGapFound	7	0	418	4	13
+253	__strbufGapFound.__strbufGapFound_type	1	0	0	1	0
+254	__strretvalGapFound	7	0	420	4	4
+255	__strretvalGapFound.__strretvalGapFound_type	1	0	0	1	0
+256	__strretvalParseCoordinates	7	0	422	4	6
+257	__strretvalParseCoordinates.__strretvalParseCoordinates_type	1	0	0	1	0
+258	__strbufBuildLocationString	7	0	424	4	21
+259	__strbufBuildLocationString.__strbufBuildLocationString_type	1	0	0	1	0
+260	__strbufpollZergs	7	0	426	4	22
+261	__strbufpollZergs.__strbufpollZergs_type	1	0	0	1	0
+262	__strbufmain	7	0	428	4	20
+263	__strbufmain.__strbufmain_type	1	0	0	1	0
+264	__strretvalmain	7	0	430	4	8
+265	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+266	__strbufParseCoordinates	7	0	432	4	22
+267	__strbufParseCoordinates.__strbufParseCoordinates_type	1	0	0	1	0
+268	__SRSTmpBuf	7	0	434	4	24
+269	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+270	__pollZergs_7qG2_loc_7qG2_000	7	0	436	4	4
+271	__pollZergs_7qG2_loc_7qG2_000.__pollZergs_7qG2_loc_7qG2_000_type	1	0	0	1	0
+272	__constStr0009	7	0	438	4	1
+273	__constStr0009.__constStr0009_type	1	1	0	1	0
+274	__pollZergs_7qG2_combination_7qG2_000	7	0	440	4	4
+275	__pollZergs_7qG2_combination_7qG2_000.__pollZergs_7qG2_combination_7qG2_000_type	1	0	0	1	0
+276	__ArrHelper__sendCommand_244_0	7	0	442	4	2
+277	__ArrHelper__sendCommand_244_0.__ArrHelper__sendCommand_244_0_type	1	0	0	1	0
+278	__ArrHelper__GapFound_244_1	7	0	444	4	4
+279	__ArrHelper__GapFound_244_1.__ArrHelper__GapFound_244_1_type	1	0	0	1	0
+280	__ParseCoordinates_7qG2_location_7qG2_000	7	0	446	4	7
+281	__ParseCoordinates_7qG2_location_7qG2_000.__ParseCoordinates_7qG2_location_7qG2_000_type	1	0	0	1	0
+282	__constStr0011	7	0	448	4	1
+283	__constStr0011.__constStr0011_type	1	1	0	1	0
+284	__ArrHelper__GapFound_244_0	7	0	450	4	4
+285	__ArrHelper__GapFound_244_0.__ArrHelper__GapFound_244_0_type	1	0	0	1	0
+286	__constStr0012	7	0	452	4	1
+287	__constStr0012.__constStr0012_type	1	1	0	1	0
+288	__constStr0010	7	0	454	4	1
+289	__constStr0010.__constStr0010_type	1	1	0	1	0
+290	__pollZergs_7qG2_z1_7qG2_000	7	0	456	4	2
+291	__pollZergs_7qG2_z1_7qG2_000.__pollZergs_7qG2_z1_7qG2_000_type	1	0	0	1	0
+292	__pollZergs_7qG2_z2_7qG2_000	7	0	458	4	4
+293	__pollZergs_7qG2_z2_7qG2_000.__pollZergs_7qG2_z2_7qG2_000_type	1	0	0	1	0
+294	__ArrHelper__main_244_0	7	0	460	4	4
+295	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+296	__BlankLine	7	0	462	4	8
+297	__BlankLine.__BlankLine_type	1	0	0	1	0
+298	__ArrHelper__sendParameter_244_3	7	0	464	4	2
+299	__ArrHelper__sendParameter_244_3.__ArrHelper__sendParameter_244_3_type	1	0	0	1	0
+300	__ArrHelper__main_244_3	7	0	466	4	4
+301	__ArrHelper__main_244_3.__ArrHelper__main_244_3_type	1	0	0	1	0
+302	__ArrHelper__main_244_2	7	0	468	4	4
+303	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+304	__ArrHelper__main_244_1	7	0	470	4	6
+305	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+306	__ArrHelper__sendCommand_244_3	7	0	472	4	2
+307	__ArrHelper__sendCommand_244_3.__ArrHelper__sendCommand_244_3_type	1	0	0	1	0
+308	__ArrHelper__sendCommand_244_2	7	0	474	4	4
+309	__ArrHelper__sendCommand_244_2.__ArrHelper__sendCommand_244_2_type	1	0	0	1	0
+310	__ArrHelper__sendCommand_244_1	7	0	476	4	4
+311	__ArrHelper__sendCommand_244_1.__ArrHelper__sendCommand_244_1_type	1	0	0	1	0
+312	__ArrHelper__sendParameter_244_2	7	0	478	4	4
+313	__ArrHelper__sendParameter_244_2.__ArrHelper__sendParameter_244_2_type	1	0	0	1	0
+314	__ArrHelper__sendParameter_244_1	7	0	480	4	4
+315	__ArrHelper__sendParameter_244_1.__ArrHelper__sendParameter_244_1_type	1	0	0	1	0
+316	__ArrHelper__sendParameter_244_0	7	0	482	4	2
+317	__ArrHelper__sendParameter_244_0.__ArrHelper__sendParameter_244_0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	76	0	#line 76 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	77	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	76	2	#line 76 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	77	2	#line 77 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	78	2		set __main_7qG2_cmd_7qG2_000, 0
+0	77	5	#line 77 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	78	5	#line 78 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	79	5		set __main_7qG2_par_7qG2_000, 0
+0	78	8	#line 78 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	80	8	#line 80 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	81	8		set __main_7qG2_des_7qG2_000, 0
+0	80	11	#line 80 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	82	11	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	82	11	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	82	11	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	83	11		set __D0main, 1
+0	83	14	#line 83 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	84	14		tst 5, __zfmain, __D0main
+0	83	17	#line 83 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	84	17		brtst 4, __NXC_Label_1089, __zfmain
+0	6069	20	#line 6069 "NXCDefs.h"
+0	6070	20	#pragma macro 6
+0	6070	20		acquire __PointOutMutex
+0	6070	21		mov __PointOutArgs.Location.X, __constVal200
+0	6070	23		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	25		mov __PointOutArgs.Options, __constVal1
+0	6070	27		syscall 14, __PointOutArgs
+0	6070	30		release __PointOutMutex
+0	11455	31	#line 11455 "NXCDefs.h"
+0	6069	31	#line 6069 "NXCDefs.h"
+0	84	31	#line 84 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	84	31	#line 84 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	85	31		set __ClearLine_7qG2_line_7qG2_000_inline_main, 56
+0	84	34	#line 84 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6076	34	#line 6076 "NXCDefs.h"
+0	6077	34	#pragma macro 7
+0	6077	34		acquire __TextOutMutex
+0	6077	35		mov __TextOutArgs.Location.X, __constVal0
+0	6077	37		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	39		mov __TextOutArgs.Options, __constVal0
+0	6077	41		mov __TextOutArgs.Text, __BlankLine
+0	6077	44		syscall 13, __TextOutArgs
+0	6077	47		release __TextOutMutex
+0	11469	48	#line 11469 "NXCDefs.h"
+0	6076	48	#line 6076 "NXCDefs.h"
+0	85	48	#line 85 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	85	48	#line 85 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	86	48		set __signed_stack_001main, 0
+0	85	51	#line 85 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	85	51	#line 85 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	86	51		set __signed_stack_002main, 56
+0	85	54	#line 85 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	85	54	#line 85 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	86	54		strcat __strbufmain, __constStr0026
+0	86	58	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	58		acquire __TextOutMutex
+0	86	59	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	59		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	86	61	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	61		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	86	63	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	63		set __TextOutArgs.Options, 0
+0	86	66	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	66		mov __TextOutArgs.Text, __strbufmain
+0	86	69	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	69		syscall 13, __TextOutArgs
+0	86	72	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	72		mov __D0main, __TextOutArgs.Result
+0	86	74	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	74		release __TextOutMutex
+0	86	75	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	86	75	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	75		set __Wait_7qG2_ms_7qG2_000_inline_main, 600
+0	86	78	#line 86 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	78	#line 7921 "NXCDefs.h"
+0	7922	78		wait 600
+0	7921	80	#line 7921 "NXCDefs.h"
+0	87	80	#line 87 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	80	#line 87 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	88	80	#pragma macro 9
+0	88	80		acquire __MRMutex
+0	88	81		mov __MRArgs.QueueID, __constVal7
+0	88	83		mov __MRArgs.Remove, __constVal1
+0	88	85		set __RRNTmpVal, 0
+0	88	88		syscall 27, __MRArgs
+0	88	91		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	88	96		mov __main_7qG2_cmd_7qG2_000, __RRNTmpVal
+0	88	98		mov __D0main, __MRArgs.Result
+0	88	101		release __MRMutex
+0	11518	102	#line 11518 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	102	#line 87 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	87	102	#line 87 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	89	102	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	90	102		mov __signed_stack_001main, __main_7qG2_cmd_7qG2_000
+0	89	104	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	89	104	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	90	104		set __D0main, 0
+0	89	107	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	90	107		cmp 5, __zfmain, __signed_stack_001main, __D0main
+0	89	111	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	90	111		mov __D0main, __zfmain
+0	90	113	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	91	113		brtst 4, __NXC_Label_1102, __zfmain
+0	90	116	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	91	116		mov __signed_stack_001main, __main_7qG2_cmd_7qG2_000
+0	90	118	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	90	118	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	91	118		set __D0main, 15
+0	90	121	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	91	121		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	90	125	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	91	125		mov __D0main, __zfmain
+0	91	127	#line 91 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	92	127		brtst 4, __NXC_Label_1105, __zfmain
+0	93	130	#line 93 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	94	130		start SearchProtocol
+0	93	132	#line 93 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	95	132	#line 95 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	96	132		jmp __NXC_Label_1089
+0	95	134	#line 95 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	96	134	#line 96 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	97	134		jmp __NXC_Label_1106
+0	96	136	#line 96 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	97	136		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	96	139	#line 96 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	139	#line 7921 "NXCDefs.h"
+0	7922	139		wait 200
+0	7921	141	#line 7921 "NXCDefs.h"
+0	97	141	#line 97 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	97	141	#line 97 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	98	141	#pragma macro 9
+0	98	141		acquire __MRMutex
+0	98	142		mov __MRArgs.QueueID, __constVal8
+0	98	144		mov __MRArgs.Remove, __constVal1
+0	98	146		set __RRNTmpVal, 0
+0	98	149		syscall 27, __MRArgs
+0	98	152		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	98	157		mov __main_7qG2_par_7qG2_000, __RRNTmpVal
+0	98	159		mov __D0main, __MRArgs.Result
+0	98	162		release __MRMutex
+0	11569	163	#line 11569 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	97	163	#line 97 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	97	163	#line 97 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	98	163	#line 98 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	99	163		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	98	166	#line 98 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	166	#line 7921 "NXCDefs.h"
+0	7922	166		wait 200
+0	7921	168	#line 7921 "NXCDefs.h"
+0	99	168	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	99	168	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	100	168	#pragma macro 9
+0	100	168		acquire __MRMutex
+0	100	169		mov __MRArgs.QueueID, __constVal9
+0	100	171		mov __MRArgs.Remove, __constVal1
+0	100	173		set __RRNTmpVal, 0
+0	100	176		syscall 27, __MRArgs
+0	100	179		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	100	184		mov __main_7qG2_des_7qG2_000, __RRNTmpVal
+0	100	186		mov __D0main, __MRArgs.Result
+0	100	189		release __MRMutex
+0	11583	190	#line 11583 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	99	190	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	99	190	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	101	190	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	102	190		set __signed_stack_001main, 0
+0	101	193	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	101	193	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	102	193		set __signed_stack_002main, 48
+0	101	196	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	101	196	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	102	196		strcat __strbufmain, __constStr0027
+0	102	200	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	200		acquire __TextOutMutex
+0	102	201	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	201		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	102	203	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	203		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	102	205	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	205		set __TextOutArgs.Options, 0
+0	102	208	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	208		mov __TextOutArgs.Text, __strbufmain
+0	102	211	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	211		syscall 13, __TextOutArgs
+0	102	214	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	214		mov __D0main, __TextOutArgs.Result
+0	102	216	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	216		release __TextOutMutex
+0	102	217	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	102	217	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	217		set __signed_stack_001main, 0
+0	102	220	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	102	220	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	220		set __signed_stack_002main, 40
+0	102	223	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	102	223	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	223		mov __ArrHelper__main_244_0, __constStr0028
+0	102	226	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	226		mov __D0main, __main_7qG2_cmd_7qG2_000
+0	102	228	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	228		numtostr __strretvalmain, __D0main
+0	102	231	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	231		mov __ArrHelper__main_244_1, __strretvalmain
+0	102	233	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	233		mov __ArrHelper__main_244_2, __constStr0029
+0	102	236	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	236		mov __D0main, __main_7qG2_par_7qG2_000
+0	102	238	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	238		numtostr __strretvalmain, __D0main
+0	102	241	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	241		mov __ArrHelper__main_244_3, __strretvalmain
+0	102	243	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	243		mov __ArrHelper__main_244_4, __constStr0024
+0	102	245	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	245		mov __D0main, __main_7qG2_des_7qG2_000
+0	102	247	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	247		numtostr __strretvalmain, __D0main
+0	102	250	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	250		strcat __strbufmain, __strretvalmain
+0	102	254	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	254		mov __ArrHelper__main_244_5, __strbufmain
+0	102	256	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	256		strcat __strbufmain, __ArrHelper__main_244_4, __ArrHelper__main_244_5
+0	102	261	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	261		mov __ArrHelper__main_244_4, __strbufmain
+0	102	263	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	263		strcat __strbufmain, __ArrHelper__main_244_3, __ArrHelper__main_244_4
+0	102	268	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	268		mov __ArrHelper__main_244_3, __strbufmain
+0	102	270	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	270		strcat __strbufmain, __ArrHelper__main_244_2, __ArrHelper__main_244_3
+0	102	275	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	275		mov __ArrHelper__main_244_2, __strbufmain
+0	102	277	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	277		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	102	282	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	282		mov __ArrHelper__main_244_1, __strbufmain
+0	102	284	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	103	284		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	104	289	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	289		acquire __TextOutMutex
+0	104	290	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	290		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	104	292	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	292		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	104	294	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	294		set __TextOutArgs.Options, 0
+0	104	297	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	297		mov __TextOutArgs.Text, __strbufmain
+0	104	300	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	300		syscall 13, __TextOutArgs
+0	104	303	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	303		mov __D0main, __TextOutArgs.Result
+0	104	305	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	305		release __TextOutMutex
+0	104	306	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	104	306	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	306		set __Wait_7qG2_ms_7qG2_000_inline_main, 700
+0	104	309	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	309	#line 7921 "NXCDefs.h"
+0	7922	309		wait 700
+0	7921	311	#line 7921 "NXCDefs.h"
+0	105	311	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	311	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	106	311		mov __sendCommand_7qG2_cmd_7qG2_000, __main_7qG2_cmd_7qG2_000
+0	105	313	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	105	313	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	106	313		mov __sendCommand_7qG2_des_7qG2_000, __main_7qG2_des_7qG2_000
+0	105	315	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	107	315	#line 107 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	108	315		subcall sendCommand, __sendCommand_return
+0	107	317	#line 107 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	107	317	#line 107 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	108	317		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	107	320	#line 107 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	320	#line 7921 "NXCDefs.h"
+0	7922	320		wait 400
+0	7921	322	#line 7921 "NXCDefs.h"
+0	108	322	#line 108 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	108	322	#line 108 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	109	322		mov __sendParameter_7qG2_par_7qG2_000, __main_7qG2_par_7qG2_000
+0	108	324	#line 108 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	108	324	#line 108 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	109	324		mov __sendParameter_7qG2_des_7qG2_000, __main_7qG2_des_7qG2_000
+0	108	326	#line 108 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	110	326	#line 110 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	111	326		subcall sendParameter, __sendParameter_return
+0	110	328	#line 110 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	110	328	#line 110 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	111	328		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	110	331	#line 110 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	331	#line 7921 "NXCDefs.h"
+0	7922	331		wait 400
+0	7921	333	#line 7921 "NXCDefs.h"
+0	112	333	#line 112 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	112	333	#line 112 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	113	333		set __ClearLine_7qG2_line_7qG2_000_inline_main, 8
+0	112	336	#line 112 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6076	336	#line 6076 "NXCDefs.h"
+0	6077	336	#pragma macro 7
+0	6077	336		acquire __TextOutMutex
+0	6077	337		mov __TextOutArgs.Location.X, __constVal0
+0	6077	339		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	341		mov __TextOutArgs.Options, __constVal0
+0	6077	343		mov __TextOutArgs.Text, __BlankLine
+0	6077	346		syscall 13, __TextOutArgs
+0	6077	349		release __TextOutMutex
+0	11763	350	#line 11763 "NXCDefs.h"
+0	6076	350	#line 6076 "NXCDefs.h"
+0	113	350	#line 113 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	113	350	#line 113 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	114	350		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
+0	113	353	#line 113 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6076	353	#line 6076 "NXCDefs.h"
+0	6077	353	#pragma macro 7
+0	6077	353		acquire __TextOutMutex
+0	6077	354		mov __TextOutArgs.Location.X, __constVal0
+0	6077	356		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	358		mov __TextOutArgs.Options, __constVal0
+0	6077	360		mov __TextOutArgs.Text, __BlankLine
+0	6077	363		syscall 13, __TextOutArgs
+0	6077	366		release __TextOutMutex
+0	11773	367	#line 11773 "NXCDefs.h"
+0	6076	367	#line 6076 "NXCDefs.h"
+0	115	367	#line 115 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	117	367	#line 117 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	118	367		subcall getAck, __getAck_return
+0	117	369	#line 117 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	118	369		mov __main_7qG2_ack_7qG2_003, __D0getAck
+0	117	371	#line 117 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	117	371	#line 117 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	118	371		set __ClearLine_7qG2_line_7qG2_000_inline_main, 40
+0	117	374	#line 117 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6076	374	#line 6076 "NXCDefs.h"
+0	6077	374	#pragma macro 7
+0	6077	374		acquire __TextOutMutex
+0	6077	375		mov __TextOutArgs.Location.X, __constVal0
+0	6077	377		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	379		mov __TextOutArgs.Options, __constVal0
+0	6077	381		mov __TextOutArgs.Text, __BlankLine
+0	6077	384		syscall 13, __TextOutArgs
+0	6077	387		release __TextOutMutex
+0	11795	388	#line 11795 "NXCDefs.h"
+0	6076	388	#line 6076 "NXCDefs.h"
+0	118	388	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	118	388	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	388		set __signed_stack_001main, 0
+0	118	391	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	118	391	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	391		set __signed_stack_002main, 40
+0	118	394	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	118	394	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	394		mov __ArrHelper__main_244_0, __constStr0030
+0	118	397	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	397		mov __D0main, __main_7qG2_ack_7qG2_003
+0	118	399	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	399		numtostr __strretvalmain, __D0main
+0	118	402	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	402		strcat __strbufmain, __strretvalmain
+0	118	406	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	406		mov __ArrHelper__main_244_1, __strbufmain
+0	118	408	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	408		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	119	413	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	413		acquire __TextOutMutex
+0	119	414	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	414		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	119	416	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	416		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	119	418	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	418		set __TextOutArgs.Options, 0
+0	119	421	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	421		mov __TextOutArgs.Text, __strbufmain
+0	119	424	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	424		syscall 13, __TextOutArgs
+0	119	427	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	427		mov __D0main, __TextOutArgs.Result
+0	119	429	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	429		release __TextOutMutex
+0	119	430	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	119	430	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	430		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	119	433	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	433	#line 7921 "NXCDefs.h"
+0	7922	433		wait 400
+0	7921	435	#line 7921 "NXCDefs.h"
+0	120	435	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	435	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	121	435	#pragma macro 24
+0	121	435		acquire __RemoteMutex
+0	121	436		mov __SRSTmpBuf, __DCMessageWritePacket
+0	121	438		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal6
+0	121	443		arrsize __SRSTmpLongVal, __constStr0031
+0	121	446		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+0	121	451		arrbuild __SRSSendBuf, __SRSTmpBuf, __constStr0031
+0	121	456		brcmp 0, __ConnWrite_Else0, __constVal1, __constVal4
+0	121	460		acquire __CHSWMutex
+0	121	461		sub __WFRRTmpByte, __constVal1, __constVal4
+0	121	465		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+0	121	470		syscall 37, __CHSWArgs
+0	121	473		mov __D0main, __CHSWArgs.Status
+0	121	475		release __CHSWMutex
+0	121	476		jmp __ConnWrite_EndIf0
+0	121	478		acquire __CBTWMutex
+0	121	479		mov __CBTWArgs.Connection, __constVal1
+0	121	481		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	121	483		syscall 29, __CBTWArgs
+0	121	486		mov __D0main, __CBTWArgs.Result
+0	121	488		release __CBTWMutex
+0	121	489		release __RemoteMutex
+0	11852	490	#line 11852 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	490	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	120	490	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	121	490	#line 121 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	122	490		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	121	493	#line 121 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	493	#line 7921 "NXCDefs.h"
+0	7922	493		wait 300
+0	7921	495	#line 7921 "NXCDefs.h"
+0	122	495	#line 122 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	123	495	#line 123 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	124	495		set __main_7qG2_cmd_7qG2_000, 0
+0	123	498	#line 123 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	123	498	#line 123 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	124	498	#line 124 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	125	498		set __main_7qG2_par_7qG2_000, 0
+0	124	501	#line 124 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	124	501	#line 124 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	125	501	#line 125 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	126	501		set __main_7qG2_des_7qG2_000, 0
+0	125	504	#line 125 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	125	504	#line 125 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	127	504	#line 127 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	128	504	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	130	504	#line 130 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	131	504		jmp __NXC_Label_1088
+0	130	506	#line 130 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	131	506		exit -1, -1
+1	14	0	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	15	0		strcat __strbufpollZergs, __constStr0009
+1	14	4	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	15	4		mov __pollZergs_7qG2_loc_7qG2_000, __strbufpollZergs
+1	15	6	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	16	6		strcat __strbufpollZergs, __constStr0010
+1	15	10	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	16	10		mov __pollZergs_7qG2_combination_7qG2_000, __strbufpollZergs
+1	16	12	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	17	12		strcat __strbufpollZergs, __constStr0011
+1	16	16	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	17	16		mov __pollZergs_7qG2_z2_7qG2_000, __strbufpollZergs
+1	18	18	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	19	18		set __pollZergs_7qG2_found_7qG2_000, 0
+1	18	21	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	21	21	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	22	21		arrinit __pollZergs_7qG2_Z1_tmp_7qG2_000.coordinates, __constVal0, __constVal2
+1	21	25	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	21	25	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	24	25	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	25	25		set __pollZergs_7qG2_Z1_tmp_7qG2_000.heading, 0
+1	24	28	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	24	28	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	24	28	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	25	28		arrinit __pollZergs_7qG2_Z2_tmp_7qG2_000.coordinates, __constVal0, __constVal2
+1	24	32	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	24	32	#line 24 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	27	32	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	28	32		set __pollZergs_7qG2_Z2_tmp_7qG2_000.heading, 0
+1	27	35	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	27	35	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	27	35	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	28	35		set __D0pollZergs, 1
+1	29	38	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	30	38		tst 5, __zfpollZergs, __D0pollZergs
+1	29	41	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	30	41		brtst 4, __NXC_Label_613, __zfpollZergs
+1	29	44	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	30	44		mov __DU0pollZergs, SCAN
+1	31	46	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	32	46		tst 5, __zfpollZergs, __DU0pollZergs
+1	31	49	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	32	49		brtst 4, __NXC_Label_618, __zfpollZergs
+1	31	52	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	32	52		set __Wait_7qG2_ms_7qG2_000_inline_pollZergs, 50
+1	31	55	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	7921	55	#line 7921 "NXCDefs.h"
+1	7922	55		wait 50
+1	7921	57	#line 7921 "NXCDefs.h"
+1	33	57	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	33	57	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	34	57		mov __signed_stack_001pollZergs, __pollZergs_7qG2_found_7qG2_000
+1	33	59	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	34	59	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	35	59		set __D0pollZergs, 0
+1	34	62	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	35	62		cmp 4, __zfpollZergs, __signed_stack_001pollZergs, __D0pollZergs
+1	34	66	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	35	66		mov __D0pollZergs, __zfpollZergs
+1	35	68	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	36	68		brtst 4, __NXC_Label_623, __zfpollZergs
+1	35	71	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	36	71	#pragma macro 9
+1	36	71		acquire __MRMutex
+1	36	72		mov __MRArgs.QueueID, __constVal6
+1	36	74		mov __MRArgs.Remove, __constVal1
+1	36	76		set __RRNTmpVal, 0
+1	36	79		syscall 27, __MRArgs
+1	36	82		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+1	36	87		mov __pollZergs_7qG2_found_7qG2_000, __RRNTmpVal
+1	36	89		mov __D0pollZergs, __MRArgs.Result
+1	36	92		release __MRMutex
+1	8780	93	#line 8780 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	35	93	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	35	93	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	36	93	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	37	93		set __ClearLine_7qG2_line_7qG2_000_inline_pollZergs, 24
+1	36	96	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	6076	96	#line 6076 "NXCDefs.h"
+1	6077	96	#pragma macro 7
+1	6077	96		acquire __TextOutMutex
+1	6077	97		mov __TextOutArgs.Location.X, __constVal0
+1	6077	99		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_pollZergs
+1	6077	101		mov __TextOutArgs.Options, __constVal0
+1	6077	103		mov __TextOutArgs.Text, __BlankLine
+1	6077	106		syscall 13, __TextOutArgs
+1	6077	109		release __TextOutMutex
+1	8794	110	#line 8794 "NXCDefs.h"
+1	6076	110	#line 6076 "NXCDefs.h"
+1	37	110	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	37	110	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	110		set __signed_stack_001pollZergs, 0
+1	37	113	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	37	113	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	113		set __signed_stack_002pollZergs, 32
+1	37	116	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	37	116	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	116		mov __ArrHelper__pollZergs_244_0, __constStr0012
+1	37	118	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	118		mov __D0pollZergs, __pollZergs_7qG2_found_7qG2_000
+1	37	120	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	120		numtostr __strretvalpollZergs, __D0pollZergs
+1	37	123	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	123		strcat __strbufpollZergs, __strretvalpollZergs
+1	37	127	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	127		mov __ArrHelper__pollZergs_244_1, __strbufpollZergs
+1	37	129	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	129		strcat __strbufpollZergs, __ArrHelper__pollZergs_244_0, __ArrHelper__pollZergs_244_1
+1	38	134	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	134		acquire __TextOutMutex
+1	38	135	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	135		mov __TextOutArgs.Location.X, __signed_stack_001pollZergs
+1	38	137	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	137		mov __TextOutArgs.Location.Y, __signed_stack_002pollZergs
+1	38	139	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	139		set __TextOutArgs.Options, 0
+1	38	142	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	142		mov __TextOutArgs.Text, __strbufpollZergs
+1	38	145	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	145		syscall 13, __TextOutArgs
+1	38	148	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	148		mov __D0pollZergs, __TextOutArgs.Result
+1	38	150	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	150		release __TextOutMutex
+1	38	151	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	151	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	151		mov __signed_stack_001pollZergs, __pollZergs_7qG2_found_7qG2_000
+1	38	153	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	153	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	153		set __D0pollZergs, 1
+1	38	156	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	156		cmp 4, __zfpollZergs, __signed_stack_001pollZergs, __D0pollZergs
+1	38	160	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	160		mov __D0pollZergs, __zfpollZergs
+1	38	162	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	162		brtst 4, __NXC_Label_634, __zfpollZergs
+1	38	165	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	165		set __GapFound_7qG2_who_7qG2_000, 1
+1	38	168	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	38	168	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	168		subcall GapFound, __GapFound_return
+1	38	170	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	170	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	170		jmp __NXC_Label_637
+1	39	172	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	172		mov __signed_stack_001pollZergs, __pollZergs_7qG2_found_7qG2_000
+1	39	174	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	174	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	174		set __D0pollZergs, 2
+1	39	177	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	177		cmp 4, __zfpollZergs, __signed_stack_001pollZergs, __D0pollZergs
+1	39	181	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	181		mov __D0pollZergs, __zfpollZergs
+1	39	183	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	183		brtst 4, __NXC_Label_640, __zfpollZergs
+1	39	186	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	186		set __GapFound_7qG2_who_7qG2_000, 2
+1	39	189	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	39	189	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	40	189		subcall GapFound, __GapFound_return
+1	39	191	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	42	191	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	42	191	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	42	191	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	42	191	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	43	191		set __Wait_7qG2_ms_7qG2_000_inline_pollZergs, 200
+1	42	194	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	7921	194	#line 7921 "NXCDefs.h"
+1	7922	194		wait 200
+1	7921	196	#line 7921 "NXCDefs.h"
+1	43	196	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	43	196	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	44	196	#pragma macro 7
+1	44	196		acquire __MRMutex
+1	44	197		mov __MRArgs.QueueID, __constVal4
+1	44	199		mov __MRArgs.Remove, __constVal1
+1	44	201		syscall 27, __MRArgs
+1	44	204		mov __pollZergs_7qG2_loc_7qG2_000, __MRArgs.Message
+1	44	206		mov __D0pollZergs, __MRArgs.Result
+1	44	209		release __MRMutex
+1	8906	210	#line 8906 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	43	210	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	43	210	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	44	210	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	45	210		set __Wait_7qG2_ms_7qG2_000_inline_pollZergs, 200
+1	44	213	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	7921	213	#line 7921 "NXCDefs.h"
+1	7922	213		wait 200
+1	7921	215	#line 7921 "NXCDefs.h"
+1	46	215	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	46	215	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	47	215		strcat __strbufpollZergs, __pollZergs_7qG2_loc_7qG2_000
+1	46	219	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	47	219		mov __ParseCoordinates_7qG2_location_7qG2_000, __strbufpollZergs
+1	47	221	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	221		subcall ParseCoordinates, __ParseCoordinates_return
+1	47	223	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	223		mov __pollZergs_7qG2_Z1_tmp_7qG2_000, __result_ParseCoordinates
+1	47	225	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	47	225	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	225		set __signed_stack_001pollZergs, 0
+1	47	228	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	47	228	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	228		set __signed_stack_002pollZergs, 0
+1	47	231	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	47	231	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	231		index __ArrHelper__pollZergs_73_0, __pollZergs_7qG2_Z1_tmp_7qG2_000.coordinates, __signed_stack_002pollZergs
+1	47	235	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	235		mov __D0pollZergs, __ArrHelper__pollZergs_73_0
+1	48	237	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	49	237		replace Z1_location.coordinates, Z1_location.coordinates, __signed_stack_001pollZergs, __D0pollZergs
+1	48	242	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	242	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	49	242		set __signed_stack_001pollZergs, 1
+1	48	245	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	245	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	49	245		set __signed_stack_002pollZergs, 1
+1	48	248	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	48	248	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	49	248		index __ArrHelper__pollZergs_73_0, __pollZergs_7qG2_Z1_tmp_7qG2_000.coordinates, __signed_stack_002pollZergs
+1	48	252	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	49	252		mov __D0pollZergs, __ArrHelper__pollZergs_73_0
+1	49	254	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	50	254		replace Z1_location.coordinates, Z1_location.coordinates, __signed_stack_001pollZergs, __D0pollZergs
+1	49	259	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	51	259	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	52	259		mov Z1_location.heading, __pollZergs_7qG2_Z1_tmp_7qG2_000.heading
+1	51	261	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	51	261	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	51	261	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	52	261		set __BuildLocationString_7qG2_who_7qG2_000, 1
+1	51	264	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	53	264	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	54	264		subcall BuildLocationString, __BuildLocationString_return
+1	53	266	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	54	266		mov __strretvalpollZergs, __strbufBuildLocationString
+1	53	268	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	54	268		strcat __strbufpollZergs, __strretvalpollZergs
+1	53	272	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	54	272		mov __pollZergs_7qG2_z1_7qG2_000, __strbufpollZergs
+1	53	274	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	53	274	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	54	274	#pragma macro 7
+1	54	274		acquire __MRMutex
+1	54	275		mov __MRArgs.QueueID, __constVal4
+1	54	277		mov __MRArgs.Remove, __constVal1
+1	54	279		syscall 27, __MRArgs
+1	54	282		mov __pollZergs_7qG2_z2_7qG2_000, __MRArgs.Message
+1	54	285		mov __D0pollZergs, __MRArgs.Result
+1	54	288		release __MRMutex
+1	8993	289	#line 8993 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	53	289	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	53	289	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	54	289	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	55	289		set __Wait_7qG2_ms_7qG2_000_inline_pollZergs, 200
+1	54	292	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	7921	292	#line 7921 "NXCDefs.h"
+1	7922	292		wait 200
+1	7921	294	#line 7921 "NXCDefs.h"
+1	55	294	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	55	294	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	56	294		strcat __strbufpollZergs, __pollZergs_7qG2_loc_7qG2_000
+1	55	298	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	56	298		mov __ParseCoordinates_7qG2_location_7qG2_000, __strbufpollZergs
+1	56	300	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	300		subcall ParseCoordinates, __ParseCoordinates_return
+1	56	302	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	56	302	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	302		set __signed_stack_001pollZergs, 0
+1	56	305	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	56	305	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	305		set __signed_stack_002pollZergs, 0
+1	56	308	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	56	308	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	308		index __ArrHelper__pollZergs_73_0, __pollZergs_7qG2_Z2_tmp_7qG2_000.coordinates, __signed_stack_002pollZergs
+1	56	312	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	312		mov __D0pollZergs, __ArrHelper__pollZergs_73_0
+1	57	314	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	58	314		replace Z2_location.coordinates, Z2_location.coordinates, __signed_stack_001pollZergs, __D0pollZergs
+1	57	319	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	319	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	58	319		set __signed_stack_001pollZergs, 1
+1	57	322	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	322	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	58	322		set __signed_stack_002pollZergs, 1
+1	57	325	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	57	325	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	58	325		index __ArrHelper__pollZergs_73_0, __pollZergs_7qG2_Z2_tmp_7qG2_000.coordinates, __signed_stack_002pollZergs
+1	57	329	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	58	329		mov __D0pollZergs, __ArrHelper__pollZergs_73_0
+1	58	331	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	59	331		replace Z2_location.coordinates, Z2_location.coordinates, __signed_stack_001pollZergs, __D0pollZergs
+1	58	336	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	60	336	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	61	336		mov Z2_location.heading, __pollZergs_7qG2_Z2_tmp_7qG2_000.heading
+1	60	338	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	60	338	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	60	338	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	61	338		set __BuildLocationString_7qG2_who_7qG2_000, 2
+1	60	341	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	62	341	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	63	341		subcall BuildLocationString, __BuildLocationString_return
+1	62	343	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	63	343		mov __strretvalpollZergs, __strbufBuildLocationString
+1	62	345	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	63	345		strcat __strbufpollZergs, __strretvalpollZergs
+1	62	349	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	63	349		mov __pollZergs_7qG2_z2_7qG2_000, __strbufpollZergs
+1	62	351	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	62	351	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	63	351		mov __ArrHelper__pollZergs_244_0, __pollZergs_7qG2_z1_7qG2_000
+1	64	353	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	65	353		strcat __strbufpollZergs, __pollZergs_7qG2_z2_7qG2_000
+1	64	357	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	65	357		mov __ArrHelper__pollZergs_244_1, __strbufpollZergs
+1	64	359	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	65	359		strcat __strbufpollZergs, __ArrHelper__pollZergs_244_0, __ArrHelper__pollZergs_244_1
+1	64	364	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	65	364		mov __pollZergs_7qG2_combination_7qG2_000, __strbufpollZergs
+1	64	366	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	64	366	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	65	366	#pragma macro 24
+1	65	366		acquire __RemoteMutex
+1	65	367		mov __SRSTmpBuf, __DCMessageWritePacket
+1	65	369		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal7
+1	65	374		arrsize __SRSTmpLongVal, __pollZergs_7qG2_combination_7qG2_000
+1	65	377		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+1	65	382		arrbuild __SRSSendBuf, __SRSTmpBuf, __pollZergs_7qG2_combination_7qG2_000
+1	65	387		brcmp 0, __ConnWrite_Else0, __constVal1, __constVal4
+1	65	391		acquire __CHSWMutex
+1	65	392		sub __WFRRTmpByte, __constVal1, __constVal4
+1	65	396		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+1	65	401		syscall 37, __CHSWArgs
+1	65	404		mov __D0pollZergs, __CHSWArgs.Status
+1	65	406		release __CHSWMutex
+1	65	407		jmp __ConnWrite_EndIf0
+1	65	409		acquire __CBTWMutex
+1	65	410		mov __CBTWArgs.Connection, __constVal1
+1	65	412		mov __CBTWArgs.Buffer, __SRSSendBuf
+1	65	414		syscall 29, __CBTWArgs
+1	65	417		mov __D0pollZergs, __CBTWArgs.Result
+1	65	419		release __CBTWMutex
+1	65	420		release __RemoteMutex
+1	9094	421	#line 9094 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	64	421	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	64	421	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	65	421	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	66	421		set __Wait_7qG2_ms_7qG2_000_inline_pollZergs, 200
+1	65	424	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	7921	424	#line 7921 "NXCDefs.h"
+1	7922	424		wait 200
+1	7921	426	#line 7921 "NXCDefs.h"
+1	109	426	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	115	426	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	117	426	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	118	426		jmp __NXC_Label_612
+1	117	428	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+1	118	428		exit -1, -1
+2	198	0	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	199	0		arrinit __ParseCoordinates_7qG2_temp_7qG2_000.coordinates, __constVal0, __constVal2
+2	198	4	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	198	4	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	201	4	#line 201 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	202	4		set __ParseCoordinates_7qG2_temp_7qG2_000.heading, 0
+2	201	7	#line 201 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	201	7	#line 201 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	202	7	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	203	7		set __ParseCoordinates_7qG2_i_7qG2_000, 0
+2	202	10	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	204	10	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	205	10		set __ParseCoordinates_7qG2_counter_7qG2_000, 0
+2	204	13	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	205	13	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	206	13		arrinit __ParseCoordinates_7qG2_underscores_7qG2_000, __constVal0, __constVal3
+2	205	17	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	206	17		arrinit __ParseCoordinates_7qG2_underscores_7qG2_000, __constVal0, __constVal3
+2	205	21	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	205	21	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	207	21	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	21		mov __signed_stack_001ParseCoordinates, __ParseCoordinates_7qG2_i_7qG2_000
+2	207	23	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	207	23	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	23		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+2	207	27	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	27		arrsize __D0ParseCoordinates, __strbufParseCoordinates
+2	208	30		sub __D0ParseCoordinates, __D0ParseCoordinates, __constVal1
+2	207	34	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	34		cmp 0, __zfParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	207	38	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	38		mov __D0ParseCoordinates, __zfParseCoordinates
+2	207	40	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	40		brtst 4, __NXC_Label_766, __zfParseCoordinates
+2	207	43	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	43		jmp __NXC_Label_767
+2	207	45	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	45		add __ParseCoordinates_7qG2_i_7qG2_000, __ParseCoordinates_7qG2_i_7qG2_000, __constVal1
+2	208	49	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	209	49		jmp __NXC_Label_765
+2	208	51	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	209	51		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+2	208	55	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	209	55		mov __D0ParseCoordinates, __ParseCoordinates_7qG2_i_7qG2_000
+2	208	57	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	209	57		index __signed_stack_001ParseCoordinates, __strbufParseCoordinates, __D0ParseCoordinates
+2	208	61	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	208	61	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	209	61		set __D0ParseCoordinates, 95
+2	208	64	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	209	64		cmp 4, __zfParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	208	68	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	209	68		mov __D0ParseCoordinates, __zfParseCoordinates
+2	209	70	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	210	70		brtst 4, __NXC_Label_775, __zfParseCoordinates
+2	209	73	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	210	73		mov __signed_stack_001ParseCoordinates, __ParseCoordinates_7qG2_counter_7qG2_000
+2	209	75	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	210	75	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	211	75		mov __D0ParseCoordinates, __ParseCoordinates_7qG2_i_7qG2_000
+2	210	77	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	211	77		replace __ParseCoordinates_7qG2_underscores_7qG2_000, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	210	82	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	212	82	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	213	82		add __ParseCoordinates_7qG2_counter_7qG2_000, __ParseCoordinates_7qG2_counter_7qG2_000, __constVal1
+2	212	86	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	213	86	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	213	86	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	214	86		mov __signed_stack_001ParseCoordinates, __ParseCoordinates_7qG2_counter_7qG2_000
+2	213	88	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	213	88	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	214	88		set __D0ParseCoordinates, 3
+2	213	91	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	214	91		cmp 4, __zfParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	213	95	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	214	95		mov __D0ParseCoordinates, __zfParseCoordinates
+2	213	97	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	214	97		brtst 4, __NXC_Label_782, __zfParseCoordinates
+2	215	100	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	216	100		jmp __NXC_Label_766
+2	215	102	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	222	102	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	222	102	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	102		jmp __NXC_Label_768
+2	222	104	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	222	104	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	104		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+2	222	108	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	108		set __signed_stack_001ParseCoordinates, 0
+2	222	111	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	222	111	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	111		set __signed_stack_002ParseCoordinates, 0
+2	222	114	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	222	114	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	114		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+2	222	118	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	118		mov __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+2	223	120	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	120		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	223	125	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	125		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+2	223	129	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	129		mov __ParseCoordinates_7qG2_x_7qG2_000, __strbufParseCoordinates
+2	223	131	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	131		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+2	223	135	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	135		set __signed_stack_001ParseCoordinates, 0
+2	223	138	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	138	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	138		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates
+2	223	142	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	142	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	142	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	142	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	142		add __signed_stack_001ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+2	223	146	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	146	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	146		set __signed_stack_002ParseCoordinates, 1
+2	223	149	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	149	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	149		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+2	223	153	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	153		mov __signed_stack_002ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+2	223	155	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	155	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	155		set __signed_stack_003ParseCoordinates, 0
+2	223	158	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	158	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	158		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_003ParseCoordinates
+2	223	162	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	162	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	162	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	223	162	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	162		add __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+2	223	166	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	166		sub __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __D0ParseCoordinates
+2	224	170	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	170		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	224	175	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	175		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+2	224	179	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	179		mov __ParseCoordinates_7qG2_y_7qG2_000, __strbufParseCoordinates
+2	224	181	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	181		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+2	224	185	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	185		set __signed_stack_001ParseCoordinates, 1
+2	224	188	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	188	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	188		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates
+2	224	192	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	192	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	192	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	192	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	192		add __signed_stack_001ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+2	224	196	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	196	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	196		set __signed_stack_002ParseCoordinates, 2
+2	224	199	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	199	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	199		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+2	224	203	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	203		mov __signed_stack_002ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+2	224	205	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	205	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	205		set __signed_stack_003ParseCoordinates, 1
+2	224	208	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	208	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	208		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_003ParseCoordinates
+2	224	212	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	212	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	212	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	224	212	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	212		add __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+2	224	216	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	225	216		sub __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __D0ParseCoordinates
+2	227	220	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	228	220		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	227	225	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	228	225		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+2	227	229	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	228	229		mov __ParseCoordinates_7qG2_h_7qG2_000, __strbufParseCoordinates
+2	227	231	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	228	231		set __signed_stack_001ParseCoordinates, 0
+2	227	234	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	227	234	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	228	234		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_x_7qG2_000
+2	228	238	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	229	238		strtonum __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __strbufParseCoordinates, 65535, 65535
+2	228	244	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	229	244		replace __ParseCoordinates_7qG2_temp_7qG2_000.coordinates, __ParseCoordinates_7qG2_temp_7qG2_000.coordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	228	249	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	228	249	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	229	249		set __signed_stack_001ParseCoordinates, 1
+2	228	252	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	228	252	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	229	252		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_y_7qG2_000
+2	229	256	#line 229 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	230	256		strtonum __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __strbufParseCoordinates, 65535, 65535
+2	229	262	#line 229 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	230	262		replace __ParseCoordinates_7qG2_temp_7qG2_000.coordinates, __ParseCoordinates_7qG2_temp_7qG2_000.coordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+2	229	267	#line 229 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	229	267	#line 229 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	230	267		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_h_7qG2_000
+2	238	271	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	239	271		strtonum __ParseCoordinates_7qG2_temp_7qG2_000.heading, __signed_stack_001ParseCoordinates, __strbufParseCoordinates, 65535, 65535
+2	238	277	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	238	277	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	239	277	#line 239 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	240	277		mov __result_ParseCoordinates, __ParseCoordinates_7qG2_temp_7qG2_000
+2	239	279	#line 239 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	240	279		subret __ParseCoordinates_return
+2	239	281	#line 239 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	241	281	#line 241 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+2	242	281		subret __ParseCoordinates_return
+3	243	0	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	244	0		arrinit __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __constVal0, __constVal2
+3	243	4	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	243	4	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	246	4	#line 246 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	247	4		set __BuildLocationString_7qG2_temp_7qG2_000.heading, 0
+3	246	7	#line 246 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	246	7	#line 246 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	246	7	#line 246 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	247	7		mov __D0BuildLocationString, __BuildLocationString_7qG2_who_7qG2_000
+3	250	9		brcmp 4, __NXC_Label_828, __constVal1, __D0BuildLocationString
+3	251	13		brcmp 4, __NXC_Label_843, __constVal2, __D0BuildLocationString
+3	252	17		brcmp 4, __NXC_Label_858, __constVal3, __D0BuildLocationString
+3	253	21		jmp __NXC_Label_827
+3	248	23	#line 248 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	248	23	#line 248 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	249	23		set __signed_stack_001BuildLocationString, 0
+3	248	26	#line 248 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	248	26	#line 248 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	249	26		set __signed_stack_002BuildLocationString, 0
+3	248	29	#line 248 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	248	29	#line 248 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	249	29		index __ArrHelper__BuildLocationString_73_0, Z1_location.coordinates, __signed_stack_002BuildLocationString
+3	248	33	#line 248 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	249	33		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	249	35	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	250	35		replace __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString, __D0BuildLocationString
+3	249	40	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	249	40	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	250	40		set __signed_stack_001BuildLocationString, 1
+3	249	43	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	249	43	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	250	43		set __signed_stack_002BuildLocationString, 1
+3	249	46	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	249	46	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	250	46		index __ArrHelper__BuildLocationString_73_0, Z1_location.coordinates, __signed_stack_002BuildLocationString
+3	249	50	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	250	50		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	250	52	#line 250 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	251	52		replace __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString, __D0BuildLocationString
+3	250	57	#line 250 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	251	57	#line 251 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	252	57		mov __BuildLocationString_7qG2_temp_7qG2_000.heading, Z1_location.heading
+3	251	59	#line 251 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	251	59	#line 251 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	252	59	#line 252 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	253	59		jmp __NXC_Label_827
+3	252	61	#line 252 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	254	61	#line 254 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	254	61	#line 254 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	255	61		set __signed_stack_001BuildLocationString, 0
+3	254	64	#line 254 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	254	64	#line 254 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	255	64		set __signed_stack_002BuildLocationString, 0
+3	254	67	#line 254 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	254	67	#line 254 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	255	67		index __ArrHelper__BuildLocationString_73_0, Z2_location.coordinates, __signed_stack_002BuildLocationString
+3	254	71	#line 254 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	255	71		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	255	73	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	256	73		replace __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString, __D0BuildLocationString
+3	255	78	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	255	78	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	256	78		set __signed_stack_001BuildLocationString, 1
+3	255	81	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	255	81	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	256	81		set __signed_stack_002BuildLocationString, 1
+3	255	84	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	255	84	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	256	84		index __ArrHelper__BuildLocationString_73_0, Z2_location.coordinates, __signed_stack_002BuildLocationString
+3	255	88	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	256	88		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	256	90	#line 256 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	257	90		replace __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString, __D0BuildLocationString
+3	256	95	#line 256 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	257	95	#line 257 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	258	95		mov __BuildLocationString_7qG2_temp_7qG2_000.heading, Z2_location.heading
+3	257	97	#line 257 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	257	97	#line 257 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	258	97	#line 258 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	259	97		jmp __NXC_Label_827
+3	258	99	#line 258 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	260	99	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	260	99	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	261	99		set __signed_stack_001BuildLocationString, 0
+3	260	102	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	260	102	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	261	102		set __signed_stack_002BuildLocationString, 0
+3	260	105	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	260	105	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	261	105		index __ArrHelper__BuildLocationString_73_0, M_location.coordinates, __signed_stack_002BuildLocationString
+3	260	109	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	261	109		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	261	111	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	262	111		replace __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString, __D0BuildLocationString
+3	261	116	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	261	116	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	262	116		set __signed_stack_001BuildLocationString, 1
+3	261	119	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	261	119	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	262	119		set __signed_stack_002BuildLocationString, 1
+3	261	122	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	261	122	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	262	122		index __ArrHelper__BuildLocationString_73_0, M_location.coordinates, __signed_stack_002BuildLocationString
+3	261	126	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	262	126		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	262	128	#line 262 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	263	128		replace __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString, __D0BuildLocationString
+3	262	133	#line 262 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	263	133	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	264	133		mov __BuildLocationString_7qG2_temp_7qG2_000.heading, M_location.heading
+3	263	135	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	263	135	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	264	135	#line 264 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	264	135	#line 264 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	267	135	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	267	135	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	135		set __signed_stack_001BuildLocationString, 0
+3	267	138	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	267	138	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	138		index __ArrHelper__BuildLocationString_73_0, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString
+3	267	142	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	142		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	267	144	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	144		numtostr __strretvalBuildLocationString, __D0BuildLocationString
+3	267	147	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	147		mov __ArrHelper__BuildLocationString_244_0, __strretvalBuildLocationString
+3	267	149	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	149		mov __ArrHelper__BuildLocationString_244_1, __constStr0014
+3	267	151	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	151		set __signed_stack_001BuildLocationString, 1
+3	267	154	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	267	154	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	154		index __ArrHelper__BuildLocationString_73_0, __BuildLocationString_7qG2_temp_7qG2_000.coordinates, __signed_stack_001BuildLocationString
+3	267	158	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	158		mov __D0BuildLocationString, __ArrHelper__BuildLocationString_73_0
+3	267	160	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	160		numtostr __strretvalBuildLocationString, __D0BuildLocationString
+3	267	163	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	163		mov __ArrHelper__BuildLocationString_244_2, __strretvalBuildLocationString
+3	267	165	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	165		mov __ArrHelper__BuildLocationString_244_3, __constStr0014
+3	267	167	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	167		mov __D0BuildLocationString, __BuildLocationString_7qG2_temp_7qG2_000.heading
+3	267	169	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	169		numtostr __strretvalBuildLocationString, __D0BuildLocationString
+3	267	172	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	172		mov __ArrHelper__BuildLocationString_244_4, __strretvalBuildLocationString
+3	267	174	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	174		mov __ArrHelper__BuildLocationString_244_5, __constStr0014
+3	267	176	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	268	176		mov __D0BuildLocationString, __BuildLocationString_7qG2_who_7qG2_000
+3	270	178	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	178		numtostr __strretvalBuildLocationString, __D0BuildLocationString
+3	270	181	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	181		strcat __strbufBuildLocationString, __strretvalBuildLocationString
+3	270	185	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	185		mov __ArrHelper__BuildLocationString_244_6, __strbufBuildLocationString
+3	270	187	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	187		strcat __strbufBuildLocationString, __ArrHelper__BuildLocationString_244_5, __ArrHelper__BuildLocationString_244_6
+3	270	192	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	192		mov __ArrHelper__BuildLocationString_244_5, __strbufBuildLocationString
+3	270	194	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	194		strcat __strbufBuildLocationString, __ArrHelper__BuildLocationString_244_4, __ArrHelper__BuildLocationString_244_5
+3	270	199	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	199		mov __ArrHelper__BuildLocationString_244_4, __strbufBuildLocationString
+3	270	201	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	201		strcat __strbufBuildLocationString, __ArrHelper__BuildLocationString_244_3, __ArrHelper__BuildLocationString_244_4
+3	270	206	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	206		mov __ArrHelper__BuildLocationString_244_3, __strbufBuildLocationString
+3	270	208	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	208		strcat __strbufBuildLocationString, __ArrHelper__BuildLocationString_244_2, __ArrHelper__BuildLocationString_244_3
+3	270	213	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	213		mov __ArrHelper__BuildLocationString_244_2, __strbufBuildLocationString
+3	270	215	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	215		strcat __strbufBuildLocationString, __ArrHelper__BuildLocationString_244_1, __ArrHelper__BuildLocationString_244_2
+3	270	220	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	220		mov __ArrHelper__BuildLocationString_244_1, __strbufBuildLocationString
+3	270	222	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	222		strcat __strbufBuildLocationString, __ArrHelper__BuildLocationString_244_0, __ArrHelper__BuildLocationString_244_1
+3	270	227	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	227		mov __BuildLocationString_7qG2_loc_7qG2_000, __strbufBuildLocationString
+3	270	229	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	229		set __ClearLine_7qG2_line_7qG2_000_inline_BuildLocationString, 16
+3	270	232	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	6076	232	#line 6076 "NXCDefs.h"
+3	6077	232	#pragma macro 7
+3	6077	232		acquire __TextOutMutex
+3	6077	233		mov __TextOutArgs.Location.X, __constVal0
+3	6077	235		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_BuildLocationString
+3	6077	237		mov __TextOutArgs.Options, __constVal0
+3	6077	239		mov __TextOutArgs.Text, __BlankLine
+3	6077	242		syscall 13, __TextOutArgs
+3	6077	245		release __TextOutMutex
+3	10160	246	#line 10160 "NXCDefs.h"
+3	6076	246	#line 6076 "NXCDefs.h"
+3	271	246	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	246	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	272	246		set __signed_stack_001BuildLocationString, 0
+3	271	249	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	249	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	272	249		set __signed_stack_002BuildLocationString, 16
+3	271	252	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	271	252	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	272	252		mov __ArrHelper__BuildLocationString_244_0, __constStr0015
+3	271	254	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	272	254		strcat __strbufBuildLocationString, __BuildLocationString_7qG2_loc_7qG2_000
+3	271	258	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	272	258		mov __ArrHelper__BuildLocationString_244_1, __strbufBuildLocationString
+3	271	260	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	272	260		strcat __strbufBuildLocationString, __ArrHelper__BuildLocationString_244_0, __ArrHelper__BuildLocationString_244_1
+3	275	265	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	265		acquire __TextOutMutex
+3	275	266	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	266		mov __TextOutArgs.Location.X, __signed_stack_001BuildLocationString
+3	275	268	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	268		mov __TextOutArgs.Location.Y, __signed_stack_002BuildLocationString
+3	275	270	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	270		set __TextOutArgs.Options, 0
+3	275	273	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	273		mov __TextOutArgs.Text, __strbufBuildLocationString
+3	275	276	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	276		syscall 13, __TextOutArgs
+3	275	279	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	279		mov __D0BuildLocationString, __TextOutArgs.Result
+3	275	281	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	281		release __TextOutMutex
+3	275	282	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	276	282	#line 276 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	277	282		strcat __strbufBuildLocationString, __BuildLocationString_7qG2_loc_7qG2_000
+3	276	286	#line 276 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	277	286		subret __BuildLocationString_return
+3	276	288	#line 276 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	278	288	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+3	279	288		subret __BuildLocationString_return
+4	307	0	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	308	0		arrinit Z1_location.coordinates, __constVal0, __constVal2
+4	307	4	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	307	4	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	308	4	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	309	4		arrinit Z2_location.coordinates, __constVal0, __constVal2
+4	308	8	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	308	8	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	309	8	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	310	8		arrinit M_location.coordinates, __constVal0, __constVal2
+4	309	12	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	309	12	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	311	12	#line 311 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	312	12		set Z1_location.heading, 0
+4	311	15	#line 311 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	311	15	#line 311 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	312	15	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	313	15		set Z2_location.heading, 0
+4	312	18	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	312	18	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	314	18	#line 314 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	315	18		set M_location.heading, 0
+4	314	21	#line 314 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	314	21	#line 314 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	316	21	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+4	317	21		subret __FormatLocations_return
+5	317	0	#line 317 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	317	0	#line 317 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	7921	0	#line 7921 "NXCDefs.h"
+5	7922	0		wait 300
+5	7921	2	#line 7921 "NXCDefs.h"
+5	318	2	#line 318 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	319	2	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	320	2		subcall FormatLocations, __FormatLocations_return
+5	319	4	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	322	4	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	323	4		set SCAN, 1
+5	322	7	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	322	7	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	6069	7	#line 6069 "NXCDefs.h"
+5	6070	7	#pragma macro 6
+5	6070	7		acquire __PointOutMutex
+5	6070	8		mov __PointOutArgs.Location.X, __constVal200
+5	6070	10		mov __PointOutArgs.Location.Y, __constVal200
+5	6070	12		mov __PointOutArgs.Options, __constVal1
+5	6070	14		syscall 14, __PointOutArgs
+5	6070	17		release __PointOutMutex
+5	10364	18	#line 10364 "NXCDefs.h"
+5	6069	18	#line 6069 "NXCDefs.h"
+5	323	18	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	323	18	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	324	18		set __signed_stack_001TrackLocations, 0
+5	323	21	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	323	21	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	324	21		set __signed_stack_002TrackLocations, 56
+5	323	24	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	323	24	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	324	24		strcat __strbufTrackLocations, __constStr0016
+5	324	28	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	325	28		acquire __TextOutMutex
+5	324	29	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	325	29		mov __TextOutArgs.Location.X, __signed_stack_001TrackLocations
+5	324	31	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	325	31		mov __TextOutArgs.Location.Y, __signed_stack_002TrackLocations
+5	324	33	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	325	33		set __TextOutArgs.Options, 0
+5	324	36	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	325	36		mov __TextOutArgs.Text, __strbufTrackLocations
+5	324	38	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	325	38		syscall 13, __TextOutArgs
+5	324	41	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	324	41	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	325	41		release __TextOutMutex
+5	324	42	#line 324 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	326	42	#line 326 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	327	42		start pollZergs
+5	326	44	#line 326 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	327	44	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc"
+5	328	44		subret __TrackLocations_return
+6	6069	0	#line 6069 "NXCDefs.h"
+6	6070	0	#pragma macro 6
+6	6070	0		acquire __PointOutMutex
+6	6070	1		mov __PointOutArgs.Location.X, __constVal200
+6	6070	3		mov __PointOutArgs.Location.Y, __constVal200
+6	6070	5		mov __PointOutArgs.Options, __constVal1
+6	6070	7		syscall 14, __PointOutArgs
+6	6070	10		release __PointOutMutex
+6	10411	11	#line 10411 "NXCDefs.h"
+6	6069	11	#line 6069 "NXCDefs.h"
+6	4	11	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	4	11	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	5	11		set __signed_stack_001SearchProtocol, 0
+6	4	14	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	4	14	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	5	14		set __signed_stack_002SearchProtocol, 56
+6	4	17	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	4	17	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	5	17		strcat __strbufSearchProtocol, __constStr0017
+6	5	21	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	6	21		acquire __TextOutMutex
+6	5	22	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	6	22		mov __TextOutArgs.Location.X, __signed_stack_001SearchProtocol
+6	5	24	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	6	24		mov __TextOutArgs.Location.Y, __signed_stack_002SearchProtocol
+6	5	26	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	6	26		set __TextOutArgs.Options, 0
+6	5	29	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	6	29		mov __TextOutArgs.Text, __strbufSearchProtocol
+6	5	31	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	6	31		syscall 13, __TextOutArgs
+6	5	34	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	5	34	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	6	34		release __TextOutMutex
+6	5	35	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	5	35	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	5	35	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	7921	35	#line 7921 "NXCDefs.h"
+6	7922	35		wait 1500
+6	7921	37	#line 7921 "NXCDefs.h"
+6	10	37	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	10	37	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	11	37		set __notifyZergs_7qG2_zerg_7qG2_000, 2
+6	10	40	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	10	40	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	11	40		set __notifyZergs_7qG2_msg_7qG2_000, 15
+6	10	43	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	11	43	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	12	43		subcall notifyZergs, __notifyZergs_return
+6	11	45	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	11	45	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	12	45		set __notifyZergs_7qG2_zerg_7qG2_000, 3
+6	11	48	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	11	48	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	12	48		set __notifyZergs_7qG2_msg_7qG2_000, 15
+6	11	51	#line 11 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	14	51	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	15	51		subcall notifyZergs, __notifyZergs_return
+6	14	53	#line 14 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	19	53	#line 19 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	20	53		subcall TrackLocations, __TrackLocations_return
+6	19	55	#line 19 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+6	20	55		exit -1, -1
+7	58	0	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	59	0		strcat __strbufGapFound, __constStr0018
+7	58	4	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	58	4	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	59	4		set __ClearLine_7qG2_line_7qG2_000_inline_GapFound, 16
+7	58	7	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	6076	7	#line 6076 "NXCDefs.h"
+7	6077	7	#pragma macro 7
+7	6077	7		acquire __TextOutMutex
+7	6077	8		mov __TextOutArgs.Location.X, __constVal0
+7	6077	10		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_GapFound
+7	6077	12		mov __TextOutArgs.Options, __constVal0
+7	6077	14		mov __TextOutArgs.Text, __BlankLine
+7	6077	17		syscall 13, __TextOutArgs
+7	6077	20		release __TextOutMutex
+7	10706	21	#line 10706 "NXCDefs.h"
+7	6076	21	#line 6076 "NXCDefs.h"
+7	61	21	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	61	21	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	62	21		mov __signed_stack_001GapFound, __GapFound_7qG2_who_7qG2_000
+7	61	23	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	61	23	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	62	23		set __D0GapFound, 1
+7	61	26	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	62	26		cmp 4, __zfGapFound, __signed_stack_001GapFound, __D0GapFound
+7	61	30	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	62	30		mov __D0GapFound, __zfGapFound
+7	62	32	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	63	32		brtst 4, __NXC_Label_971, __zfGapFound
+7	62	35	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	63	35		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 200
+7	62	38	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	7921	38	#line 7921 "NXCDefs.h"
+7	7922	38		wait 200
+7	7921	40	#line 7921 "NXCDefs.h"
+7	63	40	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	63	40	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	64	40		set __sendCommand_7qG2_cmd_7qG2_000, 16
+7	63	43	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	63	43	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	64	43		set __sendCommand_7qG2_des_7qG2_000, 3
+7	63	46	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	64	46	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	65	46		subcall sendCommand, __sendCommand_return
+7	64	48	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	64	48	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	65	48		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 220
+7	64	51	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	7921	51	#line 7921 "NXCDefs.h"
+7	7922	51		wait 220
+7	7921	53	#line 7921 "NXCDefs.h"
+7	65	53	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	65	53	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	66	53		set __sendParameter_7qG2_par_7qG2_000, 16
+7	65	56	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	65	56	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	66	56		set __sendParameter_7qG2_des_7qG2_000, 3
+7	65	59	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	66	59	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	67	59		subcall sendParameter, __sendParameter_return
+7	66	61	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	66	61	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	67	61		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 220
+7	66	64	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	7921	64	#line 7921 "NXCDefs.h"
+7	7922	64		wait 220
+7	7921	66	#line 7921 "NXCDefs.h"
+7	67	66	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	67	66	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	68	66		mov __D0GapFound, __GapFound_7qG2_who_7qG2_000
+7	67	68	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	68	68		numtostr __strretvalGapFound, __D0GapFound
+7	67	71	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	68	71		mov __ArrHelper__GapFound_244_0, __strretvalGapFound
+7	68	73	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	69	73		strcat __strbufGapFound, __constStr0019
+7	68	77	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	69	77		mov __ArrHelper__GapFound_244_1, __strbufGapFound
+7	68	79	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	69	79		strcat __strbufGapFound, __ArrHelper__GapFound_244_0, __ArrHelper__GapFound_244_1
+7	68	84	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	69	84		mov __GapFound_7qG2_tmp_7qG2_001, __strbufGapFound
+7	68	86	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	69	86		set __signed_stack_001GapFound, 0
+7	68	89	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	68	89	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	69	89		set __signed_stack_002GapFound, 16
+7	68	92	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	68	92	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	69	92		strcat __strbufGapFound, __GapFound_7qG2_tmp_7qG2_001
+7	69	96	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	96		acquire __TextOutMutex
+7	69	97	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	97		mov __TextOutArgs.Location.X, __signed_stack_001GapFound
+7	69	99	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	99		mov __TextOutArgs.Location.Y, __signed_stack_002GapFound
+7	69	101	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	101		set __TextOutArgs.Options, 0
+7	69	104	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	104		mov __TextOutArgs.Text, __strbufGapFound
+7	69	106	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	106		syscall 13, __TextOutArgs
+7	69	109	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	109		mov __D0GapFound, __TextOutArgs.Result
+7	69	111	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	111		release __TextOutMutex
+7	69	112	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	70	112	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	71	112		jmp __NXC_Label_992
+7	70	114	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	71	114		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 200
+7	70	117	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	7921	117	#line 7921 "NXCDefs.h"
+7	7922	117		wait 200
+7	7921	119	#line 7921 "NXCDefs.h"
+7	71	119	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	71	119	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	72	119		set __sendCommand_7qG2_cmd_7qG2_000, 16
+7	71	122	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	71	122	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	72	122		set __sendCommand_7qG2_des_7qG2_000, 2
+7	71	125	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	72	125	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	73	125		subcall sendCommand, __sendCommand_return
+7	72	127	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	72	127	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	73	127		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 220
+7	72	130	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	7921	130	#line 7921 "NXCDefs.h"
+7	7922	130		wait 220
+7	7921	132	#line 7921 "NXCDefs.h"
+7	73	132	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	73	132	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	74	132		set __sendParameter_7qG2_par_7qG2_000, 16
+7	73	135	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	73	135	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	74	135		set __sendParameter_7qG2_des_7qG2_000, 2
+7	73	138	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	74	138	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	75	138		subcall sendParameter, __sendParameter_return
+7	74	140	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	74	140	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	75	140		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 220
+7	74	143	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	7921	143	#line 7921 "NXCDefs.h"
+7	7922	143		wait 220
+7	7921	145	#line 7921 "NXCDefs.h"
+7	75	145	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	75	145	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	76	145		mov __D0GapFound, __GapFound_7qG2_who_7qG2_000
+7	75	147	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	76	147		numtostr __strretvalGapFound, __D0GapFound
+7	75	150	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	76	150		mov __ArrHelper__GapFound_244_0, __strretvalGapFound
+7	76	152	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	77	152		strcat __strbufGapFound, __constStr0019
+7	76	156	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	77	156		mov __ArrHelper__GapFound_244_1, __strbufGapFound
+7	76	158	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	77	158		strcat __strbufGapFound, __ArrHelper__GapFound_244_0, __ArrHelper__GapFound_244_1
+7	76	163	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	77	163		mov __GapFound_7qG2_tmp_7qG2_001, __strbufGapFound
+7	76	165	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	77	165		set __signed_stack_001GapFound, 0
+7	76	168	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	76	168	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	77	168		set __signed_stack_002GapFound, 16
+7	76	171	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	76	171	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	77	171		strcat __strbufGapFound, __GapFound_7qG2_tmp_7qG2_001
+7	77	175	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	175		acquire __TextOutMutex
+7	77	176	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	176		mov __TextOutArgs.Location.X, __signed_stack_001GapFound
+7	77	178	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	178		mov __TextOutArgs.Location.Y, __signed_stack_002GapFound
+7	77	180	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	180		set __TextOutArgs.Options, 0
+7	77	183	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	183		mov __TextOutArgs.Text, __strbufGapFound
+7	77	185	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	185		syscall 13, __TextOutArgs
+7	77	188	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	188		mov __D0GapFound, __TextOutArgs.Result
+7	77	190	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	78	190		release __TextOutMutex
+7	77	191	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	80	191	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	80	191	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+7	81	191		subret __GapFound_return
+8	81	0	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	82	0		mov __sendCommand_7qG2_cmd_7qG2_000, __notifyZergs_7qG2_msg_7qG2_000
+8	81	2	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	81	2	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	82	2		mov __sendCommand_7qG2_des_7qG2_000, __notifyZergs_7qG2_zerg_7qG2_000
+8	81	4	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	82	4	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	83	4		subcall sendCommand, __sendCommand_return
+8	82	6	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	82	6	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	83	6		set __Wait_7qG2_ms_7qG2_000_inline_notifyZergs, 230
+8	82	9	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	7921	9	#line 7921 "NXCDefs.h"
+8	7922	9		wait 230
+8	7921	11	#line 7921 "NXCDefs.h"
+8	83	11	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	83	11	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	84	11		mov __sendParameter_7qG2_par_7qG2_000, __notifyZergs_7qG2_msg_7qG2_000
+8	83	13	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	83	13	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	84	13		mov __sendParameter_7qG2_des_7qG2_000, __notifyZergs_7qG2_zerg_7qG2_000
+8	83	15	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	84	15	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	85	15		subcall sendParameter, __sendParameter_return
+8	84	17	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	84	17	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	85	17		set __Wait_7qG2_ms_7qG2_000_inline_notifyZergs, 50
+8	84	20	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	7921	20	#line 7921 "NXCDefs.h"
+8	7922	20		wait 50
+8	7921	22	#line 7921 "NXCDefs.h"
+8	86	22	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	86	22	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	87	22		set __Wait_7qG2_ms_7qG2_000_inline_notifyZergs, 200
+8	86	25	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	7921	25	#line 7921 "NXCDefs.h"
+8	7922	25		wait 200
+8	7921	27	#line 7921 "NXCDefs.h"
+8	87	27	#line 87 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	89	27	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc"
+8	90	27		subret __notifyZergs_return
+9	30	0	#line 30 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	31	0		set __getAck_7qG2_ack_7qG2_000, 0
+9	30	3	#line 30 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	31	3	#line 31 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	32	3		set __getAck_7qG2_timeout_7qG2_000, 0
+9	31	6	#line 31 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	31	6	#line 31 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	32	6		set __signed_stack_001getAck, 5
+9	31	9	#line 31 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	31	9	#line 31 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	32	9		set __signed_stack_002getAck, 40
+9	31	12	#line 31 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	31	12	#line 31 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	32	12		strcat __strbufgetAck, __constStr0020
+9	33	16	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	16		acquire __TextOutMutex
+9	33	17	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	17		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+9	33	19	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	19		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+9	33	21	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	21		set __TextOutArgs.Options, 0
+9	33	24	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	24		mov __TextOutArgs.Text, __strbufgetAck
+9	33	26	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	26		syscall 13, __TextOutArgs
+9	33	29	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	29		mov __D0getAck, __TextOutArgs.Result
+9	33	31	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	31		release __TextOutMutex
+9	33	32	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	33	32	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	32		mov __signed_stack_001getAck, __getAck_7qG2_ack_7qG2_000
+9	33	34	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	33	34	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	34		set __D0getAck, 0
+9	33	37	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	37		cmp 4, __zfgetAck, __signed_stack_001getAck, __D0getAck
+9	33	41	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	41		mov __D0getAck, __zfgetAck
+9	33	43	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	43		brtst 5, __NXC_Label_1037, __zfgetAck
+9	33	46	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	46		mov __signed_stack_001getAck, __D0getAck
+9	33	48	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	48		mov __signed_stack_002getAck, __getAck_7qG2_timeout_7qG2_000
+9	33	50	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	33	50	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	50		set __D0getAck, 30
+9	33	53	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	53		cmp 4, __zfgetAck, __signed_stack_002getAck, __D0getAck
+9	33	57	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	33	57	#line 33 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	34	57		or __D0getAck, __signed_stack_001getAck, __zfgetAck
+9	34	61	#line 34 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	35	61		tst 5, __zfgetAck, __D0getAck
+9	34	64	#line 34 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	35	64		brtst 4, __NXC_Label_1036, __zfgetAck
+9	34	67	#line 34 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	35	67		set __Wait_7qG2_ms_7qG2_000_inline_getAck, 100
+9	34	70	#line 34 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	7921	70	#line 7921 "NXCDefs.h"
+9	7922	70		wait 100
+9	7921	72	#line 7921 "NXCDefs.h"
+9	35	72	#line 35 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	35	72	#line 35 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	36	72	#pragma macro 9
+9	36	72		acquire __MRMutex
+9	36	73		mov __MRArgs.QueueID, __constVal3
+9	36	75		mov __MRArgs.Remove, __constVal1
+9	36	77		set __RRNTmpVal, 0
+9	36	80		syscall 27, __MRArgs
+9	36	83		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+9	36	88		mov __getAck_7qG2_ack_7qG2_000, __RRNTmpVal
+9	36	90		mov __D0getAck, __MRArgs.Result
+9	36	93		release __MRMutex
+9	11126	94	#line 11126 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	35	94	#line 35 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	35	94	#line 35 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	37	94	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	38	94		add __getAck_7qG2_timeout_7qG2_000, __getAck_7qG2_timeout_7qG2_000, __constVal1
+9	37	98	#line 37 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	39	98	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	40	98		jmp __NXC_Label_1035
+9	39	100	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	39	100	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	40	100		set __ClearLine_7qG2_line_7qG2_000_inline_getAck, 40
+9	39	103	#line 39 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	6076	103	#line 6076 "NXCDefs.h"
+9	6077	103	#pragma macro 7
+9	6077	103		acquire __TextOutMutex
+9	6077	104		mov __TextOutArgs.Location.X, __constVal0
+9	6077	106		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_getAck
+9	6077	108		mov __TextOutArgs.Options, __constVal0
+9	6077	110		mov __TextOutArgs.Text, __BlankLine
+9	6077	113		syscall 13, __TextOutArgs
+9	6077	116		release __TextOutMutex
+9	11147	117	#line 11147 "NXCDefs.h"
+9	6076	117	#line 6076 "NXCDefs.h"
+9	40	117	#line 40 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	40	117	#line 40 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	41	117		mov __D0getAck, __getAck_7qG2_ack_7qG2_000
+9	41	119	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	42	119		tst 5, __zfgetAck, __D0getAck
+9	41	122	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	42	122		brtst 4, __NXC_Label_1046, __zfgetAck
+9	41	125	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	42	125		set __signed_stack_001getAck, 5
+9	41	128	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	41	128	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	42	128		set __signed_stack_002getAck, 40
+9	41	131	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	41	131	#line 41 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	42	131		strcat __strbufgetAck, __constStr0021
+9	42	135	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	135		acquire __TextOutMutex
+9	42	136	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	136		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+9	42	138	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	138		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+9	42	140	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	140		set __TextOutArgs.Options, 0
+9	42	143	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	143		mov __TextOutArgs.Text, __strbufgetAck
+9	42	145	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	145		syscall 13, __TextOutArgs
+9	42	148	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	148		mov __D0getAck, __TextOutArgs.Result
+9	42	150	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	150		release __TextOutMutex
+9	42	151	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	42	151	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	43	151		set __Wait_7qG2_ms_7qG2_000_inline_getAck, 500
+9	42	154	#line 42 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	7921	154	#line 7921 "NXCDefs.h"
+9	7922	154		wait 500
+9	7921	156	#line 7921 "NXCDefs.h"
+9	43	156	#line 43 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	44	156	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	45	156		set __D0getAck, 1
+9	44	159	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	45	159		subret __getAck_return
+9	44	161	#line 44 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	45	161	#line 45 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	46	161		jmp __NXC_Label_1055
+9	45	163	#line 45 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	46	163		set __signed_stack_001getAck, 5
+9	45	166	#line 45 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	45	166	#line 45 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	46	166		set __signed_stack_002getAck, 40
+9	45	169	#line 45 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	45	169	#line 45 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	46	169		strcat __strbufgetAck, __constStr0022
+9	46	173	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	173		acquire __TextOutMutex
+9	46	174	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	174		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+9	46	176	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	176		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+9	46	178	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	178		set __TextOutArgs.Options, 0
+9	46	181	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	181		mov __TextOutArgs.Text, __strbufgetAck
+9	46	183	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	183		syscall 13, __TextOutArgs
+9	46	186	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	186		mov __D0getAck, __TextOutArgs.Result
+9	46	188	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	188		release __TextOutMutex
+9	46	189	#line 46 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	47	189	#line 47 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	48	189		set __D0getAck, -1
+9	47	192	#line 47 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	48	192		subret __getAck_return
+9	47	194	#line 47 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	49	194	#line 49 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	50	194	#line 50 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	51	194		set __D0getAck, 0
+9	50	197	#line 50 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	51	197		subret __getAck_return
+9	50	199	#line 50 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	55	199	#line 55 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	56	199		subret __getAck_return
+10	56	0	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	0		set __signed_stack_001sendCommand, 5
+10	56	3	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	56	3	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	3		set __signed_stack_002sendCommand, 8
+10	56	6	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	56	6	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	6		mov __ArrHelper__sendCommand_244_0, __constStr0023
+10	56	8	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	8		mov __D0sendCommand, __sendCommand_7qG2_cmd_7qG2_000
+10	56	10	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	10		numtostr __strretvalsendCommand, __D0sendCommand
+10	56	13	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	13		mov __ArrHelper__sendCommand_244_1, __strretvalsendCommand
+10	56	15	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	15		mov __ArrHelper__sendCommand_244_2, __constStr0024
+10	56	17	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	17		mov __D0sendCommand, __sendCommand_7qG2_des_7qG2_000
+10	56	19	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	19		numtostr __strretvalsendCommand, __D0sendCommand
+10	56	22	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	22		strcat __strbufsendCommand, __strretvalsendCommand
+10	56	26	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	26		mov __ArrHelper__sendCommand_244_3, __strbufsendCommand
+10	56	28	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	28		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_2, __ArrHelper__sendCommand_244_3
+10	56	33	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	33		mov __ArrHelper__sendCommand_244_2, __strbufsendCommand
+10	56	35	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	35		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_1, __ArrHelper__sendCommand_244_2
+10	56	40	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	40		mov __ArrHelper__sendCommand_244_1, __strbufsendCommand
+10	56	42	#line 56 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	42		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_0, __ArrHelper__sendCommand_244_1
+10	57	47	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	47		acquire __TextOutMutex
+10	57	48	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	48		mov __TextOutArgs.Location.X, __signed_stack_001sendCommand
+10	57	50	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	50		mov __TextOutArgs.Location.Y, __signed_stack_002sendCommand
+10	57	52	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	52		set __TextOutArgs.Options, 0
+10	57	55	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	55		mov __TextOutArgs.Text, __strbufsendCommand
+10	57	57	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	57		syscall 13, __TextOutArgs
+10	57	60	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	60		mov __D0sendCommand, __TextOutArgs.Result
+10	57	62	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	62		release __TextOutMutex
+10	57	63	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	63	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	58	63	#pragma macro 25
+10	58	63		acquire __RemoteMutex
+10	58	64		mov __SRSTmpBuf, __DCMessageWritePacket
+10	58	66		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal1
+10	58	71		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+10	58	76		mov __SRSTmpLongVal, __sendCommand_7qG2_cmd_7qG2_000
+10	58	78		flatten __SRSFlattenBuf, __SRSTmpLongVal
+10	58	81		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+10	58	86		brcmp 0, __ConnWrite_Else0, __sendCommand_7qG2_des_7qG2_000, __constVal4
+10	58	90		acquire __CHSWMutex
+10	58	91		sub __WFRRTmpByte, __sendCommand_7qG2_des_7qG2_000, __constVal4
+10	58	95		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+10	58	100		syscall 37, __CHSWArgs
+10	58	103		mov __D0sendCommand, __CHSWArgs.Status
+10	58	105		release __CHSWMutex
+10	58	106		jmp __ConnWrite_EndIf0
+10	58	108		acquire __CBTWMutex
+10	58	109		mov __CBTWArgs.Connection, __sendCommand_7qG2_des_7qG2_000
+10	58	111		mov __CBTWArgs.Buffer, __SRSSendBuf
+10	58	113		syscall 29, __CBTWArgs
+10	58	116		mov __D0sendCommand, __CBTWArgs.Result
+10	58	118		release __CBTWMutex
+10	58	119		release __RemoteMutex
+10	11323	120	#line 11323 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	120	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	57	120	#line 57 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	68	120	#line 68 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+10	69	120		subret __sendCommand_return
+11	69	0	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	0		set __signed_stack_001sendParameter, 5
+11	69	3	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	69	3	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	3		set __signed_stack_002sendParameter, 0
+11	69	6	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	69	6	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	6		mov __ArrHelper__sendParameter_244_0, __constStr0025
+11	69	8	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	8		mov __D0sendParameter, __sendParameter_7qG2_par_7qG2_000
+11	69	10	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	10		numtostr __strretvalsendParameter, __D0sendParameter
+11	69	13	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	13		mov __ArrHelper__sendParameter_244_1, __strretvalsendParameter
+11	69	15	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	15		mov __ArrHelper__sendParameter_244_2, __constStr0024
+11	69	17	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	17		mov __D0sendParameter, __sendParameter_7qG2_des_7qG2_000
+11	69	19	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	19		numtostr __strretvalsendParameter, __D0sendParameter
+11	69	22	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	22		strcat __strbufsendParameter, __strretvalsendParameter
+11	69	26	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	26		mov __ArrHelper__sendParameter_244_3, __strbufsendParameter
+11	69	28	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	28		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_2, __ArrHelper__sendParameter_244_3
+11	69	33	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	33		mov __ArrHelper__sendParameter_244_2, __strbufsendParameter
+11	69	35	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	35		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_1, __ArrHelper__sendParameter_244_2
+11	69	40	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	40		mov __ArrHelper__sendParameter_244_1, __strbufsendParameter
+11	69	42	#line 69 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	42		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_0, __ArrHelper__sendParameter_244_1
+11	70	47	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	47		acquire __TextOutMutex
+11	70	48	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	48		mov __TextOutArgs.Location.X, __signed_stack_001sendParameter
+11	70	50	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	50		mov __TextOutArgs.Location.Y, __signed_stack_002sendParameter
+11	70	52	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	52		set __TextOutArgs.Options, 0
+11	70	55	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	55		mov __TextOutArgs.Text, __strbufsendParameter
+11	70	57	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	57		syscall 13, __TextOutArgs
+11	70	60	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	60		mov __D0sendParameter, __TextOutArgs.Result
+11	70	62	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	62		release __TextOutMutex
+11	70	63	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	63	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	71	63	#pragma macro 25
+11	71	63		acquire __RemoteMutex
+11	71	64		mov __SRSTmpBuf, __DCMessageWritePacket
+11	71	66		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal2
+11	71	71		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+11	71	76		mov __SRSTmpLongVal, __sendParameter_7qG2_par_7qG2_000
+11	71	78		flatten __SRSFlattenBuf, __SRSTmpLongVal
+11	71	81		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+11	71	86		brcmp 0, __ConnWrite_Else0, __sendParameter_7qG2_des_7qG2_000, __constVal4
+11	71	90		acquire __CHSWMutex
+11	71	91		sub __WFRRTmpByte, __sendParameter_7qG2_des_7qG2_000, __constVal4
+11	71	95		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+11	71	100		syscall 37, __CHSWArgs
+11	71	103		mov __D0sendParameter, __CHSWArgs.Status
+11	71	106		release __CHSWMutex
+11	71	107		jmp __ConnWrite_EndIf0
+11	71	109		acquire __CBTWMutex
+11	71	110		mov __CBTWArgs.Connection, __sendParameter_7qG2_des_7qG2_000
+11	71	112		mov __CBTWArgs.Buffer, __SRSSendBuf
+11	71	114		syscall 29, __CBTWArgs
+11	71	117		mov __D0sendParameter, __CBTWArgs.Result
+11	71	119		release __CBTWMutex
+11	71	120		release __RemoteMutex
+11	11393	121	#line 11393 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	121	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	70	121	#line 70 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	74	121	#line 74 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+11	75	121		subret __sendParameter_return
+12	131	0	#line 131 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+12	132	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+1	pollZergs	509	C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc
+2	ParseCoordinates	940	C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc
+3	BuildLocationString	1223	C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc
+4	FormatLocations	1513	C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc
+5	TrackLocations	1536	C:\Users\Wizand\Ohjelmointi\BricC source\Master_locations.nxc
+6	SearchProtocol	1582	C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc
+7	GapFound	1640	C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc
+8	notifyZergs	1833	C:\Users\Wizand\Ohjelmointi\BricC source\MasterSearchProtocol.nxc
+9	getAck	1862	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+10	sendCommand	2063	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+11	sendParameter	2185	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+12	__initialize_global_data	2308	C:\Users\Wizand\AppData\Local\Temp\temp.nxc

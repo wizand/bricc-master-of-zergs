@@ -1,0 +1,26 @@
+task main() {
+
+     int x = 0;
+     int y = 0;
+     int h = 0;
+     string loc = "";
+     int z = 0;
+
+     while(true) {
+         x = Random(100);
+         y = Random(100);
+         h = Random(4);
+         z = Random(3);
+         z++;
+         
+         loc = NumToStr(x) + "_" + NumToStr(y) + "_" + NumToStr(h) + "_" + NumToStr(z) + "_";
+
+         Wait(750);
+         
+         ClearScreen();
+         TextOut(0, LCD_LINE1, loc );
+         
+         SendRemoteString(1, 7, loc);
+         Wait(200);
+     }
+}

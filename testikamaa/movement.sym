@@ -1,0 +1,1813 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0moveTask	5	1	0	4	2
+1	__D0rightMotor	6	1	4	4	5
+2	__D0sensorPoller	6	1	8	4	11
+3	__D0locationUpdate	6	1	12	4	19
+4	__D0move	6	1	16	4	2
+5	__D0moveTask	6	1	20	4	3
+6	__D0SetSensorLowspeed_inline_sensorPoller	6	1	24	4	3
+7	__DU0SetSensorLowspeed_inline_sensorPoller	5	1	28	4	2
+8	__signed_stack_001leftMotor	6	1	32	4	4
+9	__D0turn	6	1	36	4	6
+10	__D0turningControl	6	1	40	4	3
+11	__D0whereAmI	6	1	44	4	22
+12	__D0leftMotor	6	1	48	4	5
+13	__ResetSensorMutex	9	0	52	4	2
+14	__CLSCSMutex1	9	0	56	4	2
+15	__CLSWMutex1	9	0	60	4	2
+16	__rotate_theAngle2	5	1	64	4	2
+17	__rotate_angle4	6	1	68	4	4
+18	__rotate_theAngle4	5	1	72	4	2
+19	__RLSBmutex1	9	0	76	4	2
+20	__Wait_7qG2_ms_7qG2_000_inline_moveTask	5	1	80	4	5
+21	__Wait_7qG2_ms_7qG2_000_inline_turn	5	1	84	4	3
+22	__CLSRMutex1	9	0	88	4	2
+23	__TextOutMutex	9	0	92	4	30
+24	__PointOutMutex	9	0	96	4	2
+25	__signed_stack_002leftMotor	6	1	100	4	4
+26	__signed_stack_004sensorPoller	6	1	104	4	2
+27	__unsigned_stack_001sensorPoller	5	1	108	4	2
+28	__signed_stack_001turn	6	1	112	4	4
+29	__signed_stack_001sensorPoller	6	1	116	4	4
+30	__signed_stack_002sensorPoller	6	1	120	4	4
+31	__signed_stack_003sensorPoller	6	1	124	4	2
+32	__signed_stack_001whereAmI	6	1	128	4	24
+33	__signed_stack_002whereAmI	6	1	132	4	12
+34	MOTOR	9	0	136	4	4
+35	__signed_stack_002turn	6	1	140	4	2
+36	__signed_stack_001turningControl	6	1	144	4	2
+37	__signed_stack_002turningControl	6	1	148	4	2
+38	__signed_stack_004rightMotor	6	1	152	4	2
+39	__signed_stack_002locationUpdate	6	1	156	4	32
+40	__signed_stack_001move	6	1	160	4	2
+41	__signed_stack_002move	6	1	164	4	2
+42	__signed_stack_003leftMotor	6	1	168	4	2
+43	__signed_stack_004leftMotor	6	1	172	4	2
+44	__signed_stack_001locationUpdate	6	1	176	4	32
+45	__signed_stack_001rightMotor	6	1	180	4	4
+46	__signed_stack_002rightMotor	6	1	184	4	4
+47	__signed_stack_003rightMotor	6	1	188	4	2
+48	__signed_stack_003move	6	1	192	4	2
+49	__signed_stack_004move	6	1	196	4	2
+50	__signed_stack_001moveTask	6	1	200	4	2
+51	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	204	4	2
+52	__rotate_theAngle0	5	1	208	4	2
+53	__rotateMutex2	9	0	212	4	4
+54	__rotate_angle0	6	1	216	4	4
+55	__rotate_angle2	6	1	220	4	4
+56	__Wait_7qG2_ms_7qG2_000_inline_sensorPoller	5	1	224	4	2
+57	__rotate_angle1	6	1	228	4	4
+58	__rotate_theAngle1	5	1	232	4	2
+59	__rotateMutex0	9	0	236	4	4
+60	__rotateMutex1	9	0	240	4	2
+61	__constVal200	4	0	244	2	2
+62	__rotate_RotCount1	4	1	246	2	4
+63	__rotate_OldRotCount1	4	1	248	2	2
+64	__ArrHelper__whereAmI_73_0	4	1	250	2	12
+65	__locationUpdate_7qG2_steering_7qG2_000	4	1	252	2	4
+66	__rotate_RotCount4	4	1	254	2	4
+67	__rotate_OldRotCount4	4	1	256	2	2
+68	TurningDegrees	4	1	258	2	8
+69	__forwardCm_7qG2_cm_7qG2_000	4	1	260	2	2
+70	__rotate_RotCount0	4	1	262	2	4
+71	__turn_7qG2_dir_7qG2_000	4	1	264	2	4
+72	__move_7qG2_cm_7qG2_000	4	1	266	2	3
+73	__rotate_OldRotCount0	4	1	268	2	2
+74	__locationUpdate_7qG2_distance_7qG2_000	4	1	270	2	11
+75	__moveTask_7qG2_distance_7qG2_000	4	1	272	2	2
+76	__moveTask_7qG2_times_7qG2_003	4	1	274	2	4
+77	__move_7qG2_degrees_7qG2_000	4	1	276	2	2
+78	__moveTask_7qG2_multiplier_7qG2_000	4	1	278	2	4
+79	__rotate_RotCount2	4	1	280	2	4
+80	__rotate_OldRotCount2	4	1	282	2	2
+81	__rotate_firstPort1	1	1	284	1	5
+82	____initialize_global_data_return	1	1	285	1	3
+83	__turn_return	1	1	286	1	3
+84	__rotate_sync1	1	1	287	1	2
+85	__turnRight_return	1	1	288	1	3
+86	__zfSetSensorLowspeed_inline_sensorPoller	1	1	289	1	2
+87	__rotate_thePower0	2	1	290	1	4
+88	__rotate_stop2	1	1	291	1	2
+89	__rotate_thePower2	2	1	292	1	4
+90	__rotate_theTurnPct2	2	1	293	1	4
+91	__rotate_power4	1	1	294	1	4
+92	__rotate_power1	1	1	295	1	4
+93	__rotate_theTurnPct0	2	1	296	1	4
+94	__rotate_theOM1	1	1	297	1	7
+95	__ClearLine_7qG2_line_7qG2_000_inline_rightMotor	1	1	298	1	2
+96	__rotate_theUF1	1	1	299	1	6
+97	__zfmoveTask	1	1	300	1	5
+98	__rotate_theRVP1	1	1	301	1	2
+99	__rotate_theRS1	1	1	302	1	3
+100	__rotate_theRM1	1	1	303	1	4
+101	__zfsensorPoller	1	1	304	1	5
+102	__rotate_stop1	1	1	305	1	2
+103	__constVal96	2	0	306	1	7
+104	__rotate_sync2	1	1	307	1	2
+105	__locationUpdate_return	1	1	308	1	4
+106	__rotate_turnpct1	2	1	309	1	3
+107	__zfturn	1	1	310	1	3
+108	__ClearLine_7qG2_line_7qG2_000_inline_leftMotor	1	1	311	1	2
+109	__rotate_theRS2	1	1	312	1	3
+110	__rotate_theRM2	1	1	313	1	4
+111	__rotate_theOM2	1	1	314	1	7
+112	__rotate_theRVP2	1	1	315	1	2
+113	__rotate_theRVD2	1	1	316	1	2
+114	__rotate_theRVI2	1	1	317	1	2
+115	__constVal18	2	0	318	1	1
+116	__move_return	1	1	319	1	3
+117	__forwardCm_return	1	1	320	1	3
+118	__rotate_turnpct2	2	1	321	1	3
+119	__whereAmI_return	1	1	322	1	4
+120	__rotate_theUF2	1	1	323	1	6
+121	__constValNeg1	2	0	324	1	1
+122	__FormatPosition_return	1	1	325	1	3
+123	__rotate_theRS0	1	1	326	1	3
+124	__rotate_theRM0	1	1	327	1	4
+125	__rotate_theOM0	1	1	328	1	7
+126	__rotate_theRVP0	1	1	329	1	2
+127	__rotate_rs0	1	1	330	1	2
+128	__rotate_theRVD0	1	1	331	1	2
+129	__rotate_theRVI0	1	1	332	1	2
+130	__rotate_firstPort0	1	1	333	1	5
+131	__rotate_power0	1	1	334	1	4
+132	__rotate_rs2	1	1	335	1	2
+133	__rotate_sync0	1	1	336	1	2
+134	__rotate_theUF0	1	1	337	1	6
+135	__rotate_turnpct0	2	1	338	1	3
+136	__rotate_stop0	1	1	339	1	2
+137	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	340	1	2
+138	__rotate_theTurnPct4	2	1	341	1	4
+139	__rotate_thePower1	2	1	342	1	4
+140	__rotate_theTurnPct1	2	1	343	1	4
+141	__rotate_theRM4	1	1	344	1	4
+142	____RotateMotor0_return	1	1	345	1	3
+143	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	346	1	2
+144	__RLSBResult1	2	1	347	1	7
+145	__RLSBytesCount1	1	1	348	1	7
+146	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	349	1	2
+147	____ReadLSBytes1_return	1	1	350	1	3
+148	__rotate_theOM4	1	1	351	1	7
+149	__rotate_power2	1	1	352	1	4
+150	____RotateMotor4_return	1	1	353	1	3
+151	__constVal3	2	0	354	1	4
+152	__rotate_theRVP4	1	1	355	1	2
+153	__constVal0	2	1	356	1	41
+154	____RotateMotor1_return	1	1	357	1	3
+155	____RotateMotor2_return	1	1	358	1	3
+156	__constVal1	2	0	359	1	19
+157	__rotate_theRS4	1	1	360	1	3
+158	__constVal32	2	0	361	1	25
+159	__ResetSensorPort	1	1	362	1	3
+160	__ResetSensorTmp	1	1	363	1	2
+161	____ResetSensorSubroutine_return	1	1	364	1	3
+162	__rotate_thePower4	2	1	365	1	4
+163	__rotate_rs1	1	1	366	1	2
+164	__rotate_theRVI4	1	1	367	1	2
+165	__rotate_firstPort4	1	1	368	1	5
+166	__rotate_firstPort2	1	1	369	1	5
+167	FOUND	1	1	370	1	4
+168	__rotate_rs4	1	1	371	1	2
+169	__ClearLine_7qG2_line_7qG2_000_inline_turningControl	1	1	372	1	2
+170	__rotate_theRVI1	1	1	373	1	2
+171	__ClearLine_7qG2_line_7qG2_000_inline_turn	1	1	374	1	2
+172	__rotate_theRVD4	1	1	375	1	2
+173	__rotate_theRVD1	1	1	376	1	2
+174	__zflocationUpdate	1	1	377	1	14
+175	__rotate_theUF4	1	1	378	1	6
+176	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	379	1	2
+177	__rotate_turnpct4	2	1	380	1	3
+178	__RLSBIterations1	1	1	381	1	4
+179	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	382	1	2
+180	__constVal2	2	0	383	1	5
+181	__constVal63	2	0	384	1	3
+182	__rotate_stop4	1	1	385	1	2
+183	__rotate_sync4	1	1	386	1	2
+184	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorPoller	1	1	387	1	2
+185	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller	1	1	388	1	4
+186	__sensorPoller_7qG2_sensorValue_7qG2_000	1	1	389	1	2
+187	I	8	0	3	12	44
+188	I.positionRelative	7	0	392	4	44
+189	I.positionRelative.positionRelative_type	4	0	0	2	0
+190	I.positionOwn	7	0	394	4	44
+191	I.positionOwn.positionOwn_type	4	0	0	2	0
+192	I.heading	4	1	396	2	44
+193	__TextOutArgs	8	0	4	16	86
+194	__TextOutArgs.Result	2	1	400	1	86
+195	__TextOutArgs.Location	8	0	2	4	86
+196	__TextOutArgs.Location.X	4	1	404	2	86
+197	__TextOutArgs.Location.Y	4	1	406	2	86
+198	__TextOutArgs.Text	7	0	408	4	86
+199	__TextOutArgs.Text.Text_type	1	0	0	1	0
+200	__TextOutArgs.Options	5	1	412	4	86
+201	__PointOutArgs	8	0	3	12	4
+202	__PointOutArgs.Result	2	1	416	1	4
+203	__PointOutArgs.Location	8	0	2	4	4
+204	__PointOutArgs.Location.X	4	1	420	2	4
+205	__PointOutArgs.Location.Y	4	1	422	2	4
+206	__PointOutArgs.Options	5	1	424	4	4
+207	__CLSRArgs1	8	0	4	12	5
+208	__CLSRArgs1.Result	2	1	428	1	5
+209	__CLSRArgs1.Port	1	1	429	1	5
+210	__CLSRArgs1.Buffer	7	0	430	4	5
+211	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+212	__CLSRArgs1.BufferLen	1	1	432	1	5
+213	__CLSCSArgs1	8	0	3	4	4
+214	__CLSCSArgs1.Result	2	1	436	1	4
+215	__CLSCSArgs1.Port	1	1	437	1	4
+216	__CLSCSArgs1.BytesReady	1	1	438	1	4
+217	__CLSWArgs1	8	0	4	12	5
+218	__CLSWArgs1.Result	2	1	440	1	5
+219	__CLSWArgs1.Port	1	1	441	1	5
+220	__CLSWArgs1.Buffer	7	0	442	4	5
+221	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+222	__CLSWArgs1.ReturnLen	1	1	444	1	5
+223	__constStr0016	7	0	446	4	1
+224	__constStr0016.__constStr0016_type	1	1	0	1	0
+225	__constStr0017	7	0	448	4	3
+226	__constStr0017.__constStr0017_type	1	1	0	1	0
+227	__constStr0014	7	0	450	4	2
+228	__constStr0014.__constStr0014_type	1	1	0	1	0
+229	__constStr0015	7	0	452	4	1
+230	__constStr0015.__constStr0015_type	1	1	0	1	0
+231	__constStr0020	7	0	454	4	1
+232	__constStr0020.__constStr0020_type	1	1	0	1	0
+233	__constStr0018	7	0	456	4	1
+234	__constStr0018.__constStr0018_type	1	1	0	1	0
+235	__constStr0022	7	0	458	4	1
+236	__constStr0022.__constStr0022_type	1	1	0	1	0
+237	__constStr0019	7	0	460	4	1
+238	__constStr0019.__constStr0019_type	1	1	0	1	0
+239	__constStr0021	7	0	462	4	1
+240	__constStr0021.__constStr0021_type	1	1	0	1	0
+241	__ArrHelper__whereAmI_244_3	7	0	464	4	10
+242	__ArrHelper__whereAmI_244_3.__ArrHelper__whereAmI_244_3_type	1	0	0	1	0
+243	__ArrHelper__whereAmI_244_4	7	0	466	4	4
+244	__ArrHelper__whereAmI_244_4.__ArrHelper__whereAmI_244_4_type	1	0	0	1	0
+245	__ArrHelper__whereAmI_244_2	7	0	468	4	14
+246	__ArrHelper__whereAmI_244_2.__ArrHelper__whereAmI_244_2_type	1	0	0	1	0
+247	__ArrHelper__whereAmI_244_0	7	0	470	4	10
+248	__ArrHelper__whereAmI_244_0.__ArrHelper__whereAmI_244_0_type	1	0	0	1	0
+249	__ArrHelper__whereAmI_244_1	7	0	472	4	18
+250	__ArrHelper__whereAmI_244_1.__ArrHelper__whereAmI_244_1_type	1	0	0	1	0
+251	__ArrHelper__rightMotor_244_1	7	0	474	4	2
+252	__ArrHelper__rightMotor_244_1.__ArrHelper__rightMotor_244_1_type	1	0	0	1	0
+253	__ArrHelper__turningControl_244_0	7	0	476	4	2
+254	__ArrHelper__turningControl_244_0.__ArrHelper__turningControl_244_0_type	1	0	0	1	0
+255	__ArrHelper__rightMotor_244_0	7	0	478	4	2
+256	__ArrHelper__rightMotor_244_0.__ArrHelper__rightMotor_244_0_type	1	0	0	1	0
+257	__ArrHelper__leftMotor_244_0	7	0	480	4	2
+258	__ArrHelper__leftMotor_244_0.__ArrHelper__leftMotor_244_0_type	1	0	0	1	0
+259	__ArrHelper__leftMotor_244_1	7	0	482	4	2
+260	__ArrHelper__leftMotor_244_1.__ArrHelper__leftMotor_244_1_type	1	0	0	1	0
+261	__rotate_ports1	7	0	484	4	6
+262	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+263	__rotate_ports2	7	0	486	4	6
+264	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+265	__rotate_ports0	7	0	488	4	6
+266	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+267	__OUT_AC	7	0	490	4	3
+268	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+269	__OUT_ABC	7	0	492	4	1
+270	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+271	__RLSLastGoodRead1	7	0	494	4	2
+272	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+273	__RLSReadBuf1	7	0	496	4	8
+274	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+275	__RLSBbufLSWrite1	7	0	498	4	1
+276	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+277	__rotate_ports4	7	0	500	4	6
+278	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+279	__BlankLine	7	0	502	4	4
+280	__BlankLine.__BlankLine_type	1	0	0	1	0
+281	__ArrHelper__turningControl_244_1	7	0	504	4	2
+282	__ArrHelper__turningControl_244_1.__ArrHelper__turningControl_244_1_type	1	0	0	1	0
+283	__whereAmI_7qG2_coords_7qG2_000	7	0	506	4	7
+284	__whereAmI_7qG2_coords_7qG2_000.__whereAmI_7qG2_coords_7qG2_000_type	1	0	0	1	0
+285	__constStr0009	7	0	508	4	2
+286	__constStr0009.__constStr0009_type	1	1	0	1	0
+287	__strretvalwhereAmI	7	0	510	4	16
+288	__strretvalwhereAmI.__strretvalwhereAmI_type	1	0	0	1	0
+289	__strretvalturningControl	7	0	512	4	2
+290	__strretvalturningControl.__strretvalturningControl_type	1	0	0	1	0
+291	__strbufwhereAmI	7	0	514	4	55
+292	__strbufwhereAmI.__strbufwhereAmI_type	1	0	0	1	0
+293	__constStr0012	7	0	516	4	2
+294	__constStr0012.__constStr0012_type	1	1	0	1	0
+295	__constStr0013	7	0	518	4	2
+296	__constStr0013.__constStr0013_type	1	1	0	1	0
+297	__constStr0011	7	0	520	4	1
+298	__constStr0011.__constStr0011_type	1	1	0	1	0
+299	__whereAmI_7qG2_location_7qG2_000	7	0	522	4	3
+300	__whereAmI_7qG2_location_7qG2_000.__whereAmI_7qG2_location_7qG2_000_type	1	0	0	1	0
+301	__constStr0010	7	0	524	4	1
+302	__constStr0010.__constStr0010_type	1	1	0	1	0
+303	__strretvalleftMotor	7	0	526	4	2
+304	__strretvalleftMotor.__strretvalleftMotor_type	1	0	0	1	0
+305	__strbufrightMotor	7	0	528	4	4
+306	__strbufrightMotor.__strbufrightMotor_type	1	0	0	1	0
+307	__strbufleftMotor	7	0	530	4	4
+308	__strbufleftMotor.__strbufleftMotor_type	1	0	0	1	0
+309	__ArrHelper__turn_244_0	7	0	532	4	2
+310	__ArrHelper__turn_244_0.__ArrHelper__turn_244_0_type	1	0	0	1	0
+311	__ArrHelper__turn_244_1	7	0	534	4	2
+312	__ArrHelper__turn_244_1.__ArrHelper__turn_244_1_type	1	0	0	1	0
+313	__strretvalturn	7	0	536	4	2
+314	__strretvalturn.__strretvalturn_type	1	0	0	1	0
+315	__strbufturningControl	7	0	538	4	4
+316	__strbufturningControl.__strbufturningControl_type	1	0	0	1	0
+317	__strbufturn	7	0	540	4	4
+318	__strbufturn.__strbufturn_type	1	0	0	1	0
+319	__strretvalrightMotor	7	0	542	4	2
+320	__strretvalrightMotor.__strretvalrightMotor_type	1	0	0	1	0
+321	__strbufsensorPoller	7	0	544	4	2
+322	__strbufsensorPoller.__strbufsensorPoller_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	379	0	#line 379 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	380	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	379	2	#line 379 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	380	2	#line 380 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	381	2		set FOUND, 0
+0	380	5	#line 380 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	380	5	#line 380 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	381	5	#line 381 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	382	5		subcall FormatPosition, __FormatPosition_return
+0	381	7	#line 381 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	383	7	#line 383 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	384	7		set TurningDegrees, 0
+0	383	10	#line 383 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	383	10	#line 383 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	385	10	#line 385 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	386	10		start search
+0	385	12	#line 385 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	385	12	#line 385 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	386	12		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	385	15	#line 385 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	7921	15	#line 7921 "NXCDefs.h"
+0	7922	15		wait 1000
+0	7921	17	#line 7921 "NXCDefs.h"
+0	387	17	#line 387 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	456	17	#line 456 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	457	17		subcall whereAmI, __whereAmI_return
+0	456	19	#line 456 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	456	19	#line 456 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	457	19		set __Wait_7qG2_ms_7qG2_000_inline_main, 4000
+0	456	22	#line 456 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	7921	22	#line 7921 "NXCDefs.h"
+0	7922	22		wait 4000
+0	7921	24	#line 7921 "NXCDefs.h"
+0	457	24	#line 457 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+0	458	24		exit -1, -1
+1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	4477	3		sign __rotate_thePower0, __rotate_angle0
+1	4478	6		abs __rotate_theAngle0, __rotate_angle0
+1	4479	9		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	4481	13		set __rotate_theUF0, 23
+1	4482	16		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	4483	19		set __rotate_theOM0, 7
+1	4484	22		set __rotate_theRM0, 2
+1	4485	25		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	4486	27		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	4487	30		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	4488	34		jmp __rotate_Start0
+1	4490	36		set __rotate_theOM0, 3
+1	4491	39		set __rotate_theRM0, 0
+1	4492	42		set __rotate_theTurnPct0, 0
+1	4494	45		set __rotate_theRS0, 32
+1	4495	48		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	4498	71		index __rotate_firstPort0, __rotate_ports0, 65535
+1	4500	75		getout __rotate_power0, __rotate_firstPort0, 2
+1	4501	79		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	4502	82		getout __rotate_rs0, __rotate_firstPort0, 6
+1	4503	86		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	4505	90		brtst 4, __rotate_Reset0, __rotate_stop0
+1	4507	93		set __rotate_theOM0, 7
+1	4508	96		set __rotate_theUF0, 7
+1	4509	99		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	4511	114		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4513	118		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	4514	120		wait 50
+1	4516	122		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4517	126		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	4518	130		set __rotate_theOM0, 4
+1	4519	133		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	4522	144		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	4523	147		setout __rotate_ports0, 0, __constVal32
+1	4525	152		subret ____RotateMotor0_return
+2	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+2	4530	3		sign __rotate_thePower1, __rotate_angle1
+2	4531	6		abs __rotate_theAngle1, __rotate_angle1
+2	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+2	4534	13		set __rotate_theUF1, 23
+2	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+2	4536	19		set __rotate_theOM1, 7
+2	4537	22		set __rotate_theRM1, 2
+2	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+2	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+2	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+2	4541	34		jmp __rotate_Start1
+2	4543	36		set __rotate_theOM1, 3
+2	4544	39		set __rotate_theRM1, 0
+2	4545	42		set __rotate_theTurnPct1, 0
+2	4547	45		set __rotate_theRS1, 32
+2	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+2	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+2	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+2	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+2	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+2	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+2	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+2	4560	93		set __rotate_theOM1, 7
+2	4561	96		set __rotate_theUF1, 7
+2	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+2	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+2	4567	120		wait 50
+2	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+2	4571	130		set __rotate_theOM1, 4
+2	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+2	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+2	4576	147		setout __rotate_ports1, 0, __constVal32
+2	4578	152		subret ____RotateMotor1_return
+3	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
+3	4583	3		sign __rotate_thePower2, __rotate_angle2
+3	4584	6		abs __rotate_theAngle2, __rotate_angle2
+3	4585	9		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+3	4587	13		set __rotate_theUF2, 23
+3	4588	16		brtst 4, __rotate_NoSync2, __rotate_sync2
+3	4589	19		set __rotate_theOM2, 7
+3	4590	22		set __rotate_theRM2, 2
+3	4591	25		mov __rotate_theTurnPct2, __rotate_turnpct2
+3	4592	27		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+3	4593	30		add __rotate_theUF2, __rotate_theUF2, __constVal32
+3	4594	34		jmp __rotate_Start2
+3	4596	36		set __rotate_theOM2, 3
+3	4597	39		set __rotate_theRM2, 0
+3	4598	42		set __rotate_theTurnPct2, 0
+3	4600	45		set __rotate_theRS2, 32
+3	4601	48		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+3	4604	71		index __rotate_firstPort2, __rotate_ports2, 65535
+3	4606	75		getout __rotate_power2, __rotate_firstPort2, 2
+3	4607	79		brtst 4, __rotate_doneRunning2, __rotate_power2
+3	4608	82		getout __rotate_rs2, __rotate_firstPort2, 6
+3	4609	86		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+3	4611	90		brtst 4, __rotate_Reset2, __rotate_stop2
+3	4613	93		set __rotate_theOM2, 7
+3	4614	96		set __rotate_theUF2, 7
+3	4615	99		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+3	4617	114		getout __rotate_RotCount2, __rotate_firstPort2, 14
+3	4619	118		mov __rotate_OldRotCount2, __rotate_RotCount2
+3	4620	120		wait 50
+3	4622	122		getout __rotate_RotCount2, __rotate_firstPort2, 14
+3	4623	126		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+3	4624	130		set __rotate_theOM2, 4
+3	4625	133		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+3	4628	144		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+3	4629	147		setout __rotate_ports2, 0, __constVal32
+3	4631	152		subret ____RotateMotor2_return
+4	4688	0		brtst 4, __rotate_Done4, __rotate_angle4
+4	4689	3		sign __rotate_thePower4, __rotate_angle4
+4	4690	6		abs __rotate_theAngle4, __rotate_angle4
+4	4691	9		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+4	4693	13		set __rotate_theUF4, 23
+4	4694	16		brtst 4, __rotate_NoSync4, __rotate_sync4
+4	4695	19		set __rotate_theOM4, 7
+4	4696	22		set __rotate_theRM4, 2
+4	4697	25		mov __rotate_theTurnPct4, __rotate_turnpct4
+4	4698	27		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+4	4699	30		add __rotate_theUF4, __rotate_theUF4, __constVal32
+4	4700	34		jmp __rotate_Start4
+4	4702	36		set __rotate_theOM4, 3
+4	4703	39		set __rotate_theRM4, 0
+4	4704	42		set __rotate_theTurnPct4, 0
+4	4706	45		set __rotate_theRS4, 32
+4	4707	48		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+4	4710	71		index __rotate_firstPort4, __rotate_ports4, 65535
+4	4712	75		getout __rotate_power4, __rotate_firstPort4, 2
+4	4713	79		brtst 4, __rotate_doneRunning4, __rotate_power4
+4	4714	82		getout __rotate_rs4, __rotate_firstPort4, 6
+4	4715	86		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+4	4717	90		brtst 4, __rotate_Reset4, __rotate_stop4
+4	4719	93		set __rotate_theOM4, 7
+4	4720	96		set __rotate_theUF4, 7
+4	4721	99		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+4	4723	114		getout __rotate_RotCount4, __rotate_firstPort4, 14
+4	4725	118		mov __rotate_OldRotCount4, __rotate_RotCount4
+4	4726	120		wait 50
+4	4728	122		getout __rotate_RotCount4, __rotate_firstPort4, 14
+4	4729	126		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+4	4730	130		set __rotate_theOM4, 4
+4	4731	133		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+4	4734	144		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+4	4735	147		setout __rotate_ports4, 0, __constVal32
+4	4737	152		subret ____RotateMotor4_return
+5	4885	0		setin __constVal1, __ResetSensorPort, 5
+5	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+5	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+5	4889	11		subret ____ResetSensorSubroutine_return
+6	5710	0	#pragma macro 25
+6	5710	0		acquire __CLSWMutex1
+6	5710	1		set __CLSWArgs1.Port, 1
+6	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+6	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+6	5710	8		syscall 21, __CLSWArgs1
+6	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+6	5710	13		release __CLSWMutex1
+6	5710	14	#line 5710 "NXTDefs.h"
+6	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+6	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+6	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+6	5714	24		set __RLSBIterations1, 4
+6	5716	27	#pragma macro 23
+6	5716	27		acquire __CLSCSMutex1
+6	5716	28		set __CLSCSArgs1.Port, 1
+6	5716	31		syscall 23, __CLSCSArgs1
+6	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+6	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+6	5716	38		release __CLSCSMutex1
+6	5716	39	#line 5716 "NXTDefs.h"
+6	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+6	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+6	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+6	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+6	5722	52		wait 15
+6	5723	54		jmp __RLSBDoCheckStatus1
+6	5726	56	#pragma macro 25
+6	5726	56		acquire __CLSRMutex1
+6	5726	57		set __CLSRArgs1.Port, 1
+6	5726	60		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+6	5726	62		syscall 22, __CLSRArgs1
+6	5726	65		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+6	5726	67		mov __RLSBResult1, __CLSRArgs1.Result
+6	5726	69		release __CLSRMutex1
+6	5726	70	#line 5726 "NXTDefs.h"
+6	5727	70		brtst 5, __RLSBError1, __RLSBResult1
+6	5728	73		mov __RLSLastGoodRead1, __RLSReadBuf1
+6	5729	75		jmp __RLSBDone1
+6	5731	77		mov __RLSReadBuf1, __RLSLastGoodRead1
+6	5733	79		arrsize __RLSBytesCount1, __RLSReadBuf1
+6	5735	82		subret ____ReadLSBytes1_return
+7	64	0	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	65	0		arrinit I.positionRelative, __constVal0, __constVal2
+7	64	4	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	64	4	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	66	4	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	67	4		arrinit I.positionOwn, __constVal0, __constVal2
+7	66	8	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	66	8	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	69	8	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	70	8		set I.heading, 0
+7	69	11	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	69	11	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	71	11	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+7	72	11		subret __FormatPosition_return
+8	6069	0	#line 6069 "NXCDefs.h"
+8	6070	0	#pragma macro 6
+8	6070	0		acquire __PointOutMutex
+8	6070	1		mov __PointOutArgs.Location.X, __constVal200
+8	6070	4		mov __PointOutArgs.Location.Y, __constVal200
+8	6070	7		mov __PointOutArgs.Options, __constVal1
+8	6070	9		syscall 14, __PointOutArgs
+8	6070	12		release __PointOutMutex
+8	7815	13	#line 7815 "NXCDefs.h"
+8	6069	13	#line 6069 "NXCDefs.h"
+8	73	13	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	74	13	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	75	13		strcat __strbufwhereAmI, __constStr0009
+8	74	17	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	75	17		mov __whereAmI_7qG2_coords_7qG2_000, __strbufwhereAmI
+8	77	19	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	19		strcat __strbufwhereAmI, __constStr0009
+8	77	23	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	23		mov __whereAmI_7qG2_location_7qG2_000, __strbufwhereAmI
+8	77	25	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	25		set __signed_stack_001whereAmI, 5
+8	77	28	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	77	28	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	28		set __signed_stack_002whereAmI, 56
+8	77	31	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	77	31	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	31		strcat __strbufwhereAmI, __constStr0010
+8	78	35	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	35		acquire __TextOutMutex
+8	78	36	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	36		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	78	39	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	39		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	78	42	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	42		set __TextOutArgs.Options, 0
+8	78	45	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	45		mov __TextOutArgs.Text, __strbufwhereAmI
+8	78	47	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	47		syscall 13, __TextOutArgs
+8	78	50	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	50		mov __D0whereAmI, __TextOutArgs.Result
+8	78	53	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	53		release __TextOutMutex
+8	78	54	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	54	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	54		set __signed_stack_001whereAmI, 10
+8	78	57	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	57	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	57		set __signed_stack_002whereAmI, 48
+8	78	60	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	78	60	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	79	60		strcat __strbufwhereAmI, __constStr0011
+8	80	64	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	64		acquire __TextOutMutex
+8	80	65	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	65		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	80	68	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	68		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	80	71	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	71		set __TextOutArgs.Options, 0
+8	80	74	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	74		mov __TextOutArgs.Text, __strbufwhereAmI
+8	80	76	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	76		syscall 13, __TextOutArgs
+8	80	79	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	79		mov __D0whereAmI, __TextOutArgs.Result
+8	80	82	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	82		release __TextOutMutex
+8	80	83	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	80	83	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	83		mov __ArrHelper__whereAmI_244_0, __constStr0012
+8	80	85	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	85		set __signed_stack_001whereAmI, 0
+8	80	88	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	80	88	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	88		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	80	92	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	92		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	80	94	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	94		numtostr __strretvalwhereAmI, __D0whereAmI
+8	80	97	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	97		mov __ArrHelper__whereAmI_244_1, __strretvalwhereAmI
+8	80	99	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	99		mov __ArrHelper__whereAmI_244_2, __constStr0013
+8	80	101	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	101		set __signed_stack_001whereAmI, 1
+8	80	104	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	80	104	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	104		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	80	108	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	108		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	80	110	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	110		numtostr __strretvalwhereAmI, __D0whereAmI
+8	80	113	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	113		mov __ArrHelper__whereAmI_244_3, __strretvalwhereAmI
+8	81	115	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	115		strcat __strbufwhereAmI, __constStr0014
+8	81	119	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	119		mov __ArrHelper__whereAmI_244_4, __strbufwhereAmI
+8	81	121	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	121		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_3, __ArrHelper__whereAmI_244_4
+8	81	126	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	126		mov __ArrHelper__whereAmI_244_3, __strbufwhereAmI
+8	81	128	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	128		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_2, __ArrHelper__whereAmI_244_3
+8	81	133	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	133		mov __ArrHelper__whereAmI_244_2, __strbufwhereAmI
+8	81	135	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	135		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_1, __ArrHelper__whereAmI_244_2
+8	81	140	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	140		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	81	142	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	142		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	81	147	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	147		mov __whereAmI_7qG2_coords_7qG2_000, __strbufwhereAmI
+8	81	149	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	149	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	149		set __signed_stack_001whereAmI, 10
+8	81	152	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	152	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	152		set __signed_stack_002whereAmI, 40
+8	81	155	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	81	155	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	82	155		strcat __strbufwhereAmI, __whereAmI_7qG2_coords_7qG2_000
+8	83	159	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	159		acquire __TextOutMutex
+8	83	160	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	160		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	83	163	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	163		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	83	166	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	166		set __TextOutArgs.Options, 0
+8	83	169	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	169		mov __TextOutArgs.Text, __strbufwhereAmI
+8	83	171	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	171		syscall 13, __TextOutArgs
+8	83	174	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	174		mov __D0whereAmI, __TextOutArgs.Result
+8	83	177	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	177		release __TextOutMutex
+8	83	178	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	83	178	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	178		set __signed_stack_001whereAmI, 5
+8	83	181	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	83	181	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	181		set __signed_stack_002whereAmI, 32
+8	83	184	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	83	184	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	84	184		strcat __strbufwhereAmI, __constStr0015
+8	85	188	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	188		acquire __TextOutMutex
+8	85	189	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	189		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	85	192	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	192		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	85	195	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	195		set __TextOutArgs.Options, 0
+8	85	198	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	198		mov __TextOutArgs.Text, __strbufwhereAmI
+8	85	200	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	200		syscall 13, __TextOutArgs
+8	85	203	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	203		mov __D0whereAmI, __TextOutArgs.Result
+8	85	206	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	206		release __TextOutMutex
+8	85	207	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	85	207	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	207		mov __ArrHelper__whereAmI_244_0, __constStr0012
+8	85	209	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	209		set __signed_stack_001whereAmI, 0
+8	85	212	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	85	212	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	212		index __ArrHelper__whereAmI_73_0, I.positionRelative, __signed_stack_001whereAmI
+8	85	216	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	216		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	85	218	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	218		numtostr __strretvalwhereAmI, __D0whereAmI
+8	85	221	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	221		mov __ArrHelper__whereAmI_244_1, __strretvalwhereAmI
+8	85	223	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	223		mov __ArrHelper__whereAmI_244_2, __constStr0013
+8	85	225	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	225		set __signed_stack_001whereAmI, 1
+8	85	228	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	85	228	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	228		index __ArrHelper__whereAmI_73_0, I.positionRelative, __signed_stack_001whereAmI
+8	85	232	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	232		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	85	234	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	234		numtostr __strretvalwhereAmI, __D0whereAmI
+8	85	237	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	237		mov __ArrHelper__whereAmI_244_3, __strretvalwhereAmI
+8	86	239	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	239		strcat __strbufwhereAmI, __constStr0014
+8	86	243	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	243		mov __ArrHelper__whereAmI_244_4, __strbufwhereAmI
+8	86	245	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	245		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_3, __ArrHelper__whereAmI_244_4
+8	86	250	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	250		mov __ArrHelper__whereAmI_244_3, __strbufwhereAmI
+8	86	252	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	252		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_2, __ArrHelper__whereAmI_244_3
+8	86	257	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	257		mov __ArrHelper__whereAmI_244_2, __strbufwhereAmI
+8	86	259	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	259		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_1, __ArrHelper__whereAmI_244_2
+8	86	264	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	264		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	86	266	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	266		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	86	271	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	271		mov __whereAmI_7qG2_coords_7qG2_000, __strbufwhereAmI
+8	86	273	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	273	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	273		set __signed_stack_001whereAmI, 10
+8	86	276	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	276	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	276		set __signed_stack_002whereAmI, 24
+8	86	279	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	86	279	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	87	279		strcat __strbufwhereAmI, __whereAmI_7qG2_coords_7qG2_000
+8	88	283	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	283		acquire __TextOutMutex
+8	88	284	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	284		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	88	287	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	287		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	88	290	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	290		set __TextOutArgs.Options, 0
+8	88	293	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	293		mov __TextOutArgs.Text, __strbufwhereAmI
+8	88	295	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	295		syscall 13, __TextOutArgs
+8	88	298	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	298		mov __D0whereAmI, __TextOutArgs.Result
+8	88	301	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	301		release __TextOutMutex
+8	88	302	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	88	302	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	302		mov __ArrHelper__whereAmI_244_0, __constStr0016
+8	88	304	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	304		mov __D0whereAmI, I.heading
+8	89	307	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	307		numtostr __strretvalwhereAmI, __D0whereAmI
+8	89	310	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	310		strcat __strbufwhereAmI, __strretvalwhereAmI
+8	89	314	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	314		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	89	316	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	316		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	89	321	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	321		mov __whereAmI_7qG2_coords_7qG2_000, __strbufwhereAmI
+8	89	323	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	323	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	323		set __signed_stack_001whereAmI, 10
+8	89	326	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	326	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	326		set __signed_stack_002whereAmI, 8
+8	89	329	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	89	329	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	90	329		strcat __strbufwhereAmI, __whereAmI_7qG2_coords_7qG2_000
+8	94	333	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	333		acquire __TextOutMutex
+8	94	334	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	334		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	94	337	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	337		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	94	340	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	340		set __TextOutArgs.Options, 0
+8	94	343	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	343		mov __TextOutArgs.Text, __strbufwhereAmI
+8	94	345	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	345		syscall 13, __TextOutArgs
+8	94	348	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	348		mov __D0whereAmI, __TextOutArgs.Result
+8	94	351	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	351		release __TextOutMutex
+8	94	352	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	94	352	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	352		set __signed_stack_001whereAmI, 0
+8	94	355	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	94	355	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	355		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	94	359	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	359		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	94	361	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	361		numtostr __strretvalwhereAmI, __D0whereAmI
+8	94	364	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	364		mov __ArrHelper__whereAmI_244_0, __strretvalwhereAmI
+8	94	366	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	366		mov __ArrHelper__whereAmI_244_1, __constStr0017
+8	94	368	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	368		set __signed_stack_001whereAmI, 1
+8	94	371	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	94	371	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	371		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	94	375	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	375		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	95	377	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	377		numtostr __strretvalwhereAmI, __D0whereAmI
+8	95	380	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	380		strcat __strbufwhereAmI, __strretvalwhereAmI
+8	95	384	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	384		mov __ArrHelper__whereAmI_244_2, __strbufwhereAmI
+8	95	386	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	386		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_1, __ArrHelper__whereAmI_244_2
+8	95	391	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	391		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	95	393	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	393		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	95	398	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	398		mov __whereAmI_7qG2_location_7qG2_000, __strbufwhereAmI
+8	95	400	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	95	400	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	400		mov __ArrHelper__whereAmI_244_0, __strbufwhereAmI
+8	95	402	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	402		mov __ArrHelper__whereAmI_244_1, __constStr0017
+8	95	404	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	404		mov __D0whereAmI, I.heading
+8	95	407	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	407		numtostr __strretvalwhereAmI, __D0whereAmI
+8	95	410	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	96	410		mov __ArrHelper__whereAmI_244_2, __strretvalwhereAmI
+8	110	412	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	412		strcat __strbufwhereAmI, __constStr0017
+8	110	416	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	416		mov __ArrHelper__whereAmI_244_3, __strbufwhereAmI
+8	110	418	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	418		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_2, __ArrHelper__whereAmI_244_3
+8	110	423	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	423		mov __ArrHelper__whereAmI_244_2, __strbufwhereAmI
+8	110	425	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	425		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_1, __ArrHelper__whereAmI_244_2
+8	110	430	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	430		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	110	432	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	432		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	110	437	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	111	437		mov __whereAmI_7qG2_location_7qG2_000, __strbufwhereAmI
+8	110	439	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	116	439	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+8	117	439		subret __whereAmI_return
+9	122	0	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	122	0	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	122	0	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	122	0	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	123	0		mul __move_7qG2_cm_7qG2_000, __forwardCm_7qG2_cm_7qG2_000, __constVal1
+9	122	4	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	123	4	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	124	4		subcall move, __move_return
+9	123	6	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	128	6	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+9	129	6		subret __forwardCm_return
+10	165	0	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+10	166	0		set __turn_7qG2_dir_7qG2_000, -10
+10	165	3	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+10	166	3	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+10	167	3		subcall turn, __turn_return
+10	166	5	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+10	172	5	#line 172 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+10	173	5		subret __turnRight_return
+11	181	0	#line 181 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	181	0	#line 181 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	183	0	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	183	0	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	184	0		mul __move_7qG2_degrees_7qG2_000, __move_7qG2_cm_7qG2_000, __constVal18
+11	183	4	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	185	4	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	186	4		acquire MOTOR
+11	185	5	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	185	5	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	186	5		set __signed_stack_001move, 60
+11	185	8	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	185	8	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	186	8		mov __signed_stack_002move, __move_7qG2_degrees_7qG2_000
+11	185	10	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	185	10	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	186	10		set __signed_stack_003move, 0
+11	185	13	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	185	13	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	186	13		set __signed_stack_004move, 1
+11	185	16	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	185	16	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	186	16		set __D0move, 1
+11	186	19	#line 186 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	187	19	#pragma macro 35
+11	187	19		acquire __rotateMutex0
+11	187	20		acquire __rotateMutex2
+11	187	21		mov __rotate_ports4, __OUT_AC
+11	187	23		mov __rotate_power4, __signed_stack_001move
+11	187	25		mov __rotate_angle4, __signed_stack_002move
+11	187	27		mov __rotate_turnpct4, __signed_stack_003move
+11	187	30		mov __rotate_sync4, __signed_stack_004move
+11	187	33		mov __rotate_stop4, __D0move
+11	187	36		mov __rotate_theRVP4, __constVal32
+11	187	38		mov __rotate_theRVI4, __constVal0
+11	187	40		mov __rotate_theRVD4, __constVal96
+11	187	42		subcall __RotateMotor4, ____RotateMotor4_return
+11	187	45		release __rotateMutex2
+11	187	46		release __rotateMutex0
+11	8354	47	#line 8354 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	186	47	#line 186 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	188	47	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	189	47		release MOTOR
+11	188	48	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	188	48	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	189	48		mov __locationUpdate_7qG2_distance_7qG2_000, __move_7qG2_cm_7qG2_000
+11	188	50	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	188	50	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	189	50		set __locationUpdate_7qG2_steering_7qG2_000, 0
+11	188	53	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	190	53	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	191	53		subcall locationUpdate, __locationUpdate_return
+11	190	55	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	190	55	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	190	55	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	7921	55	#line 7921 "NXCDefs.h"
+11	7922	55		wait 700
+11	7921	57	#line 7921 "NXCDefs.h"
+11	191	57	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	196	57	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+11	197	57		subret __move_return
+12	197	0	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	198	0		set __ClearLine_7qG2_line_7qG2_000_inline_leftMotor, 0
+12	197	3	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	6076	3	#line 6076 "NXCDefs.h"
+12	6077	3	#pragma macro 7
+12	6077	3		acquire __TextOutMutex
+12	6077	4		mov __TextOutArgs.Location.X, __constVal0
+12	6077	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_leftMotor
+12	6077	8		mov __TextOutArgs.Options, __constVal0
+12	6077	10		mov __TextOutArgs.Text, __BlankLine
+12	6077	12		syscall 13, __TextOutArgs
+12	6077	15		release __TextOutMutex
+12	8404	16	#line 8404 "NXCDefs.h"
+12	6076	16	#line 6076 "NXCDefs.h"
+12	198	16	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	198	16	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	16		set __signed_stack_001leftMotor, 5
+12	198	19	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	198	19	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	19		set __signed_stack_002leftMotor, 0
+12	198	22	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	198	22	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	22		mov __ArrHelper__leftMotor_244_0, __constStr0018
+12	198	24	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	24		mov __D0leftMotor, TurningDegrees
+12	198	26	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	26		numtostr __strretvalleftMotor, __D0leftMotor
+12	198	29	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	29		strcat __strbufleftMotor, __strretvalleftMotor
+12	198	33	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	33		mov __ArrHelper__leftMotor_244_1, __strbufleftMotor
+12	198	35	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	35		strcat __strbufleftMotor, __ArrHelper__leftMotor_244_0, __ArrHelper__leftMotor_244_1
+12	199	40	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	40		acquire __TextOutMutex
+12	199	41	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	41		mov __TextOutArgs.Location.X, __signed_stack_001leftMotor
+12	199	44	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	44		mov __TextOutArgs.Location.Y, __signed_stack_002leftMotor
+12	199	47	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	47		set __TextOutArgs.Options, 0
+12	199	50	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	50		mov __TextOutArgs.Text, __strbufleftMotor
+12	199	52	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	52		syscall 13, __TextOutArgs
+12	199	55	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	55		mov __D0leftMotor, __TextOutArgs.Result
+12	199	58	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	58		release __TextOutMutex
+12	199	59	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	59	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	59		set __signed_stack_001leftMotor, 55
+12	199	62	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	62	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	62	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	62	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	62	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	62		mul __signed_stack_002leftMotor, TurningDegrees, __constVal1
+12	199	66	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	66	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	66		set __signed_stack_003leftMotor, 0
+12	199	69	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	69	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	69		set __signed_stack_004leftMotor, 0
+12	199	72	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	199	72	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	72		set __D0leftMotor, 1
+12	200	75	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	201	75	#pragma macro 33
+12	201	75		acquire __rotateMutex0
+12	201	76		arrbuild __rotate_ports0, __constVal0
+12	201	80		mov __rotate_power0, __signed_stack_001leftMotor
+12	201	82		mov __rotate_angle0, __signed_stack_002leftMotor
+12	201	84		mov __rotate_turnpct0, __signed_stack_003leftMotor
+12	201	86		mov __rotate_sync0, __signed_stack_004leftMotor
+12	201	88		mov __rotate_stop0, __D0leftMotor
+12	201	90		mov __rotate_theRVP0, __constVal32
+12	201	92		mov __rotate_theRVI0, __constVal0
+12	201	94		mov __rotate_theRVD0, __constVal96
+12	201	96		subcall __RotateMotor0, ____RotateMotor0_return
+12	201	99		release __rotateMutex0
+12	8485	100	#line 8485 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	200	100	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+12	201	100		exit -1, -1
+13	203	0	#line 203 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	204	0		set __ClearLine_7qG2_line_7qG2_000_inline_rightMotor, 8
+13	203	3	#line 203 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	6076	3	#line 6076 "NXCDefs.h"
+13	6077	3	#pragma macro 7
+13	6077	3		acquire __TextOutMutex
+13	6077	4		mov __TextOutArgs.Location.X, __constVal0
+13	6077	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_rightMotor
+13	6077	8		mov __TextOutArgs.Options, __constVal0
+13	6077	10		mov __TextOutArgs.Text, __BlankLine
+13	6077	12		syscall 13, __TextOutArgs
+13	6077	15		release __TextOutMutex
+13	8501	16	#line 8501 "NXCDefs.h"
+13	6076	16	#line 6076 "NXCDefs.h"
+13	204	16	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	204	16	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	16		set __signed_stack_001rightMotor, 5
+13	204	19	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	204	19	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	19		set __signed_stack_002rightMotor, 8
+13	204	22	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	204	22	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	22		mov __ArrHelper__rightMotor_244_0, __constStr0019
+13	204	24	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	24		mov __D0rightMotor, TurningDegrees
+13	204	26	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	26		numtostr __strretvalrightMotor, __D0rightMotor
+13	204	29	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	29		strcat __strbufrightMotor, __strretvalrightMotor
+13	204	33	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	33		mov __ArrHelper__rightMotor_244_1, __strbufrightMotor
+13	204	35	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	35		strcat __strbufrightMotor, __ArrHelper__rightMotor_244_0, __ArrHelper__rightMotor_244_1
+13	205	40	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	40		acquire __TextOutMutex
+13	205	41	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	41		mov __TextOutArgs.Location.X, __signed_stack_001rightMotor
+13	205	44	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	44		mov __TextOutArgs.Location.Y, __signed_stack_002rightMotor
+13	205	47	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	47		set __TextOutArgs.Options, 0
+13	205	50	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	50		mov __TextOutArgs.Text, __strbufrightMotor
+13	205	52	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	52		syscall 13, __TextOutArgs
+13	205	55	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	55		mov __D0rightMotor, __TextOutArgs.Result
+13	205	58	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	58		release __TextOutMutex
+13	205	59	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	59	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	59		set __signed_stack_001rightMotor, 55
+13	205	62	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	62	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	62	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	62	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	62	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	62		mul __signed_stack_002rightMotor, TurningDegrees, __constValNeg1
+13	205	66	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	66	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	66		set __signed_stack_003rightMotor, 0
+13	205	69	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	69	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	69		set __signed_stack_004rightMotor, 0
+13	205	72	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	205	72	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	72		set __D0rightMotor, 1
+13	206	75	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	207	75	#pragma macro 33
+13	207	75		acquire __rotateMutex2
+13	207	76		arrbuild __rotate_ports2, __constVal2
+13	207	80		mov __rotate_power2, __signed_stack_001rightMotor
+13	207	82		mov __rotate_angle2, __signed_stack_002rightMotor
+13	207	84		mov __rotate_turnpct2, __signed_stack_003rightMotor
+13	207	86		mov __rotate_sync2, __signed_stack_004rightMotor
+13	207	88		mov __rotate_stop2, __D0rightMotor
+13	207	90		mov __rotate_theRVP2, __constVal32
+13	207	92		mov __rotate_theRVI2, __constVal0
+13	207	94		mov __rotate_theRVD2, __constVal96
+13	207	96		subcall __RotateMotor2, ____RotateMotor2_return
+13	207	99		release __rotateMutex2
+13	8582	100	#line 8582 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	206	100	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+13	207	100		exit -1, -1
+14	209	0	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	210	0		set __ClearLine_7qG2_line_7qG2_000_inline_turningControl, 16
+14	209	3	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	6076	3	#line 6076 "NXCDefs.h"
+14	6077	3	#pragma macro 7
+14	6077	3		acquire __TextOutMutex
+14	6077	4		mov __TextOutArgs.Location.X, __constVal0
+14	6077	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_turningControl
+14	6077	8		mov __TextOutArgs.Options, __constVal0
+14	6077	10		mov __TextOutArgs.Text, __BlankLine
+14	6077	12		syscall 13, __TextOutArgs
+14	6077	15		release __TextOutMutex
+14	8598	16	#line 8598 "NXCDefs.h"
+14	6076	16	#line 6076 "NXCDefs.h"
+14	210	16	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	210	16	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	16		set __signed_stack_001turningControl, 5
+14	210	19	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	210	19	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	19		set __signed_stack_002turningControl, 16
+14	210	22	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	210	22	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	22		mov __ArrHelper__turningControl_244_0, __constStr0020
+14	210	24	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	24		mov __D0turningControl, TurningDegrees
+14	210	26	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	26		numtostr __strretvalturningControl, __D0turningControl
+14	210	29	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	29		strcat __strbufturningControl, __strretvalturningControl
+14	210	33	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	33		mov __ArrHelper__turningControl_244_1, __strbufturningControl
+14	210	35	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	211	35		strcat __strbufturningControl, __ArrHelper__turningControl_244_0, __ArrHelper__turningControl_244_1
+14	212	40	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	40		acquire __TextOutMutex
+14	212	41	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	41		mov __TextOutArgs.Location.X, __signed_stack_001turningControl
+14	212	44	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	44		mov __TextOutArgs.Location.Y, __signed_stack_002turningControl
+14	212	47	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	47		set __TextOutArgs.Options, 0
+14	212	50	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	50		mov __TextOutArgs.Text, __strbufturningControl
+14	212	52	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	52		syscall 13, __TextOutArgs
+14	212	55	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	55		mov __D0turningControl, __TextOutArgs.Result
+14	212	58	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	58		release __TextOutMutex
+14	212	59	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	59	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	213	59	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+14	214	59		exit 0, 1
+15	222	0	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	223	0		set __ClearLine_7qG2_line_7qG2_000_inline_turn, 8
+15	222	3	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	6076	3	#line 6076 "NXCDefs.h"
+15	6077	3	#pragma macro 7
+15	6077	3		acquire __TextOutMutex
+15	6077	4		mov __TextOutArgs.Location.X, __constVal0
+15	6077	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_turn
+15	6077	8		mov __TextOutArgs.Options, __constVal0
+15	6077	10		mov __TextOutArgs.Text, __BlankLine
+15	6077	12		syscall 13, __TextOutArgs
+15	6077	15		release __TextOutMutex
+15	8661	16	#line 8661 "NXCDefs.h"
+15	6076	16	#line 6076 "NXCDefs.h"
+15	223	16	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	223	16	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	16		set __signed_stack_001turn, 5
+15	223	19	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	223	19	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	19		set __signed_stack_002turn, 8
+15	223	22	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	223	22	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	22		mov __ArrHelper__turn_244_0, __constStr0021
+15	223	24	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	24		mov __D0turn, __turn_7qG2_dir_7qG2_000
+15	223	26	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	26		numtostr __strretvalturn, __D0turn
+15	223	29	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	29		strcat __strbufturn, __strretvalturn
+15	223	33	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	33		mov __ArrHelper__turn_244_1, __strbufturn
+15	223	35	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	35		strcat __strbufturn, __ArrHelper__turn_244_0, __ArrHelper__turn_244_1
+15	224	40	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	40		acquire __TextOutMutex
+15	224	41	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	41		mov __TextOutArgs.Location.X, __signed_stack_001turn
+15	224	44	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	44		mov __TextOutArgs.Location.Y, __signed_stack_002turn
+15	224	47	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	47		set __TextOutArgs.Options, 0
+15	224	50	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	50		mov __TextOutArgs.Text, __strbufturn
+15	224	52	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	52		syscall 13, __TextOutArgs
+15	224	55	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	55		mov __D0turn, __TextOutArgs.Result
+15	224	58	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	58		release __TextOutMutex
+15	224	59	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	224	59	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	225	59		set __Wait_7qG2_ms_7qG2_000_inline_turn, 500
+15	224	62	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	7921	62	#line 7921 "NXCDefs.h"
+15	7922	62		wait 500
+15	7921	64	#line 7921 "NXCDefs.h"
+15	226	64	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	226	64	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	227	64		mov __signed_stack_001turn, __turn_7qG2_dir_7qG2_000
+15	226	66	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	226	66	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	227	66		set __D0turn, 0
+15	226	69	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	227	69		cmp 1, __zfturn, __signed_stack_001turn, __D0turn
+15	226	73	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	227	73		mov __D0turn, __zfturn
+15	230	75	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	231	75		brtst 4, __NXC_Label_740, __zfturn
+15	231	78	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	232	78		set TurningDegrees, 262
+15	231	81	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	231	81	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	233	81	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	234	81		jmp __NXC_Label_743
+15	234	83	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	235	83		set TurningDegrees, -275
+15	234	86	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	234	86	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	236	86	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	241	86	#line 241 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	242	86		acquire MOTOR
+15	241	87	#line 241 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	242	87	#line 242 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	243	87		start turningControl
+15	242	89	#line 242 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	242	89	#line 242 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	243	89		set __Wait_7qG2_ms_7qG2_000_inline_turn, 300
+15	242	92	#line 242 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	7921	92	#line 7921 "NXCDefs.h"
+15	7922	92		wait 300
+15	7921	94	#line 7921 "NXCDefs.h"
+15	243	94	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	245	94	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	246	94		release MOTOR
+15	245	95	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	245	95	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	246	95		set __locationUpdate_7qG2_distance_7qG2_000, 0
+15	245	98	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	245	98	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	246	98		mov __locationUpdate_7qG2_steering_7qG2_000, __turn_7qG2_dir_7qG2_000
+15	245	100	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	247	100	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	248	100		subcall locationUpdate, __locationUpdate_return
+15	247	102	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	247	102	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	248	102		set __Wait_7qG2_ms_7qG2_000_inline_turn, 400
+15	247	105	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	7921	105	#line 7921 "NXCDefs.h"
+15	7922	105		wait 400
+15	7921	107	#line 7921 "NXCDefs.h"
+15	249	107	#line 249 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	258	107	#line 258 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+15	259	107		subret __turn_return
+16	259	0	#line 259 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	260	0		mov __D0locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	260	2	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	261	2		tst 5, __zflocationUpdate, __D0locationUpdate
+16	260	5	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	261	5		brtst 4, __NXC_Label_756, __zflocationUpdate
+16	260	8	#line 260 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	261	8		mov __D0locationUpdate, I.heading
+16	264	11		brcmp 4, __NXC_Label_760, __constVal0, __D0locationUpdate
+16	265	15		brcmp 4, __NXC_Label_769, __constVal1, __D0locationUpdate
+16	266	19		brcmp 4, __NXC_Label_778, __constVal2, __D0locationUpdate
+16	267	23		brcmp 4, __NXC_Label_787, __constVal3, __D0locationUpdate
+16	268	27		jmp __NXC_Label_759
+16	271	29	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	271	29	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	272	29		set __signed_stack_001locationUpdate, 1
+16	271	32	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	271	32	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	272	32		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+16	272	36	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	272	36	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	273	36		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	272	40	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	273	40		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	272	45	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	272	45	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	273	45		set __signed_stack_001locationUpdate, 1
+16	272	48	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	272	48	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	273	48		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+16	273	52	#line 273 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	273	52	#line 273 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	274	52		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	273	56	#line 273 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	274	56		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	273	61	#line 273 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	274	61	#line 274 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	275	61		jmp __NXC_Label_759
+16	274	63	#line 274 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	277	63	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	277	63	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	278	63		set __signed_stack_001locationUpdate, 0
+16	277	66	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	277	66	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	278	66		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+16	278	70	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	278	70	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	279	70		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	278	74	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	279	74		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	278	79	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	278	79	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	279	79		set __signed_stack_001locationUpdate, 0
+16	278	82	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	278	82	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	279	82		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+16	279	86	#line 279 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	279	86	#line 279 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	280	86		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	279	90	#line 279 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	280	90		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	279	95	#line 279 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	280	95	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	281	95		jmp __NXC_Label_759
+16	280	97	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	283	97	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	283	97	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	284	97		set __signed_stack_001locationUpdate, 1
+16	283	100	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	283	100	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	284	100		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+16	284	104	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	284	104	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	285	104		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	284	108	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	285	108		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	284	113	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	284	113	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	285	113		set __signed_stack_001locationUpdate, 1
+16	284	116	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	284	116	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	285	116		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+16	285	120	#line 285 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	285	120	#line 285 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	286	120		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	285	124	#line 285 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	286	124		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	285	129	#line 285 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	286	129	#line 286 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	287	129		jmp __NXC_Label_759
+16	286	131	#line 286 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	289	131	#line 289 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	289	131	#line 289 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	290	131		set __signed_stack_001locationUpdate, 0
+16	289	134	#line 289 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	289	134	#line 289 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	290	134		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+16	290	138	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	290	138	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	291	138		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	290	142	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	291	142		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	290	147	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	290	147	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	291	147		set __signed_stack_001locationUpdate, 0
+16	290	150	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	290	150	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	291	150		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+16	291	154	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	291	154	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	292	154		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+16	291	158	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	292	158		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+16	291	163	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	292	163	#line 292 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	292	163	#line 292 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	295	163	#line 295 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	306	163	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	307	163		jmp __NXC_Label_796
+16	306	165	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	307	165		mov __signed_stack_001locationUpdate, __locationUpdate_7qG2_steering_7qG2_000
+16	306	167	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	306	167	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	307	167		set __D0locationUpdate, 0
+16	306	170	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	307	170		cmp 0, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+16	306	174	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	307	174		mov __D0locationUpdate, __zflocationUpdate
+16	307	177	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	308	177		brtst 4, __NXC_Label_799, __zflocationUpdate
+16	307	180	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	308	180		mov __signed_stack_001locationUpdate, I.heading
+16	307	183	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	307	183	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	308	183		set __D0locationUpdate, 0
+16	307	186	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	308	186		cmp 4, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+16	307	190	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	308	190		mov __D0locationUpdate, __zflocationUpdate
+16	308	193	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	309	193		brtst 4, __NXC_Label_802, __zflocationUpdate
+16	309	196	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	310	196		set I.heading, 3
+16	309	199	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	309	199	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	309	199	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	310	199		jmp __NXC_Label_805
+16	310	201	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	311	201		sub I.heading, I.heading, __constVal1
+16	310	205	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	310	205	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	312	205	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	313	205		jmp __NXC_Label_806
+16	312	207	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	313	207		mov __signed_stack_001locationUpdate, __locationUpdate_7qG2_steering_7qG2_000
+16	312	209	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	312	209	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	313	209		set __D0locationUpdate, 0
+16	312	212	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	313	212		cmp 1, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+16	312	216	#line 312 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	313	216		mov __D0locationUpdate, __zflocationUpdate
+16	313	219	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	314	219		brtst 4, __NXC_Label_809, __zflocationUpdate
+16	313	222	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	314	222		mov __signed_stack_001locationUpdate, I.heading
+16	313	225	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	313	225	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	314	225		set __D0locationUpdate, 3
+16	313	228	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	314	228		cmp 4, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+16	313	232	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	314	232		mov __D0locationUpdate, __zflocationUpdate
+16	314	235	#line 314 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	315	235		brtst 4, __NXC_Label_812, __zflocationUpdate
+16	315	238	#line 315 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	316	238		set I.heading, 0
+16	315	241	#line 315 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	315	241	#line 315 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	315	241	#line 315 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	316	241		jmp __NXC_Label_815
+16	316	243	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	317	243		add I.heading, I.heading, __constVal1
+16	316	247	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	316	247	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	320	247	#line 320 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	320	247	#line 320 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	322	247	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	322	247	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+16	323	247		subret __locationUpdate_return
+17	328	0	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	329	0		set __moveTask_7qG2_multiplier_7qG2_000, 1
+17	328	3	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	330	3	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	331	3		set __moveTask_7qG2_distance_7qG2_000, 10
+17	330	6	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	330	6	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	330	6	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	331	6		not __DU0moveTask, FOUND
+17	330	9	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	331	9		tst 5, __zfmoveTask, __DU0moveTask
+17	330	12	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	331	12		brtst 4, __NXC_Label_821, __zfmoveTask
+17	330	15	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	331	15		jmp __NXC_Label_822
+17	330	17	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	330	17	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	330	17	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	330	17	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	331	17		add __moveTask_7qG2_multiplier_7qG2_000, __moveTask_7qG2_multiplier_7qG2_000, __constVal2
+17	330	21	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	333	21	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	21		jmp __NXC_Label_820
+17	333	23	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	23		set __moveTask_7qG2_times_7qG2_003, 0
+17	333	26	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	333	26	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	26		mov __signed_stack_001moveTask, __moveTask_7qG2_times_7qG2_003
+17	333	28	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	333	28	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	28		mov __D0moveTask, __moveTask_7qG2_multiplier_7qG2_000
+17	333	30	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	30		cmp 0, __zfmoveTask, __signed_stack_001moveTask, __D0moveTask
+17	333	34	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	34		mov __D0moveTask, __zfmoveTask
+17	333	36	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	36		brtst 4, __NXC_Label_829, __zfmoveTask
+17	333	39	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	39		jmp __NXC_Label_830
+17	333	41	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	334	41		add __moveTask_7qG2_times_7qG2_003, __moveTask_7qG2_times_7qG2_003, __constVal1
+17	334	45	#line 334 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	335	45		jmp __NXC_Label_828
+17	334	47	#line 334 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	335	47		mov __forwardCm_7qG2_cm_7qG2_000, __moveTask_7qG2_distance_7qG2_000
+17	334	49	#line 334 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	335	49	#line 335 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	336	49		subcall forwardCm, __forwardCm_return
+17	335	51	#line 335 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	335	51	#line 335 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	336	51		set __Wait_7qG2_ms_7qG2_000_inline_moveTask, 150
+17	335	54	#line 335 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	7921	54	#line 7921 "NXCDefs.h"
+17	7922	54		wait 150
+17	7921	56	#line 7921 "NXCDefs.h"
+17	336	56	#line 336 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	337	56	#line 337 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	338	56	#pragma macro 7
+17	338	56		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+17	9191	79	#line 9191 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	337	79	#line 337 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	337	79	#line 337 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	338	79		set __Wait_7qG2_ms_7qG2_000_inline_moveTask, 150
+17	337	82	#line 337 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	7921	82	#line 7921 "NXCDefs.h"
+17	7922	82		wait 150
+17	7921	84	#line 7921 "NXCDefs.h"
+17	338	84	#line 338 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	340	84	#line 340 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	341	84		jmp __NXC_Label_831
+17	340	86	#line 340 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	340	86	#line 340 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	341	86		set __Wait_7qG2_ms_7qG2_000_inline_moveTask, 200
+17	340	89	#line 340 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	7921	89	#line 7921 "NXCDefs.h"
+17	7922	89		wait 200
+17	7921	91	#line 7921 "NXCDefs.h"
+17	341	91	#line 341 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	342	91	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	343	91		subcall turnRight, __turnRight_return
+17	342	93	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	342	93	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	343	93		set __Wait_7qG2_ms_7qG2_000_inline_moveTask, 180
+17	342	96	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	7921	96	#line 7921 "NXCDefs.h"
+17	7922	96		wait 180
+17	7921	98	#line 7921 "NXCDefs.h"
+17	343	98	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	345	98	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	346	98	#pragma macro 7
+17	346	98		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+17	9231	121	#line 9231 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	345	121	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	345	121	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	346	121		set __Wait_7qG2_ms_7qG2_000_inline_moveTask, 100
+17	345	124	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	7921	124	#line 7921 "NXCDefs.h"
+17	7922	124		wait 100
+17	7921	126	#line 7921 "NXCDefs.h"
+17	346	126	#line 346 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	351	126	#line 351 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	352	126		jmp __NXC_Label_823
+17	351	128	#line 351 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+17	352	128		exit -1, -1
+18	353	0	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	354	0		set __sensorPoller_7qG2_sensorValue_7qG2_000, 0
+18	353	3	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	353	3	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	354	3		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller, 1
+18	353	6	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	355	6	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	356	6		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorPoller, __constVal1
+18	3758	8	#line 3758 "NXCDefs.h"
+18	3759	8		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller
+18	3758	10	#line 3758 "NXCDefs.h"
+18	3758	10	#line 3758 "NXCDefs.h"
+18	3759	10		mov __DU0SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorPoller
+18	3758	13	#line 3758 "NXCDefs.h"
+18	3759	13		tst 5, __zfSetSensorLowspeed_inline_sensorPoller, __DU0SetSensorLowspeed_inline_sensorPoller
+18	3758	16	#line 3758 "NXCDefs.h"
+18	3759	16		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_sensorPoller
+18	3758	19	#line 3758 "NXCDefs.h"
+18	3759	19		set __D0SetSensorLowspeed_inline_sensorPoller, 11
+18	3758	22	#line 3758 "NXCDefs.h"
+18	3759	22		jmp __004__NXC_Label_37
+18	3758	24	#line 3758 "NXCDefs.h"
+18	3759	24		set __D0SetSensorLowspeed_inline_sensorPoller, 10
+18	3758	27	#line 3758 "NXCDefs.h"
+18	3759	27		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __D0SetSensorLowspeed_inline_sensorPoller
+18	3663	30	#line 3663 "NXCDefs.h"
+18	3664	30		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, 0
+18	3663	34	#line 3663 "NXCDefs.h"
+18	3759	34	#line 3759 "NXCDefs.h"
+18	3759	34	#line 3759 "NXCDefs.h"
+18	3760	34		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller
+18	3759	36	#line 3759 "NXCDefs.h"
+18	3759	36	#line 3759 "NXCDefs.h"
+18	3760	36		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, 0
+18	3759	39	#line 3759 "NXCDefs.h"
+18	3676	39	#line 3676 "NXCDefs.h"
+18	3677	39		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, 1
+18	3676	43	#line 3676 "NXCDefs.h"
+18	3760	43	#line 3760 "NXCDefs.h"
+18	3760	43	#line 3760 "NXCDefs.h"
+18	3761	43		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller
+18	3760	45	#line 3760 "NXCDefs.h"
+18	3694	45	#line 3694 "NXCDefs.h"
+18	3695	45	#pragma macro 4
+18	3695	45		acquire __ResetSensorMutex
+18	3695	46		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller
+18	3695	48		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+18	3695	51		release __ResetSensorMutex
+18	9351	52	#line 9351 "NXCDefs.h"
+18	3694	52	#line 3694 "NXCDefs.h"
+18	3761	52	#line 3761 "NXCDefs.h"
+18	355	52	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	355	52	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	356	52		set __D0sensorPoller, 1
+18	356	55	#line 356 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	357	55		tst 5, __zfsensorPoller, __D0sensorPoller
+18	356	58	#line 356 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	357	58		brtst 4, __NXC_Label_853, __zfsensorPoller
+18	356	61	#line 356 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	357	61	#pragma macro 26
+18	357	61		acquire __RLSBmutex1
+18	357	62		mov __RLSReadBuf1, __RLSBbufLSWrite1
+18	357	64		set __RLSBytesCount1, 1
+18	357	67		wait 15
+18	357	69		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+18	357	72		index __D0sensorPoller, __RLSReadBuf1, 65535
+18	357	76		release __RLSBmutex1
+18	9365	77	#line 9365 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	356	77	#line 356 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	357	77		mov __sensorPoller_7qG2_sensorValue_7qG2_000, __D0sensorPoller
+18	356	80	#line 356 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	356	80	#line 356 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	357	80	#line 357 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	358	80		mov __unsigned_stack_001sensorPoller, __D0sensorPoller
+18	357	82	#line 357 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	357	82	#line 357 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	358	82		set __D0sensorPoller, 15
+18	357	85	#line 357 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	358	85		cmp 1, __zfsensorPoller, __unsigned_stack_001sensorPoller, __D0sensorPoller
+18	357	89	#line 357 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	358	89		mov __D0sensorPoller, __zfsensorPoller
+18	358	91	#line 358 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	359	91		brtst 4, __NXC_Label_860, __zfsensorPoller
+18	358	94	#line 358 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	359	94		set __signed_stack_001sensorPoller, 0
+18	358	97	#line 358 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	358	97	#line 358 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	359	97		set __signed_stack_002sensorPoller, 40
+18	358	100	#line 358 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	358	100	#line 358 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	359	100		strcat __strbufsensorPoller, __constStr0022
+18	359	104	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	104		acquire __TextOutMutex
+18	359	105	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	105		mov __TextOutArgs.Location.X, __signed_stack_001sensorPoller
+18	359	108	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	108		mov __TextOutArgs.Location.Y, __signed_stack_002sensorPoller
+18	359	111	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	111		set __TextOutArgs.Options, 0
+18	359	114	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	114		mov __TextOutArgs.Text, __strbufsensorPoller
+18	359	116	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	116		syscall 13, __TextOutArgs
+18	359	119	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	119		mov __D0sensorPoller, __TextOutArgs.Result
+18	359	122	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	122		release __TextOutMutex
+18	359	123	#line 359 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	123	#line 360 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	361	123	#pragma macro 7
+18	361	123		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+18	9418	146	#line 9418 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	360	146	#line 360 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	362	146	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	363	146		set FOUND, 1
+18	362	149	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	362	149	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	364	149	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	365	149		subcall whereAmI, __whereAmI_return
+18	364	151	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	364	151	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	365	151		set __Wait_7qG2_ms_7qG2_000_inline_sensorPoller, 2000
+18	364	154	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	7921	154	#line 7921 "NXCDefs.h"
+18	7922	154		wait 2000
+18	7921	156	#line 7921 "NXCDefs.h"
+18	366	156	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	366	156	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	367	156		set __signed_stack_001sensorPoller, 50
+18	366	159	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	366	159	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	367	159		set __signed_stack_002sensorPoller, 90
+18	366	162	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	366	162	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	367	162		set __signed_stack_003sensorPoller, 0
+18	366	165	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	366	165	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	367	165		set __signed_stack_004sensorPoller, 0
+18	366	168	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	366	168	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	367	168		set __D0sensorPoller, 1
+18	368	171	#line 368 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	369	171	#pragma macro 33
+18	369	171		acquire __rotateMutex1
+18	369	172		arrbuild __rotate_ports1, __constVal1
+18	369	176		mov __rotate_power1, __signed_stack_001sensorPoller
+18	369	178		mov __rotate_angle1, __signed_stack_002sensorPoller
+18	369	180		mov __rotate_turnpct1, __signed_stack_003sensorPoller
+18	369	182		mov __rotate_sync1, __signed_stack_004sensorPoller
+18	369	184		mov __rotate_stop1, __D0sensorPoller
+18	369	186		mov __rotate_theRVP1, __constVal32
+18	369	188		mov __rotate_theRVI1, __constVal0
+18	369	190		mov __rotate_theRVD1, __constVal96
+18	369	192		subcall __RotateMotor1, ____RotateMotor1_return
+18	369	195		release __rotateMutex1
+18	9473	196	#line 9473 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	368	196	#line 368 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	368	196	#line 368 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	369	196		set __Wait_7qG2_ms_7qG2_000_inline_sensorPoller, 2000
+18	368	199	#line 368 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	7921	199	#line 7921 "NXCDefs.h"
+18	7922	199		wait 2000
+18	7921	201	#line 7921 "NXCDefs.h"
+18	369	201	#line 369 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	371	201	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	373	201	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	374	201		jmp __NXC_Label_852
+18	373	203	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+18	374	203		exit -1, -1
+19	376	0	#line 376 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+19	376	0	#line 376 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+19	377	0		exit 0, 1
+20	460	0	#line 460 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc"
+20	461	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+1	__RotateMotor0	27	NXTDefs.h
+2	__RotateMotor1	181	NXTDefs.h
+3	__RotateMotor2	335	NXTDefs.h
+4	__RotateMotor4	489	NXTDefs.h
+5	__ResetSensorSubroutine	643	NXTDefs.h
+6	__ReadLSBytes1	656	NXTDefs.h
+7	FormatPosition	740	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+8	whereAmI	753	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+9	forwardCm	1194	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+10	turnRight	1202	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+11	move	1209	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+12	leftMotor	1268	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+13	rightMotor	1371	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+14	turningControl	1474	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+15	turn	1536	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+16	locationUpdate	1645	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+17	moveTask	1894	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+18	sensorPoller	2025	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+19	search	2231	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc
+20	__initialize_global_data	2234	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\movement.nxc

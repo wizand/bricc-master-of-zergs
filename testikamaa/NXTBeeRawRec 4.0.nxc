@@ -1,0 +1,57 @@
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+////
+////  NXTBEE RAW RECEIVE PROGRAM
+////  NXTBee receiver program
+////  For use with the NXTBee and Mindstorms NXT
+////  www.dexterindustries.com
+////  Use the latest release of NXC (1.2.1 r4 or later).
+////  You can find it at http://bricxcc.sourceforge.net/nbc/
+////
+////  John Hansen helped adapt this code to NXC.
+////  http://bricxcc.sourceforge.net/
+////
+////  More information on the NXTBee can be found at
+////  http://www.dexterindustries.com/NXTBee.html
+////
+////  3/21/2011
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+
+task main()
+{
+  byte mlen;
+  string buffer;
+  // configure the S4 port as RS485
+  UseRS485(); 
+  // make sure the RS485 system is turned on
+  RS485Enable(); 
+  // initialize the UART to default values
+  RS485Initialize(); 
+  RS485Uart(HS_BAUD_9600, HS_MODE_DEFAULT); // use 9600 baud rather than default rate
+
+  Wait(MS_10);
+  while (true) {
+    // wait for a message to arrive.
+    until(RS485DataAvailable());
+    RS485Read(buffer);
+    // display message
+    TextOut(0, LCD_LINE2, buffer);
+    Wait(SEC_1);
+  }
+  // shut down the RS485 system
+  RS485Disable();
+  bool sendingData, dataAvail;
+  // check RS485 status
+  RS485Status(sendingData, dataAvail); 
+  // turn the system back on (this is equivalent to RS485Enable)
+  RS485Control(HS_CTRL_INIT, HS_BAUD_DEFAULT, HS_MODE_DEFAULT);
+  // configure the UART (this is equivalent to RS485Initialize)
+  RS485Uart(HS_BAUD_DEFAULT, HS_MODE_DEFAULT);
+ 
+}
+

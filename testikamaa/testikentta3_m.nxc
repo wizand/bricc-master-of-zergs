@@ -1,0 +1,28 @@
+task main() {
+
+     int tmp = 0;
+     ClearScreen();
+     string buf = "Moro";
+     buf += " sano poro";
+
+     TextOut(0, LCD_LINE1, buf);
+
+     string nimi ="";
+     
+     nimi = NumToStr(BT_DEVICE_NAME);
+     nimi += " ";
+     nimi += BTDeviceName(0);
+     TextOut(0, LCD_LINE2, nimi);
+
+     TextOut(0, LCD_LINE3, "Testi " + " fiksu");
+     
+     Wait(2000);
+     
+     while(!tmp) {
+         ReceiveRemoteNumber(3,false,tmp);
+     }
+     TextOut(10, LCD_LINE3, NumToStr(tmp) );
+
+     Wait(3000);
+
+}

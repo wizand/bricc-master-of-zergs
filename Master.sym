@@ -1,0 +1,1792 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	8
+1	__D0listenForCommands	6	1	4	4	12
+2	__D0getAck	6	1	8	4	6
+3	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	12	4	6
+4	__signed_stack_001sendCommand	6	1	16	4	2
+5	__signed_stack_001main	6	1	20	4	8
+6	__DU0main	5	1	24	4	2
+7	__signed_stack_001listenForCommands	6	1	28	4	6
+8	__CHSWMutex	9	0	32	4	4
+9	__signed_stack_002listenForCommands	6	1	36	4	4
+10	__D0main	6	1	40	4	7
+11	COMMANDS	9	0	44	4	4
+12	__signed_stack_001synchCommandQueues	6	1	48	4	16
+13	__signed_stack_002synchCommandQueues	6	1	52	4	8
+14	__signed_stack_003synchCommandQueues	6	1	56	4	4
+15	__Wait_7qG2_ms_7qG2_000_inline_listenForCommands	5	1	60	4	4
+16	__D0addToList	6	1	64	4	17
+17	__signed_stack_002sendCommand	6	1	68	4	2
+18	__D0executeCommands	6	1	72	4	21
+19	__D0CommandPacker	6	1	76	4	3
+20	__signed_stack_002sendParameter	6	1	80	4	2
+21	__signed_stack_001sendParameter	6	1	84	4	2
+22	__D0StopAllTasks_inline_main	6	1	88	4	2
+23	__signed_stack_001addToList	6	1	92	4	14
+24	__signed_stack_002executeCommands	6	1	96	4	6
+25	__signed_stack_001getAck	6	1	100	4	6
+26	__PointOutMutex	9	0	104	4	8
+27	__TextOutMutex	9	0	108	4	52
+28	__signed_stack_003CommandPacker	6	1	112	4	2
+29	__signed_stack_001executeCommands	6	1	116	4	24
+30	__signed_stack_002CommandPacker	6	1	120	4	2
+31	__signed_stack_002addToList	6	1	124	4	2
+32	__signed_stack_001CommandPacker	6	1	128	4	2
+33	__D0sendCommand	6	1	132	4	7
+34	__CBTWMutex	9	0	136	4	4
+35	__signed_stack_002getAck	6	1	140	4	4
+36	__SRSTmpLongVal	6	1	144	4	4
+37	__Wait_7qG2_ms_7qG2_000_inline_executeCommands	5	1	148	4	5
+38	__D0sendParameter	6	1	152	4	3
+39	__RemoteMutex	9	0	156	4	4
+40	__MRMutex	9	0	160	4	8
+41	__D0synchCommandQueues	6	1	164	4	20
+42	__RRNTmpVal	6	1	168	4	16
+43	__listenForCommands_7qG2_tmpCmd_7qG2_000	4	1	172	2	5
+44	__synchCommandQueues_7qG2_i_7qG2_001	4	1	174	2	13
+45	__executeCommands_7qG2_cmd_7qG2_001	4	1	176	2	11
+46	__addToList_7qG2_i_7qG2_001	4	1	178	2	8
+47	__ArrHelper__addToList_73_0	4	1	180	2	2
+48	__constVal200	4	0	182	2	8
+49	__ArrHelper__executeCommands_73_0	4	1	184	2	8
+50	__ArrHelper__CommandPacker_73_0	4	1	186	2	2
+51	__getAck_7qG2_ack_7qG2_000	4	1	188	2	3
+52	__listenForCommands_7qG2_tmpPar_7qG2_000	4	1	190	2	3
+53	__listenForCommands_7qG2_tmpDest_7qG2_000	4	1	192	2	3
+54	__ArrHelper__synchCommandQueues_73_0	4	1	194	2	10
+55	__ClearLine_7qG2_line_7qG2_000_inline_executeCommands	1	1	196	1	2
+56	__RRNErr	1	1	197	1	4
+57	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	198	1	4
+58	__sendParameter_return	1	1	199	1	3
+59	__WFRRTmpByte	1	1	200	1	4
+60	__constVal20	2	0	201	1	8
+61	__sendCommand_return	1	1	202	1	3
+62	__ClearLine_7qG2_line_7qG2_000_inline_CommandPacker	1	1	203	1	2
+63	__zfmain	1	1	204	1	4
+64	__constVal4	2	0	205	1	5
+65	__constVal5	2	0	206	1	3
+66	__constVal3	2	0	207	1	3
+67	__constVal1	2	0	208	1	12
+68	__constVal0	2	1	209	1	43
+69	__CommandPacker_return	1	1	210	1	5
+70	__zfsynchCommandQueues	1	1	211	1	3
+71	__constVal2	2	0	212	1	6
+72	__ClearLine_7qG2_line_7qG2_000_inline_getAck	1	1	213	1	2
+73	__getAck_return	1	1	214	1	3
+74	__ClearLine_7qG2_line_7qG2_000_inline_addToList	1	1	215	1	2
+75	__constVal30	2	0	216	1	1
+76	__zfexecuteCommands	1	1	217	1	6
+77	READY	1	1	218	1	4
+78	__ClearLine_7qG2_line_7qG2_000_inline_synchCommandQueues	1	1	219	1	2
+79	__zfaddToList	1	1	220	1	6
+80	__addToList_return	1	1	221	1	3
+81	__executeCommands_return	1	1	222	1	5
+82	__constVal99	2	0	223	1	34
+83	__constVal15	2	0	224	1	1
+84	__constVal7	2	0	225	1	1
+85	__constVal8	2	0	226	1	1
+86	__zflistenForCommands	1	1	227	1	5
+87	__zfgetAck	1	1	228	1	3
+88	____initialize_global_data_return	1	1	229	1	3
+89	__synchCommandQueues_return	1	1	230	1	4
+90	__constVal9	2	0	231	1	1
+91	__ClearLine_7qG2_line_7qG2_000_inline_listenForCommands	1	1	232	1	6
+92	__sendParameter_7qG2_o_7qG2_000	8	0	3	8	5
+93	__sendParameter_7qG2_o_7qG2_000.command	4	1	236	2	5
+94	__sendParameter_7qG2_o_7qG2_000.parameter	4	1	238	2	5
+95	__sendParameter_7qG2_o_7qG2_000.destination	4	1	240	2	5
+96	__CommandPacker_7qG2_cmdPack_7qG2_000	8	0	3	12	8
+97	__CommandPacker_7qG2_cmdPack_7qG2_000.commands	7	0	244	4	8
+98	__CommandPacker_7qG2_cmdPack_7qG2_000.commands.commands_type	4	0	0	2	0
+99	__CommandPacker_7qG2_cmdPack_7qG2_000.parameters	7	0	246	4	8
+100	__CommandPacker_7qG2_cmdPack_7qG2_000.parameters.parameters_type	4	0	0	2	0
+101	__CommandPacker_7qG2_cmdPack_7qG2_000.destinations	7	0	248	4	8
+102	__CommandPacker_7qG2_cmdPack_7qG2_000.destinations.destinations_type	4	0	0	2	0
+103	__executeCommands_7qG2_cmdPack_7qG2_000	8	0	3	12	13
+104	__executeCommands_7qG2_cmdPack_7qG2_000.commands	7	0	252	4	13
+105	__executeCommands_7qG2_cmdPack_7qG2_000.commands.commands_type	4	0	0	2	0
+106	__executeCommands_7qG2_cmdPack_7qG2_000.parameters	7	0	254	4	13
+107	__executeCommands_7qG2_cmdPack_7qG2_000.parameters.parameters_type	4	0	0	2	0
+108	__executeCommands_7qG2_cmdPack_7qG2_000.destinations	7	0	256	4	13
+109	__executeCommands_7qG2_cmdPack_7qG2_000.destinations.destinations_type	4	0	0	2	0
+110	__sendCommand_7qG2_o_7qG2_000	8	0	3	8	7
+111	__sendCommand_7qG2_o_7qG2_000.command	4	1	260	2	7
+112	__sendCommand_7qG2_o_7qG2_000.parameter	4	1	262	2	7
+113	__sendCommand_7qG2_o_7qG2_000.destination	4	1	264	2	7
+114	__CBTWArgs	8	0	3	8	8
+115	__CBTWArgs.Result	2	1	268	1	8
+116	__CBTWArgs.Connection	1	1	269	1	8
+117	__CBTWArgs.Buffer	7	0	270	4	8
+118	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+119	__result_CommandPacker	8	0	3	12	2
+120	__result_CommandPacker.commands	7	0	272	4	2
+121	__result_CommandPacker.commands.commands_type	4	0	0	2	0
+122	__result_CommandPacker.parameters	7	0	274	4	2
+123	__result_CommandPacker.parameters.parameters_type	4	0	0	2	0
+124	__result_CommandPacker.destinations	7	0	276	4	2
+125	__result_CommandPacker.destinations.destinations_type	4	0	0	2	0
+126	__MRArgs	8	0	4	8	20
+127	__MRArgs.Result	2	1	280	1	20
+128	__MRArgs.QueueID	1	1	281	1	20
+129	__MRArgs.Remove	1	1	282	1	20
+130	__MRArgs.Message	7	0	284	4	20
+131	__MRArgs.Message.Message_type	1	0	0	1	0
+132	__addToList_7qG2_newOrder_7qG2_000	8	0	3	8	6
+133	__addToList_7qG2_newOrder_7qG2_000.command	4	1	288	2	6
+134	__addToList_7qG2_newOrder_7qG2_000.parameter	4	1	290	2	6
+135	__addToList_7qG2_newOrder_7qG2_000.destination	4	1	292	2	6
+136	__main_7qG2_cmdPack_7qG2_000	8	0	3	12	4
+137	__main_7qG2_cmdPack_7qG2_000.commands	7	0	296	4	4
+138	__main_7qG2_cmdPack_7qG2_000.commands.commands_type	4	0	0	2	0
+139	__main_7qG2_cmdPack_7qG2_000.parameters	7	0	298	4	4
+140	__main_7qG2_cmdPack_7qG2_000.parameters.parameters_type	4	0	0	2	0
+141	__main_7qG2_cmdPack_7qG2_000.destinations	7	0	300	4	4
+142	__main_7qG2_cmdPack_7qG2_000.destinations.destinations_type	4	0	0	2	0
+143	__CHSWArgs	8	0	2	8	6
+144	__CHSWArgs.Status	2	1	304	1	6
+145	__CHSWArgs.Buffer	7	0	306	4	6
+146	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+147	__listenForCommands_7qG2_newOrder_7qG2_000	8	0	3	8	7
+148	__listenForCommands_7qG2_newOrder_7qG2_000.command	4	1	308	2	7
+149	__listenForCommands_7qG2_newOrder_7qG2_000.parameter	4	1	310	2	7
+150	__listenForCommands_7qG2_newOrder_7qG2_000.destination	4	1	312	2	7
+151	__TextOutArgs	8	0	4	16	146
+152	__TextOutArgs.Result	2	1	316	1	146
+153	__TextOutArgs.Location	8	0	2	4	146
+154	__TextOutArgs.Location.X	4	1	320	2	146
+155	__TextOutArgs.Location.Y	4	1	322	2	146
+156	__TextOutArgs.Text	7	0	324	4	146
+157	__TextOutArgs.Text.Text_type	1	0	0	1	0
+158	__TextOutArgs.Options	5	1	328	4	146
+159	__executeCommands_7qG2_o_7qG2_000	8	0	3	8	7
+160	__executeCommands_7qG2_o_7qG2_000.command	4	1	332	2	7
+161	__executeCommands_7qG2_o_7qG2_000.parameter	4	1	334	2	7
+162	__executeCommands_7qG2_o_7qG2_000.destination	4	1	336	2	7
+163	__result_synchCommandQueues	8	0	3	12	1
+164	__result_synchCommandQueues.commands	7	0	340	4	1
+165	__result_synchCommandQueues.commands.commands_type	4	0	0	2	0
+166	__result_synchCommandQueues.parameters	7	0	342	4	1
+167	__result_synchCommandQueues.parameters.parameters_type	4	0	0	2	0
+168	__result_synchCommandQueues.destinations	7	0	344	4	1
+169	__result_synchCommandQueues.destinations.destinations_type	4	0	0	2	0
+170	__PointOutArgs	8	0	3	12	16
+171	__PointOutArgs.Result	2	1	348	1	16
+172	__PointOutArgs.Location	8	0	2	4	16
+173	__PointOutArgs.Location.X	4	1	352	2	16
+174	__PointOutArgs.Location.Y	4	1	354	2	16
+175	__PointOutArgs.Options	5	1	356	4	16
+176	__constStr0024	7	0	360	4	1
+177	__constStr0024.__constStr0024_type	1	1	0	1	0
+178	__constStr0016	7	0	362	4	1
+179	__constStr0016.__constStr0016_type	1	1	0	1	0
+180	__CommandPacker_7qG2_parameters_7qG2_000	7	0	364	4	3
+181	__CommandPacker_7qG2_parameters_7qG2_000.__CommandPacker_7qG2_parameters_7qG2_000_type	4	0	0	2	0
+182	__CommandPacker_7qG2_destinations_7qG2_000	7	0	366	4	3
+183	__CommandPacker_7qG2_destinations_7qG2_000.__CommandPacker_7qG2_destinations_7qG2_000_type	4	0	0	2	0
+184	__constStr0027	7	0	368	4	1
+185	__constStr0027.__constStr0027_type	1	1	0	1	0
+186	__constStr0025	7	0	370	4	1
+187	__constStr0025.__constStr0025_type	1	1	0	1	0
+188	__constStr0026	7	0	372	4	1
+189	__constStr0026.__constStr0026_type	1	1	0	1	0
+190	__synchCommandQueues_7qG2_commands_7qG2_000	7	0	374	4	5
+191	__synchCommandQueues_7qG2_commands_7qG2_000.__synchCommandQueues_7qG2_commands_7qG2_000_type	4	0	0	2	0
+192	__synchCommandQueues_7qG2_parameters_7qG2_000	7	0	376	4	4
+193	__synchCommandQueues_7qG2_parameters_7qG2_000.__synchCommandQueues_7qG2_parameters_7qG2_000_type	4	0	0	2	0
+194	__synchCommandQueues_7qG2_destinations_7qG2_000	7	0	378	4	5
+195	__synchCommandQueues_7qG2_destinations_7qG2_000.__synchCommandQueues_7qG2_destinations_7qG2_000_type	4	0	0	2	0
+196	__constStr0017	7	0	380	4	1
+197	__constStr0017.__constStr0017_type	1	1	0	1	0
+198	__constStr0018	7	0	382	4	1
+199	__constStr0018.__constStr0018_type	1	1	0	1	0
+200	__constStr0019	7	0	384	4	1
+201	__constStr0019.__constStr0019_type	1	1	0	1	0
+202	__constStr0020	7	0	386	4	1
+203	__constStr0020.__constStr0020_type	1	1	0	1	0
+204	__main_7qG2_commands_7qG2_000	7	0	388	4	3
+205	__main_7qG2_commands_7qG2_000.__main_7qG2_commands_7qG2_000_type	4	0	0	2	0
+206	__main_7qG2_parameters_7qG2_000	7	0	390	4	3
+207	__main_7qG2_parameters_7qG2_000.__main_7qG2_parameters_7qG2_000_type	4	0	0	2	0
+208	__main_7qG2_destinations_7qG2_000	7	0	392	4	3
+209	__main_7qG2_destinations_7qG2_000.__main_7qG2_destinations_7qG2_000_type	4	0	0	2	0
+210	__constStr0021	7	0	394	4	1
+211	__constStr0021.__constStr0021_type	1	1	0	1	0
+212	__constStr0022	7	0	396	4	1
+213	__constStr0022.__constStr0022_type	1	1	0	1	0
+214	__constStr0023	7	0	398	4	1
+215	__constStr0023.__constStr0023_type	1	1	0	1	0
+216	__CommandPacker_7qG2_commands_7qG2_000	7	0	400	4	3
+217	__CommandPacker_7qG2_commands_7qG2_000.__CommandPacker_7qG2_commands_7qG2_000_type	4	0	0	2	0
+218	__ArrHelper__synchCommandQueues_244_0	7	0	402	4	2
+219	__ArrHelper__synchCommandQueues_244_0.__ArrHelper__synchCommandQueues_244_0_type	1	0	0	1	0
+220	__ArrHelper__synchCommandQueues_244_1	7	0	404	4	4
+221	__ArrHelper__synchCommandQueues_244_1.__ArrHelper__synchCommandQueues_244_1_type	1	0	0	1	0
+222	__ArrHelper__synchCommandQueues_244_2	7	0	406	4	4
+223	__ArrHelper__synchCommandQueues_244_2.__ArrHelper__synchCommandQueues_244_2_type	1	0	0	1	0
+224	__ArrHelper__executeCommands_244_1	7	0	408	4	4
+225	__ArrHelper__executeCommands_244_1.__ArrHelper__executeCommands_244_1_type	1	0	0	1	0
+226	__ArrHelper__executeCommands_244_2	7	0	410	4	4
+227	__ArrHelper__executeCommands_244_2.__ArrHelper__executeCommands_244_2_type	1	0	0	1	0
+228	__ArrHelper__executeCommands_244_3	7	0	412	4	2
+229	__ArrHelper__executeCommands_244_3.__ArrHelper__executeCommands_244_3_type	1	0	0	1	0
+230	__ArrHelper__addToList_244_2	7	0	414	4	4
+231	__ArrHelper__addToList_244_2.__ArrHelper__addToList_244_2_type	1	0	0	1	0
+232	__ArrHelper__addToList_244_3	7	0	416	4	2
+233	__ArrHelper__addToList_244_3.__ArrHelper__addToList_244_3_type	1	0	0	1	0
+234	__ArrHelper__listenForCommands_244_0	7	0	418	4	2
+235	__ArrHelper__listenForCommands_244_0.__ArrHelper__listenForCommands_244_0_type	1	0	0	1	0
+236	__ArrHelper__synchCommandQueues_244_3	7	0	420	4	2
+237	__ArrHelper__synchCommandQueues_244_3.__ArrHelper__synchCommandQueues_244_3_type	1	0	0	1	0
+238	__ArrHelper__addToList_244_0	7	0	422	4	2
+239	__ArrHelper__addToList_244_0.__ArrHelper__addToList_244_0_type	1	0	0	1	0
+240	__ArrHelper__addToList_244_1	7	0	424	4	4
+241	__ArrHelper__addToList_244_1.__ArrHelper__addToList_244_1_type	1	0	0	1	0
+242	__SRSFlattenBuf	7	0	426	4	4
+243	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+244	__DCMessageWritePacket	7	0	428	4	2
+245	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+246	__ArrHelper__sendCommand_244_0	7	0	430	4	2
+247	__ArrHelper__sendCommand_244_0.__ArrHelper__sendCommand_244_0_type	1	0	0	1	0
+248	__BlankLine	7	0	432	4	10
+249	__BlankLine.__BlankLine_type	1	0	0	1	0
+250	__SRSTmpBuf	7	0	434	4	12
+251	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+252	__SRSSendBuf	7	0	436	4	6
+253	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+254	__ArrHelper__CommandPacker_244_0	7	0	438	4	2
+255	__ArrHelper__CommandPacker_244_0.__ArrHelper__CommandPacker_244_0_type	1	0	0	1	0
+256	__ArrHelper__CommandPacker_244_1	7	0	440	4	2
+257	__ArrHelper__CommandPacker_244_1.__ArrHelper__CommandPacker_244_1_type	1	0	0	1	0
+258	__ArrHelper__executeCommands_244_0	7	0	442	4	2
+259	__ArrHelper__executeCommands_244_0.__ArrHelper__executeCommands_244_0_type	1	0	0	1	0
+260	__ArrHelper__sendCommand_244_1	7	0	444	4	4
+261	__ArrHelper__sendCommand_244_1.__ArrHelper__sendCommand_244_1_type	1	0	0	1	0
+262	__ArrHelper__sendCommand_244_2	7	0	446	4	4
+263	__ArrHelper__sendCommand_244_2.__ArrHelper__sendCommand_244_2_type	1	0	0	1	0
+264	__ArrHelper__sendCommand_244_3	7	0	448	4	2
+265	__ArrHelper__sendCommand_244_3.__ArrHelper__sendCommand_244_3_type	1	0	0	1	0
+266	__strretvalsynchCommandQueues	7	0	450	4	4
+267	__strretvalsynchCommandQueues.__strretvalsynchCommandQueues_type	1	0	0	1	0
+268	tempCommands	7	0	452	4	9
+269	tempCommands.tempCommands_type	4	0	0	2	0
+270	tempParameters	7	0	454	4	6
+271	tempParameters.tempParameters_type	4	0	0	2	0
+272	__strretvalsendCommand	7	0	456	4	4
+273	__strretvalsendCommand.__strretvalsendCommand_type	1	0	0	1	0
+274	__strbufsendParameter	7	0	458	4	2
+275	__strbufsendParameter.__strbufsendParameter_type	1	0	0	1	0
+276	__strbufsynchCommandQueues	7	0	460	4	8
+277	__strbufsynchCommandQueues.__strbufsynchCommandQueues_type	1	0	0	1	0
+278	__constStr0013	7	0	462	4	1
+279	__constStr0013.__constStr0013_type	1	1	0	1	0
+280	__constStr0014	7	0	464	4	1
+281	__constStr0014.__constStr0014_type	1	1	0	1	0
+282	__constStr0015	7	0	466	4	1
+283	__constStr0015.__constStr0015_type	1	1	0	1	0
+284	tempDestinations	7	0	468	4	6
+285	tempDestinations.tempDestinations_type	4	0	0	2	0
+286	__constStr0011	7	0	470	4	1
+287	__constStr0011.__constStr0011_type	1	1	0	1	0
+288	__constStr0012	7	0	472	4	4
+289	__constStr0012.__constStr0012_type	1	1	0	1	0
+290	__strbufCommandPacker	7	0	474	4	4
+291	__strbufCommandPacker.__strbufCommandPacker_type	1	0	0	1	0
+292	__strretvalCommandPacker	7	0	476	4	2
+293	__strretvalCommandPacker.__strretvalCommandPacker_type	1	0	0	1	0
+294	__strbufexecuteCommands	7	0	478	4	12
+295	__strbufexecuteCommands.__strbufexecuteCommands_type	1	0	0	1	0
+296	__ArrHelper__listenForCommands_244_1	7	0	480	4	2
+297	__ArrHelper__listenForCommands_244_1.__ArrHelper__listenForCommands_244_1_type	1	0	0	1	0
+298	__strbufaddToList	7	0	482	4	8
+299	__strbufaddToList.__strbufaddToList_type	1	0	0	1	0
+300	__strretvaladdToList	7	0	484	4	4
+301	__strretvaladdToList.__strretvaladdToList_type	1	0	0	1	0
+302	__strretvallistenForCommands	7	0	486	4	2
+303	__strretvallistenForCommands.__strretvallistenForCommands_type	1	0	0	1	0
+304	__strbufmain	7	0	488	4	8
+305	__strbufmain.__strbufmain_type	1	0	0	1	0
+306	__strbufsendCommand	7	0	490	4	8
+307	__strbufsendCommand.__strbufsendCommand_type	1	0	0	1	0
+308	__strretvalexecuteCommands	7	0	492	4	4
+309	__strretvalexecuteCommands.__strretvalexecuteCommands_type	1	0	0	1	0
+310	__strbufgetAck	7	0	494	4	4
+311	__strbufgetAck.__strbufgetAck_type	1	0	0	1	0
+312	__strbuflistenForCommands	7	0	496	4	6
+313	__strbuflistenForCommands.__strbuflistenForCommands_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	298	0	#line 298 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	299	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	298	2	#line 298 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	306	2	#line 306 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	307	2		set READY, 0
+0	306	5	#line 306 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	306	5	#line 306 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	307	5	#line 307 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	308	5		arrbuild __main_7qG2_commands_7qG2_000, __constVal4, __constVal5, __constVal20, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99
+0	308	28	#line 308 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	309	28		arrbuild __main_7qG2_parameters_7qG2_000, __constVal30, __constVal20, __constVal0, __constVal0, __constVal15, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0, __constVal0
+0	312	51	#line 312 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	313	51		arrbuild __main_7qG2_destinations_7qG2_000, __constVal2, __constVal2, __constVal2, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99, __constVal99
+0	312	74	#line 312 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	313	74		mov __CommandPacker_7qG2_commands_7qG2_000, __main_7qG2_commands_7qG2_000
+0	312	76	#line 312 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	313	76		mov __CommandPacker_7qG2_parameters_7qG2_000, __main_7qG2_parameters_7qG2_000
+0	312	78	#line 312 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	313	78		mov __CommandPacker_7qG2_destinations_7qG2_000, __main_7qG2_destinations_7qG2_000
+0	316	80	#line 316 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	317	80		subcall CommandPacker, __CommandPacker_return
+0	316	82	#line 316 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	317	82		mov __main_7qG2_cmdPack_7qG2_000, __result_CommandPacker
+0	316	84	#line 316 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	317	84		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	316	87	#line 316 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	87	#line 7921 "NXCDefs.h"
+0	7922	87		wait 500
+0	7921	89	#line 7921 "NXCDefs.h"
+0	317	89	#line 317 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6069	89	#line 6069 "NXCDefs.h"
+0	6070	89	#pragma macro 6
+0	6070	89		acquire __PointOutMutex
+0	6070	90		mov __PointOutArgs.Location.X, __constVal200
+0	6070	92		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	94		mov __PointOutArgs.Options, __constVal1
+0	6070	96		syscall 14, __PointOutArgs
+0	6070	99		release __PointOutMutex
+0	9587	100	#line 9587 "NXCDefs.h"
+0	6069	100	#line 6069 "NXCDefs.h"
+0	318	100	#line 318 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	318	100	#line 318 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	319	100		set __signed_stack_001main, 5
+0	318	103	#line 318 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	318	103	#line 318 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	319	103		set __signed_stack_002main, 56
+0	318	106	#line 318 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	318	106	#line 318 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	319	106		strcat __strbufmain, __constStr0024
+0	319	110	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	110		acquire __TextOutMutex
+0	319	111	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	111		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	319	114	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	114		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	319	117	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	117		set __TextOutArgs.Options, 0
+0	319	120	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	120		mov __TextOutArgs.Text, __strbufmain
+0	319	123	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	123		syscall 13, __TextOutArgs
+0	319	126	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	126		mov __D0main, __TextOutArgs.Result
+0	319	129	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	129		release __TextOutMutex
+0	319	130	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	319	130	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	320	130		set __Wait_7qG2_ms_7qG2_000_inline_main, 750
+0	319	133	#line 319 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	133	#line 7921 "NXCDefs.h"
+0	7922	133		wait 750
+0	7921	135	#line 7921 "NXCDefs.h"
+0	322	135	#line 322 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	322	135	#line 322 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	323	135		mov __executeCommands_7qG2_cmdPack_7qG2_000, __main_7qG2_cmdPack_7qG2_000
+0	323	137	#line 323 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	324	137		subcall executeCommands, __executeCommands_return
+0	323	139	#line 323 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	323	139	#line 323 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	323	139	#line 323 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	324	139		set __Wait_7qG2_ms_7qG2_000_inline_main, 800
+0	323	142	#line 323 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	142	#line 7921 "NXCDefs.h"
+0	7922	142		wait 800
+0	7921	144	#line 7921 "NXCDefs.h"
+0	327	144	#line 327 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	331	144	#line 331 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	332	144		start listenForCommands
+0	331	146	#line 331 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	331	146	#line 331 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	332	146		set __D0main, 1
+0	333	149	#line 333 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	334	149		tst 5, __zfmain, __D0main
+0	333	152	#line 333 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	334	152		brtst 4, __NXC_Label_886, __zfmain
+0	333	155	#line 333 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	334	155		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	333	158	#line 333 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	158	#line 7921 "NXCDefs.h"
+0	7922	158		wait 300
+0	7921	160	#line 7921 "NXCDefs.h"
+0	336	160	#line 336 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	336	160	#line 336 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	337	160		mov __DU0main, READY
+0	338	162	#line 338 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	339	162		tst 5, __zfmain, __DU0main
+0	338	165	#line 338 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	339	165		brtst 4, __NXC_Label_893, __zfmain
+0	338	168	#line 338 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	339	168		set __ClearLine_7qG2_line_7qG2_000_inline_main, 56
+0	338	171	#line 338 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6076	171	#line 6076 "NXCDefs.h"
+0	6077	171	#pragma macro 7
+0	6077	171		acquire __TextOutMutex
+0	6077	172		mov __TextOutArgs.Location.X, __constVal0
+0	6077	174		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	176		mov __TextOutArgs.Options, __constVal0
+0	6077	178		mov __TextOutArgs.Text, __BlankLine
+0	6077	180		syscall 13, __TextOutArgs
+0	6077	183		release __TextOutMutex
+0	9689	184	#line 9689 "NXCDefs.h"
+0	6076	184	#line 6076 "NXCDefs.h"
+0	339	184	#line 339 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	339	184	#line 339 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	340	184		set __ClearLine_7qG2_line_7qG2_000_inline_main, 48
+0	339	187	#line 339 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6076	187	#line 6076 "NXCDefs.h"
+0	6077	187	#pragma macro 7
+0	6077	187		acquire __TextOutMutex
+0	6077	188		mov __TextOutArgs.Location.X, __constVal0
+0	6077	190		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	192		mov __TextOutArgs.Options, __constVal0
+0	6077	194		mov __TextOutArgs.Text, __BlankLine
+0	6077	196		syscall 13, __TextOutArgs
+0	6077	199		release __TextOutMutex
+0	9699	200	#line 9699 "NXCDefs.h"
+0	6076	200	#line 6076 "NXCDefs.h"
+0	340	200	#line 340 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	340	200	#line 340 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	341	200		set __signed_stack_001main, 5
+0	340	203	#line 340 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	340	203	#line 340 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	341	203		set __signed_stack_002main, 56
+0	340	206	#line 340 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	340	206	#line 340 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	341	206		strcat __strbufmain, __constStr0025
+0	341	210	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	210		acquire __TextOutMutex
+0	341	211	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	211		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	341	214	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	214		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	341	217	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	217		set __TextOutArgs.Options, 0
+0	341	220	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	220		mov __TextOutArgs.Text, __strbufmain
+0	341	223	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	223		syscall 13, __TextOutArgs
+0	341	226	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	226		mov __D0main, __TextOutArgs.Result
+0	341	229	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	229		release __TextOutMutex
+0	341	230	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	341	230	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	230		set __signed_stack_001main, 5
+0	341	233	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	341	233	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	233		set __signed_stack_002main, 48
+0	341	236	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	341	236	#line 341 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	342	236		strcat __strbufmain, __constStr0026
+0	345	240	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	240		acquire __TextOutMutex
+0	345	241	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	241		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	345	244	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	244		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	345	247	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	247		set __TextOutArgs.Options, 0
+0	345	250	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	250		mov __TextOutArgs.Text, __strbufmain
+0	345	253	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	253		syscall 13, __TextOutArgs
+0	345	256	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	256		mov __D0main, __TextOutArgs.Result
+0	345	259	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	259		release __TextOutMutex
+0	345	260	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	345	260	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	260		mov __synchCommandQueues_7qG2_commands_7qG2_000, __main_7qG2_commands_7qG2_000
+0	345	262	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	262		mov __synchCommandQueues_7qG2_parameters_7qG2_000, __main_7qG2_parameters_7qG2_000
+0	345	264	#line 345 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	346	264		mov __synchCommandQueues_7qG2_destinations_7qG2_000, __main_7qG2_destinations_7qG2_000
+0	347	266	#line 347 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	348	266		subcall synchCommandQueues, __synchCommandQueues_return
+0	347	268	#line 347 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	348	268		mov __main_7qG2_cmdPack_7qG2_000, __result_synchCommandQueues
+0	347	270	#line 347 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	347	270	#line 347 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	348	270		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	347	273	#line 347 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	273	#line 7921 "NXCDefs.h"
+0	7922	273		wait 1000
+0	7921	275	#line 7921 "NXCDefs.h"
+0	348	275	#line 348 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	348	275	#line 348 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	349	275		mov __executeCommands_7qG2_cmdPack_7qG2_000, __main_7qG2_cmdPack_7qG2_000
+0	350	277	#line 350 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	351	277		subcall executeCommands, __executeCommands_return
+0	350	279	#line 350 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	351	279		mov __D0main, __D0executeCommands
+0	350	281	#line 350 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	353	281	#line 353 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	353	281	#line 353 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	354	281		jmp __NXC_Label_885
+0	353	283	#line 353 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	6069	283	#line 6069 "NXCDefs.h"
+0	6070	283	#pragma macro 6
+0	6070	283		acquire __PointOutMutex
+0	6070	284		mov __PointOutArgs.Location.X, __constVal200
+0	6070	286		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	288		mov __PointOutArgs.Options, __constVal1
+0	6070	290		syscall 14, __PointOutArgs
+0	6070	293		release __PointOutMutex
+0	9799	294	#line 9799 "NXCDefs.h"
+0	6069	294	#line 6069 "NXCDefs.h"
+0	354	294	#line 354 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	354	294	#line 354 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	355	294		set __signed_stack_001main, 5
+0	354	297	#line 354 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	354	297	#line 354 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	355	297		set __signed_stack_002main, 32
+0	354	300	#line 354 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	354	300	#line 354 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	355	300		strcat __strbufmain, __constStr0027
+0	355	304	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	304		acquire __TextOutMutex
+0	355	305	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	305		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	355	308	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	308		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	355	311	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	311		set __TextOutArgs.Options, 0
+0	355	314	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	314		mov __TextOutArgs.Text, __strbufmain
+0	355	317	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	317		syscall 13, __TextOutArgs
+0	355	320	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	320		mov __D0main, __TextOutArgs.Result
+0	355	323	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	323		release __TextOutMutex
+0	355	324	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	355	324	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	356	324		set __Wait_7qG2_ms_7qG2_000_inline_main, 1500
+0	355	327	#line 355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7921	327	#line 7921 "NXCDefs.h"
+0	7922	327		wait 1500
+0	7921	329	#line 7921 "NXCDefs.h"
+0	356	329	#line 356 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	7934	329	#line 7934 "NXCDefs.h"
+0	7935	329		set __D0StopAllTasks_inline_main, 1
+0	7934	332	#line 7934 "NXCDefs.h"
+0	7935	332		stop __D0StopAllTasks_inline_main
+0	7934	334	#line 7934 "NXCDefs.h"
+0	357	334	#line 357 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	358	334		exit -1, -1
+1	81	0	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	0		set __signed_stack_001sendCommand, 5
+1	81	3	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	81	3	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	3		set __signed_stack_002sendCommand, 56
+1	81	6	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	81	6	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	6		mov __ArrHelper__sendCommand_244_0, __constStr0011
+1	81	8	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	8		mov __D0sendCommand, __sendCommand_7qG2_o_7qG2_000.command
+1	81	10	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	10		numtostr __strretvalsendCommand, __D0sendCommand
+1	81	13	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	13		mov __ArrHelper__sendCommand_244_1, __strretvalsendCommand
+1	81	15	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	15		mov __ArrHelper__sendCommand_244_2, __constStr0012
+1	81	17	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	17		mov __D0sendCommand, __sendCommand_7qG2_o_7qG2_000.destination
+1	81	19	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	19		numtostr __strretvalsendCommand, __D0sendCommand
+1	81	22	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	22		strcat __strbufsendCommand, __strretvalsendCommand
+1	81	26	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	26		mov __ArrHelper__sendCommand_244_3, __strbufsendCommand
+1	81	28	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	28		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_2, __ArrHelper__sendCommand_244_3
+1	81	33	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	33		mov __ArrHelper__sendCommand_244_2, __strbufsendCommand
+1	81	35	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	35		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_1, __ArrHelper__sendCommand_244_2
+1	81	40	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	40		mov __ArrHelper__sendCommand_244_1, __strbufsendCommand
+1	81	42	#line 81 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	42		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_0, __ArrHelper__sendCommand_244_1
+1	82	47	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	47		acquire __TextOutMutex
+1	82	48	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	48		mov __TextOutArgs.Location.X, __signed_stack_001sendCommand
+1	82	51	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	51		mov __TextOutArgs.Location.Y, __signed_stack_002sendCommand
+1	82	54	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	54		set __TextOutArgs.Options, 0
+1	82	57	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	57		mov __TextOutArgs.Text, __strbufsendCommand
+1	82	60	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	60		syscall 13, __TextOutArgs
+1	82	63	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	63		mov __D0sendCommand, __TextOutArgs.Result
+1	82	65	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	65		release __TextOutMutex
+1	82	66	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	66	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	83	66	#pragma macro 25
+1	83	66		acquire __RemoteMutex
+1	83	67		mov __SRSTmpBuf, __DCMessageWritePacket
+1	83	69		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal1
+1	83	74		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+1	83	79		mov __SRSTmpLongVal, __sendCommand_7qG2_o_7qG2_000.command
+1	83	81		flatten __SRSFlattenBuf, __SRSTmpLongVal
+1	83	84		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+1	83	89		brcmp 0, __ConnWrite_Else0, __sendCommand_7qG2_o_7qG2_000.destination, __constVal4
+1	83	93		acquire __CHSWMutex
+1	83	94		sub __WFRRTmpByte, __sendCommand_7qG2_o_7qG2_000.destination, __constVal4
+1	83	98		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+1	83	103		syscall 37, __CHSWArgs
+1	83	106		mov __D0sendCommand, __CHSWArgs.Status
+1	83	108		release __CHSWMutex
+1	83	109		jmp __ConnWrite_EndIf0
+1	83	111		acquire __CBTWMutex
+1	83	112		mov __CBTWArgs.Connection, __sendCommand_7qG2_o_7qG2_000.destination
+1	83	114		mov __CBTWArgs.Buffer, __SRSSendBuf
+1	83	117		syscall 29, __CBTWArgs
+1	83	120		mov __D0sendCommand, __CBTWArgs.Result
+1	83	122		release __CBTWMutex
+1	83	123		release __RemoteMutex
+1	8078	124	#line 8078 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	124	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	82	124	#line 82 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	88	124	#line 88 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	89	124		subret __sendCommand_return
+2	89	0	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	90	0		set __signed_stack_001sendParameter, 5
+2	89	3	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	89	3	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	90	3		set __signed_stack_002sendParameter, 48
+2	89	6	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	89	6	#line 89 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	90	6		strcat __strbufsendParameter, __constStr0013
+2	90	10	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	10		acquire __TextOutMutex
+2	90	11	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	11		mov __TextOutArgs.Location.X, __signed_stack_001sendParameter
+2	90	14	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	14		mov __TextOutArgs.Location.Y, __signed_stack_002sendParameter
+2	90	17	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	17		set __TextOutArgs.Options, 0
+2	90	20	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	20		mov __TextOutArgs.Text, __strbufsendParameter
+2	90	22	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	22		syscall 13, __TextOutArgs
+2	90	25	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	25		mov __D0sendParameter, __TextOutArgs.Result
+2	90	27	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	27		release __TextOutMutex
+2	90	28	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	90	28	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	91	28	#pragma macro 25
+2	91	28		acquire __RemoteMutex
+2	91	29		mov __SRSTmpBuf, __DCMessageWritePacket
+2	91	31		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal2
+2	91	36		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+2	91	41		mov __SRSTmpLongVal, __sendParameter_7qG2_o_7qG2_000.parameter
+2	91	43		flatten __SRSFlattenBuf, __SRSTmpLongVal
+2	91	46		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+2	91	51		brcmp 0, __ConnWrite_Else0, __sendParameter_7qG2_o_7qG2_000.destination, __constVal4
+2	91	55		acquire __CHSWMutex
+2	91	56		sub __WFRRTmpByte, __sendParameter_7qG2_o_7qG2_000.destination, __constVal4
+2	91	60		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+2	91	65		syscall 37, __CHSWArgs
+2	91	68		mov __D0sendParameter, __CHSWArgs.Status
+2	91	70		release __CHSWMutex
+2	91	71		jmp __ConnWrite_EndIf0
+2	91	73		acquire __CBTWMutex
+2	91	74		mov __CBTWArgs.Connection, __sendParameter_7qG2_o_7qG2_000.destination
+2	91	76		mov __CBTWArgs.Buffer, __SRSSendBuf
+2	91	79		syscall 29, __CBTWArgs
+2	91	82		mov __D0sendParameter, __CBTWArgs.Result
+2	91	84		release __CBTWMutex
+2	91	85		release __RemoteMutex
+2	8122	86	#line 8122 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	90	86	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	90	86	#line 90 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	96	86	#line 96 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+2	97	86		subret __sendParameter_return
+3	99	0	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	100	0		set __getAck_7qG2_ack_7qG2_000, 0
+3	99	3	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	99	3	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	100	3		set __signed_stack_001getAck, 5
+3	99	6	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	99	6	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	100	6		set __signed_stack_002getAck, 40
+3	99	9	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	99	9	#line 99 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	100	9		strcat __strbufgetAck, __constStr0014
+3	101	13	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	13		acquire __TextOutMutex
+3	101	14	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	14		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+3	101	17	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	17		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+3	101	19	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	19		set __TextOutArgs.Options, 0
+3	101	22	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	22		mov __TextOutArgs.Text, __strbufgetAck
+3	101	25	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	25		syscall 13, __TextOutArgs
+3	101	28	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	28		mov __D0getAck, __TextOutArgs.Result
+3	101	31	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	31		release __TextOutMutex
+3	101	32	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	101	32	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	32		mov __signed_stack_001getAck, __getAck_7qG2_ack_7qG2_000
+3	101	34	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	101	34	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	34		set __D0getAck, 0
+3	101	37	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	37		cmp 4, __zfgetAck, __signed_stack_001getAck, __D0getAck
+3	101	41	#line 101 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	41		mov __D0getAck, __zfgetAck
+3	102	43	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	103	43		brtst 4, __NXC_Label_640, __zfgetAck
+3	102	46	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	103	46	#pragma macro 9
+3	103	46		acquire __MRMutex
+3	103	47		mov __MRArgs.QueueID, __constVal3
+3	103	49		mov __MRArgs.Remove, __constVal1
+3	103	51		set __RRNTmpVal, 0
+3	103	54		syscall 27, __MRArgs
+3	103	57		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+3	103	62		mov __getAck_7qG2_ack_7qG2_000, __RRNTmpVal
+3	103	64		mov __D0getAck, __MRArgs.Result
+3	103	66		release __MRMutex
+3	8187	67	#line 8187 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	67	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	102	67	#line 102 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	104	67	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	105	67		jmp __NXC_Label_639
+3	104	69	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	104	69	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	105	69		set __ClearLine_7qG2_line_7qG2_000_inline_getAck, 40
+3	104	72	#line 104 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	6076	72	#line 6076 "NXCDefs.h"
+3	6077	72	#pragma macro 7
+3	6077	72		acquire __TextOutMutex
+3	6077	73		mov __TextOutArgs.Location.X, __constVal0
+3	6077	75		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_getAck
+3	6077	77		mov __TextOutArgs.Options, __constVal0
+3	6077	79		mov __TextOutArgs.Text, __BlankLine
+3	6077	81		syscall 13, __TextOutArgs
+3	6077	84		release __TextOutMutex
+3	8205	85	#line 8205 "NXCDefs.h"
+3	6076	85	#line 6076 "NXCDefs.h"
+3	105	85	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	105	85	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	106	85		set __signed_stack_001getAck, 5
+3	105	88	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	105	88	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	106	88		set __signed_stack_002getAck, 40
+3	105	91	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	105	91	#line 105 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	106	91		strcat __strbufgetAck, __constStr0015
+3	106	95	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	95		acquire __TextOutMutex
+3	106	96	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	96		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+3	106	99	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	99		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+3	106	101	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	101		set __TextOutArgs.Options, 0
+3	106	104	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	104		mov __TextOutArgs.Text, __strbufgetAck
+3	106	107	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	107		syscall 13, __TextOutArgs
+3	106	110	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	110		mov __D0getAck, __TextOutArgs.Result
+3	106	113	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	107	113		release __TextOutMutex
+3	106	114	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	106	114	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	106	114	#line 106 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	7921	114	#line 7921 "NXCDefs.h"
+3	7922	114		wait 500
+3	7921	116	#line 7921 "NXCDefs.h"
+3	107	116	#line 107 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	112	116	#line 112 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+3	113	116		subret __getAck_return
+4	118	0	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	119	0		arrinit __CommandPacker_7qG2_cmdPack_7qG2_000.commands, __constVal0, __constVal20
+4	118	4	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	118	4	#line 118 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	119	4	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	120	4		arrinit __CommandPacker_7qG2_cmdPack_7qG2_000.parameters, __constVal0, __constVal20
+4	119	8	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	119	8	#line 119 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	120	8	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	121	8		arrinit __CommandPacker_7qG2_cmdPack_7qG2_000.destinations, __constVal0, __constVal20
+4	120	12	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	120	12	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	123	12	#line 123 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	124	12		mov __CommandPacker_7qG2_cmdPack_7qG2_000.commands, __CommandPacker_7qG2_commands_7qG2_000
+4	123	14	#line 123 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	123	14	#line 123 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	124	14	#line 124 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	125	14		mov __CommandPacker_7qG2_cmdPack_7qG2_000.parameters, __CommandPacker_7qG2_parameters_7qG2_000
+4	124	16	#line 124 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	124	16	#line 124 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	125	16	#line 125 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	126	16		mov __CommandPacker_7qG2_cmdPack_7qG2_000.destinations, __CommandPacker_7qG2_destinations_7qG2_000
+4	125	18	#line 125 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	125	18	#line 125 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	127	18	#line 127 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	128	18		set __ClearLine_7qG2_line_7qG2_000_inline_CommandPacker, 16
+4	127	21	#line 127 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	6076	21	#line 6076 "NXCDefs.h"
+4	6077	21	#pragma macro 7
+4	6077	21		acquire __TextOutMutex
+4	6077	22		mov __TextOutArgs.Location.X, __constVal0
+4	6077	24		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_CommandPacker
+4	6077	26		mov __TextOutArgs.Options, __constVal0
+4	6077	28		mov __TextOutArgs.Text, __BlankLine
+4	6077	30		syscall 13, __TextOutArgs
+4	6077	33		release __TextOutMutex
+4	8309	34	#line 8309 "NXCDefs.h"
+4	6076	34	#line 6076 "NXCDefs.h"
+4	128	34	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	128	34	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	34		set __signed_stack_001CommandPacker, 0
+4	128	37	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	128	37	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	37		set __signed_stack_002CommandPacker, 16
+4	128	40	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	128	40	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	40		mov __ArrHelper__CommandPacker_244_0, __constStr0016
+4	128	42	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	42		set __signed_stack_003CommandPacker, 0
+4	128	45	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	128	45	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	45		index __ArrHelper__CommandPacker_73_0, __CommandPacker_7qG2_cmdPack_7qG2_000.commands, __signed_stack_003CommandPacker
+4	128	49	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	49		mov __D0CommandPacker, __ArrHelper__CommandPacker_73_0
+4	128	51	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	51		numtostr __strretvalCommandPacker, __D0CommandPacker
+4	128	54	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	54		strcat __strbufCommandPacker, __strretvalCommandPacker
+4	128	58	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	58		mov __ArrHelper__CommandPacker_244_1, __strbufCommandPacker
+4	128	60	#line 128 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	60		strcat __strbufCommandPacker, __ArrHelper__CommandPacker_244_0, __ArrHelper__CommandPacker_244_1
+4	129	65	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	65		acquire __TextOutMutex
+4	129	66	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	66		mov __TextOutArgs.Location.X, __signed_stack_001CommandPacker
+4	129	68	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	68		mov __TextOutArgs.Location.Y, __signed_stack_002CommandPacker
+4	129	70	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	70		set __TextOutArgs.Options, 0
+4	129	73	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	73		mov __TextOutArgs.Text, __strbufCommandPacker
+4	129	76	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	76		syscall 13, __TextOutArgs
+4	129	79	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	79		mov __D0CommandPacker, __TextOutArgs.Result
+4	129	82	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	130	82		release __TextOutMutex
+4	129	83	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	83	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	129	83	#line 129 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	7921	83	#line 7921 "NXCDefs.h"
+4	7922	83		wait 300
+4	7921	85	#line 7921 "NXCDefs.h"
+4	131	85	#line 131 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	132	85	#line 132 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	133	85		mov __result_CommandPacker, __CommandPacker_7qG2_cmdPack_7qG2_000
+4	132	87	#line 132 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	133	87		subret __CommandPacker_return
+4	132	89	#line 132 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	137	89	#line 137 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+4	138	89		subret __CommandPacker_return
+5	140	0	#line 140 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	141	0		set READY, 0
+5	140	3	#line 140 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	140	3	#line 140 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	142	3	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	3		set __executeCommands_7qG2_cmd_7qG2_001, 0
+5	142	6	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	142	6	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	6		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	142	8	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	142	8	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	8		arrsize __D0executeCommands, __executeCommands_7qG2_cmdPack_7qG2_000.commands
+5	142	11	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	11		cmp 0, __zfexecuteCommands, __signed_stack_001executeCommands, __D0executeCommands
+5	142	15	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	15		mov __D0executeCommands, __zfexecuteCommands
+5	142	17	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	17		brtst 4, __NXC_Label_666, __zfexecuteCommands
+5	142	20	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	20		jmp __NXC_Label_667
+5	142	22	#line 142 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	22		add __executeCommands_7qG2_cmd_7qG2_001, __executeCommands_7qG2_cmd_7qG2_001, __constVal1
+5	143	26	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	144	26		jmp __NXC_Label_665
+5	143	28	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	144	28		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	143	30	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	30	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	144	30		index __ArrHelper__executeCommands_73_0, __executeCommands_7qG2_cmdPack_7qG2_000.commands, __signed_stack_001executeCommands
+5	143	34	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	144	34		mov __signed_stack_001executeCommands, __ArrHelper__executeCommands_73_0
+5	143	36	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	143	36	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	144	36		set __D0executeCommands, 99
+5	143	39	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	144	39		cmp 5, __zfexecuteCommands, __signed_stack_001executeCommands, __D0executeCommands
+5	143	43	#line 143 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	144	43		mov __D0executeCommands, __zfexecuteCommands
+5	146	45	#line 146 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	147	45		brtst 4, __NXC_Label_677, __zfexecuteCommands
+5	146	48	#line 146 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	147	48		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	146	50	#line 146 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	146	50	#line 146 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	147	50		index __ArrHelper__executeCommands_73_0, __executeCommands_7qG2_cmdPack_7qG2_000.commands, __signed_stack_001executeCommands
+5	146	54	#line 146 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	147	54		mov __executeCommands_7qG2_o_7qG2_000.command, __ArrHelper__executeCommands_73_0
+5	147	56	#line 147 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	147	56	#line 147 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	147	56	#line 147 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	148	56		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	147	58	#line 147 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	147	58	#line 147 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	148	58		index __ArrHelper__executeCommands_73_0, __executeCommands_7qG2_cmdPack_7qG2_000.parameters, __signed_stack_001executeCommands
+5	147	62	#line 147 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	148	62		mov __executeCommands_7qG2_o_7qG2_000.parameter, __ArrHelper__executeCommands_73_0
+5	148	64	#line 148 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	148	64	#line 148 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	148	64	#line 148 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	149	64		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	148	66	#line 148 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	148	66	#line 148 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	149	66		index __ArrHelper__executeCommands_73_0, __executeCommands_7qG2_cmdPack_7qG2_000.destinations, __signed_stack_001executeCommands
+5	148	70	#line 148 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	149	70		mov __executeCommands_7qG2_o_7qG2_000.destination, __ArrHelper__executeCommands_73_0
+5	150	72	#line 150 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	150	72	#line 150 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	150	72	#line 150 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	151	72		set __ClearLine_7qG2_line_7qG2_000_inline_executeCommands, 0
+5	150	75	#line 150 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	6076	75	#line 6076 "NXCDefs.h"
+5	6077	75	#pragma macro 7
+5	6077	75		acquire __TextOutMutex
+5	6077	76		mov __TextOutArgs.Location.X, __constVal0
+5	6077	78		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_executeCommands
+5	6077	80		mov __TextOutArgs.Options, __constVal0
+5	6077	82		mov __TextOutArgs.Text, __BlankLine
+5	6077	84		syscall 13, __TextOutArgs
+5	6077	87		release __TextOutMutex
+5	8513	88	#line 8513 "NXCDefs.h"
+5	6076	88	#line 6076 "NXCDefs.h"
+5	151	88	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	151	88	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	88		set __signed_stack_001executeCommands, 0
+5	151	91	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	151	91	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	91		set __signed_stack_002executeCommands, 0
+5	151	94	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	151	94	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	94		mov __ArrHelper__executeCommands_244_0, __constStr0017
+5	151	96	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	96		mov __D0executeCommands, __executeCommands_7qG2_o_7qG2_000.command
+5	151	99	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	99		numtostr __strretvalexecuteCommands, __D0executeCommands
+5	151	102	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	102		mov __ArrHelper__executeCommands_244_1, __strretvalexecuteCommands
+5	151	104	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	104		mov __ArrHelper__executeCommands_244_2, __constStr0012
+5	151	106	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	106		mov __D0executeCommands, __executeCommands_7qG2_o_7qG2_000.destination
+5	151	109	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	109		numtostr __strretvalexecuteCommands, __D0executeCommands
+5	151	112	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	112		strcat __strbufexecuteCommands, __strretvalexecuteCommands
+5	151	116	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	116		mov __ArrHelper__executeCommands_244_3, __strbufexecuteCommands
+5	151	118	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	118		strcat __strbufexecuteCommands, __ArrHelper__executeCommands_244_2, __ArrHelper__executeCommands_244_3
+5	151	123	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	123		mov __ArrHelper__executeCommands_244_2, __strbufexecuteCommands
+5	151	125	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	125		strcat __strbufexecuteCommands, __ArrHelper__executeCommands_244_1, __ArrHelper__executeCommands_244_2
+5	151	130	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	130		mov __ArrHelper__executeCommands_244_1, __strbufexecuteCommands
+5	151	132	#line 151 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	152	132		strcat __strbufexecuteCommands, __ArrHelper__executeCommands_244_0, __ArrHelper__executeCommands_244_1
+5	154	137	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	137		acquire __TextOutMutex
+5	154	138	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	138		mov __TextOutArgs.Location.X, __signed_stack_001executeCommands
+5	154	140	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	140		mov __TextOutArgs.Location.Y, __signed_stack_002executeCommands
+5	154	143	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	143		set __TextOutArgs.Options, 0
+5	154	146	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	146		mov __TextOutArgs.Text, __strbufexecuteCommands
+5	154	149	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	149		syscall 13, __TextOutArgs
+5	154	152	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	152		mov __D0executeCommands, __TextOutArgs.Result
+5	154	155	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	155		release __TextOutMutex
+5	154	156	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	154	156	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	156		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	154	158	#line 154 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	158	#line 155 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	156	158		set __D0executeCommands, 99
+5	155	161	#line 155 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	156	161		replace __executeCommands_7qG2_cmdPack_7qG2_000.commands, __executeCommands_7qG2_cmdPack_7qG2_000.commands, __signed_stack_001executeCommands, __D0executeCommands
+5	155	166	#line 155 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	155	166	#line 155 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	156	166		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	155	168	#line 155 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	156	168	#line 156 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	157	168		set __D0executeCommands, 0
+5	156	171	#line 156 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	157	171		replace __executeCommands_7qG2_cmdPack_7qG2_000.parameters, __executeCommands_7qG2_cmdPack_7qG2_000.parameters, __signed_stack_001executeCommands, __D0executeCommands
+5	156	176	#line 156 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	156	176	#line 156 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	157	176		mov __signed_stack_001executeCommands, __executeCommands_7qG2_cmd_7qG2_001
+5	156	178	#line 156 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	161	178	#line 161 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	162	178		set __D0executeCommands, 99
+5	161	181	#line 161 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	162	181		replace __executeCommands_7qG2_cmdPack_7qG2_000.destinations, __executeCommands_7qG2_cmdPack_7qG2_000.destinations, __signed_stack_001executeCommands, __D0executeCommands
+5	161	186	#line 161 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	161	186	#line 161 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	162	186		mov __sendCommand_7qG2_o_7qG2_000, __executeCommands_7qG2_o_7qG2_000
+5	162	188	#line 162 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	163	188		subcall sendCommand, __sendCommand_return
+5	162	190	#line 162 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	162	190	#line 162 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	163	190		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 200
+5	162	193	#line 162 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	7921	193	#line 7921 "NXCDefs.h"
+5	7922	193		wait 200
+5	7921	195	#line 7921 "NXCDefs.h"
+5	163	195	#line 163 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	163	195	#line 163 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	164	195		mov __sendParameter_7qG2_o_7qG2_000, __executeCommands_7qG2_o_7qG2_000
+5	164	197	#line 164 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	165	197		subcall sendParameter, __sendParameter_return
+5	164	199	#line 164 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	164	199	#line 164 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	165	199		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 200
+5	164	202	#line 164 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	7921	202	#line 7921 "NXCDefs.h"
+5	7922	202		wait 200
+5	7921	204	#line 7921 "NXCDefs.h"
+5	165	204	#line 165 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	166	204	#line 166 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	167	204		subcall getAck, __getAck_return
+5	166	206	#line 166 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	166	206	#line 166 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	167	206		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 1500
+5	166	209	#line 166 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	7921	209	#line 7921 "NXCDefs.h"
+5	7922	209		wait 1500
+5	7921	211	#line 7921 "NXCDefs.h"
+5	167	211	#line 167 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	168	211	#line 168 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	169	211		jmp __NXC_Label_718
+5	168	213	#line 168 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	169	213		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 500
+5	168	216	#line 168 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	7921	216	#line 7921 "NXCDefs.h"
+5	7922	216		wait 500
+5	7921	218	#line 7921 "NXCDefs.h"
+5	169	218	#line 169 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	6069	218	#line 6069 "NXCDefs.h"
+5	6070	218	#pragma macro 6
+5	6070	218		acquire __PointOutMutex
+5	6070	219		mov __PointOutArgs.Location.X, __constVal200
+5	6070	221		mov __PointOutArgs.Location.Y, __constVal200
+5	6070	223		mov __PointOutArgs.Options, __constVal1
+5	6070	225		syscall 14, __PointOutArgs
+5	6070	228		release __PointOutMutex
+5	8677	229	#line 8677 "NXCDefs.h"
+5	6069	229	#line 6069 "NXCDefs.h"
+5	170	229	#line 170 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	170	229	#line 170 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	171	229		set __signed_stack_001executeCommands, 10
+5	170	232	#line 170 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	170	232	#line 170 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	171	232		set __signed_stack_002executeCommands, 32
+5	170	235	#line 170 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	170	235	#line 170 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	171	235		strcat __strbufexecuteCommands, __constStr0018
+5	171	239	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	239		acquire __TextOutMutex
+5	171	240	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	240		mov __TextOutArgs.Location.X, __signed_stack_001executeCommands
+5	171	242	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	242		mov __TextOutArgs.Location.Y, __signed_stack_002executeCommands
+5	171	245	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	245		set __TextOutArgs.Options, 0
+5	171	248	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	248		mov __TextOutArgs.Text, __strbufexecuteCommands
+5	171	251	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	251		syscall 13, __TextOutArgs
+5	171	254	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	254		mov __D0executeCommands, __TextOutArgs.Result
+5	171	257	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	257		release __TextOutMutex
+5	171	258	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	171	258	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	258		set __signed_stack_001executeCommands, 20
+5	171	261	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	171	261	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	261		set __signed_stack_002executeCommands, 24
+5	171	264	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	171	264	#line 171 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	264		strcat __strbufexecuteCommands, __constStr0019
+5	172	268	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	268		acquire __TextOutMutex
+5	172	269	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	269		mov __TextOutArgs.Location.X, __signed_stack_001executeCommands
+5	172	271	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	271		mov __TextOutArgs.Location.Y, __signed_stack_002executeCommands
+5	172	274	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	274		set __TextOutArgs.Options, 0
+5	172	277	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	277		mov __TextOutArgs.Text, __strbufexecuteCommands
+5	172	280	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	280		syscall 13, __TextOutArgs
+5	172	283	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	283		mov __D0executeCommands, __TextOutArgs.Result
+5	172	286	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	286		release __TextOutMutex
+5	172	287	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	172	287	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	173	287		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 1200
+5	172	290	#line 172 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	7921	290	#line 7921 "NXCDefs.h"
+5	7922	290		wait 1200
+5	7921	292	#line 7921 "NXCDefs.h"
+5	173	292	#line 173 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	174	292	#line 174 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	175	292		set READY, 1
+5	174	295	#line 174 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	174	295	#line 174 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	175	295	#line 175 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	176	295		set __D0executeCommands, 0
+5	175	298	#line 175 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	176	298		subret __executeCommands_return
+5	175	300	#line 175 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	181	300	#line 181 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	186	300	#line 186 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	187	300		jmp __NXC_Label_668
+5	186	302	#line 186 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	186	302	#line 186 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+5	187	302		subret __executeCommands_return
+6	193	0	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	0		acquire COMMANDS
+6	193	1	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	193	1	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	1		set __synchCommandQueues_7qG2_i_7qG2_001, 0
+6	193	4	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	193	4	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	4		mov __signed_stack_001synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	193	6	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	193	6	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	6		arrsize __D0synchCommandQueues, tempCommands
+6	193	9	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	9		cmp 0, __zfsynchCommandQueues, __signed_stack_001synchCommandQueues, __D0synchCommandQueues
+6	193	13	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	13		mov __D0synchCommandQueues, __zfsynchCommandQueues
+6	193	15	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	15		brtst 4, __NXC_Label_736, __zfsynchCommandQueues
+6	193	18	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	18		jmp __NXC_Label_737
+6	193	20	#line 193 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	20		add __synchCommandQueues_7qG2_i_7qG2_001, __synchCommandQueues_7qG2_i_7qG2_001, __constVal1
+6	194	24	#line 194 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	24		jmp __NXC_Label_735
+6	194	26	#line 194 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	26		mov __signed_stack_001synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	194	28	#line 194 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	28	#line 194 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	28		mov __signed_stack_002synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	194	30	#line 194 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	194	30	#line 194 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	30		index __ArrHelper__synchCommandQueues_73_0, tempCommands, __signed_stack_002synchCommandQueues
+6	194	34	#line 194 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	34		mov __D0synchCommandQueues, __ArrHelper__synchCommandQueues_73_0
+6	195	36	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	36		replace __synchCommandQueues_7qG2_commands_7qG2_000, __synchCommandQueues_7qG2_commands_7qG2_000, __signed_stack_001synchCommandQueues, __D0synchCommandQueues
+6	195	41	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	41	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	41		mov __signed_stack_001synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	195	43	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	43	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	43		mov __signed_stack_002synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	195	45	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	195	45	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	45		index __ArrHelper__synchCommandQueues_73_0, tempParameters, __signed_stack_002synchCommandQueues
+6	195	49	#line 195 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	49		mov __D0synchCommandQueues, __ArrHelper__synchCommandQueues_73_0
+6	196	51	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	197	51		replace __synchCommandQueues_7qG2_parameters_7qG2_000, __synchCommandQueues_7qG2_parameters_7qG2_000, __signed_stack_001synchCommandQueues, __D0synchCommandQueues
+6	196	56	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	56	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	197	56		mov __signed_stack_001synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	196	58	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	58	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	197	58		mov __signed_stack_002synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	196	60	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	196	60	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	197	60		index __ArrHelper__synchCommandQueues_73_0, tempDestinations, __signed_stack_002synchCommandQueues
+6	196	64	#line 196 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	197	64		mov __D0synchCommandQueues, __ArrHelper__synchCommandQueues_73_0
+6	198	66	#line 198 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	199	66		replace __synchCommandQueues_7qG2_destinations_7qG2_000, __synchCommandQueues_7qG2_destinations_7qG2_000, __signed_stack_001synchCommandQueues, __D0synchCommandQueues
+6	198	71	#line 198 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	198	71	#line 198 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	199	71		mov __signed_stack_001synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	198	73	#line 198 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	199	73	#line 199 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	200	73		set __D0synchCommandQueues, 99
+6	199	76	#line 199 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	200	76		replace tempCommands, tempCommands, __signed_stack_001synchCommandQueues, __D0synchCommandQueues
+6	199	81	#line 199 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	199	81	#line 199 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	200	81		mov __signed_stack_001synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	199	83	#line 199 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	200	83	#line 200 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	201	83		set __D0synchCommandQueues, 0
+6	200	86	#line 200 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	201	86		replace tempParameters, tempParameters, __signed_stack_001synchCommandQueues, __D0synchCommandQueues
+6	200	91	#line 200 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	200	91	#line 200 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	201	91		mov __signed_stack_001synchCommandQueues, __synchCommandQueues_7qG2_i_7qG2_001
+6	200	93	#line 200 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	201	93	#line 201 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	202	93		set __D0synchCommandQueues, 99
+6	201	96	#line 201 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	202	96		replace tempDestinations, tempDestinations, __signed_stack_001synchCommandQueues, __D0synchCommandQueues
+6	201	101	#line 201 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	203	101	#line 203 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	204	101		jmp __NXC_Label_738
+6	203	103	#line 203 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	205	103	#line 205 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	206	103		release COMMANDS
+6	205	104	#line 205 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	205	104	#line 205 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	206	104		set __ClearLine_7qG2_line_7qG2_000_inline_synchCommandQueues, 16
+6	205	107	#line 205 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	6076	107	#line 6076 "NXCDefs.h"
+6	6077	107	#pragma macro 7
+6	6077	107		acquire __TextOutMutex
+6	6077	108		mov __TextOutArgs.Location.X, __constVal0
+6	6077	110		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_synchCommandQueues
+6	6077	112		mov __TextOutArgs.Options, __constVal0
+6	6077	114		mov __TextOutArgs.Text, __BlankLine
+6	6077	116		syscall 13, __TextOutArgs
+6	6077	119		release __TextOutMutex
+6	8945	120	#line 8945 "NXCDefs.h"
+6	6076	120	#line 6076 "NXCDefs.h"
+6	206	120	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	206	120	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	120		set __signed_stack_001synchCommandQueues, 0
+6	206	123	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	206	123	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	123		set __signed_stack_002synchCommandQueues, 16
+6	206	126	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	206	126	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	126		mov __ArrHelper__synchCommandQueues_244_0, __constStr0020
+6	206	128	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	128		set __signed_stack_003synchCommandQueues, 0
+6	206	131	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	206	131	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	131		index __ArrHelper__synchCommandQueues_73_0, __synchCommandQueues_7qG2_commands_7qG2_000, __signed_stack_003synchCommandQueues
+6	206	135	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	135		mov __D0synchCommandQueues, __ArrHelper__synchCommandQueues_73_0
+6	206	137	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	137		numtostr __strretvalsynchCommandQueues, __D0synchCommandQueues
+6	206	140	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	140		mov __ArrHelper__synchCommandQueues_244_1, __strretvalsynchCommandQueues
+6	206	142	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	142		mov __ArrHelper__synchCommandQueues_244_2, __constStr0012
+6	206	144	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	144		set __signed_stack_003synchCommandQueues, 0
+6	206	147	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	206	147	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	147		index __ArrHelper__synchCommandQueues_73_0, __synchCommandQueues_7qG2_destinations_7qG2_000, __signed_stack_003synchCommandQueues
+6	206	151	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	151		mov __D0synchCommandQueues, __ArrHelper__synchCommandQueues_73_0
+6	206	153	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	153		numtostr __strretvalsynchCommandQueues, __D0synchCommandQueues
+6	206	156	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	156		strcat __strbufsynchCommandQueues, __strretvalsynchCommandQueues
+6	206	160	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	160		mov __ArrHelper__synchCommandQueues_244_3, __strbufsynchCommandQueues
+6	206	162	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	162		strcat __strbufsynchCommandQueues, __ArrHelper__synchCommandQueues_244_2, __ArrHelper__synchCommandQueues_244_3
+6	206	167	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	167		mov __ArrHelper__synchCommandQueues_244_2, __strbufsynchCommandQueues
+6	206	169	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	169		strcat __strbufsynchCommandQueues, __ArrHelper__synchCommandQueues_244_1, __ArrHelper__synchCommandQueues_244_2
+6	206	174	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	174		mov __ArrHelper__synchCommandQueues_244_1, __strbufsynchCommandQueues
+6	206	176	#line 206 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	176		strcat __strbufsynchCommandQueues, __ArrHelper__synchCommandQueues_244_0, __ArrHelper__synchCommandQueues_244_1
+6	207	181	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	181		acquire __TextOutMutex
+6	207	182	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	182		mov __TextOutArgs.Location.X, __signed_stack_001synchCommandQueues
+6	207	185	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	185		mov __TextOutArgs.Location.Y, __signed_stack_002synchCommandQueues
+6	207	188	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	188		set __TextOutArgs.Options, 0
+6	207	191	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	191		mov __TextOutArgs.Text, __strbufsynchCommandQueues
+6	207	193	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	193		syscall 13, __TextOutArgs
+6	207	196	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	196		mov __D0synchCommandQueues, __TextOutArgs.Result
+6	207	198	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	208	198		release __TextOutMutex
+6	207	199	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	199	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	207	199	#line 207 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	7921	199	#line 7921 "NXCDefs.h"
+6	7922	199		wait 1000
+6	7921	201	#line 7921 "NXCDefs.h"
+6	210	201	#line 210 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	210	201	#line 210 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	211	201		mov __CommandPacker_7qG2_commands_7qG2_000, __synchCommandQueues_7qG2_commands_7qG2_000
+6	210	203	#line 210 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	211	203		mov __CommandPacker_7qG2_parameters_7qG2_000, __synchCommandQueues_7qG2_parameters_7qG2_000
+6	210	205	#line 210 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	211	205		mov __CommandPacker_7qG2_destinations_7qG2_000, __synchCommandQueues_7qG2_destinations_7qG2_000
+6	211	207	#line 211 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	212	207		subcall CommandPacker, __CommandPacker_return
+6	211	209	#line 211 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	212	209		subret __synchCommandQueues_return
+6	211	211	#line 211 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	217	211	#line 217 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+6	218	211		subret __synchCommandQueues_return
+7	222	0	#line 222 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	223	0		acquire COMMANDS
+7	222	1	#line 222 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	222	1	#line 222 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	223	1		set __ClearLine_7qG2_line_7qG2_000_inline_addToList, 8
+7	222	4	#line 222 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	6076	4	#line 6076 "NXCDefs.h"
+7	6077	4	#pragma macro 7
+7	6077	4		acquire __TextOutMutex
+7	6077	5		mov __TextOutArgs.Location.X, __constVal0
+7	6077	7		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_addToList
+7	6077	9		mov __TextOutArgs.Options, __constVal0
+7	6077	11		mov __TextOutArgs.Text, __BlankLine
+7	6077	13		syscall 13, __TextOutArgs
+7	6077	16		release __TextOutMutex
+7	9073	17	#line 9073 "NXCDefs.h"
+7	6076	17	#line 6076 "NXCDefs.h"
+7	223	17	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	223	17	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	17		set __signed_stack_001addToList, 0
+7	223	20	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	223	20	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	20		set __signed_stack_002addToList, 8
+7	223	23	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	223	23	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	23		mov __ArrHelper__addToList_244_0, __constStr0021
+7	223	25	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	25		mov __D0addToList, __addToList_7qG2_newOrder_7qG2_000.command
+7	223	27	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	27		numtostr __strretvaladdToList, __D0addToList
+7	223	30	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	30		mov __ArrHelper__addToList_244_1, __strretvaladdToList
+7	223	32	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	32		mov __ArrHelper__addToList_244_2, __constStr0012
+7	223	34	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	34		mov __D0addToList, __addToList_7qG2_newOrder_7qG2_000.destination
+7	223	36	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	36		numtostr __strretvaladdToList, __D0addToList
+7	223	39	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	39		strcat __strbufaddToList, __strretvaladdToList
+7	223	43	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	43		mov __ArrHelper__addToList_244_3, __strbufaddToList
+7	223	45	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	45		strcat __strbufaddToList, __ArrHelper__addToList_244_2, __ArrHelper__addToList_244_3
+7	223	50	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	50		mov __ArrHelper__addToList_244_2, __strbufaddToList
+7	223	52	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	52		strcat __strbufaddToList, __ArrHelper__addToList_244_1, __ArrHelper__addToList_244_2
+7	223	57	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	57		mov __ArrHelper__addToList_244_1, __strbufaddToList
+7	223	59	#line 223 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	59		strcat __strbufaddToList, __ArrHelper__addToList_244_0, __ArrHelper__addToList_244_1
+7	224	64	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	64		acquire __TextOutMutex
+7	224	65	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	65		mov __TextOutArgs.Location.X, __signed_stack_001addToList
+7	224	68	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	68		mov __TextOutArgs.Location.Y, __signed_stack_002addToList
+7	224	70	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	70		set __TextOutArgs.Options, 0
+7	224	73	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	73		mov __TextOutArgs.Text, __strbufaddToList
+7	224	76	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	76		syscall 13, __TextOutArgs
+7	224	79	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	79		mov __D0addToList, __TextOutArgs.Result
+7	224	82	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	82		release __TextOutMutex
+7	224	83	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	83	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	83		set __addToList_7qG2_i_7qG2_001, 0
+7	224	86	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	86	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	86		mov __signed_stack_001addToList, __addToList_7qG2_i_7qG2_001
+7	224	88	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	224	88	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	88		arrsize __D0addToList, tempCommands
+7	224	91	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	91		cmp 0, __zfaddToList, __signed_stack_001addToList, __D0addToList
+7	224	95	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	95		mov __D0addToList, __zfaddToList
+7	224	97	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	97		brtst 4, __NXC_Label_800, __zfaddToList
+7	224	100	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	100		jmp __NXC_Label_801
+7	224	102	#line 224 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	102		add __addToList_7qG2_i_7qG2_001, __addToList_7qG2_i_7qG2_001, __constVal1
+7	225	106	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	226	106		jmp __NXC_Label_799
+7	225	108	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	226	108		mov __signed_stack_001addToList, __addToList_7qG2_i_7qG2_001
+7	225	110	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	110	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	226	110		index __ArrHelper__addToList_73_0, tempCommands, __signed_stack_001addToList
+7	225	114	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	226	114		mov __signed_stack_001addToList, __ArrHelper__addToList_73_0
+7	225	116	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	225	116	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	226	116		set __D0addToList, 99
+7	225	119	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	226	119		cmp 4, __zfaddToList, __signed_stack_001addToList, __D0addToList
+7	225	123	#line 225 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	226	123		mov __D0addToList, __zfaddToList
+7	226	125	#line 226 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	227	125		brtst 4, __NXC_Label_811, __zfaddToList
+7	226	128	#line 226 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	227	128		mov __signed_stack_001addToList, __addToList_7qG2_i_7qG2_001
+7	226	130	#line 226 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	227	130	#line 227 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	228	130		mov __D0addToList, __addToList_7qG2_newOrder_7qG2_000.command
+7	227	132	#line 227 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	228	132		replace tempCommands, tempCommands, __signed_stack_001addToList, __D0addToList
+7	227	137	#line 227 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	227	137	#line 227 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	228	137		mov __signed_stack_001addToList, __addToList_7qG2_i_7qG2_001
+7	227	139	#line 227 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	228	139	#line 228 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	229	139		mov __D0addToList, __addToList_7qG2_newOrder_7qG2_000.parameter
+7	228	141	#line 228 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	229	141		replace tempParameters, tempParameters, __signed_stack_001addToList, __D0addToList
+7	228	146	#line 228 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	228	146	#line 228 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	229	146		mov __signed_stack_001addToList, __addToList_7qG2_i_7qG2_001
+7	228	148	#line 228 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	230	148	#line 230 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	231	148		mov __D0addToList, __addToList_7qG2_newOrder_7qG2_000.destination
+7	230	150	#line 230 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	231	150		replace tempDestinations, tempDestinations, __signed_stack_001addToList, __D0addToList
+7	230	155	#line 230 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	231	155	#line 231 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	232	155		jmp __NXC_Label_800
+7	231	157	#line 231 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	235	157	#line 235 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	235	157	#line 235 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	236	157		jmp __NXC_Label_802
+7	235	159	#line 235 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	237	159	#line 237 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	238	159		release COMMANDS
+7	237	160	#line 237 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	242	160	#line 242 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+7	243	160		subret __addToList_return
+8	6069	0	#line 6069 "NXCDefs.h"
+8	6070	0	#pragma macro 6
+8	6070	0		acquire __PointOutMutex
+8	6070	1		mov __PointOutArgs.Location.X, __constVal200
+8	6070	3		mov __PointOutArgs.Location.Y, __constVal200
+8	6070	5		mov __PointOutArgs.Options, __constVal1
+8	6070	7		syscall 14, __PointOutArgs
+8	6070	10		release __PointOutMutex
+8	9249	11	#line 9249 "NXCDefs.h"
+8	6069	11	#line 6069 "NXCDefs.h"
+8	247	11	#line 247 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	247	11	#line 247 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	248	11		set __signed_stack_001listenForCommands, 0
+8	247	14	#line 247 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	247	14	#line 247 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	248	14		set __signed_stack_002listenForCommands, 24
+8	247	17	#line 247 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	247	17	#line 247 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	248	17		strcat __strbuflistenForCommands, __constStr0022
+8	250	21	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	21		acquire __TextOutMutex
+8	250	22	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	22		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+8	250	25	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	25		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+8	250	28	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	28		set __TextOutArgs.Options, 0
+8	250	31	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	31		mov __TextOutArgs.Text, __strbuflistenForCommands
+8	250	34	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	34		syscall 13, __TextOutArgs
+8	250	37	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	37		mov __D0listenForCommands, __TextOutArgs.Result
+8	250	40	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	251	40		release __TextOutMutex
+8	250	41	#line 250 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	253	41	#line 253 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	254	41		set __listenForCommands_7qG2_tmpCmd_7qG2_000, 99
+8	253	44	#line 253 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	254	44	#line 254 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	255	44		set __listenForCommands_7qG2_tmpPar_7qG2_000, 0
+8	254	47	#line 254 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	256	47	#line 256 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	257	47		set __listenForCommands_7qG2_tmpDest_7qG2_000, 99
+8	256	50	#line 256 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	256	50	#line 256 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	257	50		set __D0listenForCommands, 1
+8	257	53	#line 257 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	258	53		tst 5, __zflistenForCommands, __D0listenForCommands
+8	257	56	#line 257 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	258	56		brtst 4, __NXC_Label_835, __zflistenForCommands
+8	257	59	#line 257 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	258	59		set __Wait_7qG2_ms_7qG2_000_inline_listenForCommands, 600
+8	257	62	#line 257 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	7921	62	#line 7921 "NXCDefs.h"
+8	7922	62		wait 600
+8	7921	64	#line 7921 "NXCDefs.h"
+8	258	64	#line 258 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	258	64	#line 258 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	259	64		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 16
+8	258	67	#line 258 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	6076	67	#line 6076 "NXCDefs.h"
+8	6077	67	#pragma macro 7
+8	6077	67		acquire __TextOutMutex
+8	6077	68		mov __TextOutArgs.Location.X, __constVal0
+8	6077	70		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+8	6077	72		mov __TextOutArgs.Options, __constVal0
+8	6077	74		mov __TextOutArgs.Text, __BlankLine
+8	6077	76		syscall 13, __TextOutArgs
+8	6077	79		release __TextOutMutex
+8	9351	80	#line 9351 "NXCDefs.h"
+8	6076	80	#line 6076 "NXCDefs.h"
+8	260	80	#line 260 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	260	80	#line 260 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	261	80	#pragma macro 9
+8	261	80		acquire __MRMutex
+8	261	81		mov __MRArgs.QueueID, __constVal7
+8	261	83		mov __MRArgs.Remove, __constVal1
+8	261	85		set __RRNTmpVal, 0
+8	261	88		syscall 27, __MRArgs
+8	261	91		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+8	261	96		mov __listenForCommands_7qG2_tmpCmd_7qG2_000, __RRNTmpVal
+8	261	98		mov __D0listenForCommands, __MRArgs.Result
+8	261	100		release __MRMutex
+8	9355	101	#line 9355 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	260	101	#line 260 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	260	101	#line 260 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	262	101	#line 262 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	263	101		mov __signed_stack_001listenForCommands, __listenForCommands_7qG2_tmpCmd_7qG2_000
+8	262	103	#line 262 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	262	103	#line 262 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	263	103		set __D0listenForCommands, 0
+8	262	106	#line 262 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	263	106		cmp 5, __zflistenForCommands, __signed_stack_001listenForCommands, __D0listenForCommands
+8	262	110	#line 262 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	263	110		mov __D0listenForCommands, __zflistenForCommands
+8	263	112	#line 263 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	264	112		brtst 4, __NXC_Label_844, __zflistenForCommands
+8	263	115	#line 263 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	264	115		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 24
+8	263	118	#line 263 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	6076	118	#line 6076 "NXCDefs.h"
+8	6077	118	#pragma macro 7
+8	6077	118		acquire __TextOutMutex
+8	6077	119		mov __TextOutArgs.Location.X, __constVal0
+8	6077	121		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+8	6077	123		mov __TextOutArgs.Options, __constVal0
+8	6077	125		mov __TextOutArgs.Text, __BlankLine
+8	6077	127		syscall 13, __TextOutArgs
+8	6077	130		release __TextOutMutex
+8	9379	131	#line 9379 "NXCDefs.h"
+8	6076	131	#line 6076 "NXCDefs.h"
+8	264	131	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	264	131	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	131		set __signed_stack_001listenForCommands, 0
+8	264	134	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	264	134	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	134		set __signed_stack_002listenForCommands, 16
+8	264	137	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	264	137	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	137		mov __ArrHelper__listenForCommands_244_0, __constStr0023
+8	264	139	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	139		mov __D0listenForCommands, __listenForCommands_7qG2_tmpCmd_7qG2_000
+8	264	141	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	141		numtostr __strretvallistenForCommands, __D0listenForCommands
+8	264	144	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	144		strcat __strbuflistenForCommands, __strretvallistenForCommands
+8	264	148	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	148		mov __ArrHelper__listenForCommands_244_1, __strbuflistenForCommands
+8	264	150	#line 264 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	150		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_0, __ArrHelper__listenForCommands_244_1
+8	265	155	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	155		acquire __TextOutMutex
+8	265	156	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	156		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+8	265	159	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	159		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+8	265	162	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	162		set __TextOutArgs.Options, 0
+8	265	165	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	165		mov __TextOutArgs.Text, __strbuflistenForCommands
+8	265	168	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	168		syscall 13, __TextOutArgs
+8	265	171	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	171		mov __D0listenForCommands, __TextOutArgs.Result
+8	265	174	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	174		release __TextOutMutex
+8	265	175	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	175	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	175	#pragma macro 9
+8	266	175		acquire __MRMutex
+8	266	176		mov __MRArgs.QueueID, __constVal8
+8	266	178		mov __MRArgs.Remove, __constVal1
+8	266	180		set __RRNTmpVal, 0
+8	266	183		syscall 27, __MRArgs
+8	266	186		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+8	266	191		mov __listenForCommands_7qG2_tmpPar_7qG2_000, __RRNTmpVal
+8	266	193		mov __D0listenForCommands, __MRArgs.Result
+8	266	195		release __MRMutex
+8	9426	196	#line 9426 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	196	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	265	196	#line 265 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	266	196	#line 266 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	267	196		set __Wait_7qG2_ms_7qG2_000_inline_listenForCommands, 400
+8	266	199	#line 266 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	7921	199	#line 7921 "NXCDefs.h"
+8	7922	199		wait 400
+8	7921	201	#line 7921 "NXCDefs.h"
+8	267	201	#line 267 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	267	201	#line 267 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	268	201	#pragma macro 9
+8	268	201		acquire __MRMutex
+8	268	202		mov __MRArgs.QueueID, __constVal9
+8	268	204		mov __MRArgs.Remove, __constVal1
+8	268	206		set __RRNTmpVal, 0
+8	268	209		syscall 27, __MRArgs
+8	268	212		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+8	268	217		mov __listenForCommands_7qG2_tmpDest_7qG2_000, __RRNTmpVal
+8	268	219		mov __D0listenForCommands, __MRArgs.Result
+8	268	221		release __MRMutex
+8	9440	222	#line 9440 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	267	222	#line 267 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	267	222	#line 267 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	268	222	#line 268 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	269	222		set __Wait_7qG2_ms_7qG2_000_inline_listenForCommands, 200
+8	268	225	#line 268 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	7921	225	#line 7921 "NXCDefs.h"
+8	7922	225		wait 200
+8	7921	227	#line 7921 "NXCDefs.h"
+8	271	227	#line 271 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	272	227	#line 272 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	273	227		mov __listenForCommands_7qG2_newOrder_7qG2_000.command, __listenForCommands_7qG2_tmpCmd_7qG2_000
+8	272	229	#line 272 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	272	229	#line 272 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	273	229	#line 273 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	274	229		mov __listenForCommands_7qG2_newOrder_7qG2_000.parameter, __listenForCommands_7qG2_tmpPar_7qG2_000
+8	273	231	#line 273 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	273	231	#line 273 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	276	231	#line 276 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	277	231		mov __listenForCommands_7qG2_newOrder_7qG2_000.destination, __listenForCommands_7qG2_tmpDest_7qG2_000
+8	276	233	#line 276 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	276	233	#line 276 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	276	233	#line 276 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	277	233		mov __addToList_7qG2_newOrder_7qG2_000, __listenForCommands_7qG2_newOrder_7qG2_000
+8	277	235	#line 277 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	278	235		subcall addToList, __addToList_return
+8	277	237	#line 277 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	277	237	#line 277 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	278	237		set __Wait_7qG2_ms_7qG2_000_inline_listenForCommands, 399
+8	277	240	#line 277 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	7921	240	#line 7921 "NXCDefs.h"
+8	7922	240		wait 399
+8	7921	242	#line 7921 "NXCDefs.h"
+8	278	242	#line 278 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	278	242	#line 278 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	279	242		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 8
+8	278	245	#line 278 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	6076	245	#line 6076 "NXCDefs.h"
+8	6077	245	#pragma macro 7
+8	6077	245		acquire __TextOutMutex
+8	6077	246		mov __TextOutArgs.Location.X, __constVal0
+8	6077	248		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+8	6077	250		mov __TextOutArgs.Options, __constVal0
+8	6077	252		mov __TextOutArgs.Text, __BlankLine
+8	6077	254		syscall 13, __TextOutArgs
+8	6077	257		release __TextOutMutex
+8	9496	258	#line 9496 "NXCDefs.h"
+8	6076	258	#line 6076 "NXCDefs.h"
+8	281	258	#line 281 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	282	258	#line 282 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	283	258		set __listenForCommands_7qG2_newOrder_7qG2_000.command, 99
+8	282	261	#line 282 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	282	261	#line 282 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	283	261	#line 283 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	284	261		set __listenForCommands_7qG2_newOrder_7qG2_000.parameter, 0
+8	283	264	#line 283 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	283	264	#line 283 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	284	264	#line 284 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	285	264		set __listenForCommands_7qG2_newOrder_7qG2_000.destination, 99
+8	284	267	#line 284 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	284	267	#line 284 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	286	267	#line 286 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	291	267	#line 291 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	292	267		jmp __NXC_Label_834
+8	291	269	#line 291 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+8	292	269		exit -1, -1
+9	360	0	#line 360 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	361	0		arrinit tempCommands, __constVal0, __constVal20
+9	360	4	#line 360 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	361	4		arrinit tempParameters, __constVal0, __constVal20
+9	360	8	#line 360 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	361	8		arrinit tempDestinations, __constVal0, __constVal20
+9	360	12	#line 360 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+9	361	12		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+1	sendCommand	337	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+2	sendParameter	463	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+3	getAck	551	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+4	CommandPacker	669	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+5	executeCommands	760	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+6	synchCommandQueues	1064	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+7	addToList	1277	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+8	listenForCommands	1439	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+9	__initialize_global_data	1711	C:\Users\Wizand\AppData\Local\Temp\temp.nxc

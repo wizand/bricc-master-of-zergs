@@ -1,0 +1,1573 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0sendCommand	6	1	0	4	7
+1	__DU0main	5	1	4	4	6
+2	__signed_stack_001getAck	6	1	8	4	10
+3	__D0sendParameter	6	1	12	4	7
+4	__D0main	6	1	16	4	49
+5	__RemoteMutex	9	0	20	4	8
+6	__SRSTmpLongVal	6	1	24	4	8
+7	__D0getAck	6	1	28	4	17
+8	__CHSWMutex	9	0	32	4	8
+9	__signed_stack_002sendParameter	6	1	36	4	2
+10	__signed_stack_001sendParameter	6	1	40	4	2
+11	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	44	4	19
+12	__Wait_7qG2_ms_7qG2_000_inline_getAck	5	1	48	4	2
+13	__signed_stack_002sendCommand	6	1	52	4	2
+14	__signed_stack_001main	6	1	56	4	28
+15	__signed_stack_002getAck	6	1	60	4	8
+16	__signed_stack_001sendCommand	6	1	64	4	2
+17	__signed_stack_002main	6	1	68	4	20
+18	__CBTWMutex	9	0	72	4	8
+19	__TextOutMutex	9	0	76	4	46
+20	__PointOutMutex	9	0	80	4	6
+21	__RRNTmpVal	6	1	84	4	16
+22	__MRMutex	9	0	88	4	12
+23	__sendParameter_7qG2_par_7qG2_000	4	1	92	2	5
+24	__sendCommand_7qG2_des_7qG2_000	4	1	94	2	7
+25	__sendCommand_7qG2_cmd_7qG2_000	4	1	96	2	5
+26	__main_7qG2_par_7qG2_000	4	1	98	2	5
+27	__main_7qG2_des_7qG2_000	4	1	100	2	6
+28	__main_7qG2_update_7qG2_000	4	1	102	2	4
+29	__main_7qG2_cmd_7qG2_000	4	1	104	2	7
+30	__sendParameter_7qG2_des_7qG2_000	4	1	106	2	7
+31	__getAck_7qG2_ack_7qG2_000	4	1	108	2	4
+32	__getAck_7qG2_timeout_7qG2_000	4	1	110	2	4
+33	__constVal200	4	0	112	2	6
+34	SEARCH	1	1	114	1	6
+35	__constVal8	2	0	115	1	1
+36	__constVal7	2	0	116	1	2
+37	__constVal3	2	0	117	1	5
+38	__constVal9	2	0	118	1	1
+39	__constVal2	2	0	119	1	8
+40	__constVal4	2	0	120	1	9
+41	__constVal5	2	0	121	1	3
+42	__WFRRTmpByte	1	1	122	1	8
+43	____initialize_global_data_return	1	1	123	1	3
+44	__ClearLine_7qG2_line_7qG2_000_inline_getAck	1	1	124	1	2
+45	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	125	1	14
+46	__constVal1	2	0	126	1	21
+47	__constVal0	2	1	127	1	19
+48	__sendCommand_return	1	1	128	1	5
+49	__FormatLocations_return	1	1	129	1	3
+50	__getAck_return	1	1	130	1	8
+51	__sendParameter_return	1	1	131	1	5
+52	__zfmain	1	1	132	1	24
+53	__zfgetAck	1	1	133	1	9
+54	__RRNErr	1	1	134	1	4
+55	__CBTWArgs	8	0	3	8	16
+56	__CBTWArgs.Result	2	1	136	1	16
+57	__CBTWArgs.Connection	1	1	137	1	16
+58	__CBTWArgs.Buffer	7	0	138	4	16
+59	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+60	__CHSWArgs	8	0	2	8	12
+61	__CHSWArgs.Status	2	1	140	1	12
+62	__CHSWArgs.Buffer	7	0	142	4	12
+63	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+64	__MRArgs	8	0	4	8	30
+65	__MRArgs.Result	2	1	144	1	30
+66	__MRArgs.QueueID	1	1	145	1	30
+67	__MRArgs.Remove	1	1	146	1	30
+68	__MRArgs.Message	7	0	148	4	30
+69	__MRArgs.Message.Message_type	1	0	0	1	0
+70	M_location	8	0	2	8	2
+71	M_location.coordinates	7	0	152	4	2
+72	M_location.coordinates.coordinates_type	4	0	0	2	0
+73	M_location.heading	4	1	154	2	2
+74	Z2_location	8	0	2	8	2
+75	Z2_location.coordinates	7	0	156	4	2
+76	Z2_location.coordinates.coordinates_type	4	0	0	2	0
+77	Z2_location.heading	4	1	158	2	2
+78	Z1_location	8	0	2	8	2
+79	Z1_location.coordinates	7	0	160	4	2
+80	Z1_location.coordinates.coordinates_type	4	0	0	2	0
+81	Z1_location.heading	4	1	162	2	2
+82	__TextOutArgs	8	0	4	16	130
+83	__TextOutArgs.Result	2	1	164	1	130
+84	__TextOutArgs.Location	8	0	2	4	130
+85	__TextOutArgs.Location.X	4	1	168	2	130
+86	__TextOutArgs.Location.Y	4	1	170	2	130
+87	__TextOutArgs.Text	7	0	172	4	130
+88	__TextOutArgs.Text.Text_type	1	0	0	1	0
+89	__TextOutArgs.Options	5	1	176	4	130
+90	__PointOutArgs	8	0	3	12	12
+91	__PointOutArgs.Result	2	1	180	1	12
+92	__PointOutArgs.Location	8	0	2	4	12
+93	__PointOutArgs.Location.X	4	1	184	2	12
+94	__PointOutArgs.Location.Y	4	1	186	2	12
+95	__PointOutArgs.Options	5	1	188	4	12
+96	__main_7qG2_buf2_7qG2_000	7	0	192	4	4
+97	__main_7qG2_buf2_7qG2_000.__main_7qG2_buf2_7qG2_000_type	1	0	0	1	0
+98	__main_7qG2_combination_7qG2_000	7	0	194	4	4
+99	__main_7qG2_combination_7qG2_000.__main_7qG2_combination_7qG2_000_type	1	0	0	1	0
+100	__constStr0026	7	0	196	4	1
+101	__constStr0026.__constStr0026_type	1	1	0	1	0
+102	__SRSTmpBuf	7	0	198	4	24
+103	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+104	__main_7qG2_buf1_7qG2_000	7	0	200	4	4
+105	__main_7qG2_buf1_7qG2_000.__main_7qG2_buf1_7qG2_000_type	1	0	0	1	0
+106	__SRSSendBuf	7	0	202	4	12
+107	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+108	__constStr0025	7	0	204	4	1
+109	__constStr0025.__constStr0025_type	1	1	0	1	0
+110	__SRSFlattenBuf	7	0	206	4	4
+111	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+112	__main_7qG2_loc2_7qG2_000	7	0	208	4	4
+113	__main_7qG2_loc2_7qG2_000.__main_7qG2_loc2_7qG2_000_type	1	0	0	1	0
+114	__constStr0024	7	0	210	4	3
+115	__constStr0024.__constStr0024_type	1	1	0	1	0
+116	__DCMessageWritePacket	7	0	212	4	4
+117	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+118	__main_7qG2_loc1_7qG2_000	7	0	214	4	4
+119	__main_7qG2_loc1_7qG2_000.__main_7qG2_loc1_7qG2_000_type	1	0	0	1	0
+120	__constStr0027	7	0	216	4	1
+121	__constStr0027.__constStr0027_type	1	1	0	1	0
+122	__constStr0034	7	0	218	4	1
+123	__constStr0034.__constStr0034_type	1	1	0	1	0
+124	__main_7qG2_s_7qG2_001	7	0	220	4	3
+125	__main_7qG2_s_7qG2_001.__main_7qG2_s_7qG2_001_type	1	0	0	1	0
+126	__constStr0033	7	0	222	4	1
+127	__constStr0033.__constStr0033_type	1	1	0	1	0
+128	__constStr0035	7	0	224	4	1
+129	__constStr0035.__constStr0035_type	1	1	0	1	0
+130	__constStr0038	7	0	226	4	1
+131	__constStr0038.__constStr0038_type	1	1	0	1	0
+132	__constStr0037	7	0	228	4	1
+133	__constStr0037.__constStr0037_type	1	1	0	1	0
+134	__constStr0036	7	0	230	4	1
+135	__constStr0036.__constStr0036_type	1	1	0	1	0
+136	__ArrHelper__sendCommand_244_3	7	0	232	4	2
+137	__ArrHelper__sendCommand_244_3.__ArrHelper__sendCommand_244_3_type	1	0	0	1	0
+138	__constStr0028	7	0	234	4	2
+139	__constStr0028.__constStr0028_type	1	1	0	1	0
+140	__ArrHelper__sendParameter_244_0	7	0	236	4	2
+141	__ArrHelper__sendParameter_244_0.__ArrHelper__sendParameter_244_0_type	1	0	0	1	0
+142	__constStr0029	7	0	238	4	1
+143	__constStr0029.__constStr0029_type	1	1	0	1	0
+144	__constStr0032	7	0	240	4	1
+145	__constStr0032.__constStr0032_type	1	1	0	1	0
+146	__constStr0031	7	0	242	4	1
+147	__constStr0031.__constStr0031_type	1	1	0	1	0
+148	__constStr0030	7	0	244	4	1
+149	__constStr0030.__constStr0030_type	1	1	0	1	0
+150	__ArrHelper__sendCommand_244_2	7	0	246	4	4
+151	__ArrHelper__sendCommand_244_2.__ArrHelper__sendCommand_244_2_type	1	0	0	1	0
+152	__strbufmain	7	0	248	4	63
+153	__strbufmain.__strbufmain_type	1	0	0	1	0
+154	__BlankLine	7	0	250	4	8
+155	__BlankLine.__BlankLine_type	1	0	0	1	0
+156	__ArrHelper__main_244_4	7	0	252	4	4
+157	__ArrHelper__main_244_4.__ArrHelper__main_244_4_type	1	0	0	1	0
+158	__ArrHelper__main_244_5	7	0	254	4	2
+159	__ArrHelper__main_244_5.__ArrHelper__main_244_5_type	1	0	0	1	0
+160	__strbufgetAck	7	0	256	4	6
+161	__strbufgetAck.__strbufgetAck_type	1	0	0	1	0
+162	__ArrHelper__sendCommand_244_0	7	0	258	4	2
+163	__ArrHelper__sendCommand_244_0.__ArrHelper__sendCommand_244_0_type	1	0	0	1	0
+164	__strretvalsendCommand	7	0	260	4	4
+165	__strretvalsendCommand.__strretvalsendCommand_type	1	0	0	1	0
+166	__strbufsendCommand	7	0	262	4	8
+167	__strbufsendCommand.__strbufsendCommand_type	1	0	0	1	0
+168	__ArrHelper__sendCommand_244_1	7	0	264	4	4
+169	__ArrHelper__sendCommand_244_1.__ArrHelper__sendCommand_244_1_type	1	0	0	1	0
+170	__strretvalsendParameter	7	0	266	4	4
+171	__strretvalsendParameter.__strretvalsendParameter_type	1	0	0	1	0
+172	__strbufsendParameter	7	0	268	4	8
+173	__strbufsendParameter.__strbufsendParameter_type	1	0	0	1	0
+174	__strretvalmain	7	0	270	4	8
+175	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+176	__ArrHelper__main_244_3	7	0	272	4	6
+177	__ArrHelper__main_244_3.__ArrHelper__main_244_3_type	1	0	0	1	0
+178	__constStr0018	7	0	274	4	1
+179	__constStr0018.__constStr0018_type	1	1	0	1	0
+180	__constStr0017	7	0	276	4	1
+181	__constStr0017.__constStr0017_type	1	1	0	1	0
+182	__constStr0016	7	0	278	4	1
+183	__constStr0016.__constStr0016_type	1	1	0	1	0
+184	__ArrHelper__sendParameter_244_1	7	0	280	4	4
+185	__ArrHelper__sendParameter_244_1.__ArrHelper__sendParameter_244_1_type	1	0	0	1	0
+186	__constStr0020	7	0	282	4	1
+187	__constStr0020.__constStr0020_type	1	1	0	1	0
+188	__constStr0019	7	0	284	4	3
+189	__constStr0019.__constStr0019_type	1	1	0	1	0
+190	__ArrHelper__sendParameter_244_2	7	0	286	4	4
+191	__ArrHelper__sendParameter_244_2.__ArrHelper__sendParameter_244_2_type	1	0	0	1	0
+192	__ArrHelper__main_244_1	7	0	288	4	12
+193	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+194	__ArrHelper__main_244_2	7	0	290	4	8
+195	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+196	__constStr0010	7	0	292	4	1
+197	__constStr0010.__constStr0010_type	1	1	0	1	0
+198	__ArrHelper__sendParameter_244_3	7	0	294	4	2
+199	__ArrHelper__sendParameter_244_3.__ArrHelper__sendParameter_244_3_type	1	0	0	1	0
+200	__constStr0015	7	0	296	4	1
+201	__constStr0015.__constStr0015_type	1	1	0	1	0
+202	__ArrHelper__main_244_0	7	0	298	4	8
+203	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	99	0	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	100	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	99	2	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6069	2	#line 6069 "NXCDefs.h"
+0	6070	2	#pragma macro 6
+0	6070	2		acquire __PointOutMutex
+0	6070	3		mov __PointOutArgs.Location.X, __constVal200
+0	6070	5		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	7		mov __PointOutArgs.Options, __constVal1
+0	6070	9		syscall 14, __PointOutArgs
+0	6070	12		release __PointOutMutex
+0	9302	13	#line 9302 "NXCDefs.h"
+0	6069	13	#line 6069 "NXCDefs.h"
+0	102	13	#line 102 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	103	13	#line 103 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	103	13	#line 103 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	103	13	#line 103 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	105	13	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	106	13		set SEARCH, 0
+0	105	16	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	105	16	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	107	16	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	108	16		strcat __strbufmain, __constStr0024
+0	107	20	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	107	20	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	108	20	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	109	20		set __main_7qG2_cmd_7qG2_000, 0
+0	108	23	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	109	23	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	110	23		set __main_7qG2_par_7qG2_000, 0
+0	109	26	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	111	26	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	112	26		set __main_7qG2_des_7qG2_000, 0
+0	111	29	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	113	29	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	113	29	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	114	29	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	115	29		strcat __strbufmain, __constStr0024
+0	114	33	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	115	33		mov __main_7qG2_buf1_7qG2_000, __strbufmain
+0	115	35	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	116	35		strcat __strbufmain, __constStr0024
+0	115	39	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	116	39		mov __main_7qG2_buf2_7qG2_000, __strbufmain
+0	116	41	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	117	41		strcat __strbufmain, __constStr0025
+0	116	45	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	117	45		mov __main_7qG2_loc1_7qG2_000, __strbufmain
+0	117	47	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	118	47		strcat __strbufmain, __constStr0026
+0	117	51	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	118	51		mov __main_7qG2_loc2_7qG2_000, __strbufmain
+0	123	53	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	124	53		set __main_7qG2_update_7qG2_000, 0
+0	123	56	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6069	56	#line 6069 "NXCDefs.h"
+0	6070	56	#pragma macro 6
+0	6070	56		acquire __PointOutMutex
+0	6070	57		mov __PointOutArgs.Location.X, __constVal200
+0	6070	59		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	61		mov __PointOutArgs.Options, __constVal1
+0	6070	63		syscall 14, __PointOutArgs
+0	6070	66		release __PointOutMutex
+0	9411	67	#line 9411 "NXCDefs.h"
+0	6069	67	#line 6069 "NXCDefs.h"
+0	124	67	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	124	67	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	125	67		set __signed_stack_001main, 0
+0	124	70	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	124	70	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	125	70		set __signed_stack_002main, 56
+0	124	73	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	124	73	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	125	73		strcat __strbufmain, __constStr0027
+0	126	77	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	77		acquire __TextOutMutex
+0	126	78	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	78		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	126	80	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	80		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	126	82	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	82		set __TextOutArgs.Options, 0
+0	126	85	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	85		mov __TextOutArgs.Text, __strbufmain
+0	126	87	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	87		syscall 13, __TextOutArgs
+0	126	90	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	90		mov __D0main, __TextOutArgs.Result
+0	126	92	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	92		release __TextOutMutex
+0	126	93	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	126	93	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	127	93		set __D0main, 1
+0	128	96	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	129	96		tst 5, __zfmain, __D0main
+0	128	99	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	129	99		brtst 4, __NXC_Label_838, __zfmain
+0	128	102	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	129	102		set __Wait_7qG2_ms_7qG2_000_inline_main, 50
+0	128	105	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	105	#line 7921 "NXCDefs.h"
+0	7922	105		wait 50
+0	7921	107	#line 7921 "NXCDefs.h"
+0	130	107	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	130	107	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	130	107	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	131	107		not __DU0main, SEARCH
+0	131	110	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	132	110		tst 5, __zfmain, __DU0main
+0	131	113	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	132	113		brtst 4, __NXC_Label_845, __zfmain
+0	131	116	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	132	116	#pragma macro 9
+0	132	116		acquire __MRMutex
+0	132	117		mov __MRArgs.QueueID, __constVal7
+0	132	119		mov __MRArgs.Remove, __constVal1
+0	132	121		set __RRNTmpVal, 0
+0	132	124		syscall 27, __MRArgs
+0	132	127		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	132	132		mov __main_7qG2_cmd_7qG2_000, __RRNTmpVal
+0	132	134		mov __D0main, __MRArgs.Result
+0	132	136		release __MRMutex
+0	9479	137	#line 9479 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	131	137	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	131	137	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	133	137	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	134	137		mov __signed_stack_001main, __main_7qG2_cmd_7qG2_000
+0	133	139	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	133	139	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	134	139		set __D0main, 0
+0	133	142	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	134	142		cmp 5, __zfmain, __signed_stack_001main, __D0main
+0	133	146	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	134	146		mov __D0main, __zfmain
+0	134	148	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	135	148		brtst 4, __NXC_Label_848, __zfmain
+0	134	151	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	135	151		mov __signed_stack_001main, __main_7qG2_cmd_7qG2_000
+0	134	153	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	134	153	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	135	153		set __D0main, 15
+0	134	156	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	135	156		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	134	160	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	135	160		mov __D0main, __zfmain
+0	136	162	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	137	162		brtst 4, __NXC_Label_851, __zfmain
+0	137	165	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	138	165		set SEARCH, 1
+0	137	168	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	137	168	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	139	168	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	140	168		subcall FormatLocations, __FormatLocations_return
+0	139	170	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	139	170	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	140	170		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	139	173	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	173	#line 7921 "NXCDefs.h"
+0	7922	173		wait 100
+0	7921	175	#line 7921 "NXCDefs.h"
+0	140	175	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	140	175	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	141	175	#pragma macro 24
+0	141	175		acquire __RemoteMutex
+0	141	176		mov __SRSTmpBuf, __DCMessageWritePacket
+0	141	178		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal1
+0	141	183		arrsize __SRSTmpLongVal, __constStr0028
+0	141	186		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+0	141	191		arrbuild __SRSSendBuf, __SRSTmpBuf, __constStr0028
+0	141	196		brcmp 0, __ConnWrite_Else0, __constVal1, __constVal4
+0	141	200		acquire __CHSWMutex
+0	141	201		sub __WFRRTmpByte, __constVal1, __constVal4
+0	141	205		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+0	141	210		syscall 37, __CHSWArgs
+0	141	213		mov __D0main, __CHSWArgs.Status
+0	141	215		release __CHSWMutex
+0	141	216		jmp __ConnWrite_EndIf0
+0	141	218		acquire __CBTWMutex
+0	141	219		mov __CBTWArgs.Connection, __constVal1
+0	141	221		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	141	223		syscall 29, __CBTWArgs
+0	141	226		mov __D0main, __CBTWArgs.Result
+0	141	228		release __CBTWMutex
+0	141	229		release __RemoteMutex
+0	9531	230	#line 9531 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	140	230	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	140	230	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	141	230	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	142	230		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	141	233	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	233	#line 7921 "NXCDefs.h"
+0	7922	233		wait 300
+0	7921	235	#line 7921 "NXCDefs.h"
+0	144	235	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	144	235	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	145	235		set __ClearLine_7qG2_line_7qG2_000_inline_main, 56
+0	144	238	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6076	238	#line 6076 "NXCDefs.h"
+0	6077	238	#pragma macro 7
+0	6077	238		acquire __TextOutMutex
+0	6077	239		mov __TextOutArgs.Location.X, __constVal0
+0	6077	241		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	243		mov __TextOutArgs.Options, __constVal0
+0	6077	245		mov __TextOutArgs.Text, __BlankLine
+0	6077	247		syscall 13, __TextOutArgs
+0	6077	250		release __TextOutMutex
+0	9555	251	#line 9555 "NXCDefs.h"
+0	6076	251	#line 6076 "NXCDefs.h"
+0	145	251	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	145	251	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	146	251		set __signed_stack_001main, 0
+0	145	254	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	145	254	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	146	254		set __signed_stack_002main, 56
+0	145	257	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	145	257	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	146	257		strcat __strbufmain, __constStr0029
+0	146	261	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	261		acquire __TextOutMutex
+0	146	262	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	262		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	146	264	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	264		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	146	266	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	266		set __TextOutArgs.Options, 0
+0	146	269	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	269		mov __TextOutArgs.Text, __strbufmain
+0	146	271	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	271		syscall 13, __TextOutArgs
+0	146	274	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	274		mov __D0main, __TextOutArgs.Result
+0	146	276	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	276		release __TextOutMutex
+0	146	277	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	146	277	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	277		set __sendCommand_7qG2_cmd_7qG2_000, 15
+0	146	280	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	146	280	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	280		set __sendCommand_7qG2_des_7qG2_000, 2
+0	146	283	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	283	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	148	283		subcall sendCommand, __sendCommand_return
+0	147	285	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	147	285	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	148	285		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	147	288	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	288	#line 7921 "NXCDefs.h"
+0	7922	288		wait 200
+0	7921	290	#line 7921 "NXCDefs.h"
+0	148	290	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	148	290	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	149	290		set __sendParameter_7qG2_par_7qG2_000, 15
+0	148	293	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	148	293	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	149	293		set __sendParameter_7qG2_des_7qG2_000, 2
+0	148	296	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	149	296	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	150	296		subcall sendParameter, __sendParameter_return
+0	149	298	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	149	298	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	150	298		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	149	301	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	301	#line 7921 "NXCDefs.h"
+0	7922	301		wait 200
+0	7921	303	#line 7921 "NXCDefs.h"
+0	150	303	#line 150 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	151	303	#line 151 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	152	303		subcall getAck, __getAck_return
+0	151	305	#line 151 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	151	305	#line 151 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	151	305	#line 151 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	152	305		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	151	308	#line 151 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	308	#line 7921 "NXCDefs.h"
+0	7922	308		wait 200
+0	7921	310	#line 7921 "NXCDefs.h"
+0	154	310	#line 154 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	154	310	#line 154 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	155	310		set __ClearLine_7qG2_line_7qG2_000_inline_main, 56
+0	154	313	#line 154 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6076	313	#line 6076 "NXCDefs.h"
+0	6077	313	#pragma macro 7
+0	6077	313		acquire __TextOutMutex
+0	6077	314		mov __TextOutArgs.Location.X, __constVal0
+0	6077	316		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	318		mov __TextOutArgs.Options, __constVal0
+0	6077	320		mov __TextOutArgs.Text, __BlankLine
+0	6077	322		syscall 13, __TextOutArgs
+0	6077	325		release __TextOutMutex
+0	9661	326	#line 9661 "NXCDefs.h"
+0	6076	326	#line 6076 "NXCDefs.h"
+0	155	326	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	155	326	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	156	326		set __signed_stack_001main, 0
+0	155	329	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	155	329	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	156	329		set __signed_stack_002main, 56
+0	155	332	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	155	332	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	156	332		strcat __strbufmain, __constStr0030
+0	156	336	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	336		acquire __TextOutMutex
+0	156	337	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	337		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	156	339	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	339		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	156	341	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	341		set __TextOutArgs.Options, 0
+0	156	344	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	344		mov __TextOutArgs.Text, __strbufmain
+0	156	346	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	346		syscall 13, __TextOutArgs
+0	156	349	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	349		mov __D0main, __TextOutArgs.Result
+0	156	351	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	351		release __TextOutMutex
+0	156	352	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	156	352	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	352		set __sendCommand_7qG2_cmd_7qG2_000, 15
+0	156	355	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	156	355	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	355		set __sendCommand_7qG2_des_7qG2_000, 3
+0	156	358	#line 156 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	358	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	158	358		subcall sendCommand, __sendCommand_return
+0	157	360	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	157	360	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	158	360		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	157	363	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	363	#line 7921 "NXCDefs.h"
+0	7922	363		wait 200
+0	7921	365	#line 7921 "NXCDefs.h"
+0	158	365	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	158	365	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	159	365		set __sendParameter_7qG2_par_7qG2_000, 15
+0	158	368	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	158	368	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	159	368		set __sendParameter_7qG2_des_7qG2_000, 3
+0	158	371	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	159	371	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	160	371		subcall sendParameter, __sendParameter_return
+0	159	373	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	159	373	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	160	373		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	159	376	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	376	#line 7921 "NXCDefs.h"
+0	7922	376		wait 200
+0	7921	378	#line 7921 "NXCDefs.h"
+0	160	378	#line 160 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	161	378	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	162	378		subcall getAck, __getAck_return
+0	161	380	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	161	380	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	161	380	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	162	380		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	161	383	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	383	#line 7921 "NXCDefs.h"
+0	7922	383		wait 200
+0	7921	385	#line 7921 "NXCDefs.h"
+0	163	385	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6069	385	#line 6069 "NXCDefs.h"
+0	6070	385	#pragma macro 6
+0	6070	385		acquire __PointOutMutex
+0	6070	386		mov __PointOutArgs.Location.X, __constVal200
+0	6070	388		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	390		mov __PointOutArgs.Options, __constVal1
+0	6070	392		syscall 14, __PointOutArgs
+0	6070	395		release __PointOutMutex
+0	9761	396	#line 9761 "NXCDefs.h"
+0	6069	396	#line 6069 "NXCDefs.h"
+0	164	396	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	164	396	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	165	396		set __signed_stack_001main, 0
+0	164	399	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	164	399	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	165	399		set __signed_stack_002main, 56
+0	164	402	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	164	402	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	165	402		strcat __strbufmain, __constStr0010
+0	165	406	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	406		acquire __TextOutMutex
+0	165	407	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	407		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	165	409	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	409		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	165	411	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	411		set __TextOutArgs.Options, 0
+0	165	414	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	414		mov __TextOutArgs.Text, __strbufmain
+0	165	416	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	416		syscall 13, __TextOutArgs
+0	165	419	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	419		mov __D0main, __TextOutArgs.Result
+0	165	421	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	421		release __TextOutMutex
+0	165	422	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	165	422	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	166	422		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	165	425	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	425	#line 7921 "NXCDefs.h"
+0	7922	425		wait 500
+0	7921	427	#line 7921 "NXCDefs.h"
+0	169	427	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	170	427	#line 170 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	171	427		jmp __NXC_Label_904
+0	170	429	#line 170 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	171	429		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	170	432	#line 170 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	432	#line 7921 "NXCDefs.h"
+0	7922	432		wait 200
+0	7921	434	#line 7921 "NXCDefs.h"
+0	171	434	#line 171 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	171	434	#line 171 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	172	434	#pragma macro 9
+0	172	434		acquire __MRMutex
+0	172	435		mov __MRArgs.QueueID, __constVal8
+0	172	437		mov __MRArgs.Remove, __constVal1
+0	172	439		set __RRNTmpVal, 0
+0	172	442		syscall 27, __MRArgs
+0	172	445		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	172	450		mov __main_7qG2_par_7qG2_000, __RRNTmpVal
+0	172	452		mov __D0main, __MRArgs.Result
+0	172	454		release __MRMutex
+0	9819	455	#line 9819 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	171	455	#line 171 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	171	455	#line 171 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	172	455	#line 172 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	173	455		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	172	458	#line 172 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	458	#line 7921 "NXCDefs.h"
+0	7922	458		wait 200
+0	7921	460	#line 7921 "NXCDefs.h"
+0	173	460	#line 173 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	173	460	#line 173 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	174	460	#pragma macro 9
+0	174	460		acquire __MRMutex
+0	174	461		mov __MRArgs.QueueID, __constVal9
+0	174	463		mov __MRArgs.Remove, __constVal1
+0	174	465		set __RRNTmpVal, 0
+0	174	468		syscall 27, __MRArgs
+0	174	471		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	174	476		mov __main_7qG2_des_7qG2_000, __RRNTmpVal
+0	174	478		mov __D0main, __MRArgs.Result
+0	174	480		release __MRMutex
+0	9833	481	#line 9833 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	173	481	#line 173 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	173	481	#line 173 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	175	481	#line 175 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	176	481		set __signed_stack_001main, 0
+0	175	484	#line 175 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	175	484	#line 175 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	176	484		set __signed_stack_002main, 48
+0	175	487	#line 175 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	175	487	#line 175 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	176	487		strcat __strbufmain, __constStr0031
+0	176	491	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	491		acquire __TextOutMutex
+0	176	492	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	492		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	176	494	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	494		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	176	496	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	496		set __TextOutArgs.Options, 0
+0	176	499	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	499		mov __TextOutArgs.Text, __strbufmain
+0	176	501	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	501		syscall 13, __TextOutArgs
+0	176	504	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	504		mov __D0main, __TextOutArgs.Result
+0	176	506	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	506		release __TextOutMutex
+0	176	507	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	176	507	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	507		set __signed_stack_001main, 0
+0	176	510	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	176	510	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	510		set __signed_stack_002main, 40
+0	176	513	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	176	513	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	513		mov __ArrHelper__main_244_0, __constStr0032
+0	176	515	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	515		mov __D0main, __main_7qG2_cmd_7qG2_000
+0	176	517	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	517		numtostr __strretvalmain, __D0main
+0	176	520	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	520		mov __ArrHelper__main_244_1, __strretvalmain
+0	176	522	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	522		mov __ArrHelper__main_244_2, __constStr0033
+0	176	524	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	524		mov __D0main, __main_7qG2_par_7qG2_000
+0	176	526	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	526		numtostr __strretvalmain, __D0main
+0	176	529	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	529		mov __ArrHelper__main_244_3, __strretvalmain
+0	176	531	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	531		mov __ArrHelper__main_244_4, __constStr0019
+0	176	533	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	533		mov __D0main, __main_7qG2_des_7qG2_000
+0	176	535	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	535		numtostr __strretvalmain, __D0main
+0	176	538	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	538		strcat __strbufmain, __strretvalmain
+0	176	542	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	542		mov __ArrHelper__main_244_5, __strbufmain
+0	176	544	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	544		strcat __strbufmain, __ArrHelper__main_244_4, __ArrHelper__main_244_5
+0	176	549	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	549		mov __ArrHelper__main_244_4, __strbufmain
+0	176	551	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	551		strcat __strbufmain, __ArrHelper__main_244_3, __ArrHelper__main_244_4
+0	176	556	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	556		mov __ArrHelper__main_244_3, __strbufmain
+0	176	558	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	558		strcat __strbufmain, __ArrHelper__main_244_2, __ArrHelper__main_244_3
+0	176	563	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	563		mov __ArrHelper__main_244_2, __strbufmain
+0	176	565	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	565		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	176	570	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	570		mov __ArrHelper__main_244_1, __strbufmain
+0	176	572	#line 176 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	177	572		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	180	577	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	577		acquire __TextOutMutex
+0	180	578	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	578		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	180	580	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	580		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	180	582	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	582		set __TextOutArgs.Options, 0
+0	180	585	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	585		mov __TextOutArgs.Text, __strbufmain
+0	180	587	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	587		syscall 13, __TextOutArgs
+0	180	590	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	590		mov __D0main, __TextOutArgs.Result
+0	180	592	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	592		release __TextOutMutex
+0	180	593	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	180	593	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	181	593		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	180	596	#line 180 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	596	#line 7921 "NXCDefs.h"
+0	7922	596		wait 300
+0	7921	598	#line 7921 "NXCDefs.h"
+0	182	598	#line 182 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	182	598	#line 182 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	183	598		mov __sendCommand_7qG2_cmd_7qG2_000, __main_7qG2_cmd_7qG2_000
+0	182	600	#line 182 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	182	600	#line 182 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	183	600		mov __sendCommand_7qG2_des_7qG2_000, __main_7qG2_des_7qG2_000
+0	182	602	#line 182 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	183	602	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	184	602		subcall sendCommand, __sendCommand_return
+0	183	604	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	183	604	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	184	604		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	183	607	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	607	#line 7921 "NXCDefs.h"
+0	7922	607		wait 300
+0	7921	609	#line 7921 "NXCDefs.h"
+0	184	609	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	184	609	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	185	609		mov __sendParameter_7qG2_par_7qG2_000, __main_7qG2_par_7qG2_000
+0	184	611	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	184	611	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	185	611		mov __sendParameter_7qG2_des_7qG2_000, __main_7qG2_des_7qG2_000
+0	184	613	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	185	613	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	186	613		subcall sendParameter, __sendParameter_return
+0	185	615	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	185	615	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	186	615		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	185	618	#line 185 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	618	#line 7921 "NXCDefs.h"
+0	7922	618		wait 200
+0	7921	620	#line 7921 "NXCDefs.h"
+0	187	620	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	187	620	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	188	620		set __ClearLine_7qG2_line_7qG2_000_inline_main, 48
+0	187	623	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6076	623	#line 6076 "NXCDefs.h"
+0	6077	623	#pragma macro 7
+0	6077	623		acquire __TextOutMutex
+0	6077	624		mov __TextOutArgs.Location.X, __constVal0
+0	6077	626		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	628		mov __TextOutArgs.Options, __constVal0
+0	6077	630		mov __TextOutArgs.Text, __BlankLine
+0	6077	632		syscall 13, __TextOutArgs
+0	6077	635		release __TextOutMutex
+0	10013	636	#line 10013 "NXCDefs.h"
+0	6076	636	#line 6076 "NXCDefs.h"
+0	188	636	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	188	636	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	189	636		set __ClearLine_7qG2_line_7qG2_000_inline_main, 40
+0	188	639	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6076	639	#line 6076 "NXCDefs.h"
+0	6077	639	#pragma macro 7
+0	6077	639		acquire __TextOutMutex
+0	6077	640		mov __TextOutArgs.Location.X, __constVal0
+0	6077	642		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	644		mov __TextOutArgs.Options, __constVal0
+0	6077	646		mov __TextOutArgs.Text, __BlankLine
+0	6077	648		syscall 13, __TextOutArgs
+0	6077	651		release __TextOutMutex
+0	10023	652	#line 10023 "NXCDefs.h"
+0	6076	652	#line 6076 "NXCDefs.h"
+0	189	652	#line 189 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	189	652	#line 189 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	190	652		set __ClearLine_7qG2_line_7qG2_000_inline_main, 8
+0	189	655	#line 189 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6076	655	#line 6076 "NXCDefs.h"
+0	6077	655	#pragma macro 7
+0	6077	655		acquire __TextOutMutex
+0	6077	656		mov __TextOutArgs.Location.X, __constVal0
+0	6077	658		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	660		mov __TextOutArgs.Options, __constVal0
+0	6077	662		mov __TextOutArgs.Text, __BlankLine
+0	6077	664		syscall 13, __TextOutArgs
+0	6077	667		release __TextOutMutex
+0	10033	668	#line 10033 "NXCDefs.h"
+0	6076	668	#line 6076 "NXCDefs.h"
+0	190	668	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	190	668	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	191	668		set __ClearLine_7qG2_line_7qG2_000_inline_main, 0
+0	190	671	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6076	671	#line 6076 "NXCDefs.h"
+0	6077	671	#pragma macro 7
+0	6077	671		acquire __TextOutMutex
+0	6077	672		mov __TextOutArgs.Location.X, __constVal0
+0	6077	674		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	676		mov __TextOutArgs.Options, __constVal0
+0	6077	678		mov __TextOutArgs.Text, __BlankLine
+0	6077	680		syscall 13, __TextOutArgs
+0	6077	683		release __TextOutMutex
+0	10043	684	#line 10043 "NXCDefs.h"
+0	6076	684	#line 6076 "NXCDefs.h"
+0	192	684	#line 192 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	198	684	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	199	684		subcall getAck, __getAck_return
+0	198	686	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	198	686	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	198	686	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	199	686		set __ClearLine_7qG2_line_7qG2_000_inline_main, 40
+0	198	689	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	6076	689	#line 6076 "NXCDefs.h"
+0	6077	689	#pragma macro 7
+0	6077	689		acquire __TextOutMutex
+0	6077	690		mov __TextOutArgs.Location.X, __constVal0
+0	6077	692		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	694		mov __TextOutArgs.Options, __constVal0
+0	6077	696		mov __TextOutArgs.Text, __BlankLine
+0	6077	698		syscall 13, __TextOutArgs
+0	6077	701		release __TextOutMutex
+0	10065	702	#line 10065 "NXCDefs.h"
+0	6076	702	#line 6076 "NXCDefs.h"
+0	199	702	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	200	702	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	201	702		set __main_7qG2_cmd_7qG2_000, 0
+0	200	705	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	200	705	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	201	705	#line 201 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	202	705		set __main_7qG2_par_7qG2_000, 0
+0	201	708	#line 201 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	201	708	#line 201 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	202	708	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	203	708		set __main_7qG2_des_7qG2_000, 0
+0	202	711	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	202	711	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	204	711	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	205	711	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	205	711	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	206	711	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	711		mov __DU0main, SEARCH
+0	206	713	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	713		tst 5, __zfmain, __DU0main
+0	206	716	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	716		brtst 4, __NXC_Label_957, __zfmain
+0	206	719	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	719		strcat __strbufmain, __constStr0034
+0	206	723	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	723		mov __main_7qG2_s_7qG2_001, __strbufmain
+0	206	725	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	206	725	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	725		jmp __NXC_Label_958
+0	206	727	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	727		strcat __strbufmain, __constStr0035
+0	206	731	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	731		mov __main_7qG2_s_7qG2_001, __strbufmain
+0	206	733	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	733	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	733	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	208	733		set __signed_stack_001main, 0
+0	207	736	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	736	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	208	736		set __signed_stack_002main, 24
+0	207	739	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	207	739	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	208	739		strcat __strbufmain, __main_7qG2_s_7qG2_001
+0	208	743	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	743		acquire __TextOutMutex
+0	208	744	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	744		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	208	746	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	746		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	208	748	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	748		set __TextOutArgs.Options, 0
+0	208	751	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	751		mov __TextOutArgs.Text, __strbufmain
+0	208	753	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	753		syscall 13, __TextOutArgs
+0	208	756	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	756		mov __D0main, __TextOutArgs.Result
+0	208	758	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	758		release __TextOutMutex
+0	208	759	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	208	759	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	209	759		mov __DU0main, SEARCH
+0	210	761	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	211	761		tst 5, __zfmain, __DU0main
+0	210	764	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	211	764		brtst 4, __NXC_Label_965, __zfmain
+0	212	767	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	213	767		add __main_7qG2_update_7qG2_000, __main_7qG2_update_7qG2_000, __constVal1
+0	212	771	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	212	771	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	213	771		set __D0main, 1
+0	213	774	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	214	774		tst 5, __zfmain, __D0main
+0	213	777	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	214	777		brtst 4, __NXC_Label_967, __zfmain
+0	213	780	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	214	780		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
+0	213	783	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	783	#line 7921 "NXCDefs.h"
+0	7922	783		wait 150
+0	7921	785	#line 7921 "NXCDefs.h"
+0	214	785	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	214	785	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	215	785	#pragma macro 7
+0	215	785		acquire __MRMutex
+0	215	786		mov __MRArgs.QueueID, __constVal4
+0	215	788		mov __MRArgs.Remove, __constVal1
+0	215	790		syscall 27, __MRArgs
+0	215	793		mov __main_7qG2_buf1_7qG2_000, __MRArgs.Message
+0	215	795		mov __D0main, __MRArgs.Result
+0	215	797		release __MRMutex
+0	10184	798	#line 10184 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	214	798	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	214	798	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	215	798	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	216	798		strcat __strbufmain, __main_7qG2_buf1_7qG2_000
+0	215	802	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	216	802		arrsize __D0main, __strbufmain
+0	216	805		sub __signed_stack_001main, __D0main, __constVal1
+0	215	809	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	215	809	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	216	809		set __D0main, 4
+0	215	812	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	216	812		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	215	816	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	216	816		mov __D0main, __zfmain
+0	216	818	#line 216 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	217	818		brtst 4, __NXC_Label_974, __zfmain
+0	217	821	#line 217 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	218	821		strcat __strbufmain, __main_7qG2_buf1_7qG2_000
+0	217	825	#line 217 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	218	825		mov __main_7qG2_loc1_7qG2_000, __strbufmain
+0	217	827	#line 217 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	218	827	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	219	827		jmp __NXC_Label_967
+0	218	829	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	221	829	#line 221 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	221	829	#line 221 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	222	829		jmp __NXC_Label_966
+0	221	831	#line 221 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	221	831	#line 221 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	222	831		set __D0main, 1
+0	222	834	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	223	834		tst 5, __zfmain, __D0main
+0	222	837	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	223	837		brtst 4, __NXC_Label_976, __zfmain
+0	222	840	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	223	840		set __Wait_7qG2_ms_7qG2_000_inline_main, 150
+0	222	843	#line 222 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	843	#line 7921 "NXCDefs.h"
+0	7922	843		wait 150
+0	7921	845	#line 7921 "NXCDefs.h"
+0	223	845	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	223	845	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	224	845	#pragma macro 7
+0	224	845		acquire __MRMutex
+0	224	846		mov __MRArgs.QueueID, __constVal5
+0	224	848		mov __MRArgs.Remove, __constVal1
+0	224	850		syscall 27, __MRArgs
+0	224	853		mov __main_7qG2_buf2_7qG2_000, __MRArgs.Message
+0	224	855		mov __D0main, __MRArgs.Result
+0	224	857		release __MRMutex
+0	10237	858	#line 10237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	223	858	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	223	858	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	224	858	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	225	858		strcat __strbufmain, __main_7qG2_buf2_7qG2_000
+0	224	862	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	225	862		arrsize __D0main, __strbufmain
+0	225	865		sub __signed_stack_001main, __D0main, __constVal1
+0	224	869	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	224	869	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	225	869		set __D0main, 4
+0	224	872	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	225	872		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	224	876	#line 224 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	225	876		mov __D0main, __zfmain
+0	225	878	#line 225 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	226	878		brtst 4, __NXC_Label_983, __zfmain
+0	226	881	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	227	881		strcat __strbufmain, __main_7qG2_buf2_7qG2_000
+0	226	885	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	227	885		mov __main_7qG2_loc2_7qG2_000, __strbufmain
+0	226	887	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	227	887	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	228	887		jmp __NXC_Label_976
+0	227	889	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	230	889	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	230	889	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	889		jmp __NXC_Label_975
+0	230	891	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	230	891	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	891		set __signed_stack_001main, 0
+0	230	894	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	230	894	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	894		set __signed_stack_002main, 56
+0	230	897	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	230	897	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	897		mov __ArrHelper__main_244_0, __constStr0036
+0	230	899	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	899		mov __ArrHelper__main_244_1, __main_7qG2_loc1_7qG2_000
+0	230	901	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	901		mov __ArrHelper__main_244_2, __constStr0037
+0	230	903	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	903		mov __D0main, __main_7qG2_update_7qG2_000
+0	230	905	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	905		numtostr __strretvalmain, __D0main
+0	230	908	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	908		strcat __strbufmain, __strretvalmain
+0	230	912	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	912		mov __ArrHelper__main_244_3, __strbufmain
+0	230	914	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	914		strcat __strbufmain, __ArrHelper__main_244_2, __ArrHelper__main_244_3
+0	230	919	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	919		mov __ArrHelper__main_244_2, __strbufmain
+0	230	921	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	921		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	230	926	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	926		mov __ArrHelper__main_244_1, __strbufmain
+0	230	928	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	928		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	231	933	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	933		acquire __TextOutMutex
+0	231	934	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	934		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	231	936	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	936		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	231	938	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	938		set __TextOutArgs.Options, 0
+0	231	941	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	941		mov __TextOutArgs.Text, __strbufmain
+0	231	943	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	943		syscall 13, __TextOutArgs
+0	231	946	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	946		mov __D0main, __TextOutArgs.Result
+0	231	948	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	948		release __TextOutMutex
+0	231	949	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	949	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	949		set __signed_stack_001main, 0
+0	231	952	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	952	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	952		set __signed_stack_002main, 48
+0	231	955	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	231	955	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	955		mov __ArrHelper__main_244_0, __constStr0038
+0	231	957	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	957		strcat __strbufmain, __main_7qG2_loc2_7qG2_000
+0	231	961	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	961		mov __ArrHelper__main_244_1, __strbufmain
+0	231	963	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	232	963		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	233	968	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	968		acquire __TextOutMutex
+0	233	969	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	969		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	233	971	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	971		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	233	973	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	973		set __TextOutArgs.Options, 0
+0	233	976	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	976		mov __TextOutArgs.Text, __strbufmain
+0	233	978	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	978		syscall 13, __TextOutArgs
+0	233	981	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	981		mov __D0main, __TextOutArgs.Result
+0	233	983	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	983		release __TextOutMutex
+0	233	984	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	233	984	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	234	984		mov __ArrHelper__main_244_0, __main_7qG2_loc1_7qG2_000
+0	235	986	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	236	986		strcat __strbufmain, __main_7qG2_loc2_7qG2_000
+0	235	990	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	236	990		mov __ArrHelper__main_244_1, __strbufmain
+0	235	992	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	236	992		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	235	997	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	236	997		mov __main_7qG2_combination_7qG2_000, __strbufmain
+0	235	999	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	235	999	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	236	999		set __signed_stack_001main, 0
+0	235	1002	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	235	1002	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	236	1002		set __signed_stack_002main, 40
+0	235	1005	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	235	1005	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	236	1005		strcat __strbufmain, __main_7qG2_combination_7qG2_000
+0	237	1009	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1009		acquire __TextOutMutex
+0	237	1010	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1010		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	237	1012	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1012		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	237	1014	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1014		set __TextOutArgs.Options, 0
+0	237	1017	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1017		mov __TextOutArgs.Text, __strbufmain
+0	237	1019	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1019		syscall 13, __TextOutArgs
+0	237	1022	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1022		mov __D0main, __TextOutArgs.Result
+0	237	1024	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1024		release __TextOutMutex
+0	237	1025	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	237	1025	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1025		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	237	1028	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	1028	#line 7921 "NXCDefs.h"
+0	7922	1028		wait 200
+0	7921	1030	#line 7921 "NXCDefs.h"
+0	238	1030	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1030	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	239	1030	#pragma macro 24
+0	239	1030		acquire __RemoteMutex
+0	239	1031		mov __SRSTmpBuf, __DCMessageWritePacket
+0	239	1033		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal7
+0	239	1038		arrsize __SRSTmpLongVal, __main_7qG2_combination_7qG2_000
+0	239	1041		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+0	239	1046		arrbuild __SRSSendBuf, __SRSTmpBuf, __main_7qG2_combination_7qG2_000
+0	239	1051		brcmp 0, __ConnWrite_Else1, __constVal1, __constVal4
+0	239	1055		acquire __CHSWMutex
+0	239	1056		sub __WFRRTmpByte, __constVal1, __constVal4
+0	239	1060		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+0	239	1065		syscall 37, __CHSWArgs
+0	239	1068		mov __D0main, __CHSWArgs.Status
+0	239	1070		release __CHSWMutex
+0	239	1071		jmp __ConnWrite_EndIf1
+0	239	1073		acquire __CBTWMutex
+0	239	1074		mov __CBTWArgs.Connection, __constVal1
+0	239	1076		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	239	1078		syscall 29, __CBTWArgs
+0	239	1081		mov __D0main, __CBTWArgs.Result
+0	239	1083		release __CBTWMutex
+0	239	1084		release __RemoteMutex
+0	10415	1085	#line 10415 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1085	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	238	1085	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	239	1085	#line 239 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	240	1085		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	239	1088	#line 239 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	7921	1088	#line 7921 "NXCDefs.h"
+0	7922	1088		wait 200
+0	7921	1090	#line 7921 "NXCDefs.h"
+0	243	1090	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	250	1090	#line 250 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	252	1090	#line 252 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	253	1090		jmp __NXC_Label_837
+0	252	1092	#line 252 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+0	253	1092		exit -1, -1
+1	44	0	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	45	0		arrinit Z1_location.coordinates, __constVal0, __constVal2
+1	44	4	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	44	4	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	45	4	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	46	4		arrinit Z2_location.coordinates, __constVal0, __constVal2
+1	45	8	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	45	8	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	46	8	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	47	8		arrinit M_location.coordinates, __constVal0, __constVal2
+1	46	12	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	46	12	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	48	12	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	49	12		set Z1_location.heading, 0
+1	48	15	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	48	15	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	49	15	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	50	15		set Z2_location.heading, 0
+1	49	18	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	49	18	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	51	18	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	52	18		set M_location.heading, 0
+1	51	21	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	51	21	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	53	21	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc"
+1	54	21		subret __FormatLocations_return
+2	31	0	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	32	0		set __getAck_7qG2_ack_7qG2_000, 0
+2	31	3	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	32	3	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	33	3		set __getAck_7qG2_timeout_7qG2_000, 0
+2	32	6	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	32	6	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	33	6		set __signed_stack_001getAck, 5
+2	32	9	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	32	9	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	33	9		set __signed_stack_002getAck, 40
+2	32	12	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	32	12	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	33	12		strcat __strbufgetAck, __constStr0015
+2	34	16	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	16		acquire __TextOutMutex
+2	34	17	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	17		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+2	34	19	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	19		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+2	34	21	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	21		set __TextOutArgs.Options, 0
+2	34	24	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	24		mov __TextOutArgs.Text, __strbufgetAck
+2	34	26	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	26		syscall 13, __TextOutArgs
+2	34	29	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	29		mov __D0getAck, __TextOutArgs.Result
+2	34	31	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	31		release __TextOutMutex
+2	34	32	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	34	32	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	32		mov __signed_stack_001getAck, __getAck_7qG2_ack_7qG2_000
+2	34	34	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	34	34	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	34		set __D0getAck, 0
+2	34	37	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	37		cmp 4, __zfgetAck, __signed_stack_001getAck, __D0getAck
+2	34	41	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	41		mov __D0getAck, __zfgetAck
+2	34	43	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	43		brtst 5, __NXC_Label_732, __zfgetAck
+2	34	46	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	46		mov __signed_stack_001getAck, __D0getAck
+2	34	48	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	48		mov __signed_stack_002getAck, __getAck_7qG2_timeout_7qG2_000
+2	34	50	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	34	50	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	50		set __D0getAck, 30
+2	34	53	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	53		cmp 4, __zfgetAck, __signed_stack_002getAck, __D0getAck
+2	34	57	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	34	57	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	35	57		or __D0getAck, __signed_stack_001getAck, __zfgetAck
+2	35	61	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	36	61		tst 5, __zfgetAck, __D0getAck
+2	35	64	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	36	64		brtst 4, __NXC_Label_731, __zfgetAck
+2	35	67	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	36	67		set __Wait_7qG2_ms_7qG2_000_inline_getAck, 100
+2	35	70	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	7921	70	#line 7921 "NXCDefs.h"
+2	7922	70		wait 100
+2	7921	72	#line 7921 "NXCDefs.h"
+2	36	72	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	36	72	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	37	72	#pragma macro 9
+2	37	72		acquire __MRMutex
+2	37	73		mov __MRArgs.QueueID, __constVal3
+2	37	75		mov __MRArgs.Remove, __constVal1
+2	37	77		set __RRNTmpVal, 0
+2	37	80		syscall 27, __MRArgs
+2	37	83		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+2	37	88		mov __getAck_7qG2_ack_7qG2_000, __RRNTmpVal
+2	37	90		mov __D0getAck, __MRArgs.Result
+2	37	92		release __MRMutex
+2	8761	93	#line 8761 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	36	93	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	36	93	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	38	93	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	39	93		add __getAck_7qG2_timeout_7qG2_000, __getAck_7qG2_timeout_7qG2_000, __constVal1
+2	38	97	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	40	97	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	41	97		jmp __NXC_Label_730
+2	40	99	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	40	99	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	41	99		set __ClearLine_7qG2_line_7qG2_000_inline_getAck, 40
+2	40	102	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	6076	102	#line 6076 "NXCDefs.h"
+2	6077	102	#pragma macro 7
+2	6077	102		acquire __TextOutMutex
+2	6077	103		mov __TextOutArgs.Location.X, __constVal0
+2	6077	105		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_getAck
+2	6077	107		mov __TextOutArgs.Options, __constVal0
+2	6077	109		mov __TextOutArgs.Text, __BlankLine
+2	6077	111		syscall 13, __TextOutArgs
+2	6077	114		release __TextOutMutex
+2	8782	115	#line 8782 "NXCDefs.h"
+2	6076	115	#line 6076 "NXCDefs.h"
+2	41	115	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	41	115	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	42	115		mov __D0getAck, __getAck_7qG2_ack_7qG2_000
+2	42	117	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	43	117		tst 5, __zfgetAck, __D0getAck
+2	42	120	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	43	120		brtst 4, __NXC_Label_741, __zfgetAck
+2	42	123	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	43	123		set __signed_stack_001getAck, 5
+2	42	126	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	42	126	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	43	126		set __signed_stack_002getAck, 40
+2	42	129	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	42	129	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	43	129		strcat __strbufgetAck, __constStr0016
+2	43	133	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	133		acquire __TextOutMutex
+2	43	134	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	134		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+2	43	136	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	136		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+2	43	138	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	138		set __TextOutArgs.Options, 0
+2	43	141	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	141		mov __TextOutArgs.Text, __strbufgetAck
+2	43	143	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	143		syscall 13, __TextOutArgs
+2	43	146	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	146		mov __D0getAck, __TextOutArgs.Result
+2	43	148	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	148		release __TextOutMutex
+2	43	149	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	43	149	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	44	149		set __Wait_7qG2_ms_7qG2_000_inline_getAck, 500
+2	43	152	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	7921	152	#line 7921 "NXCDefs.h"
+2	7922	152		wait 500
+2	7921	154	#line 7921 "NXCDefs.h"
+2	44	154	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	45	154	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	46	154		set __D0getAck, 1
+2	45	157	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	46	157		subret __getAck_return
+2	45	159	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	46	159	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	47	159		jmp __NXC_Label_750
+2	46	161	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	47	161		set __signed_stack_001getAck, 5
+2	46	164	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	46	164	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	47	164		set __signed_stack_002getAck, 40
+2	46	167	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	46	167	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	47	167		strcat __strbufgetAck, __constStr0017
+2	47	171	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	171		acquire __TextOutMutex
+2	47	172	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	172		mov __TextOutArgs.Location.X, __signed_stack_001getAck
+2	47	174	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	174		mov __TextOutArgs.Location.Y, __signed_stack_002getAck
+2	47	176	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	176		set __TextOutArgs.Options, 0
+2	47	179	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	179		mov __TextOutArgs.Text, __strbufgetAck
+2	47	181	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	181		syscall 13, __TextOutArgs
+2	47	184	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	184		mov __D0getAck, __TextOutArgs.Result
+2	47	186	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	186		release __TextOutMutex
+2	47	187	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	48	187	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	49	187		set __D0getAck, -1
+2	48	190	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	49	190		subret __getAck_return
+2	48	192	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	50	192	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	51	192	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	52	192		set __D0getAck, 0
+2	51	195	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	52	195		subret __getAck_return
+2	51	197	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	56	197	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+2	57	197		subret __getAck_return
+3	57	0	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	0		set __signed_stack_001sendCommand, 5
+3	57	3	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	57	3	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	3		set __signed_stack_002sendCommand, 8
+3	57	6	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	57	6	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	6		mov __ArrHelper__sendCommand_244_0, __constStr0018
+3	57	8	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	8		mov __D0sendCommand, __sendCommand_7qG2_cmd_7qG2_000
+3	57	10	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	10		numtostr __strretvalsendCommand, __D0sendCommand
+3	57	13	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	13		mov __ArrHelper__sendCommand_244_1, __strretvalsendCommand
+3	57	15	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	15		mov __ArrHelper__sendCommand_244_2, __constStr0019
+3	57	17	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	17		mov __D0sendCommand, __sendCommand_7qG2_des_7qG2_000
+3	57	19	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	19		numtostr __strretvalsendCommand, __D0sendCommand
+3	57	22	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	22		strcat __strbufsendCommand, __strretvalsendCommand
+3	57	26	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	26		mov __ArrHelper__sendCommand_244_3, __strbufsendCommand
+3	57	28	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	28		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_2, __ArrHelper__sendCommand_244_3
+3	57	33	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	33		mov __ArrHelper__sendCommand_244_2, __strbufsendCommand
+3	57	35	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	35		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_1, __ArrHelper__sendCommand_244_2
+3	57	40	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	40		mov __ArrHelper__sendCommand_244_1, __strbufsendCommand
+3	57	42	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	42		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_0, __ArrHelper__sendCommand_244_1
+3	58	47	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	47		acquire __TextOutMutex
+3	58	48	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	48		mov __TextOutArgs.Location.X, __signed_stack_001sendCommand
+3	58	50	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	50		mov __TextOutArgs.Location.Y, __signed_stack_002sendCommand
+3	58	52	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	52		set __TextOutArgs.Options, 0
+3	58	55	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	55		mov __TextOutArgs.Text, __strbufsendCommand
+3	58	57	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	57		syscall 13, __TextOutArgs
+3	58	60	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	60		mov __D0sendCommand, __TextOutArgs.Result
+3	58	62	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	62		release __TextOutMutex
+3	58	63	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	63	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	59	63	#pragma macro 25
+3	59	63		acquire __RemoteMutex
+3	59	64		mov __SRSTmpBuf, __DCMessageWritePacket
+3	59	66		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal1
+3	59	71		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+3	59	76		mov __SRSTmpLongVal, __sendCommand_7qG2_cmd_7qG2_000
+3	59	78		flatten __SRSFlattenBuf, __SRSTmpLongVal
+3	59	81		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+3	59	86		brcmp 0, __ConnWrite_Else0, __sendCommand_7qG2_des_7qG2_000, __constVal4
+3	59	90		acquire __CHSWMutex
+3	59	91		sub __WFRRTmpByte, __sendCommand_7qG2_des_7qG2_000, __constVal4
+3	59	95		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+3	59	100		syscall 37, __CHSWArgs
+3	59	103		mov __D0sendCommand, __CHSWArgs.Status
+3	59	105		release __CHSWMutex
+3	59	106		jmp __ConnWrite_EndIf0
+3	59	108		acquire __CBTWMutex
+3	59	109		mov __CBTWArgs.Connection, __sendCommand_7qG2_des_7qG2_000
+3	59	111		mov __CBTWArgs.Buffer, __SRSSendBuf
+3	59	113		syscall 29, __CBTWArgs
+3	59	116		mov __D0sendCommand, __CBTWArgs.Result
+3	59	118		release __CBTWMutex
+3	59	119		release __RemoteMutex
+3	8958	120	#line 8958 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	120	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	58	120	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	65	120	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+3	66	120		subret __sendCommand_return
+4	66	0	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	0		set __signed_stack_001sendParameter, 5
+4	66	3	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	66	3	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	3		set __signed_stack_002sendParameter, 0
+4	66	6	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	66	6	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	6		mov __ArrHelper__sendParameter_244_0, __constStr0020
+4	66	8	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	8		mov __D0sendParameter, __sendParameter_7qG2_par_7qG2_000
+4	66	10	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	10		numtostr __strretvalsendParameter, __D0sendParameter
+4	66	13	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	13		mov __ArrHelper__sendParameter_244_1, __strretvalsendParameter
+4	66	15	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	15		mov __ArrHelper__sendParameter_244_2, __constStr0019
+4	66	17	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	17		mov __D0sendParameter, __sendParameter_7qG2_des_7qG2_000
+4	66	19	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	19		numtostr __strretvalsendParameter, __D0sendParameter
+4	66	22	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	22		strcat __strbufsendParameter, __strretvalsendParameter
+4	66	26	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	26		mov __ArrHelper__sendParameter_244_3, __strbufsendParameter
+4	66	28	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	28		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_2, __ArrHelper__sendParameter_244_3
+4	66	33	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	33		mov __ArrHelper__sendParameter_244_2, __strbufsendParameter
+4	66	35	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	35		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_1, __ArrHelper__sendParameter_244_2
+4	66	40	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	40		mov __ArrHelper__sendParameter_244_1, __strbufsendParameter
+4	66	42	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	42		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_0, __ArrHelper__sendParameter_244_1
+4	67	47	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	47		acquire __TextOutMutex
+4	67	48	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	48		mov __TextOutArgs.Location.X, __signed_stack_001sendParameter
+4	67	50	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	50		mov __TextOutArgs.Location.Y, __signed_stack_002sendParameter
+4	67	52	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	52		set __TextOutArgs.Options, 0
+4	67	55	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	55		mov __TextOutArgs.Text, __strbufsendParameter
+4	67	57	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	57		syscall 13, __TextOutArgs
+4	67	60	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	60		mov __D0sendParameter, __TextOutArgs.Result
+4	67	62	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	62		release __TextOutMutex
+4	67	63	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	63	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	68	63	#pragma macro 25
+4	68	63		acquire __RemoteMutex
+4	68	64		mov __SRSTmpBuf, __DCMessageWritePacket
+4	68	66		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal2
+4	68	71		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+4	68	76		mov __SRSTmpLongVal, __sendParameter_7qG2_par_7qG2_000
+4	68	78		flatten __SRSFlattenBuf, __SRSTmpLongVal
+4	68	81		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+4	68	86		brcmp 0, __ConnWrite_Else0, __sendParameter_7qG2_des_7qG2_000, __constVal4
+4	68	90		acquire __CHSWMutex
+4	68	91		sub __WFRRTmpByte, __sendParameter_7qG2_des_7qG2_000, __constVal4
+4	68	95		arrbuild __CHSWArgs.Buffer, __WFRRTmpByte, __SRSSendBuf
+4	68	100		syscall 37, __CHSWArgs
+4	68	103		mov __D0sendParameter, __CHSWArgs.Status
+4	68	105		release __CHSWMutex
+4	68	106		jmp __ConnWrite_EndIf0
+4	68	108		acquire __CBTWMutex
+4	68	109		mov __CBTWArgs.Connection, __sendParameter_7qG2_des_7qG2_000
+4	68	111		mov __CBTWArgs.Buffer, __SRSSendBuf
+4	68	113		syscall 29, __CBTWArgs
+4	68	116		mov __D0sendParameter, __CBTWArgs.Result
+4	68	118		release __CBTWMutex
+4	68	119		release __RemoteMutex
+4	9028	120	#line 9028 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	120	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	67	120	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	70	120	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+4	71	120		subret __sendParameter_return
+5	253	0	#line 253 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc"
+5	254	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc
+1	FormatLocations	1095	C:\Users\Wizand\Ohjelmointi\BricC source\.\Master_locations.nxc
+2	getAck	1118	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc
+3	sendCommand	1317	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc
+4	sendParameter	1439	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc
+5	__initialize_global_data	1561	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV6.nxc

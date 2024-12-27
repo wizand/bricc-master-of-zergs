@@ -1,0 +1,86 @@
+/***********************************************************************
+* SLAVE ROBOT
+* Version 1.5
+* Programmed by: Petteri Loisko
+*
+*************************************************************************
+*   FUCTIONALITY
+* Slave robot is supposed to be controlled by a master robot.
+* Slave robot after initializing starts to listen for commands and once command
+* is received, bot starts to listen for parameters for the command. After getting
+* the parameter bot starts executing the commands with the given parameters.
+*
+*************************************************************************/
+
+#include "SlaveHeader.nxc"
+#include "SlaveActions.nxc"
+#include "SlaveCommProtocol.nxc"
+#include "SlaveSearchProtocol.nxc"
+
+////////////////////////////////////
+// FORMAT POSITION PARAMETERS
+////////////////////////////////////
+/***************************
+* Called to format and initialize the position parameters.
+****************************/
+void FormatPosition() {
+
+      //X and Y coordinates related to the master
+      ArrayInit(I.positionRelative, 0, 2);
+      //X and Y coordinates related to myself
+      ArrayInit(I.positionOwn, 0, 2);
+      
+      //Direction im looking at
+      I.heading = 0;
+      
+      if ( ZERG == 1 ) {
+         I.positionOwn[0] = -10;
+      } else {
+        I.positionOwn[0] = 10;
+        I.heading = 2;
+      }
+      
+
+}
+
+///////////////////////////////////
+// SET UP THE CONNECTION
+///////////////////////////////////
+/***************************
+* Called to make sure connection to master is up and running.
+****************************/
+void SetUpConnection() {
+     int tries = 0;
+     for (; tries < 5; tries++) {
+         int connStatus = CheckConnection(MASTER);
+         if ( connStatus ) tries = 9;
+         TextOut(5, LCD_LINE1, "Tries: " + NumToStr(tries) );
+         TextOut(5, LCD_LINE2, "Conn status: " + NumToStr(connStatus) );
+         Wait(500);
+     }
+
+     if ( tries != 10 ) {
+        textToScreen( LCD_LINE2, "No connection.");
+        Wait(3000);
+        Stop(true);
+     }
+}
+
+///////////////////////////////////
+// MAIN FUNCTION
+///////////////////////////////////
+task main() {
+
+     FormatPosition();
+     TurningDegrees = 0;
+     
+     FOUND = false;
+     LOCATION = false;
+     
+     id = 0;
+     
+     ClearScreen();
+
+     StartTask(slaveProtocolHandler);
+
+}

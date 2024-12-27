@@ -1,0 +1,8 @@
+task main() {
+
+
+     RS485Enable();
+     
+     until ( RS485DataAvailable() );
+
+}

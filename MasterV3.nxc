@@ -1,0 +1,203 @@
+                                                                                       /***********************************************************************
+* MASTER ROBOT
+* Version 0.0
+* Programmed by: Petteri Loisko
+*
+************************************************************************
+*   FUCTIONALITY
+*
+*/
+
+/////////////////
+// RECEIVING DEVICES
+/////////////////
+#define ZERG_1 2
+#define ZERG_2 3
+#define ZERG_3 4
+
+/////////////////
+// OUT GOING BOXES
+/////////////////
+#define OUT_COMMAND 1
+#define OUT_PARAMETER 2
+
+/////////////////
+// INBOUND BOXES
+/////////////////
+/*
+#define IN_ACK_Z1 3
+#define IN_ACK_Z2 4
+#define IN_ACK_Z3 5   */
+
+#define IN_ACK 3
+
+#define IN_CMD 7
+#define IN_PAR 8
+#define IN_DES 9
+
+#define MOVE_FORWARD 4
+#define MOVE_BACKWARDS 5
+#define TURN_LEFT 6
+#define TURN_RIGHT 7
+#define WHERE 20
+
+bool BUFFER_SWITCH;
+int amount;
+
+int priCommands[20];
+int priParameters[20];
+int priDestinations[20];
+
+int secCommands[20];
+int secParameters[20];
+int secDestinations[20];
+
+//////////////////////////////////////////////////
+// FUNCTION TO SEND COMMAND
+//////////////////////////////////////////////////
+void sendCommand(int cmd, int des) {
+     TextOut(5, LCD_LINE1, "Sending cmd " + NumToStr(cmd) + " to " + NumToStr(des) );
+     SendRemoteNumber(des, OUT_COMMAND, cmd);
+}
+
+///////////////////////////////////////////////////
+// FUNCTION TO SEND PARAMETERS
+///////////////////////////////////////////////////
+void sendParameter(int par, int des) {
+     TextOut(5, LCD_LINE2, "Sending par " + NumToStr(par) + " to " + NumToStr(des) );
+     SendRemoteNumber(des, OUT_PARAMETER, par);
+}
+
+
+void executeCommands() {
+     if ( BUFFER_SWITCH == true ) {
+          BUFFER_SWITCH = false;
+        } else {
+          BUFFER_SWITCH = true;
+        }
+
+     if ( BUFFER_SWITCH ) {
+        sendCommand( secCommands[amount], secDestinations[amount] );
+        Wait(400);
+        sendParameter( secParameters[amount], secDestinations[amount] );
+        Wait(400);
+        amount--;
+
+     } else {
+        sendCommand( priCommands[amount], priDestinations[amount] );
+        Wait(400);
+        sendParameter( priParameters[amount], priDestinations[amount] );
+        Wait(400);
+        amount--;
+     }
+
+}
+
+task listenForCommands() {
+
+     int cmd = 0;
+     int par = 0;
+     int des = 0;
+
+     while(true) {
+        Wait(500);
+
+        ClearLine(LCD_LINE5);
+        TextOut(0, LCD_LINE5, "Listening..");
+
+        ReceiveRemoteNumber(IN_CMD, true, cmd);
+
+        if ( cmd != 0 ) {
+
+
+          ClearLine(LCD_LINE5);
+          TextOut(0, LCD_LINE5, "COMMAND!");
+
+          TextOut(0, LCD_LINE8, "C: " + NumToStr(cmd));
+
+          Wait(350);
+          ReceiveRemoteNumber(IN_PAR, true, par);
+
+          ClearLine(LCD_LINE8);
+          TextOut(0, LCD_LINE8, "C:" + NumToStr(cmd) + " P:"+ NumToStr(par) );
+          
+          Wait(350);
+          ReceiveRemoteNumber(IN_DES, true, des);
+
+          ClearLine(LCD_LINE8);
+          TextOut(0, LCD_LINE8, "C:" + NumToStr(cmd) + " P:"+ NumToStr(par) + " D:" + NumToStr(des) );
+
+          amount++;
+
+          if ( BUFFER_SWITCH ) {
+               priCommands[amount] = cmd;
+               priParameters[amount] =  par;
+               priDestinations[amount] = des;
+               ClearLine(LCD_LINE6);
+               TextOut(0, LCD_LINE6, "Added b1");
+
+          } else {
+               secCommands[amount] = cmd;
+               secParameters[amount] =  par;
+               secDestinations[amount] = des;
+               ClearLine(LCD_LINE6);
+               TextOut(0, LCD_LINE6, "Added b2");
+          }
+
+          cmd = 0;
+          par = 0;
+          des = 0;
+          }
+        
+     }
+
+}
+
+
+////////////////////////////////////////////////////
+// MAIN FUNCTIONS
+////////////////////////////////////////////////////
+task main() {
+
+     ArrayInit(priCommands, 0, 0);
+     ArrayInit(priParameters, 0, 0);
+     ArrayInit(priDestinations, 0, 0);
+     ArrayInit(secCommands, 0, 0);
+     ArrayInit(secParameters, 0, 0);
+     ArrayInit(secDestinations, 0, 0);
+     //
+//     for ( int i = 0; i < ArrayLen(priCommands); i++) {
+//         priCommands[i] = 0;
+//         priParameters[i] = 0;
+//         priDestinations[i] = 0;
+//         secCommands[i] = 0;
+//         secParameters[i] = 0;
+//         secDestinations[i] = 0;
+//     }
+//
+
+      ClearScreen();
+      amount = -1;
+
+      Wait(1000);
+
+      BUFFER_SWITCH = true;
+
+      //Starting the thread that listens for commands from the cell phone
+      StartTask(listenForCommands);
+
+    /*Beginning of the phase 2.
+      Listen for new commands from cellphone master */
+
+    while(true) {
+
+        Wait(2000);
+        if ( amount > -1 ) executeCommands();
+
+   }
+
+    ClearScreen();
+    TextOut(5,LCD_LINE4, "All done");
+    Wait(1500);
+    StopAllTasks();
+}

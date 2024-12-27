@@ -1,0 +1,70 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__SRNTmpVal	6	1	0	4	2
+1	__D0main	6	1	4	4	3
+2	__constVal200	4	0	8	2	2
+3	__constVal1	2	0	10	1	1
+4	____initialize_global_data_return	1	1	11	1	3
+5	__zfmain	1	1	12	1	2
+6	__constVal50	2	0	13	1	1
+7	__constVal10	2	0	14	1	1
+8	__constVal4	2	0	15	1	1
+9	__PointOutArgs	8	0	3	12	4
+10	__PointOutArgs.Result	2	1	16	1	4
+11	__PointOutArgs.Location	8	0	2	4	4
+12	__PointOutArgs.Location.X	4	1	20	2	4
+13	__PointOutArgs.Location.Y	4	1	22	2	4
+14	__PointOutArgs.Options	5	1	24	4	4
+15	__MWArgs	8	0	3	8	4
+16	__MWArgs.Result	2	1	28	1	4
+17	__MWArgs.QueueID	1	1	29	1	4
+18	__MWArgs.Message	7	0	30	4	4
+19	__MWArgs.Message.Message_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	6	2	#line 6 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	6	2	#line 6 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	6069	2	#line 6069 "NXCDefs.h"
+0	6070	2	#pragma macro 6
+0	6070	2		mov __PointOutArgs.Location.X, __constVal200
+0	6070	4		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	6		mov __PointOutArgs.Options, __constVal1
+0	6070	8		syscall 14, __PointOutArgs
+0	5878	11	#line 5878 "NXCDefs.h"
+0	6069	11	#line 6069 "NXCDefs.h"
+0	7	11	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	7	11	#line 7 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	8	11		set __D0main, 1
+0	9	14	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	10	14		tst 5, __zfmain, __D0main
+0	9	17	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	10	17		brtst 4, __NXC_Label_607, __zfmain
+0	9	20	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	9	20	#line 9 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	7921	20	#line 7921 "NXCDefs.h"
+0	7922	20		wait 400
+0	7921	22	#line 7921 "NXCDefs.h"
+0	10	22	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	10	22	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	11	22	#pragma macro 7
+0	11	22		add __MWArgs.QueueID, __constVal4, __constVal10
+0	11	26		mov __SRNTmpVal, __constVal50
+0	11	28		flatten __MWArgs.Message, __SRNTmpVal
+0	11	31		syscall 26, __MWArgs
+0	11	34		mov __D0main, __MWArgs.Result
+0	5905	36	#line 5905 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	10	36	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	10	36	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	21	36	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	22	36		jmp __NXC_Label_606
+0	21	38	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+0	22	38		exit -1, -1
+1	22	0	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc"
+1	23	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc
+1	__initialize_global_data	41	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\numerotesti_s.nxc

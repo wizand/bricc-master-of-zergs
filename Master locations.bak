@@ -1,0 +1,126 @@
+///////////////
+// LOCATION STRING TO STRUCT
+///////////////
+
+struct ZERG_LOCATION {
+       int coordinates[2];
+       int heading;
+};
+
+ZERG_LOCATION Z1_location;
+ZERG_LOCATION Z2_location;
+
+bool SCAN;
+
+task pollZ1() {
+     string loc = "empty";
+     
+     while (true) {
+        if ( SCAN ) {
+
+            until {
+                ReceiveRemoteString(IN_LOCATIONS_Z1, true, loc) == NO_ERR;
+            }
+
+            ClearLine(1);
+            TextOut(0, LCD_LINE1, loc);
+            Wait(300);
+         }
+     }
+     
+     //Testaa mitä tuolta tulee jos loota on tyhjä. Jos ei oo tyhjä niin
+     // parsea stringistä lokaatio ja päivitä se
+     
+     
+}
+
+
+
+///////////////////////////////////////
+// LOCATION PARSER
+///////////////////////////////////////
+/**************************************
+* This function is for parsing the coordinates from
+* the string that ZERGs send.
+*
+* The coordinates are in form of xcoordinate_ycoordinate_heading_.
+* Function parses the coordinates between the underscores,
+* constructs a ZERG_LOCATION -structure from them and
+* returns the structure.
+*/
+inline ZERG_LOCATION ParseCoordinates(string location) {
+       // A temporary struct for the coordinates
+       ZERG_LOCATION temp;
+       // Initialization
+       ArrayInit(temp.coordinates, 0, 2);
+       temp.heading = 0;
+
+       int i = 0; // For the for-loop index
+       int counter = 0; // To keep track of the underscores
+
+       int underscores[3]; // Underscore positions
+       ArrayInit(underscores,0,3); // Init
+
+       for (; i < StrLen( location ); i++ ) {    // Going through the string
+          if ( StrIndex(location, i) == 0x5F ) { // If the byte in current string index is 0x5F (ascii for '_')
+             underscores[counter] = i;           // mark up the underscore position
+             counter++;                          // On we go
+
+          }
+          if ( counter == 3 ) break;     // If three underscores has been found, break out of the loop
+
+       }
+
+       // Parsing the substrings between the underscores
+       // x coordinate is between position 0 and underscore one
+       // y coordinate begins from the the underscore one and ends at the next one
+       // etc.. Notice that the third parameter (length) isnt counted from the beginning of the string
+       // but from the offset.
+       string x = SubStr(location, 0, underscores[0]);
+       string y = SubStr(location, underscores[0]+1, underscores[1]-(underscores[0]+1) );
+       string h = SubStr(location, underscores[1]+1, underscores[2]-(underscores[1]+1) );
+       
+       // Build the struct
+       temp.coordinates[0] = StrToNum(x);
+       temp.coordinates[1] = StrToNum(y);
+       temp.heading = StrToNum(h);
+
+       /* For debugging
+       TextOut(2, LCD_LINE2, x + "  " + NumToStr(underscores[0]) );
+       TextOut(2, LCD_LINE3, y + "  " + NumToStr(underscores[1]) );
+       TextOut(2, LCD_LINE4, z + "  " + NumToStr(underscores[2]) );
+       */
+       
+       
+       return temp;
+}
+
+
+task pollZ2() {}
+task pollZ3() {}
+
+////////////////////////////////////////
+// FORMAT ZERG POSITIINS
+////////////////////////////////////////
+void FormatLocations() {
+     //Initializing the positions of Zerg1 and Zerg2
+     ArrayInit(Z1_location.coordinates, 0 , 2);
+     ArrayInit(Z2_location.coordinates, 0 , 2);
+     Z1_location.heading = 0;
+     Z2_location.heading = 0;
+
+}
+
+void TrackLocations() {
+
+     FormatLocations();
+     SCAN = true;
+     Precedes(pollZ1);
+
+
+}
+
+// http://robotics.benedettelli.com/BT_router.htm
+
+// St Amond
+// theme FINLAND

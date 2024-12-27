@@ -1,0 +1,176 @@
+/***********************************************************************
+*  COMMUNICATION PROTOCOL - Slave side
+* Version 0.0
+* Programmed by: Petteri Loisko
+*
+*************************************************************************
+*   FUCTIONALITY
+*
+*/
+#include "Slave_actions.nxc"
+
+#define OUT_MESSAGE 3
+#define OUT_ACK 3
+#define IN_COMMAND 1
+#define IN_PARAMETER 2
+
+
+
+////////////////////////////////////////////////
+// FUNCTION FOR CHECKING THE CONNECTION STATUS
+////////////////////////////////////////////////
+int CheckConnection(int commLine) {
+    if ( !BluetoothStatus(commLine) == NO_ERR) {
+       TextOut(10, LCD_LINE4, "Error with the");
+       TextOut(10,LCD_LINE5, "connection");
+       Wait(3000);
+       return -1;
+    }
+    return 1;
+}
+
+////////////////////////////////////////////////
+// ACKNOWLEDGEMENT
+////////////////////////////////////////////////
+void ack() {
+     SendResponseNumber(OUT_ACK,0xFF);
+}
+
+/////////////////////////////////////////////
+// FUNCTION FOR READIND POSSIBLE PARAMETERS
+/////////////////////////////////////////////
+int getParameter() {
+    int parameter = 0;
+
+    textToScreen(LCD_LINE3, "Fetching parameter..");
+
+    while (!parameter) {
+        ReceiveRemoteNumber(IN_PARAMETER, true, parameter);
+    }
+    
+    TextOut(0, LCD_LINE4, "Parameter found: " + NumToStr(parameter) );
+    
+    return parameter;
+}
+
+////////////////////////////////////////////
+// COMMAND PARSER
+////////////////////////////////////////////
+
+int parseCommand(int command) {
+    ClearScreen();
+
+    textToScreen(LCD_LINE3, "Parsing command: " + NumToStr(command) );
+
+    switch( command ) {
+      case MOVE_FORWARD: {
+         forwardCm( getParameter() );
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case MOVE_BACKWARDS: {
+         backwardsCm( getParameter() );
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case TURN_LEFT: {
+         turnLeft();
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case TURN_RIGHT: {
+         turnRight();
+         Wait(300);
+         ack();
+         break;
+      }
+      
+      case WHERE_AM_I: {
+        whereAmI();
+        Wait(300);
+        ack();
+        break;
+      }
+      
+      case BEGIN_SEARCH: {
+        Wait(500);
+
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "STARTING SEARCH");
+        ack();
+        
+        StartTask(beginSearch);
+        break;
+      }
+      
+      case GAP_FOUND: {
+        Off(OUT_AC);
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "OTHER Z FOUND GAP");
+        StopTask(sensorPoller);
+        //StopTask(ListenForGapFound);
+        StopTask(searchPattern);
+        ack();
+        break;
+      }
+    }
+
+}
+
+/////////////////////////////////////////////
+// PROTOCOL LISTENER FUCNTION
+/////////////////////////////////////////////
+task slaveProtocolHandler() {
+     int command = 0;
+
+     ClearScreen();
+     textToScreen(LCD_LINE1,"Waiting..");
+
+     while (true) {
+           Wait(500);
+
+            ReceiveRemoteNumber(IN_COMMAND, true, command);
+            if (command != 0) {
+               ClearScreen();
+               textToScreen(LCD_LINE2, "COMMAND!!");
+               Wait(500);
+               textToScreen(LCD_LINE3, "Cmd: " + NumToStr(command) );
+               Wait(500);
+               parseCommand(command);
+
+               //textToScreen(LCD_LINE2,"Waiting..");
+               //if ( command == 15 ) { break; }
+            }
+     }
+        
+     Wait(2000);
+}
+
+////////////////////////////////////
+// SEND LOCATION INFORMATION
+////////////////////////////////////
+/***********************************
+* Function simply sends location information
+* as a string to the Master
+************************************/
+void SendLocation(string location) {
+    // The box to which send the data to
+    // at the Master end is set here. ZERG parameter is
+    // set manually until ZERG identity is implemented properly.
+    int queue = 0;
+    if ( ZERG == 1 ) { queue = 4; }
+       else if ( ZERG == 2 ) { queue = 5; }
+       else if ( ZERG == 3 ) { queue = 6; }
+
+    // Send data as a response to the Master
+    SendResponseString( queue, location );
+
+}
+
+

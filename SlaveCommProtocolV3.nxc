@@ -1,0 +1,359 @@
+                        /***********************************************************************
+* COMMUNICATION PROTOCOL - Slave side
+* Version 2.0
+* Programmed by: Petteri Loisko
+* 8th of July 2011
+*
+*************************************************************************
+*   FUCTIONALITY
+*   Slacve communication protocol consists of commands related to the
+*   bluetooth communication. It has the functions for listening commands
+*   and parameters and parsing the actual meaning of the command codes.
+*   SlaveCommProtocol.nxc also has functions for sending location data and
+*   acknowledgementa to the master robot.
+*
+*   Function prototypes and constants can be found in the SlaveHeader.nxc -file
+*
+*************************************************************************/
+byte __buffer[];
+byte __array[];
+
+
+/////////////////////////////////////////////////
+// BLUETOOTH WAIT
+/////////////////////////////////////////////////
+/************************************************
+* This little function will loop until the bluetooth
+* state on the given connection line is idle.
+************************************************/
+sub BTWait (int connection){  //wait until BT is idle
+   until(BluetoothStatus(connection)==NO_ERR);
+}
+
+sub BTSendMessage(byte connection, byte mailbox, string msg){ //send a BT message
+   byte len,Smb;
+   int i;
+   BTWait(connection);
+   if(connection!=0){ //master-related routine
+      ArrayInit(__buffer,0,80);
+      ArrayInit(__array,0,59);
+      StrToByteArray(msg,__array);
+      len = ArrayLen(__array);
+      __buffer[0] = 0x80; //no reply telegram
+      __buffer[1] = 0x09; //MessageWrite Direct Command
+      __buffer[2] = mailbox; //inbox number
+      __buffer[3] = len+1; //message size
+      for (i=4;i<(len+4);i++){
+         __buffer[i] = __array[i-4];
+      }
+   BluetoothWrite(connection,__buffer);
+   BTWait(connection);
+   }
+   else {  //slave-related routine
+      Smb = mailbox+10;
+      SendMessage(Smb,msg);
+      BTWait(connection);
+   }
+}
+
+string BTReceiveMessage(byte connection, byte mailbox, byte flush){ //receive a BT message
+   string msg;
+   BTWait(connection);
+   ReceiveMessage(mailbox,flush,msg);
+   BTWait(connection);
+   return msg;
+}
+
+
+
+////////////////////////////////////////////////
+// FUNCTION FOR CHECKING THE CONNECTION STATUS
+////////////////////////////////////////////////
+/***********************************************
+* A function that checks the BT status from a line
+* that is given as a parameter. If the comm line
+* isn't working it returns error code -1 so the main program knows
+* something is wrong.
+* ATTENTION: The checks are not really implemented in
+* the current build
+*/
+int CheckConnection(int commLine) {
+    if ( !BluetoothStatus(commLine) == NO_ERR) {
+       TextOut(10, LCD_LINE4, "Error with the");
+       TextOut(10,LCD_LINE5, "connection");
+       Wait(3000);
+       return -1;
+    }
+    return 1;
+}
+
+////////////////////////////////////////////////
+// ACKNOWLEDGEMENT
+////////////////////////////////////////////////
+/***********************************************
+* To make the communication protocol more stable
+* slave is supposed to send acknowledgement to the master
+* when it receives certain commands.
+* ack() sends 0xFF hexadecimal (255 in decimal) number
+* to the masters mailbox so the master knows that the
+* slave has gotten the command and is starting to
+* act accordingly. For now no real fail safe
+* mechanisms are put in place but they are easy to
+* implement in the master's side (for example if
+* there is no ack in 3000ms resend the command etc.)
+************************************************/
+void ack() {
+
+     BTWait(0);
+     SendResponseNumber(OUT_ACK,0xFF);
+     BTWait(0);
+}
+
+/////////////////////////////////////////////
+// FUNCTION FOR READIND POSSIBLE PARAMETERS
+/////////////////////////////////////////////
+/********************************************
+* With certain commands comes parameters. For example
+* command could be "move forward" and the parameter
+* would be "this much".
+* Parameters are sent in to a different mailbox than
+* the actual commands.
+*********************************************/
+int getParameter() {
+    int parameter = 0;
+
+    ClearLine(LCD_LINE3);
+    TextOut(0, LCD_LINE3, "Fetching parameter..");
+
+    while (!parameter) {
+        BTWait(0);
+        ReceiveRemoteNumber(IN_PARAMETER, true, parameter);
+        BTWait(0);
+    }
+
+    ClearLine(LCD_LINE4);
+    TextOut(0, LCD_LINE4, "Parameter found: " + NumToStr(parameter) );
+    return parameter;
+}
+
+////////////////////////////////////////////
+// COMMAND PARSER
+////////////////////////////////////////////
+/*******************************************
+* Command parser acts as a linguist between the command
+* codes from master and the actual actions that are to be
+* done. It receives the command as a number and calls the
+* appropriate function. In case parameters are needed
+* they are got from the getParameter() function.
+********************************************/
+int parseCommand(int command) {
+
+    ClearScreen();
+
+    textToScreen(LCD_LINE3, "Parsing command: " + NumToStr(command) );
+
+    switch( command ) {
+
+
+      case IDENTITY: {
+           //ZERG = getParameter();
+           //id = getParameter();
+           ClearLine(LCD_LINE2);
+           ClearLine(LCD_LINE3);
+           ClearLine(LCD_LINE4);
+           TextOut(0, LCD_LINE2, "Identity set: " + NumToStr(ZERG) );
+           ack();
+           Wait(1000);
+           ClearScreen();
+           TextOut(0, LCD_LINE2, "Waiting again.. " + NumToStr(ZERG) );
+           break;
+      }
+
+
+      case MOVE_FORWARD: {
+         forwardCm( getParameter() );
+         Wait(300);
+         ack();
+         break;
+      }
+
+      case MOVE_BACKWARDS: {
+         backwardsCm( getParameter() );
+         Wait(300);
+         ack();
+         break;
+      }
+
+      case TURN_LEFT: {
+         turnLeft();
+         Wait(300);
+         ack();
+         break;
+      }
+
+      case TURN_RIGHT: {
+         turnRight();
+         Wait(300);
+         ack();
+         break;
+      }
+
+      case WHERE_AM_I: {
+        whereAmI();
+        //Wait(300);
+        //ack();
+        break;
+      }
+
+      case BEGIN_SEARCH: {
+        Wait(150);
+        ack();
+
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "STARTING SEARCH");
+
+
+        StartTask(beginSearch);
+        break;
+      }
+
+      case GAP_FOUND: {
+        Off(OUT_AC);
+        ClearScreen();
+        TextOut(0,LCD_LINE1, "OTHER Z FOUND GAP");
+        StopTask(sensorPoller);
+        StopTask(searchPattern);
+
+        ack();
+        break;
+      }
+
+      case IS_FOUND: {
+
+        ClearScreen();
+
+        int who;
+        if (ZERG == 1) { who = 1; } else { who = 2; }
+
+        if ( MASTER_NOTIFIED ) { break; };
+
+        TextOut(0, LCD_LINE1, "Is gap found?");
+        if ( FOUND  ) {
+            TextOut(0, LCD_LINE2, "YES!");
+            
+            BTSendMessage(0, 6, "Z" + NumToStr(who) + " löys");
+            
+           // BTWait(0);
+           // SendResponseNumber(6,who);
+           // BTWait(0);
+
+            MASTER_NOTIFIED = true;
+
+        } else {
+            TextOut(0, LCD_LINE2, "NO!");
+            
+            BTSendMessage(0, 6, "Z" + NumToStr(who) + " ei loys");
+            
+           // BTWait(0);
+//            SendResponseNumber(6,0);
+//            BTWait(0);
+
+        }
+
+        break;
+      }
+    }
+
+}
+
+
+/////////////////////////////////////////////
+// PROTOCOL LISTENER FUCNTION
+/////////////////////////////////////////////
+/********************************************
+* SlaveProtocolHandler thread listens for incoming commands
+* and parameters from the master. After it has succesfully gotten
+* the command it calls for the command parser to
+* make action accordingly. After this it returns to listening state.
+*/
+task slaveProtocolHandler() {
+
+     SetUpConnection();
+     Wait(300);
+
+     int command = 0;
+
+     ClearScreen();
+     textToScreen(LCD_LINE1,"Waiting..");
+
+     while (true) {
+
+            BTWait(0);
+            ReceiveRemoteNumber(IN_COMMAND, true, command);
+            BTWait(0);
+            if (command != 0) {
+               ClearScreen();
+               textToScreen(LCD_LINE2, "COMMAND!!");
+               textToScreen(LCD_LINE3, "Cmd: " + NumToStr(command) );
+               Wait(250);
+               parseCommand(command);
+            }
+
+            if ( FOUND && !MASTER_NOTIFIED) {
+
+               GapFound();
+               StopTask(sensorPoller);
+               ClearLine(LCD_LINE5);
+               TextOut(0, LCD_LINE5, "GAP FOUND");
+              // BTWait(0);
+              // SendResponseNumber(GAP_FOUND, ZERG);
+              // BTWait(0);
+               Wait(1000);
+
+            }//Notification about the gap to the master
+
+            if ( FOUND && MASTER_NOTIFIED ) {
+               string silta;
+               if ( BRIDGE_DOWN ) {
+                  ClearLine(LCD_LINE1);
+                  TextOut(0,LCD_LINE1, "SILTA LASKETTU");
+               } else {
+                  ClearLine(LCD_LINE1);
+                  TextOut(0,LCD_LINE1, "SILTA YLHAALLA");
+               }
+               Wait(1000);
+               ClearLine(LCD_LINE7);
+               TextOut(0, LCD_LINE7, "TASTA ETEENPAIN");
+               while(true);
+            }
+
+     }
+}
+
+////////////////////////////////////
+// SEND LOCATION INFORMATION
+////////////////////////////////////
+/***********************************
+* Function simply sends location information
+* as a string to the Master.
+************************************/
+void SendLocation(string location) {
+    // The box to which send the data to
+    // at the Master end is set here. ZERG parameter is
+    // set manually until ZERG identity is implemented properly.
+    int queue = 0;
+    if ( ZERG == 1 ) { queue = 4; }
+       else if ( ZERG == 2 ) { queue = 5; }
+
+    // Send data as a response to the Master
+    Wait(200);
+    ClearLine(LCD_LINE1);
+    TextOut(0, LCD_LINE1, NumToStr(queue) + " " + location);
+    BTWait(0);
+    SendResponseString( queue, location );
+    BTWait(0);
+    Wait(20);
+    LOCATION = false;
+}
+
+

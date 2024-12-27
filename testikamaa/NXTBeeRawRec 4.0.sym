@@ -1,0 +1,197 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	2
+1	__signed_stack_001main	6	1	4	4	2
+2	__D0main	6	1	8	4	10
+3	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	12	4	2
+4	__constVal2240	4	0	16	2	6
+5	____initialize_global_data_return	1	1	18	1	3
+6	__constVal15	2	0	19	1	5
+7	__constVal12	2	0	20	1	1
+8	__zfmain	1	1	21	1	4
+9	__constVal5	2	0	22	1	1
+10	__constVal2	2	0	23	1	1
+11	__constVal3	2	0	24	1	1
+12	__constVal1	2	0	25	1	3
+13	__constVal0	2	1	26	1	2
+14	__TextOutArgs	8	0	4	16	5
+15	__TextOutArgs.Result	2	1	28	1	5
+16	__TextOutArgs.Location	8	0	2	4	5
+17	__TextOutArgs.Location.X	4	1	32	2	5
+18	__TextOutArgs.Location.Y	4	1	34	2	5
+19	__TextOutArgs.Text	7	0	36	4	5
+20	__TextOutArgs.Text.Text_type	1	0	0	1	0
+21	__TextOutArgs.Options	5	1	40	4	5
+22	__CHSRArgs	8	0	2	8	2
+23	__CHSRArgs.Status	2	1	44	1	2
+24	__CHSRArgs.Buffer	7	0	46	4	2
+25	__CHSRArgs.Buffer.Buffer_type	1	0	0	1	0
+26	__CHSCArgs	8	0	4	8	30
+27	__CHSCArgs.Result	2	1	48	1	30
+28	__CHSCArgs.Command	1	1	49	1	30
+29	__CHSCArgs.BaudRate	1	1	50	1	30
+30	__CHSCArgs.Mode	3	1	52	2	30
+31	__CHSCSArgs	8	0	2	4	4
+32	__CHSCSArgs.SendingData	1	1	56	1	4
+33	__CHSCSArgs.DataAvailable	1	1	57	1	4
+34	__strbufmain	7	0	58	4	2
+35	__strbufmain.__strbufmain_type	1	0	0	1	0
+36	__main_7qG2_buffer_7qG2_000	7	0	60	4	2
+37	__main_7qG2_buffer_7qG2_000.__main_7qG2_buffer_7qG2_000_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	26	0	#line 26 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	27	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	26	2	#line 26 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	29	2	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	30	2	#pragma macro 2
+0	30	2		setin __constVal12, __constVal3, 0
+0	30	6		wait 1
+0	5794	8	#line 5794 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	29	8	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	29	8	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	31	8	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	32	8	#pragma macro 8
+0	32	8		mov __CHSCArgs.Command, __constVal0
+0	32	10		mov __CHSCArgs.BaudRate, __constVal15
+0	32	12		mov __CHSCArgs.Mode, __constVal2240
+0	32	14		syscall 88, __CHSCArgs
+0	32	17		mov __D0main, __CHSCArgs.Result
+0	32	19		wait 1
+0	5798	21	#line 5798 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	31	21	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	31	21	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	33	21	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	34	21	#pragma macro 8
+0	34	21		mov __CHSCArgs.Command, __constVal1
+0	34	23		mov __CHSCArgs.BaudRate, __constVal15
+0	34	25		mov __CHSCArgs.Mode, __constVal2240
+0	34	27		syscall 88, __CHSCArgs
+0	34	30		mov __D0main, __CHSCArgs.Result
+0	34	32		wait 1
+0	5802	34	#line 5802 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	33	34	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	33	34	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	34	34	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	35	34	#pragma macro 8
+0	35	34		mov __CHSCArgs.Command, __constVal1
+0	35	36		mov __CHSCArgs.BaudRate, __constVal5
+0	35	38		mov __CHSCArgs.Mode, __constVal2240
+0	35	40		syscall 88, __CHSCArgs
+0	35	43		mov __D0main, __CHSCArgs.Result
+0	35	45		wait 1
+0	5806	47	#line 5806 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	34	47	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	34	47	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	36	47	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	37	47		set __Wait_7qG2_ms_7qG2_000_inline_main, 10
+0	36	50	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	7921	50	#line 7921 "NXCDefs.h"
+0	7922	50		wait 10
+0	7921	52	#line 7921 "NXCDefs.h"
+0	37	52	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	37	52	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	38	52		set __D0main, 1
+0	39	55	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	55		tst 5, __zfmain, __D0main
+0	39	58	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	58		brtst 4, __NXC_Label_607, __zfmain
+0	39	61	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	61	#pragma macro 5
+0	40	61		syscall 39, __CHSCSArgs
+0	5834	64	#line 5834 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	39	64	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	64		not __D0main, __CHSCSArgs.DataAvailable
+0	40	67	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	41	67		tst 5, __zfmain, __D0main
+0	40	70	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	41	70		brtst 4, __NXC_Label_611, __zfmain
+0	40	73	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	73	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	41	73		jmp __NXC_Label_610
+0	40	75	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	75	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	41	75	#pragma macro 5
+0	41	75		syscall 38, __CHSRArgs
+0	41	78		mov __main_7qG2_buffer_7qG2_000, __CHSRArgs.Buffer
+0	5851	80	#line 5851 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	80	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	40	80	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	42	80	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	43	80		set __signed_stack_001main, 0
+0	42	83	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	42	83	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	43	83		set __signed_stack_002main, 48
+0	42	86	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	42	86	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	43	86		strcat __strbufmain, __main_7qG2_buffer_7qG2_000
+0	43	90	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	43	90	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	44	90		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	43	92	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	44	92		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	43	94	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	44	94		set __TextOutArgs.Options, 0
+0	43	97	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	44	97		mov __TextOutArgs.Text, __strbufmain
+0	43	99	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	44	99		syscall 13, __TextOutArgs
+0	43	102	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	43	102	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	43	102	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	43	102	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	44	102		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	43	105	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	7921	105	#line 7921 "NXCDefs.h"
+0	7922	105		wait 1000
+0	7921	107	#line 7921 "NXCDefs.h"
+0	44	107	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	46	107	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	47	107		jmp __NXC_Label_606
+0	46	109	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	46	109	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	47	109	#pragma macro 8
+0	47	109		mov __CHSCArgs.Command, __constVal2
+0	47	111		mov __CHSCArgs.BaudRate, __constVal15
+0	47	113		mov __CHSCArgs.Mode, __constVal2240
+0	47	115		syscall 88, __CHSCArgs
+0	47	118		mov __D0main, __CHSCArgs.Result
+0	47	120		wait 1
+0	5900	122	#line 5900 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	46	122	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	46	122	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	49	122	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	50	122	#pragma macro 5
+0	50	122		syscall 39, __CHSCSArgs
+0	5912	125	#line 5912 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	49	125	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	49	125	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	51	125	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	52	125	#pragma macro 8
+0	52	125		mov __CHSCArgs.Command, __constVal0
+0	52	127		mov __CHSCArgs.BaudRate, __constVal15
+0	52	129		mov __CHSCArgs.Mode, __constVal2240
+0	52	131		syscall 88, __CHSCArgs
+0	52	134		mov __D0main, __CHSCArgs.Result
+0	52	136		wait 1
+0	5916	138	#line 5916 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	51	138	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	51	138	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	53	138	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	54	138	#pragma macro 8
+0	54	138		mov __CHSCArgs.Command, __constVal1
+0	54	140		mov __CHSCArgs.BaudRate, __constVal15
+0	54	142		mov __CHSCArgs.Mode, __constVal2240
+0	54	144		syscall 88, __CHSCArgs
+0	54	147		mov __D0main, __CHSCArgs.Result
+0	54	149		wait 1
+0	5920	151	#line 5920 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	53	151	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	53	151	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+0	54	151		exit -1, -1
+1	58	0	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc"
+1	59	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc
+1	__initialize_global_data	154	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\NXTBeeRawRec 4.0.nxc

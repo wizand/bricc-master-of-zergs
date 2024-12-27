@@ -1,0 +1,271 @@
+/***********************************************************************
+* MasterActions.nxc
+* Version 1.5
+* Programmed by: Petteri Loisko
+*
+*************************************************************************
+*   FUCTIONALITY
+* File holds functions for moving, turning and updating location.
+*************************************************************************/
+
+
+//////////////////////////////////
+// FORMAT LOCATIONS
+//////////////////////////////////
+/*********************************
+* Function will format the arrays in the location structs
+* so location data from master, zerg1 and zerg2 can be stored
+*********************************/
+void FormatLocations() {
+     //Initializing the positions of Zerg1, Zerg2 and master
+     ArrayInit(Z1_location.coordinates, 0 , 2);
+     ArrayInit(Z2_location.coordinates, 0 , 2);
+     ArrayInit(M_location.coordinates, 0, 2);
+     Z1_location.heading = 0;
+     Z2_location.heading = 0;
+     M_location.heading = 0;
+
+}
+
+////////////////////////////////////////
+// UPDATE LOCATION
+////////////////////////////////////////
+/****************************************
+* Function keeps track of the Master location and heading.
+* This function is called every time movement or turning occurs.
+******************************************/
+void locationUpdate(int distance, int steering) {
+      if ( distance ) {
+         switch ( M_location.heading ) {
+         /***************************************
+         * HEADINGS: 0 north
+         *           1 east
+         *           2 south
+         *           3 west
+         ****************************************
+         * In the position arrays [0] is x coordinate
+                                  [1] is y coordinate
+         */
+                case NORTH: { // HEADING IS UP
+                   M_location.coordinates[1] += distance;
+                   break;
+                }
+
+                case EAST: { // HEADING IS RIGHT
+                   M_location.coordinates[0] += distance;
+                   break;
+                }
+
+                case SOUTH: {  //HEADING IS DOWN
+                   M_location.coordinates[1] -= distance;
+                   break;
+                }
+
+                case WEST: { //HEADING IS LEFT
+                   M_location.coordinates[0] -= distance;
+                   break;
+                }
+         }
+
+      } else {
+      /********************************
+      * In case distance is 0 the bot is turning.
+      *
+      * If steering is positive, the bot is turning right and the heading value
+      * is to be increased (but if the heading is already 3 then it will go back
+      * to 0.
+      * If steering is negative, the bot is turning left and the heading value
+      * is to be decreased (but if the heading is already 0 then it will go back
+      * to 3.
+      ********************************/
+        if ( steering < 0 ) {
+           if ( M_location.heading == NORTH ) {
+              M_location.heading = WEST;
+           } else M_location.heading--;
+        }
+
+        else if ( steering > 0 ) {
+           if ( M_location.heading == WEST ) {
+              M_location.heading = NORTH;
+           } else M_location.heading++;
+        }
+
+      }
+
+}
+
+////////////////////////////////////////
+// WHERE AM I
+////////////////////////////////////////
+/****************************************
+* Function for showing the master location on the LCD display
+******************************************/
+void whereAmI() {
+    ClearScreen();
+    string coords = "";  // Variable to store the current coordinates for pritning
+    string location = ""; // Variable to store the current coordinates for sending to master
+
+    // For debugging, printing the current location coordinates to the NXT display
+    TextOut(5, LCD_LINE1, "MY LOCATION:");
+    TextOut(10, LCD_LINE2, "MY COORDS X,Y (OWN)" );
+
+    coords = "(" + NumToStr( M_location.coordinates[0] ) + "," + NumToStr( M_location.coordinates[1] ) + ")";
+    TextOut(10, LCD_LINE3, coords );
+
+    coords = "MY HEADING: " + NumToStr(M_location.heading);
+    TextOut(10, LCD_LINE4, coords );
+
+
+    Wait(200);
+}
+
+
+///////////////////////////////////
+// MOVE FORWARD IN CENTIMETERS
+///////////////////////////////////
+/*************************************
+* Wrapper function for moving the robot forward.
+* Will call the move(int) function with positive value.
+**************************************/
+void forwardCm(int cm) {
+
+     move(cm);
+}
+
+///////////////////////////////////
+// MOVE BACKWARD IN CENTIMETERS
+///////////////////////////////////
+/*************************************
+* Wrapper function for moving the robot backward.
+* Will call the move(int) function with negative value.
+**************************************/
+void backwardsCm(int cm) {
+
+
+     move(cm * -1);
+
+}
+
+///////////////////////////////////
+// TURN LEFT FUCTION
+///////////////////////////////////
+/**********************************
+* Wrapper function for turning the robot left 90 degrees.
+* Will call the turn(int) function with positive value.
+**********************************/
+
+void turnLeft() {
+     turn(10);
+}
+
+///////////////////////////////////
+// TURN RIGHT FUCTION
+///////////////////////////////////
+/**********************************
+* Wrapper function for turning the robot right 90 degrees.
+* Will call the turn(int) function with negative value.
+**********************************/
+void turnRight() {
+     turn(-10);
+}
+
+///////////////////////////////////////////
+// MOVE FUNCTION
+///////////////////////////////////////////
+/****************************************
+* Function moves the robot either forward or backward
+* depending on the parameter cm which gives the distance to travel
+* in centimeters.
+*
+* One one degree of movement with 18,5cm wheel is
+* 18,5cm/360'
+* Therefore one centimeter of movement is
+* 1cm / ( 18,5 / 360' ) degrees.
+* Which is approximately 19,45 degrees.
+* For now we are using DEG_CONVERSION_CONSTANT (see from SlaveHeader.nxc) as an approximation to avoid cpu-heavy float
+* calculation
+*****************************************/
+void move(int cm) {
+
+
+
+   //if ( cm > 0 ) textToScreen(LCD_LINE1, "Moving forward");
+   //if ( cm < 0 ) textToScreen(LCD_LINE1, "Moving backward");
+
+     int degrees = cm * DEG_CONVERSION_CONSTANT; // Converting the centimeters to degrees.
+
+     Acquire(MOTOR);  // Lock the motors for this thread
+        RotateMotorEx(OUT_AC, MOTOR_AC_SPEED, degrees, 0, true, true);
+     Release(MOTOR); // Release the motors for other use
+
+     locationUpdate(cm, 0);  // Updating the current position with the amount of distance travelled.
+
+     Wait(700);
+}
+
+///////////////////////////////////
+// MOTOR CONTROL FOR TURNING
+///////////////////////////////////
+/************************************
+* turningColtrol starts the left- and right motor controls
+* simultaniously so the the robot would turn smoothly.
+*
+* leftMotor thread controls the left morot and turns it according to the
+* value of TurningDegrees. rightMotor turns the right wheel same amount
+* to the opposite direction.
+*/
+task turningControl() {
+     //Making the motors start turning simultaniously (threading).
+     Precedes(leftMotor , rightMotor );
+}
+task leftMotor() {
+
+
+
+     ClearLine(LCD_LINE8);
+     TextOut(5, LCD_LINE8, "LM: " + NumToStr(TurningDegrees));
+     RotateMotorEx(OUT_A, MOTOR_A_SPEED, TurningDegrees *1, 0, false, true );
+}
+
+task rightMotor() {
+
+
+     ClearLine(LCD_LINE7);
+     TextOut(5, LCD_LINE7, "RM: " + NumToStr(TurningDegrees));
+     RotateMotorEx(OUT_C, MOTOR_C_SPEED, TurningDegrees *-1, 0, false, true );
+}
+
+///////////////////////////////////
+// TURNING FUCTION
+///////////////////////////////////
+void turn(int dir) {
+
+
+
+     Wait(200);
+
+     if (dir > 0) { //We are turning right
+      //  textToScreen(LCD_LINE1, "Turning right");
+        TurningDegrees = 251;         // TurningDegrees is the amount of degrees the other wheel
+                                      // turns forward and the other one turns backward (depending if the
+                                      // bot is told to turn left or right obviously).
+                                      // The actual amout is tweaked depending on various elements like
+                                      // NXT battery level, surface material, tire cleanliness etc..
+                                      // Goal is to make the bot turn exactly 90'.
+     } else { //or tuning left.
+      //  textToScreen(LCD_LINE1, "Turning left");
+        TurningDegrees = -262;
+     }
+
+     Acquire(MOTOR); // Lock the motors for this thread
+
+       StartTask( turningControl );
+       Wait(400);
+
+     Release(MOTOR); // Release the motors for other use
+
+     locationUpdate(0, dir); // Updating the location information
+
+     Wait(400);
+
+}

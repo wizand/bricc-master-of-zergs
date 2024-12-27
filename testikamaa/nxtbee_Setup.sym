@@ -1,0 +1,2638 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__DU0setbaud	5	1	0	4	2
+1	__DU0setPinMode	5	1	4	4	4
+2	__DU0selectbaudRate	5	1	8	4	2
+3	__D0setbaud	6	1	12	4	3
+4	__D0showIntro	6	1	16	4	5
+5	__D0WaitForMessageToBeSent	6	1	20	4	2
+6	__D0setupHighSpeedLink	6	1	24	4	19
+7	__DU0setupHighSpeedLink	5	1	28	4	4
+8	__D0selectbaudRate	6	1	32	4	34
+9	__D0getbtn	6	1	36	4	19
+10	__D0main	6	1	40	4	46
+11	__DU0checkResponse	5	1	44	4	8
+12	__Wait_7qG2_ms_7qG2_000_inline_enterCommandMode	5	1	48	4	2
+13	__DU0resetNXTBee	5	1	52	4	2
+14	__DU0saveConfiguration	5	1	56	4	2
+15	__DU0main	5	1	60	4	8
+16	__D0PlaySound	6	1	64	4	48
+17	__signed_stack_003selectbaudRate	6	1	68	4	4
+18	__signed_stack_001setbaud	6	1	72	4	2
+19	__signed_stack_001selectbaudRate	6	1	76	4	26
+20	__signed_stack_002selectbaudRate	6	1	80	4	14
+21	__signed_stack_001showIntro	6	1	84	4	10
+22	__signed_stack_002showIntro	6	1	88	4	10
+23	__signed_stack_001setupHighSpeedLink	6	1	92	4	14
+24	__signed_stack_002setupHighSpeedLink	6	1	96	4	2
+25	__signed_stack_003PlaySound	6	1	100	4	14
+26	__signed_stack_002checkResponse	6	1	104	4	2
+27	__signed_stack_001getbtn	6	1	108	4	8
+28	__D0StopAllTasks_inline_main	6	1	112	4	10
+29	__signed_stack_001checkResponse	6	1	116	4	4
+30	__signed_stack_001PlaySound	6	1	120	4	38
+31	__signed_stack_002PlaySound	6	1	124	4	14
+32	__signed_stack_001main	6	1	128	4	48
+33	__signed_stack_002main	6	1	132	4	34
+34	__SPTArgsMutex	9	0	136	4	14
+35	__Wait_7qG2_ms_7qG2_000_inline_setbaud	5	1	140	4	2
+36	__ArrHelper__selectbaudRate_76_0	6	1	144	4	4
+37	__Wait_7qG2_ms_7qG2_000_inline_setPinMode	5	1	148	4	2
+38	__PointOutMutex	9	0	152	4	8
+39	__RBtnMutex	9	0	156	4	14
+40	__Wait_7qG2_ms_7qG2_000_inline_resetNXTBee	5	1	160	4	2
+41	__CHSRMutex	9	0	164	4	4
+42	__CHSWMutex	9	0	168	4	12
+43	__Wait_7qG2_ms_7qG2_000_inline_saveConfiguration	5	1	172	4	2
+44	__CHSCMutex	9	0	176	4	4
+45	__ArrHelper__setupHighSpeedLink_76_0	6	1	180	4	2
+46	__TextOutMutex	9	0	184	4	66
+47	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	188	4	7
+48	__D0checkResponse	6	1	192	4	6
+49	__main_7qG2_baud_rate_7qG2_000	6	1	196	4	9
+50	__setupHighSpeedLink_7qG2_baud_index_7qG2_000	4	1	200	2	9
+51	__constVal523	4	0	202	2	3
+52	__PlaySound_7qG2_i_7qG2_001	4	1	204	2	15
+53	__PlaySound_7qG2_aCode_7qG2_000	4	1	206	2	8
+54	__selectbaudRate_7qG2_currentBtn_7qG2_000	4	1	208	2	4
+55	__constVal128	4	0	210	2	1
+56	__selectbaudRate_7qG2_choice_7qG2_000	4	1	212	2	14
+57	__getbtn_7qG2_result_7qG2_000	4	1	214	2	6
+58	__main_7qG2_i_7qG2_001	4	1	216	2	8
+59	__constVal2240	4	0	218	2	2
+60	__constVal200	4	0	220	2	8
+61	__constVal12	2	0	222	1	1
+62	____initialize_global_data_return	1	1	223	1	3
+63	__constVal48	2	0	224	1	1
+64	__setupHighSpeedLink_7qG2_baudval_7qG2_002	1	1	225	1	2
+65	__setupHighSpeedLink_return	1	1	226	1	6
+66	__PlaySound_return	1	1	227	1	4
+67	__selectbaudRate_7qG2_oldchoice_7qG2_000	1	1	228	1	3
+68	__constVal79	2	0	229	1	1
+69	__setPinMode_return	1	1	230	1	6
+70	__selectbaudRate_return	1	1	231	1	4
+71	__clearBuffer_return	1	1	232	1	7
+72	__enterCommandMode_return	1	1	233	1	4
+73	__checkResponse_return	1	1	234	1	8
+74	__ClearLine_7qG2_line_7qG2_000_inline_selectbaudRate	1	1	235	1	4
+75	__showIntro_return	1	1	236	1	3
+76	__setPinMode_7qG2_showresponse_7qG2_000	1	1	237	1	4
+77	__setbaud_7qG2_rate_7qG2_000	1	1	238	1	2
+78	__resetNXTBee_return	1	1	239	1	4
+79	__checkResponse_7qG2_showresponse_7qG2_000	1	1	240	1	5
+80	__getbtn_return	1	1	241	1	5
+81	__setbaud_return	1	1	242	1	4
+82	__WaitForMessageToBeSent_return	1	1	243	1	8
+83	__saveConfiguration_return	1	1	244	1	4
+84	__zfselectbaudRate	1	1	245	1	16
+85	__zfPlaySound	1	1	246	1	27
+86	__zfcheckResponse	1	1	247	1	8
+87	__ArrHelper__setupHighSpeedLink_98_0	1	1	248	1	2
+88	__zfsetupHighSpeedLink	1	1	249	1	13
+89	__zfmain	1	1	250	1	28
+90	__constVal2	2	0	251	1	4
+91	__zfgetbtn	1	1	252	1	8
+92	__constVal3	2	0	253	1	1
+93	__constVal4	2	0	254	1	3
+94	__constVal75	2	0	255	1	1
+95	__constVal15	2	0	256	1	1
+96	__constVal1	2	0	257	1	18
+97	__constVal0	2	1	258	1	8
+98	__zfWaitForMessageToBeSent	1	1	259	1	2
+99	__CHSCSArgs	8	0	2	4	2
+100	__CHSCSArgs.SendingData	1	1	260	1	2
+101	__CHSCSArgs.DataAvailable	1	1	261	1	2
+102	__PointOutArgs	8	0	3	12	16
+103	__PointOutArgs.Result	2	1	264	1	16
+104	__PointOutArgs.Location	8	0	2	4	16
+105	__PointOutArgs.Location.X	4	1	268	2	16
+106	__PointOutArgs.Location.Y	4	1	270	2	16
+107	__PointOutArgs.Options	5	1	272	4	16
+108	__TextOutArgs	8	0	4	16	196
+109	__TextOutArgs.Result	2	1	276	1	196
+110	__TextOutArgs.Location	8	0	2	4	196
+111	__TextOutArgs.Location.X	4	1	280	2	196
+112	__TextOutArgs.Location.Y	4	1	282	2	196
+113	__TextOutArgs.Text	7	0	284	4	196
+114	__TextOutArgs.Text.Text_type	1	0	0	1	0
+115	__TextOutArgs.Options	5	1	288	4	196
+116	__CHSWArgs	8	0	2	8	14
+117	__CHSWArgs.Status	2	1	292	1	14
+118	__CHSWArgs.Buffer	7	0	294	4	14
+119	__CHSWArgs.Buffer.Buffer_type	1	0	0	1	0
+120	__CHSCArgs	8	0	4	8	10
+121	__CHSCArgs.Result	2	1	296	1	10
+122	__CHSCArgs.Command	1	1	297	1	10
+123	__CHSCArgs.BaudRate	1	1	298	1	10
+124	__CHSCArgs.Mode	3	1	300	2	10
+125	__CHSRArgs	8	0	2	8	5
+126	__CHSRArgs.Status	2	1	304	1	5
+127	__CHSRArgs.Buffer	7	0	306	4	5
+128	__CHSRArgs.Buffer.Buffer_type	1	0	0	1	0
+129	__RBtnArgs	8	0	5	8	28
+130	__RBtnArgs.Result	2	1	308	1	28
+131	__RBtnArgs.Index	1	1	309	1	28
+132	__RBtnArgs.Pressed	1	1	310	1	28
+133	__RBtnArgs.Count	1	1	311	1	28
+134	__RBtnArgs.Reset	1	1	312	1	28
+135	__SPTArgs	8	0	5	8	42
+136	__SPTArgs.Result	2	1	316	1	42
+137	__SPTArgs.Frequency	3	1	318	2	42
+138	__SPTArgs.Duration	3	1	320	2	42
+139	__SPTArgs.Loop	1	1	322	1	42
+140	__SPTArgs.Volume	1	1	323	1	42
+141	__setupHighSpeedLink_7qG2_msg_7qG2_002	7	0	324	4	2
+142	__setupHighSpeedLink_7qG2_msg_7qG2_002.__setupHighSpeedLink_7qG2_msg_7qG2_002_type	1	0	0	1	0
+143	__constStr0020	7	0	326	4	1
+144	__constStr0020.__constStr0020_type	1	1	0	1	0
+145	__setupHighSpeedLink_7qG2_propeller_7qG2_000	7	0	328	4	2
+146	__setupHighSpeedLink_7qG2_propeller_7qG2_000.__setupHighSpeedLink_7qG2_propeller_7qG2_000_type	7	0	0	4	0
+147	__setupHighSpeedLink_7qG2_propeller_7qG2_000.__setupHighSpeedLink_7qG2_propeller_7qG2_000_type.__setupHighSpeedLink_7qG2_propeller_7qG2_000_type_type	1	0	0	1	0
+148	__ArrHelper__checkResponse_244_0	7	0	330	4	2
+149	__ArrHelper__checkResponse_244_0.__ArrHelper__checkResponse_244_0_type	1	0	0	1	0
+150	__ArrHelper__checkResponse_244_1	7	0	332	4	2
+151	__ArrHelper__checkResponse_244_1.__ArrHelper__checkResponse_244_1_type	1	0	0	1	0
+152	__constStr0021	7	0	334	4	1
+153	__constStr0021.__constStr0021_type	1	1	0	1	0
+154	__constStr0022	7	0	336	4	1
+155	__constStr0022.__constStr0022_type	1	1	0	1	0
+156	__constStr0032	7	0	338	4	1
+157	__constStr0032.__constStr0032_type	1	1	0	1	0
+158	__constStr0033	7	0	340	4	1
+159	__constStr0033.__constStr0033_type	1	1	0	1	0
+160	__constStr0030	7	0	342	4	1
+161	__constStr0030.__constStr0030_type	1	1	0	1	0
+162	__constStr0031	7	0	344	4	1
+163	__constStr0031.__constStr0031_type	1	1	0	1	0
+164	__constStr0036	7	0	346	4	1
+165	__constStr0036.__constStr0036_type	1	1	0	1	0
+166	__constStr0037	7	0	348	4	1
+167	__constStr0037.__constStr0037_type	1	1	0	1	0
+168	__constStr0034	7	0	350	4	1
+169	__constStr0034.__constStr0034_type	1	1	0	1	0
+170	__constStr0035	7	0	352	4	1
+171	__constStr0035.__constStr0035_type	1	1	0	1	0
+172	__constStr0024	7	0	354	4	2
+173	__constStr0024.__constStr0024_type	1	1	0	1	0
+174	__constStr0025	7	0	356	4	2
+175	__constStr0025.__constStr0025_type	1	1	0	1	0
+176	__BlankLine	7	0	358	4	2
+177	__BlankLine.__BlankLine_type	1	0	0	1	0
+178	__constStr0023	7	0	360	4	1
+179	__constStr0023.__constStr0023_type	1	1	0	1	0
+180	__constStr0028	7	0	362	4	1
+181	__constStr0028.__constStr0028_type	1	1	0	1	0
+182	__constStr0029	7	0	364	4	1
+183	__constStr0029.__constStr0029_type	1	1	0	1	0
+184	__constStr0026	7	0	366	4	1
+185	__constStr0026.__constStr0026_type	1	1	0	1	0
+186	__constStr0027	7	0	368	4	1
+187	__constStr0027.__constStr0027_type	1	1	0	1	0
+188	__ArrHelper__setupHighSpeedLink_244_0	7	0	370	4	2
+189	__ArrHelper__setupHighSpeedLink_244_0.__ArrHelper__setupHighSpeedLink_244_0_type	1	0	0	1	0
+190	__strbufsetupHighSpeedLink	7	0	372	4	6
+191	__strbufsetupHighSpeedLink.__strbufsetupHighSpeedLink_type	1	0	0	1	0
+192	__strbufselectbaudRate	7	0	374	4	10
+193	__strbufselectbaudRate.__strbufselectbaudRate_type	1	0	0	1	0
+194	__strbufshowIntro	7	0	376	4	10
+195	__strbufshowIntro.__strbufshowIntro_type	1	0	0	1	0
+196	__strretvalsetupHighSpeedLink	7	0	378	4	2
+197	__strretvalsetupHighSpeedLink.__strretvalsetupHighSpeedLink_type	1	0	0	1	0
+198	__constStr0009	7	0	380	4	1
+199	__constStr0009.__constStr0009_type	1	1	0	1	0
+200	__constStr0012	7	0	382	4	1
+201	__constStr0012.__constStr0012_type	1	1	0	1	0
+202	__constStr0013	7	0	384	4	1
+203	__constStr0013.__constStr0013_type	1	1	0	1	0
+204	__constStr0010	7	0	386	4	1
+205	__constStr0010.__constStr0010_type	1	1	0	1	0
+206	__constStr0011	7	0	388	4	1
+207	__constStr0011.__constStr0011_type	1	1	0	1	0
+208	baud_uart	7	0	390	4	1
+209	baud_uart.baud_uart_type	1	0	0	1	0
+210	cmd_ExitCommandMode	7	0	392	4	1
+211	cmd_ExitCommandMode.cmd_ExitCommandMode_type	1	0	0	1	0
+212	cmd_SetPin	7	0	394	4	1
+213	cmd_SetPin.cmd_SetPin_type	1	0	0	1	0
+214	__strbufByteArrayToStr_inline_checkResponse	7	0	396	4	2
+215	__strbufByteArrayToStr_inline_checkResponse.__strbufByteArrayToStr_inline_checkResponse_type	1	0	0	1	0
+216	cmd_enterCommandMode	7	0	398	4	1
+217	cmd_enterCommandMode.cmd_enterCommandMode_type	1	0	0	1	0
+218	cmd_setbaudRate	7	0	400	4	3
+219	cmd_setbaudRate.cmd_setbaudRate_type	1	0	0	1	0
+220	baud_rates	7	0	402	4	1
+221	baud_rates.baud_rates_type	6	0	0	4	0
+222	baud_rates_set	7	0	404	4	2
+223	baud_rates_set.baud_rates_set_type	6	0	0	4	0
+224	cmd_WriteConfig	7	0	406	4	1
+225	cmd_WriteConfig.cmd_WriteConfig_type	1	0	0	1	0
+226	cmd_resetNXTBee	7	0	408	4	1
+227	cmd_resetNXTBee.cmd_resetNXTBee_type	1	0	0	1	0
+228	__checkResponse_7qG2_OKresp_7qG2_000	7	0	410	4	4
+229	__checkResponse_7qG2_OKresp_7qG2_000.__checkResponse_7qG2_OKresp_7qG2_000_type	1	0	0	1	0
+230	__checkResponse_7qG2_OK_7qG2_000	7	0	412	4	2
+231	__checkResponse_7qG2_OK_7qG2_000.__checkResponse_7qG2_OK_7qG2_000_type	1	0	0	1	0
+232	__ArrHelper__setupHighSpeedLink_244_1	7	0	414	4	2
+233	__ArrHelper__setupHighSpeedLink_244_1.__ArrHelper__setupHighSpeedLink_244_1_type	1	0	0	1	0
+234	__checkResponse_7qG2_response_7qG2_000	7	0	416	4	3
+235	__checkResponse_7qG2_response_7qG2_000.__checkResponse_7qG2_response_7qG2_000_type	1	0	0	1	0
+236	__ArrHelper__setupHighSpeedLink_83_0	7	0	418	4	2
+237	__ArrHelper__setupHighSpeedLink_83_0.__ArrHelper__setupHighSpeedLink_83_0_type	1	0	0	1	0
+238	__checkResponse_7qG2_msg_7qG2_001	7	0	420	4	2
+239	__checkResponse_7qG2_msg_7qG2_001.__checkResponse_7qG2_msg_7qG2_001_type	1	0	0	1	0
+240	__constStr0019	7	0	422	4	1
+241	__constStr0019.__constStr0019_type	1	1	0	1	0
+242	__checkResponse_7qG2_sString_7qG2_001	7	0	424	4	2
+243	__checkResponse_7qG2_sString_7qG2_001.__checkResponse_7qG2_sString_7qG2_001_type	1	0	0	1	0
+244	__ByteArrayToStr_7qG2_data_7qG2_000_inline_checkResponse	7	0	426	4	2
+245	__ByteArrayToStr_7qG2_data_7qG2_000_inline_checkResponse.__ByteArrayToStr_7qG2_data_7qG2_000_inline_checkResponse_type	1	0	0	1	0
+246	__clearBuffer_7qG2_dummy_7qG2_000	7	0	428	4	2
+247	__clearBuffer_7qG2_dummy_7qG2_000.__clearBuffer_7qG2_dummy_7qG2_000_type	1	0	0	1	0
+248	__constStr0014	7	0	430	4	1
+249	__constStr0014.__constStr0014_type	1	1	0	1	0
+250	__constStr0015	7	0	432	4	1
+251	__constStr0015.__constStr0015_type	1	1	0	1	0
+252	__strretvalmain	7	0	434	4	4
+253	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+254	__strbufmain	7	0	436	4	38
+255	__strbufmain.__strbufmain_type	1	0	0	1	0
+256	__constStr0016	7	0	438	4	1
+257	__constStr0016.__constStr0016_type	1	1	0	1	0
+258	__strretvalcheckResponse	7	0	440	4	2
+259	__strretvalcheckResponse.__strretvalcheckResponse_type	1	0	0	1	0
+260	__strbufcheckResponse	7	0	442	4	8
+261	__strbufcheckResponse.__strbufcheckResponse_type	1	0	0	1	0
+262	__constStr0017	7	0	444	4	1
+263	__constStr0017.__constStr0017_type	1	1	0	1	0
+264	__constStr0018	7	0	446	4	1
+265	__constStr0018.__constStr0018_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	310	0	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	311	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	310	2	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	310	2	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	311	2	#pragma macro 2
+0	311	2		setin __constVal12, __constVal3, 0
+0	311	6		wait 1
+0	9426	8	#line 9426 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	310	8	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	310	8	#line 310 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	311	8	#line 311 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	312	8	#pragma macro 8
+0	312	8		acquire __CHSCMutex
+0	312	9		mov __CHSCArgs.Command, __constVal0
+0	312	11		mov __CHSCArgs.BaudRate, __constVal15
+0	312	13		mov __CHSCArgs.Mode, __constVal2240
+0	312	15		syscall 88, __CHSCArgs
+0	312	18		mov __D0main, __CHSCArgs.Result
+0	312	20		release __CHSCMutex
+0	312	21		wait 1
+0	9430	23	#line 9430 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	311	23	#line 311 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	311	23	#line 311 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	314	23	#line 314 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	315	23		set __main_7qG2_baud_rate_7qG2_000, 0
+0	314	26	#line 314 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	315	26	#line 315 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	316	26		subcall showIntro, __showIntro_return
+0	315	28	#line 315 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	6069	28	#line 6069 "NXCDefs.h"
+0	6070	28	#pragma macro 6
+0	6070	28		acquire __PointOutMutex
+0	6070	29		mov __PointOutArgs.Location.X, __constVal200
+0	6070	31		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	33		mov __PointOutArgs.Options, __constVal1
+0	6070	35		syscall 14, __PointOutArgs
+0	6070	38		release __PointOutMutex
+0	9447	39	#line 9447 "NXCDefs.h"
+0	6069	39	#line 6069 "NXCDefs.h"
+0	316	39	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	316	39	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	317	39		set __signed_stack_001main, 0
+0	316	42	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	316	42	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	317	42		set __signed_stack_002main, 40
+0	316	45	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	316	45	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	317	45		strcat __strbufmain, __constStr0023
+0	319	49	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	49		acquire __TextOutMutex
+0	319	50	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	50		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	319	52	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	52		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	319	54	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	54		set __TextOutArgs.Options, 0
+0	319	57	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	57		mov __TextOutArgs.Text, __strbufmain
+0	319	60	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	60		syscall 13, __TextOutArgs
+0	319	63	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	63		mov __D0main, __TextOutArgs.Result
+0	319	65	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	65		release __TextOutMutex
+0	319	66	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	319	66	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	66		set __main_7qG2_i_7qG2_001, 0
+0	319	69	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	319	69	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	69		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
+0	319	71	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	319	71	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	71		set __D0main, 3
+0	319	74	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	74		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	319	78	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	78		mov __D0main, __zfmain
+0	319	80	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	80		brtst 4, __NXC_Label_861, __zfmain
+0	319	83	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	83		jmp __NXC_Label_862
+0	319	85	#line 319 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	320	85		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
+0	320	89	#line 320 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	321	89		jmp __NXC_Label_860
+0	321	91	#line 321 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	322	91		subcall setupHighSpeedLink, __setupHighSpeedLink_return
+0	321	93	#line 321 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	322	93		mov __main_7qG2_baud_rate_7qG2_000, __D0setupHighSpeedLink
+0	321	95	#line 321 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	321	95	#line 321 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	321	95	#line 321 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	322	95		mov __signed_stack_001main, __D0setupHighSpeedLink
+0	321	97	#line 321 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	322	97	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	323	97		set __D0main, 0
+0	322	100	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	323	100		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	322	104	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	323	104		mov __D0main, __zfmain
+0	322	106	#line 322 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	323	106		brtst 4, __NXC_Label_872, __zfmain
+0	323	109	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	324	109		jmp __NXC_Label_861
+0	323	111	#line 323 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	325	111	#line 325 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	325	111	#line 325 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	326	111		jmp __NXC_Label_863
+0	325	113	#line 325 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	325	113	#line 325 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	326	113		set __PlaySound_7qG2_aCode_7qG2_000, 5
+0	325	116	#line 325 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	327	116	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	328	116		subcall PlaySound, __PlaySound_return
+0	327	118	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	327	118	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	328	118		mov __signed_stack_001main, __main_7qG2_baud_rate_7qG2_000
+0	327	120	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	327	120	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	328	120		set __D0main, 0
+0	327	123	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	328	123		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	327	127	#line 327 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	328	127		mov __D0main, __zfmain
+0	328	129	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	329	129		brtst 4, __NXC_Label_877, __zfmain
+0	328	132	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	329	132		set __signed_stack_001main, 0
+0	328	135	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	328	135	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	329	135		set __signed_stack_002main, 24
+0	328	138	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	328	138	#line 328 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	329	138		strcat __strbufmain, __constStr0024
+0	329	142	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	142		acquire __TextOutMutex
+0	329	143	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	143		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	329	145	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	145		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	329	147	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	147		set __TextOutArgs.Options, 0
+0	329	150	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	150		mov __TextOutArgs.Text, __strbufmain
+0	329	153	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	153		syscall 13, __TextOutArgs
+0	329	156	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	156		mov __D0main, __TextOutArgs.Result
+0	329	158	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	158		release __TextOutMutex
+0	329	159	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	329	159	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	330	159		set __Wait_7qG2_ms_7qG2_000_inline_main, 5000
+0	329	162	#line 329 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7921	162	#line 7921 "NXCDefs.h"
+0	7922	162		wait 5000
+0	7921	164	#line 7921 "NXCDefs.h"
+0	330	164	#line 330 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7934	164	#line 7934 "NXCDefs.h"
+0	7935	164		set __D0StopAllTasks_inline_main, 1
+0	7934	167	#line 7934 "NXCDefs.h"
+0	7935	167		stop __D0StopAllTasks_inline_main
+0	7934	169	#line 7934 "NXCDefs.h"
+0	331	169	#line 331 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	332	169	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	333	169		jmp __NXC_Label_884
+0	332	171	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	333	171		set __signed_stack_001main, 0
+0	332	174	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	332	174	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	333	174		set __signed_stack_002main, 24
+0	332	177	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	332	177	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	333	177		strcat __strbufmain, __constStr0025
+0	332	181	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	333	181		mov __D0main, __main_7qG2_baud_rate_7qG2_000
+0	332	183	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	333	183		fmtnum __strretvalmain, __strbufmain, __D0main
+0	332	187	#line 332 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	333	187		strcat __strbufmain, __strretvalmain
+0	333	191	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	191		acquire __TextOutMutex
+0	333	192	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	192		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	333	194	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	194		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	333	196	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	196		set __TextOutArgs.Options, 0
+0	333	199	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	199		mov __TextOutArgs.Text, __strbufmain
+0	333	202	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	202		syscall 13, __TextOutArgs
+0	333	205	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	205		mov __D0main, __TextOutArgs.Result
+0	333	207	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	334	207		release __TextOutMutex
+0	333	208	#line 333 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	335	208	#line 335 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	335	208	#line 335 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	336	208		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	335	211	#line 335 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7921	211	#line 7921 "NXCDefs.h"
+0	7922	211		wait 1000
+0	7921	213	#line 7921 "NXCDefs.h"
+0	337	213	#line 337 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	339	213	#line 339 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	340	213		subcall selectbaudRate, __selectbaudRate_return
+0	339	215	#line 339 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	340	215		mov __main_7qG2_baud_rate_7qG2_000, __D0selectbaudRate
+0	339	217	#line 339 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	339	217	#line 339 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	340	217	#line 340 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	341	217		subcall clearBuffer, __clearBuffer_return
+0	340	219	#line 340 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	341	219	#line 341 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	342	219		subcall enterCommandMode, __enterCommandMode_return
+0	341	221	#line 341 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	6069	221	#line 6069 "NXCDefs.h"
+0	6070	221	#pragma macro 6
+0	6070	221		acquire __PointOutMutex
+0	6070	222		mov __PointOutArgs.Location.X, __constVal200
+0	6070	224		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	226		mov __PointOutArgs.Options, __constVal1
+0	6070	228		syscall 14, __PointOutArgs
+0	6070	231		release __PointOutMutex
+0	9692	232	#line 9692 "NXCDefs.h"
+0	6069	232	#line 6069 "NXCDefs.h"
+0	342	232	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	342	232	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	343	232		set __signed_stack_001main, 0
+0	342	235	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	342	235	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	343	235		set __signed_stack_002main, 56
+0	342	238	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	342	238	#line 342 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	343	238		strcat __strbufmain, __constStr0026
+0	343	242	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	242		acquire __TextOutMutex
+0	343	243	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	243		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	343	245	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	245		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	343	247	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	247		set __TextOutArgs.Options, 0
+0	343	250	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	250		mov __TextOutArgs.Text, __strbufmain
+0	343	253	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	253		syscall 13, __TextOutArgs
+0	343	256	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	256		mov __D0main, __TextOutArgs.Result
+0	343	258	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	258		release __TextOutMutex
+0	343	259	#line 343 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	259	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	259		mov __setPinMode_7qG2_showresponse_7qG2_000, __constVal1
+0	344	261	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	261		subcall setPinMode, __setPinMode_return
+0	344	263	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	263		mov __DU0main, __DU0setPinMode
+0	344	265	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	265		tst 5, __zfmain, __DU0main
+0	344	268	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	268		brtst 4, __NXC_Label_901, __zfmain
+0	344	271	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	271		set __signed_stack_001main, 0
+0	344	274	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	274	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	274		set __signed_stack_002main, 40
+0	344	277	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	344	277	#line 344 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	345	277		strcat __strbufmain, __constStr0027
+0	345	281	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	281		acquire __TextOutMutex
+0	345	282	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	282		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	345	284	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	284		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	345	286	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	286		set __TextOutArgs.Options, 0
+0	345	289	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	289		mov __TextOutArgs.Text, __strbufmain
+0	345	292	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	292		syscall 13, __TextOutArgs
+0	345	295	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	295		mov __D0main, __TextOutArgs.Result
+0	345	297	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	297		release __TextOutMutex
+0	345	298	#line 345 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	298	#line 346 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	347	298		jmp __NXC_Label_906
+0	346	300	#line 346 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	347	300		set __signed_stack_001main, 0
+0	346	303	#line 346 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	303	#line 346 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	347	303		set __signed_stack_002main, 40
+0	346	306	#line 346 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	346	306	#line 346 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	347	306		strcat __strbufmain, __constStr0028
+0	347	310	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	310		acquire __TextOutMutex
+0	347	311	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	311		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	347	313	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	313		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	347	315	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	315		set __TextOutArgs.Options, 0
+0	347	318	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	318		mov __TextOutArgs.Text, __strbufmain
+0	347	321	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	321		syscall 13, __TextOutArgs
+0	347	324	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	324		mov __D0main, __TextOutArgs.Result
+0	347	326	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	326		release __TextOutMutex
+0	347	327	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	347	327	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	348	327		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
+0	347	330	#line 347 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7921	330	#line 7921 "NXCDefs.h"
+0	7922	330		wait 10000
+0	7921	332	#line 7921 "NXCDefs.h"
+0	348	332	#line 348 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7934	332	#line 7934 "NXCDefs.h"
+0	7935	332		set __D0StopAllTasks_inline_main, 1
+0	7934	335	#line 7934 "NXCDefs.h"
+0	7935	335		stop __D0StopAllTasks_inline_main
+0	7934	337	#line 7934 "NXCDefs.h"
+0	349	337	#line 349 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	351	337	#line 351 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	351	337	#line 351 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	352	337		mov __setbaud_7qG2_rate_7qG2_000, __main_7qG2_baud_rate_7qG2_000
+0	351	339	#line 351 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	352	339	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	353	339		subcall setbaud, __setbaud_return
+0	352	341	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	353	341		mov __DU0main, __DU0setbaud
+0	352	343	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	353	343		tst 5, __zfmain, __DU0main
+0	352	346	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	353	346		brtst 4, __NXC_Label_917, __zfmain
+0	352	349	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	353	349		set __signed_stack_001main, 0
+0	352	352	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	352	352	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	353	352		set __signed_stack_002main, 32
+0	352	355	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	352	355	#line 352 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	353	355		strcat __strbufmain, __constStr0029
+0	353	359	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	359		acquire __TextOutMutex
+0	353	360	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	360		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	353	362	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	362		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	353	364	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	364		set __TextOutArgs.Options, 0
+0	353	367	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	367		mov __TextOutArgs.Text, __strbufmain
+0	353	370	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	370		syscall 13, __TextOutArgs
+0	353	373	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	373		mov __D0main, __TextOutArgs.Result
+0	353	375	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	375		release __TextOutMutex
+0	353	376	#line 353 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	376	#line 354 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	355	376		jmp __NXC_Label_922
+0	354	378	#line 354 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	355	378		set __signed_stack_001main, 0
+0	354	381	#line 354 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	381	#line 354 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	355	381		set __signed_stack_002main, 32
+0	354	384	#line 354 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	354	384	#line 354 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	355	384		strcat __strbufmain, __constStr0030
+0	355	388	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	388		acquire __TextOutMutex
+0	355	389	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	389		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	355	391	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	391		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	355	393	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	393		set __TextOutArgs.Options, 0
+0	355	396	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	396		mov __TextOutArgs.Text, __strbufmain
+0	355	399	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	399		syscall 13, __TextOutArgs
+0	355	402	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	402		mov __D0main, __TextOutArgs.Result
+0	355	404	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	404		release __TextOutMutex
+0	355	405	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	355	405	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	356	405		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
+0	355	408	#line 355 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7921	408	#line 7921 "NXCDefs.h"
+0	7922	408		wait 10000
+0	7921	410	#line 7921 "NXCDefs.h"
+0	356	410	#line 356 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7934	410	#line 7934 "NXCDefs.h"
+0	7935	410		set __D0StopAllTasks_inline_main, 1
+0	7934	413	#line 7934 "NXCDefs.h"
+0	7935	413		stop __D0StopAllTasks_inline_main
+0	7934	415	#line 7934 "NXCDefs.h"
+0	357	415	#line 357 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	360	415	#line 360 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	361	415	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	362	415		subcall saveConfiguration, __saveConfiguration_return
+0	361	417	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	362	417		mov __DU0main, __DU0saveConfiguration
+0	361	419	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	362	419		tst 5, __zfmain, __DU0main
+0	361	422	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	362	422		brtst 4, __NXC_Label_931, __zfmain
+0	361	425	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	362	425		set __signed_stack_001main, 0
+0	361	428	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	361	428	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	362	428		set __signed_stack_002main, 24
+0	361	431	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	361	431	#line 361 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	362	431		strcat __strbufmain, __constStr0031
+0	362	435	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	435		acquire __TextOutMutex
+0	362	436	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	436		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	362	438	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	438		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	362	440	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	440		set __TextOutArgs.Options, 0
+0	362	443	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	443		mov __TextOutArgs.Text, __strbufmain
+0	362	446	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	446		syscall 13, __TextOutArgs
+0	362	449	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	449		mov __D0main, __TextOutArgs.Result
+0	362	451	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	451		release __TextOutMutex
+0	362	452	#line 362 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	452	#line 363 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	364	452		jmp __NXC_Label_936
+0	363	454	#line 363 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	364	454		set __signed_stack_001main, 0
+0	363	457	#line 363 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	457	#line 363 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	364	457		set __signed_stack_002main, 24
+0	363	460	#line 363 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	363	460	#line 363 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	364	460		strcat __strbufmain, __constStr0032
+0	364	464	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	464		acquire __TextOutMutex
+0	364	465	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	465		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	364	467	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	467		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	364	469	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	469		set __TextOutArgs.Options, 0
+0	364	472	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	472		mov __TextOutArgs.Text, __strbufmain
+0	364	475	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	475		syscall 13, __TextOutArgs
+0	364	478	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	478		mov __D0main, __TextOutArgs.Result
+0	364	480	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	480		release __TextOutMutex
+0	364	481	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	364	481	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	365	481		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
+0	364	484	#line 364 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7921	484	#line 7921 "NXCDefs.h"
+0	7922	484		wait 10000
+0	7921	486	#line 7921 "NXCDefs.h"
+0	365	486	#line 365 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7934	486	#line 7934 "NXCDefs.h"
+0	7935	486		set __D0StopAllTasks_inline_main, 1
+0	7934	489	#line 7934 "NXCDefs.h"
+0	7935	489		stop __D0StopAllTasks_inline_main
+0	7934	491	#line 7934 "NXCDefs.h"
+0	366	491	#line 366 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	369	491	#line 369 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	370	491	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	371	491		subcall resetNXTBee, __resetNXTBee_return
+0	370	493	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	371	493		mov __DU0main, __DU0resetNXTBee
+0	370	495	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	371	495		tst 5, __zfmain, __DU0main
+0	370	498	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	371	498		brtst 4, __NXC_Label_945, __zfmain
+0	370	501	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	371	501		set __signed_stack_001main, 0
+0	370	504	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	370	504	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	371	504		set __signed_stack_002main, 16
+0	370	507	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	370	507	#line 370 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	371	507		strcat __strbufmain, __constStr0033
+0	371	511	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	511		acquire __TextOutMutex
+0	371	512	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	512		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	371	514	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	514		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	371	516	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	516		set __TextOutArgs.Options, 0
+0	371	519	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	519		mov __TextOutArgs.Text, __strbufmain
+0	371	522	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	522		syscall 13, __TextOutArgs
+0	371	525	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	525		mov __D0main, __TextOutArgs.Result
+0	371	527	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	527		release __TextOutMutex
+0	371	528	#line 371 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	528	#line 372 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	373	528		jmp __NXC_Label_950
+0	372	530	#line 372 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	373	530		set __signed_stack_001main, 0
+0	372	533	#line 372 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	533	#line 372 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	373	533		set __signed_stack_002main, 16
+0	372	536	#line 372 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	372	536	#line 372 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	373	536		strcat __strbufmain, __constStr0034
+0	373	540	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	540		acquire __TextOutMutex
+0	373	541	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	541		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	373	543	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	543		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	373	545	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	545		set __TextOutArgs.Options, 0
+0	373	548	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	548		mov __TextOutArgs.Text, __strbufmain
+0	373	551	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	551		syscall 13, __TextOutArgs
+0	373	554	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	554		mov __D0main, __TextOutArgs.Result
+0	373	556	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	556		release __TextOutMutex
+0	373	557	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	373	557	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	374	557		set __Wait_7qG2_ms_7qG2_000_inline_main, 10000
+0	373	560	#line 373 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7921	560	#line 7921 "NXCDefs.h"
+0	7922	560		wait 10000
+0	7921	562	#line 7921 "NXCDefs.h"
+0	374	562	#line 374 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7934	562	#line 7934 "NXCDefs.h"
+0	7935	562		set __D0StopAllTasks_inline_main, 1
+0	7934	565	#line 7934 "NXCDefs.h"
+0	7935	565		stop __D0StopAllTasks_inline_main
+0	7934	567	#line 7934 "NXCDefs.h"
+0	375	567	#line 375 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	377	567	#line 377 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	377	567	#line 377 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	378	567		set __signed_stack_001main, 0
+0	377	570	#line 377 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	377	570	#line 377 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	378	570		set __signed_stack_002main, 56
+0	377	573	#line 377 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	377	573	#line 377 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	378	573		strcat __strbufmain, __constStr0035
+0	378	577	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	577		acquire __TextOutMutex
+0	378	578	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	578		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	378	580	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	580		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	378	582	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	582		set __TextOutArgs.Options, 0
+0	378	585	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	585		mov __TextOutArgs.Text, __strbufmain
+0	378	588	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	588		syscall 13, __TextOutArgs
+0	378	591	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	591		mov __D0main, __TextOutArgs.Result
+0	378	593	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	593		release __TextOutMutex
+0	378	594	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	378	594	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	379	594		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	378	597	#line 378 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	7921	597	#line 7921 "NXCDefs.h"
+0	7922	597		wait 2000
+0	7921	599	#line 7921 "NXCDefs.h"
+0	380	599	#line 380 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	6069	599	#line 6069 "NXCDefs.h"
+0	6070	599	#pragma macro 6
+0	6070	599		acquire __PointOutMutex
+0	6070	600		mov __PointOutArgs.Location.X, __constVal200
+0	6070	602		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	604		mov __PointOutArgs.Options, __constVal1
+0	6070	606		syscall 14, __PointOutArgs
+0	6070	609		release __PointOutMutex
+0	10156	610	#line 10156 "NXCDefs.h"
+0	6069	610	#line 6069 "NXCDefs.h"
+0	382	610	#line 382 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	382	610	#line 382 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	383	610		set __signed_stack_001main, 0
+0	382	613	#line 382 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	382	613	#line 382 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	383	613		set __signed_stack_002main, 40
+0	382	616	#line 382 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	382	616	#line 382 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	383	616		strcat __strbufmain, __constStr0036
+0	384	620	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	620		acquire __TextOutMutex
+0	384	621	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	621		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	384	623	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	623		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	384	625	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	625		set __TextOutArgs.Options, 0
+0	384	628	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	628		mov __TextOutArgs.Text, __strbufmain
+0	384	631	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	631		syscall 13, __TextOutArgs
+0	384	634	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	634		mov __D0main, __TextOutArgs.Result
+0	384	636	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	636		release __TextOutMutex
+0	384	637	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	384	637	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	637		set __main_7qG2_i_7qG2_001, 0
+0	384	640	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	384	640	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	640		mov __signed_stack_001main, __main_7qG2_i_7qG2_001
+0	384	642	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	384	642	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	642		set __D0main, 3
+0	384	645	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	645		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	384	649	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	649		mov __D0main, __zfmain
+0	384	651	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	651		brtst 4, __NXC_Label_968, __zfmain
+0	384	654	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	654		jmp __NXC_Label_969
+0	384	656	#line 384 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	385	656		add __main_7qG2_i_7qG2_001, __main_7qG2_i_7qG2_001, __constVal1
+0	385	660	#line 385 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	386	660		jmp __NXC_Label_967
+0	386	662	#line 386 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	387	662		subcall setupHighSpeedLink, __setupHighSpeedLink_return
+0	386	664	#line 386 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	387	664		mov __main_7qG2_baud_rate_7qG2_000, __D0setupHighSpeedLink
+0	386	666	#line 386 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	386	666	#line 386 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	386	666	#line 386 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	387	666		mov __signed_stack_001main, __D0setupHighSpeedLink
+0	386	668	#line 386 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	387	668	#line 387 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	388	668		set __D0main, 0
+0	387	671	#line 387 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	388	671		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	387	675	#line 387 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	388	675		mov __D0main, __zfmain
+0	387	677	#line 387 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	388	677		brtst 4, __NXC_Label_979, __zfmain
+0	388	680	#line 388 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	389	680		jmp __NXC_Label_968
+0	388	682	#line 388 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	390	682	#line 390 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	390	682	#line 390 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	391	682		jmp __NXC_Label_970
+0	390	684	#line 390 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	390	684	#line 390 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	391	684		set __PlaySound_7qG2_aCode_7qG2_000, 5
+0	390	687	#line 390 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	392	687	#line 392 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	393	687		subcall PlaySound, __PlaySound_return
+0	392	689	#line 392 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	392	689	#line 392 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	393	689		mov __signed_stack_001main, __main_7qG2_baud_rate_7qG2_000
+0	392	691	#line 392 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	393	691	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	394	691		set __D0main, 0
+0	393	694	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	394	694		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	393	698	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	394	698		mov __D0main, __zfmain
+0	393	700	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	394	700		brtst 4, __NXC_Label_984, __zfmain
+0	393	703	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	394	703		set __signed_stack_001main, 0
+0	393	706	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	393	706	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	394	706		set __signed_stack_002main, 24
+0	393	709	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	393	709	#line 393 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	394	709		strcat __strbufmain, __constStr0024
+0	394	713	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	713		acquire __TextOutMutex
+0	394	714	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	714		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	394	716	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	716		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	394	718	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	718		set __TextOutArgs.Options, 0
+0	394	721	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	721		mov __TextOutArgs.Text, __strbufmain
+0	394	724	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	724		syscall 13, __TextOutArgs
+0	394	727	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	727		mov __D0main, __TextOutArgs.Result
+0	394	729	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	729		release __TextOutMutex
+0	394	730	#line 394 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	730	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	396	730		jmp __NXC_Label_989
+0	395	732	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	396	732		set __signed_stack_001main, 0
+0	395	735	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	735	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	396	735		set __signed_stack_002main, 24
+0	395	738	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	395	738	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	396	738		strcat __strbufmain, __constStr0025
+0	395	742	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	396	742		mov __D0main, __main_7qG2_baud_rate_7qG2_000
+0	395	744	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	396	744		fmtnum __strretvalmain, __strbufmain, __D0main
+0	395	748	#line 395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	396	748		strcat __strbufmain, __strretvalmain
+0	397	752	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	752		acquire __TextOutMutex
+0	397	753	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	753		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	397	755	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	755		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	397	757	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	757		set __TextOutArgs.Options, 0
+0	397	760	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	760		mov __TextOutArgs.Text, __strbufmain
+0	397	763	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	763		syscall 13, __TextOutArgs
+0	397	766	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	766		mov __D0main, __TextOutArgs.Result
+0	397	768	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	768		release __TextOutMutex
+0	397	769	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	397	769	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	397	769	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	769		set __signed_stack_001main, 0
+0	397	772	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	397	772	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	772		set __signed_stack_002main, 0
+0	397	775	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	397	775	#line 397 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	775		strcat __strbufmain, __constStr0037
+0	398	779	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	779		acquire __TextOutMutex
+0	398	780	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	780		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	398	782	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	782		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	398	784	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	784		set __TextOutArgs.Options, 0
+0	398	787	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	787		mov __TextOutArgs.Text, __strbufmain
+0	398	790	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	790		syscall 13, __TextOutArgs
+0	398	793	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	793		mov __D0main, __TextOutArgs.Result
+0	398	795	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	795		release __TextOutMutex
+0	398	796	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	796	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	796		set __signed_stack_001main, 3
+0	398	799	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	398	799	#line 398 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	399	799		set __D0main, 0
+0	399	802	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	802		acquire __RBtnMutex
+0	399	803	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	803		mov __RBtnArgs.Index, __signed_stack_001main
+0	399	805	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	805		mov __RBtnArgs.Reset, __D0main
+0	399	807	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	807		syscall 20, __RBtnArgs
+0	399	810	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	810		mov __D0main, __RBtnArgs.Pressed
+0	399	812	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	812		release __RBtnMutex
+0	399	813	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	813		not __D0main, __D0main
+0	399	816	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	816		tst 5, __zfmain, __D0main
+0	399	819	#line 399 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	819		brtst 4, __NXC_Label_1001, __zfmain
+0	7927	822	#line 7927 "NXCDefs.h"
+0	7928	822		wait 1
+0	7927	824	#line 7927 "NXCDefs.h"
+0	400	824	#line 400 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	400	824	#line 400 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	401	824		jmp __NXC_Label_1000
+0	400	826	#line 400 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+0	401	826		exit -1, -1
+1	6518	0	#line 6518 "NXCDefs.h"
+1	6519	0		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	6518	2	#line 6518 "NXCDefs.h"
+1	6519	2	#line 6519 "NXCDefs.h"
+1	6520	2		set __D0PlaySound, 0
+1	6519	5	#line 6519 "NXCDefs.h"
+1	6520	5		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6519	9	#line 6519 "NXCDefs.h"
+1	6520	9		mov __D0PlaySound, __zfPlaySound
+1	6519	11	#line 6519 "NXCDefs.h"
+1	6520	11		brtst 4, __NXC_Label_56, __zfPlaySound
+1	6519	14	#line 6519 "NXCDefs.h"
+1	6520	14		set __signed_stack_001PlaySound, 600
+1	6519	17	#line 6519 "NXCDefs.h"
+1	6519	17	#line 6519 "NXCDefs.h"
+1	6520	17		set __signed_stack_002PlaySound, 200
+1	6519	20	#line 6519 "NXCDefs.h"
+1	6519	20	#line 6519 "NXCDefs.h"
+1	6520	20		set __signed_stack_003PlaySound, 4
+1	6519	23	#line 6519 "NXCDefs.h"
+1	6519	23	#line 6519 "NXCDefs.h"
+1	6520	23		set __D0PlaySound, 0
+1	6520	26	#line 6520 "NXCDefs.h"
+1	6521	26		acquire __SPTArgsMutex
+1	6520	27	#line 6520 "NXCDefs.h"
+1	6521	27		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	6520	29	#line 6520 "NXCDefs.h"
+1	6521	29		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	6520	31	#line 6520 "NXCDefs.h"
+1	6521	31		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	6520	33	#line 6520 "NXCDefs.h"
+1	6521	33		mov __SPTArgs.Loop, __D0PlaySound
+1	6520	35	#line 6520 "NXCDefs.h"
+1	6521	35		syscall 10, __SPTArgs
+1	6520	38	#line 6520 "NXCDefs.h"
+1	6521	38		mov __D0PlaySound, __SPTArgs.Result
+1	6520	40	#line 6520 "NXCDefs.h"
+1	6521	40		release __SPTArgsMutex
+1	6520	41	#line 6520 "NXCDefs.h"
+1	6520	41	#line 6520 "NXCDefs.h"
+1	6521	41		jmp __NXC_Label_65
+1	6520	43	#line 6520 "NXCDefs.h"
+1	6521	43		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	6520	45	#line 6520 "NXCDefs.h"
+1	6521	45	#line 6521 "NXCDefs.h"
+1	6522	45		set __D0PlaySound, 1
+1	6521	48	#line 6521 "NXCDefs.h"
+1	6522	48		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6521	52	#line 6521 "NXCDefs.h"
+1	6522	52		mov __D0PlaySound, __zfPlaySound
+1	6522	54	#line 6522 "NXCDefs.h"
+1	6523	54		brtst 4, __NXC_Label_68, __zfPlaySound
+1	6522	57	#line 6522 "NXCDefs.h"
+1	6523	57		set __signed_stack_001PlaySound, 600
+1	6522	60	#line 6522 "NXCDefs.h"
+1	6522	60	#line 6522 "NXCDefs.h"
+1	6523	60		set __signed_stack_002PlaySound, 150
+1	6522	63	#line 6522 "NXCDefs.h"
+1	6522	63	#line 6522 "NXCDefs.h"
+1	6523	63		set __signed_stack_003PlaySound, 4
+1	6522	66	#line 6522 "NXCDefs.h"
+1	6522	66	#line 6522 "NXCDefs.h"
+1	6523	66		set __D0PlaySound, 0
+1	6523	69	#line 6523 "NXCDefs.h"
+1	6524	69		acquire __SPTArgsMutex
+1	6523	70	#line 6523 "NXCDefs.h"
+1	6524	70		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	6523	72	#line 6523 "NXCDefs.h"
+1	6524	72		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	6523	74	#line 6523 "NXCDefs.h"
+1	6524	74		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	6523	76	#line 6523 "NXCDefs.h"
+1	6524	76		mov __SPTArgs.Loop, __D0PlaySound
+1	6523	78	#line 6523 "NXCDefs.h"
+1	6524	78		syscall 10, __SPTArgs
+1	6523	81	#line 6523 "NXCDefs.h"
+1	6524	81		mov __D0PlaySound, __SPTArgs.Result
+1	6523	83	#line 6523 "NXCDefs.h"
+1	6524	83		release __SPTArgsMutex
+1	6523	84	#line 6523 "NXCDefs.h"
+1	6523	84	#line 6523 "NXCDefs.h"
+1	6524	84		wait 200
+1	6523	86	#line 6523 "NXCDefs.h"
+1	6523	86	#line 6523 "NXCDefs.h"
+1	6524	86	#line 6524 "NXCDefs.h"
+1	6525	86		set __signed_stack_001PlaySound, 600
+1	6524	89	#line 6524 "NXCDefs.h"
+1	6524	89	#line 6524 "NXCDefs.h"
+1	6525	89		set __signed_stack_002PlaySound, 150
+1	6524	92	#line 6524 "NXCDefs.h"
+1	6524	92	#line 6524 "NXCDefs.h"
+1	6525	92		set __signed_stack_003PlaySound, 4
+1	6524	95	#line 6524 "NXCDefs.h"
+1	6524	95	#line 6524 "NXCDefs.h"
+1	6525	95		set __D0PlaySound, 0
+1	6525	98	#line 6525 "NXCDefs.h"
+1	6526	98		acquire __SPTArgsMutex
+1	6525	99	#line 6525 "NXCDefs.h"
+1	6526	99		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	6525	101	#line 6525 "NXCDefs.h"
+1	6526	101		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	6525	103	#line 6525 "NXCDefs.h"
+1	6526	103		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	6525	105	#line 6525 "NXCDefs.h"
+1	6526	105		mov __SPTArgs.Loop, __D0PlaySound
+1	6525	107	#line 6525 "NXCDefs.h"
+1	6526	107		syscall 10, __SPTArgs
+1	6525	110	#line 6525 "NXCDefs.h"
+1	6526	110		mov __D0PlaySound, __SPTArgs.Result
+1	6525	112	#line 6525 "NXCDefs.h"
+1	6526	112		release __SPTArgsMutex
+1	6525	113	#line 6525 "NXCDefs.h"
+1	6525	113	#line 6525 "NXCDefs.h"
+1	6526	113		wait 150
+1	6525	115	#line 6525 "NXCDefs.h"
+1	6525	115	#line 6525 "NXCDefs.h"
+1	6527	115	#line 6527 "NXCDefs.h"
+1	6528	115		jmp __NXC_Label_85
+1	6527	117	#line 6527 "NXCDefs.h"
+1	6528	117		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	6527	119	#line 6527 "NXCDefs.h"
+1	6528	119	#line 6528 "NXCDefs.h"
+1	6529	119		set __D0PlaySound, 3
+1	6528	122	#line 6528 "NXCDefs.h"
+1	6529	122		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6528	126	#line 6528 "NXCDefs.h"
+1	6529	126		mov __D0PlaySound, __zfPlaySound
+1	6528	128	#line 6528 "NXCDefs.h"
+1	6529	128		brtst 4, __NXC_Label_88, __zfPlaySound
+1	6528	131	#line 6528 "NXCDefs.h"
+1	6529	131		set __PlaySound_7qG2_i_7qG2_001, 4
+1	6528	134	#line 6528 "NXCDefs.h"
+1	6528	134	#line 6528 "NXCDefs.h"
+1	6529	134		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	6528	136	#line 6528 "NXCDefs.h"
+1	6528	136	#line 6528 "NXCDefs.h"
+1	6529	136		set __D0PlaySound, 8
+1	6528	139	#line 6528 "NXCDefs.h"
+1	6529	139		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6528	143	#line 6528 "NXCDefs.h"
+1	6529	143		mov __D0PlaySound, __zfPlaySound
+1	6528	145	#line 6528 "NXCDefs.h"
+1	6529	145		brtst 4, __NXC_Label_90, __zfPlaySound
+1	6528	148	#line 6528 "NXCDefs.h"
+1	6529	148		jmp __NXC_Label_91
+1	6529	150	#line 6529 "NXCDefs.h"
+1	6530	150		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+1	6530	154	#line 6530 "NXCDefs.h"
+1	6531	154		jmp __NXC_Label_89
+1	6530	156	#line 6530 "NXCDefs.h"
+1	6530	156	#line 6530 "NXCDefs.h"
+1	6530	156	#line 6530 "NXCDefs.h"
+1	6530	156	#line 6530 "NXCDefs.h"
+1	6531	156		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+1	6530	160	#line 6530 "NXCDefs.h"
+1	6530	160	#line 6530 "NXCDefs.h"
+1	6530	160	#line 6530 "NXCDefs.h"
+1	6531	160		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+1	6530	164	#line 6530 "NXCDefs.h"
+1	6530	164	#line 6530 "NXCDefs.h"
+1	6531	164		set __signed_stack_002PlaySound, 100
+1	6530	167	#line 6530 "NXCDefs.h"
+1	6530	167	#line 6530 "NXCDefs.h"
+1	6531	167		set __signed_stack_003PlaySound, 4
+1	6530	170	#line 6530 "NXCDefs.h"
+1	6530	170	#line 6530 "NXCDefs.h"
+1	6531	170		set __D0PlaySound, 0
+1	6531	173	#line 6531 "NXCDefs.h"
+1	6532	173		acquire __SPTArgsMutex
+1	6531	174	#line 6531 "NXCDefs.h"
+1	6532	174		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	6531	176	#line 6531 "NXCDefs.h"
+1	6532	176		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	6531	178	#line 6531 "NXCDefs.h"
+1	6532	178		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	6531	180	#line 6531 "NXCDefs.h"
+1	6532	180		mov __SPTArgs.Loop, __D0PlaySound
+1	6531	182	#line 6531 "NXCDefs.h"
+1	6532	182		syscall 10, __SPTArgs
+1	6531	185	#line 6531 "NXCDefs.h"
+1	6532	185		mov __D0PlaySound, __SPTArgs.Result
+1	6531	187	#line 6531 "NXCDefs.h"
+1	6532	187		release __SPTArgsMutex
+1	6531	188	#line 6531 "NXCDefs.h"
+1	6531	188	#line 6531 "NXCDefs.h"
+1	6532	188		wait 100
+1	6531	190	#line 6531 "NXCDefs.h"
+1	6531	190	#line 6531 "NXCDefs.h"
+1	6533	190	#line 6533 "NXCDefs.h"
+1	6534	190		jmp __NXC_Label_92
+1	6533	192	#line 6533 "NXCDefs.h"
+1	6533	192	#line 6533 "NXCDefs.h"
+1	6534	192		jmp __NXC_Label_105
+1	6533	194	#line 6533 "NXCDefs.h"
+1	6534	194		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	6533	196	#line 6533 "NXCDefs.h"
+1	6534	196	#line 6534 "NXCDefs.h"
+1	6535	196		set __D0PlaySound, 2
+1	6534	199	#line 6534 "NXCDefs.h"
+1	6535	199		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6534	203	#line 6534 "NXCDefs.h"
+1	6535	203		mov __D0PlaySound, __zfPlaySound
+1	6534	205	#line 6534 "NXCDefs.h"
+1	6535	205		brtst 4, __NXC_Label_108, __zfPlaySound
+1	6534	208	#line 6534 "NXCDefs.h"
+1	6535	208		set __PlaySound_7qG2_i_7qG2_001, 7
+1	6534	211	#line 6534 "NXCDefs.h"
+1	6534	211	#line 6534 "NXCDefs.h"
+1	6535	211		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	6534	213	#line 6534 "NXCDefs.h"
+1	6534	213	#line 6534 "NXCDefs.h"
+1	6535	213		set __D0PlaySound, 3
+1	6534	216	#line 6534 "NXCDefs.h"
+1	6535	216		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6534	220	#line 6534 "NXCDefs.h"
+1	6535	220		mov __D0PlaySound, __zfPlaySound
+1	6534	222	#line 6534 "NXCDefs.h"
+1	6535	222		brtst 4, __NXC_Label_110, __zfPlaySound
+1	6534	225	#line 6534 "NXCDefs.h"
+1	6535	225		jmp __NXC_Label_111
+1	6535	227	#line 6535 "NXCDefs.h"
+1	6536	227		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+1	6536	231	#line 6536 "NXCDefs.h"
+1	6537	231		jmp __NXC_Label_109
+1	6536	233	#line 6536 "NXCDefs.h"
+1	6536	233	#line 6536 "NXCDefs.h"
+1	6536	233	#line 6536 "NXCDefs.h"
+1	6536	233	#line 6536 "NXCDefs.h"
+1	6537	233		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+1	6536	237	#line 6536 "NXCDefs.h"
+1	6536	237	#line 6536 "NXCDefs.h"
+1	6536	237	#line 6536 "NXCDefs.h"
+1	6537	237		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+1	6536	241	#line 6536 "NXCDefs.h"
+1	6536	241	#line 6536 "NXCDefs.h"
+1	6537	241		set __signed_stack_002PlaySound, 100
+1	6536	244	#line 6536 "NXCDefs.h"
+1	6536	244	#line 6536 "NXCDefs.h"
+1	6537	244		set __signed_stack_003PlaySound, 4
+1	6536	247	#line 6536 "NXCDefs.h"
+1	6536	247	#line 6536 "NXCDefs.h"
+1	6537	247		set __D0PlaySound, 0
+1	6537	250	#line 6537 "NXCDefs.h"
+1	6538	250		acquire __SPTArgsMutex
+1	6537	251	#line 6537 "NXCDefs.h"
+1	6538	251		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	6537	253	#line 6537 "NXCDefs.h"
+1	6538	253		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	6537	255	#line 6537 "NXCDefs.h"
+1	6538	255		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	6537	257	#line 6537 "NXCDefs.h"
+1	6538	257		mov __SPTArgs.Loop, __D0PlaySound
+1	6537	259	#line 6537 "NXCDefs.h"
+1	6538	259		syscall 10, __SPTArgs
+1	6537	262	#line 6537 "NXCDefs.h"
+1	6538	262		mov __D0PlaySound, __SPTArgs.Result
+1	6537	264	#line 6537 "NXCDefs.h"
+1	6538	264		release __SPTArgsMutex
+1	6537	265	#line 6537 "NXCDefs.h"
+1	6537	265	#line 6537 "NXCDefs.h"
+1	6538	265		wait 100
+1	6537	267	#line 6537 "NXCDefs.h"
+1	6537	267	#line 6537 "NXCDefs.h"
+1	6539	267	#line 6539 "NXCDefs.h"
+1	6540	267		jmp __NXC_Label_112
+1	6539	269	#line 6539 "NXCDefs.h"
+1	6539	269	#line 6539 "NXCDefs.h"
+1	6540	269		jmp __NXC_Label_125
+1	6539	271	#line 6539 "NXCDefs.h"
+1	6540	271		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	6539	273	#line 6539 "NXCDefs.h"
+1	6540	273	#line 6540 "NXCDefs.h"
+1	6541	273		set __D0PlaySound, 4
+1	6540	276	#line 6540 "NXCDefs.h"
+1	6541	276		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6540	280	#line 6540 "NXCDefs.h"
+1	6541	280		mov __D0PlaySound, __zfPlaySound
+1	6541	282	#line 6541 "NXCDefs.h"
+1	6542	282		brtst 4, __NXC_Label_128, __zfPlaySound
+1	6541	285	#line 6541 "NXCDefs.h"
+1	6542	285		set __signed_stack_001PlaySound, 100
+1	6541	288	#line 6541 "NXCDefs.h"
+1	6541	288	#line 6541 "NXCDefs.h"
+1	6542	288		set __signed_stack_002PlaySound, 500
+1	6541	291	#line 6541 "NXCDefs.h"
+1	6541	291	#line 6541 "NXCDefs.h"
+1	6542	291		set __signed_stack_003PlaySound, 4
+1	6541	294	#line 6541 "NXCDefs.h"
+1	6541	294	#line 6541 "NXCDefs.h"
+1	6542	294		set __D0PlaySound, 0
+1	6542	297	#line 6542 "NXCDefs.h"
+1	6543	297		acquire __SPTArgsMutex
+1	6542	298	#line 6542 "NXCDefs.h"
+1	6543	298		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	6542	300	#line 6542 "NXCDefs.h"
+1	6543	300		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	6542	302	#line 6542 "NXCDefs.h"
+1	6543	302		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	6542	304	#line 6542 "NXCDefs.h"
+1	6543	304		mov __SPTArgs.Loop, __D0PlaySound
+1	6542	306	#line 6542 "NXCDefs.h"
+1	6543	306		syscall 10, __SPTArgs
+1	6542	309	#line 6542 "NXCDefs.h"
+1	6543	309		mov __D0PlaySound, __SPTArgs.Result
+1	6542	311	#line 6542 "NXCDefs.h"
+1	6543	311		release __SPTArgsMutex
+1	6542	312	#line 6542 "NXCDefs.h"
+1	6542	312	#line 6542 "NXCDefs.h"
+1	6543	312		wait 500
+1	6542	314	#line 6542 "NXCDefs.h"
+1	6542	314	#line 6542 "NXCDefs.h"
+1	6544	314	#line 6544 "NXCDefs.h"
+1	6545	314		jmp __NXC_Label_137
+1	6544	316	#line 6544 "NXCDefs.h"
+1	6545	316		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+1	6544	318	#line 6544 "NXCDefs.h"
+1	6545	318	#line 6545 "NXCDefs.h"
+1	6546	318		set __D0PlaySound, 5
+1	6545	321	#line 6545 "NXCDefs.h"
+1	6546	321		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6545	325	#line 6545 "NXCDefs.h"
+1	6546	325		mov __D0PlaySound, __zfPlaySound
+1	6545	327	#line 6545 "NXCDefs.h"
+1	6546	327		brtst 4, __NXC_Label_140, __zfPlaySound
+1	6545	330	#line 6545 "NXCDefs.h"
+1	6546	330		set __PlaySound_7qG2_i_7qG2_001, 4
+1	6545	333	#line 6545 "NXCDefs.h"
+1	6545	333	#line 6545 "NXCDefs.h"
+1	6546	333		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+1	6545	335	#line 6545 "NXCDefs.h"
+1	6545	335	#line 6545 "NXCDefs.h"
+1	6546	335		set __D0PlaySound, 8
+1	6545	338	#line 6545 "NXCDefs.h"
+1	6546	338		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+1	6545	342	#line 6545 "NXCDefs.h"
+1	6546	342		mov __D0PlaySound, __zfPlaySound
+1	6545	344	#line 6545 "NXCDefs.h"
+1	6546	344		brtst 4, __NXC_Label_142, __zfPlaySound
+1	6545	347	#line 6545 "NXCDefs.h"
+1	6546	347		jmp __NXC_Label_143
+1	6546	349	#line 6546 "NXCDefs.h"
+1	6547	349		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+1	6547	353	#line 6547 "NXCDefs.h"
+1	6548	353		jmp __NXC_Label_141
+1	6547	355	#line 6547 "NXCDefs.h"
+1	6547	355	#line 6547 "NXCDefs.h"
+1	6547	355	#line 6547 "NXCDefs.h"
+1	6547	355	#line 6547 "NXCDefs.h"
+1	6548	355		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+1	6547	359	#line 6547 "NXCDefs.h"
+1	6547	359	#line 6547 "NXCDefs.h"
+1	6547	359	#line 6547 "NXCDefs.h"
+1	6548	359		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+1	6547	363	#line 6547 "NXCDefs.h"
+1	6547	363	#line 6547 "NXCDefs.h"
+1	6548	363		set __signed_stack_002PlaySound, 50
+1	6547	366	#line 6547 "NXCDefs.h"
+1	6547	366	#line 6547 "NXCDefs.h"
+1	6548	366		set __signed_stack_003PlaySound, 4
+1	6547	369	#line 6547 "NXCDefs.h"
+1	6547	369	#line 6547 "NXCDefs.h"
+1	6548	369		set __D0PlaySound, 0
+1	6548	372	#line 6548 "NXCDefs.h"
+1	6549	372		acquire __SPTArgsMutex
+1	6548	373	#line 6548 "NXCDefs.h"
+1	6549	373		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+1	6548	375	#line 6548 "NXCDefs.h"
+1	6549	375		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+1	6548	377	#line 6548 "NXCDefs.h"
+1	6549	377		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+1	6548	379	#line 6548 "NXCDefs.h"
+1	6549	379		mov __SPTArgs.Loop, __D0PlaySound
+1	6548	381	#line 6548 "NXCDefs.h"
+1	6549	381		syscall 10, __SPTArgs
+1	6548	384	#line 6548 "NXCDefs.h"
+1	6549	384		mov __D0PlaySound, __SPTArgs.Result
+1	6548	386	#line 6548 "NXCDefs.h"
+1	6549	386		release __SPTArgsMutex
+1	6548	387	#line 6548 "NXCDefs.h"
+1	6548	387	#line 6548 "NXCDefs.h"
+1	6549	387		wait 50
+1	6548	389	#line 6548 "NXCDefs.h"
+1	6548	389	#line 6548 "NXCDefs.h"
+1	6560	389	#line 6560 "NXCDefs.h"
+1	6561	389		jmp __NXC_Label_144
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6560	391	#line 6560 "NXCDefs.h"
+1	6561	391		subret __PlaySound_return
+2	71	0	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	72	0	#pragma macro 5
+2	72	0		syscall 39, __CHSCSArgs
+2	72	3		mov __D0WaitForMessageToBeSent, __CHSCSArgs.SendingData
+2	7875	5	#line 7875 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	72	5	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	73	5		tst 5, __zfWaitForMessageToBeSent, __D0WaitForMessageToBeSent
+2	72	8	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	73	8		brtst 4, __NXC_Label_605, __zfWaitForMessageToBeSent
+2	72	11	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	72	11	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	7921	11	#line 7921 "NXCDefs.h"
+2	7922	11		wait 1
+2	7921	13	#line 7921 "NXCDefs.h"
+2	73	13	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	73	13	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	74	13		jmp __NXC_Label_604
+2	73	15	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	75	15	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+2	76	15		subret __WaitForMessageToBeSent_return
+3	77	0	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	78	0		set __getbtn_7qG2_result_7qG2_000, -1
+3	77	3	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	77	3	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	78	3		set __signed_stack_001getbtn, 0
+3	77	6	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	77	6	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	78	6		set __D0getbtn, 0
+3	78	9	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	9		acquire __RBtnMutex
+3	78	10	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	10		mov __RBtnArgs.Index, __signed_stack_001getbtn
+3	78	12	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	12		mov __RBtnArgs.Reset, __D0getbtn
+3	78	14	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	14		syscall 20, __RBtnArgs
+3	78	17	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	17		mov __D0getbtn, __RBtnArgs.Pressed
+3	78	19	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	19		release __RBtnMutex
+3	78	20	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	20		tst 5, __zfgetbtn, __D0getbtn
+3	78	23	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	23		brtst 4, __NXC_Label_618, __zfgetbtn
+3	79	26	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	80	26		set __getbtn_7qG2_result_7qG2_000, 0
+3	79	29	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	29	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	29	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	80	29		jmp __NXC_Label_621
+3	79	31	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	80	31		set __signed_stack_001getbtn, 1
+3	79	34	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	79	34	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	80	34		set __D0getbtn, 0
+3	80	37	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	37		acquire __RBtnMutex
+3	80	38	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	38		mov __RBtnArgs.Index, __signed_stack_001getbtn
+3	80	40	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	40		mov __RBtnArgs.Reset, __D0getbtn
+3	80	42	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	42		syscall 20, __RBtnArgs
+3	80	45	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	45		mov __D0getbtn, __RBtnArgs.Pressed
+3	80	47	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	47		release __RBtnMutex
+3	80	48	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	48		tst 5, __zfgetbtn, __D0getbtn
+3	80	51	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	51		brtst 4, __NXC_Label_628, __zfgetbtn
+3	81	54	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	82	54		set __getbtn_7qG2_result_7qG2_000, 1
+3	81	57	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	57	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	57	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	82	57		jmp __NXC_Label_631
+3	81	59	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	82	59		set __signed_stack_001getbtn, 2
+3	81	62	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	81	62	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	82	62		set __D0getbtn, 0
+3	82	65	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	65		acquire __RBtnMutex
+3	82	66	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	66		mov __RBtnArgs.Index, __signed_stack_001getbtn
+3	82	68	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	68		mov __RBtnArgs.Reset, __D0getbtn
+3	82	70	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	70		syscall 20, __RBtnArgs
+3	82	73	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	73		mov __D0getbtn, __RBtnArgs.Pressed
+3	82	75	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	75		release __RBtnMutex
+3	82	76	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	76		tst 5, __zfgetbtn, __D0getbtn
+3	82	79	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	79		brtst 4, __NXC_Label_638, __zfgetbtn
+3	83	82	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	84	82		set __getbtn_7qG2_result_7qG2_000, 2
+3	83	85	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	85	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	85	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	84	85		jmp __NXC_Label_641
+3	83	87	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	84	87		set __signed_stack_001getbtn, 3
+3	83	90	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	83	90	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	84	90		set __D0getbtn, 0
+3	84	93	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	93		acquire __RBtnMutex
+3	84	94	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	94		mov __RBtnArgs.Index, __signed_stack_001getbtn
+3	84	96	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	96		mov __RBtnArgs.Reset, __D0getbtn
+3	84	98	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	98		syscall 20, __RBtnArgs
+3	84	101	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	101		mov __D0getbtn, __RBtnArgs.Pressed
+3	84	103	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	103		release __RBtnMutex
+3	84	104	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	104		tst 5, __zfgetbtn, __D0getbtn
+3	84	107	#line 84 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	107		brtst 4, __NXC_Label_648, __zfgetbtn
+3	85	110	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	86	110		set __getbtn_7qG2_result_7qG2_000, 3
+3	85	113	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	113	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	113	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	113	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	113	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	85	113	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	86	113	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	87	113		mov __D0getbtn, __getbtn_7qG2_result_7qG2_000
+3	86	115	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	87	115		subret __getbtn_return
+3	86	117	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	91	117	#line 91 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+3	92	117		subret __getbtn_return
+4	92	0	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	93	0		set __signed_stack_001showIntro, 0
+4	92	3	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	92	3	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	93	3		set __signed_stack_002showIntro, 56
+4	92	6	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	92	6	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	93	6		strcat __strbufshowIntro, __constStr0009
+4	93	10	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	10		acquire __TextOutMutex
+4	93	11	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	11		mov __TextOutArgs.Location.X, __signed_stack_001showIntro
+4	93	13	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	13		mov __TextOutArgs.Location.Y, __signed_stack_002showIntro
+4	93	15	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	15		set __TextOutArgs.Options, 0
+4	93	18	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	18		mov __TextOutArgs.Text, __strbufshowIntro
+4	93	20	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	20		syscall 13, __TextOutArgs
+4	93	23	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	23		mov __D0showIntro, __TextOutArgs.Result
+4	93	25	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	25		release __TextOutMutex
+4	93	26	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	93	26	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	26		set __signed_stack_001showIntro, 0
+4	93	29	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	93	29	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	29		set __signed_stack_002showIntro, 48
+4	93	32	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	93	32	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	32		strcat __strbufshowIntro, __constStr0010
+4	94	36	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	36		acquire __TextOutMutex
+4	94	37	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	37		mov __TextOutArgs.Location.X, __signed_stack_001showIntro
+4	94	39	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	39		mov __TextOutArgs.Location.Y, __signed_stack_002showIntro
+4	94	41	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	41		set __TextOutArgs.Options, 0
+4	94	44	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	44		mov __TextOutArgs.Text, __strbufshowIntro
+4	94	46	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	46		syscall 13, __TextOutArgs
+4	94	49	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	49		mov __D0showIntro, __TextOutArgs.Result
+4	94	51	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	51		release __TextOutMutex
+4	94	52	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	52	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	52		set __signed_stack_001showIntro, 0
+4	94	55	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	55	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	55		set __signed_stack_002showIntro, 40
+4	94	58	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	94	58	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	58		strcat __strbufshowIntro, __constStr0011
+4	95	62	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	62		acquire __TextOutMutex
+4	95	63	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	63		mov __TextOutArgs.Location.X, __signed_stack_001showIntro
+4	95	65	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	65		mov __TextOutArgs.Location.Y, __signed_stack_002showIntro
+4	95	67	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	67		set __TextOutArgs.Options, 0
+4	95	70	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	70		mov __TextOutArgs.Text, __strbufshowIntro
+4	95	72	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	72		syscall 13, __TextOutArgs
+4	95	75	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	75		mov __D0showIntro, __TextOutArgs.Result
+4	95	77	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	77		release __TextOutMutex
+4	95	78	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	78	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	78		set __signed_stack_001showIntro, 0
+4	95	81	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	81	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	81		set __signed_stack_002showIntro, 24
+4	95	84	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	95	84	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	84		strcat __strbufshowIntro, __constStr0012
+4	96	88	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	88		acquire __TextOutMutex
+4	96	89	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	89		mov __TextOutArgs.Location.X, __signed_stack_001showIntro
+4	96	91	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	91		mov __TextOutArgs.Location.Y, __signed_stack_002showIntro
+4	96	93	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	93		set __TextOutArgs.Options, 0
+4	96	96	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	96		mov __TextOutArgs.Text, __strbufshowIntro
+4	96	98	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	98		syscall 13, __TextOutArgs
+4	96	101	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	101		mov __D0showIntro, __TextOutArgs.Result
+4	96	103	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	103		release __TextOutMutex
+4	96	104	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	104	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	104		set __signed_stack_001showIntro, 0
+4	96	107	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	107	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	107		set __signed_stack_002showIntro, 16
+4	96	110	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	96	110	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	110		strcat __strbufshowIntro, __constStr0013
+4	97	114	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	114		acquire __TextOutMutex
+4	97	115	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	115		mov __TextOutArgs.Location.X, __signed_stack_001showIntro
+4	97	117	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	117		mov __TextOutArgs.Location.Y, __signed_stack_002showIntro
+4	97	119	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	119		set __TextOutArgs.Options, 0
+4	97	122	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	122		mov __TextOutArgs.Text, __strbufshowIntro
+4	97	124	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	124		syscall 13, __TextOutArgs
+4	97	127	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	127		mov __D0showIntro, __TextOutArgs.Result
+4	97	129	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	98	129		release __TextOutMutex
+4	97	130	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	130	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	97	130	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	7921	130	#line 7921 "NXCDefs.h"
+4	7922	130		wait 2000
+4	7921	132	#line 7921 "NXCDefs.h"
+4	98	132	#line 98 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	105	132	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+4	106	132		subret __showIntro_return
+5	107	0	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	108	0		set __selectbaudRate_7qG2_choice_7qG2_000, 0
+5	107	3	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	108	3	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	109	3		set __selectbaudRate_7qG2_oldchoice_7qG2_000, 0
+5	108	6	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	6069	6	#line 6069 "NXCDefs.h"
+5	6070	6	#pragma macro 6
+5	6070	6		acquire __PointOutMutex
+5	6070	7		mov __PointOutArgs.Location.X, __constVal200
+5	6070	9		mov __PointOutArgs.Location.Y, __constVal200
+5	6070	11		mov __PointOutArgs.Options, __constVal1
+5	6070	13		syscall 14, __PointOutArgs
+5	6070	16		release __PointOutMutex
+5	8279	17	#line 8279 "NXCDefs.h"
+5	6069	17	#line 6069 "NXCDefs.h"
+5	110	17	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	110	17	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	111	17		set __signed_stack_001selectbaudRate, 0
+5	110	20	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	110	20	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	111	20		set __signed_stack_002selectbaudRate, 56
+5	110	23	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	110	23	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	111	23		strcat __strbufselectbaudRate, __constStr0014
+5	111	27	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	27		acquire __TextOutMutex
+5	111	28	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	28		mov __TextOutArgs.Location.X, __signed_stack_001selectbaudRate
+5	111	30	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	30		mov __TextOutArgs.Location.Y, __signed_stack_002selectbaudRate
+5	111	32	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	32		set __TextOutArgs.Options, 0
+5	111	35	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	35		mov __TextOutArgs.Text, __strbufselectbaudRate
+5	111	37	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	37		syscall 13, __TextOutArgs
+5	111	40	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	40		mov __D0selectbaudRate, __TextOutArgs.Result
+5	111	42	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	42		release __TextOutMutex
+5	111	43	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	111	43	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	43		set __signed_stack_001selectbaudRate, 0
+5	111	46	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	111	46	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	46		set __signed_stack_002selectbaudRate, 48
+5	111	49	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	111	49	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	49		strcat __strbufselectbaudRate, __constStr0015
+5	112	53	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	53		acquire __TextOutMutex
+5	112	54	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	54		mov __TextOutArgs.Location.X, __signed_stack_001selectbaudRate
+5	112	56	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	56		mov __TextOutArgs.Location.Y, __signed_stack_002selectbaudRate
+5	112	58	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	58		set __TextOutArgs.Options, 0
+5	112	61	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	61		mov __TextOutArgs.Text, __strbufselectbaudRate
+5	112	63	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	63		syscall 13, __TextOutArgs
+5	112	66	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	66		mov __D0selectbaudRate, __TextOutArgs.Result
+5	112	68	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	68		release __TextOutMutex
+5	112	69	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	69	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	69		set __signed_stack_001selectbaudRate, 0
+5	112	72	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	72	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	72		set __signed_stack_002selectbaudRate, 40
+5	112	75	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	112	75	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	75		strcat __strbufselectbaudRate, __constStr0016
+5	113	79	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	79		acquire __TextOutMutex
+5	113	80	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	80		mov __TextOutArgs.Location.X, __signed_stack_001selectbaudRate
+5	113	82	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	82		mov __TextOutArgs.Location.Y, __signed_stack_002selectbaudRate
+5	113	84	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	84		set __TextOutArgs.Options, 0
+5	113	87	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	87		mov __TextOutArgs.Text, __strbufselectbaudRate
+5	113	89	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	89		syscall 13, __TextOutArgs
+5	113	92	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	92		mov __D0selectbaudRate, __TextOutArgs.Result
+5	113	94	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	94		release __TextOutMutex
+5	113	95	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	95	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	95		set __signed_stack_001selectbaudRate, 0
+5	113	98	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	98	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	98		set __signed_stack_002selectbaudRate, 8
+5	113	101	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	113	101	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	101		strcat __strbufselectbaudRate, __constStr0017
+5	114	105	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	105		acquire __TextOutMutex
+5	114	106	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	106		mov __TextOutArgs.Location.X, __signed_stack_001selectbaudRate
+5	114	108	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	108		mov __TextOutArgs.Location.Y, __signed_stack_002selectbaudRate
+5	114	110	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	110		set __TextOutArgs.Options, 0
+5	114	113	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	113		mov __TextOutArgs.Text, __strbufselectbaudRate
+5	114	115	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	115		syscall 13, __TextOutArgs
+5	114	118	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	118		mov __D0selectbaudRate, __TextOutArgs.Result
+5	114	120	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	120		release __TextOutMutex
+5	114	121	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	121	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	121		set __signed_stack_001selectbaudRate, 0
+5	114	124	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	124	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	124		set __signed_stack_002selectbaudRate, 0
+5	114	127	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	114	127	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	115	127		strcat __strbufselectbaudRate, __constStr0018
+5	116	131	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	131		acquire __TextOutMutex
+5	116	132	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	132		mov __TextOutArgs.Location.X, __signed_stack_001selectbaudRate
+5	116	134	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	134		mov __TextOutArgs.Location.Y, __signed_stack_002selectbaudRate
+5	116	136	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	136		set __TextOutArgs.Options, 0
+5	116	139	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	139		mov __TextOutArgs.Text, __strbufselectbaudRate
+5	116	141	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	141		syscall 13, __TextOutArgs
+5	116	144	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	144		mov __D0selectbaudRate, __TextOutArgs.Result
+5	116	146	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	146		release __TextOutMutex
+5	116	147	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	116	147	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	147		set __ClearLine_7qG2_line_7qG2_000_inline_selectbaudRate, 32
+5	116	150	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	6076	150	#line 6076 "NXCDefs.h"
+5	6077	150	#pragma macro 7
+5	6077	150		acquire __TextOutMutex
+5	6077	151		mov __TextOutArgs.Location.X, __constVal0
+5	6077	153		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_selectbaudRate
+5	6077	155		mov __TextOutArgs.Options, __constVal0
+5	6077	157		mov __TextOutArgs.Text, __BlankLine
+5	6077	159		syscall 13, __TextOutArgs
+5	6077	162		release __TextOutMutex
+5	8448	163	#line 8448 "NXCDefs.h"
+5	6076	163	#line 6076 "NXCDefs.h"
+5	117	163	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	163	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	118	163		set __signed_stack_001selectbaudRate, 0
+5	117	166	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	166	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	118	166		set __signed_stack_002selectbaudRate, 32
+5	117	169	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	169	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	118	169		mov __signed_stack_003selectbaudRate, __selectbaudRate_7qG2_choice_7qG2_000
+5	117	171	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	117	171	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	118	171		index __ArrHelper__selectbaudRate_76_0, baud_rates_set, __signed_stack_003selectbaudRate
+5	117	175	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	118	175		mov __D0selectbaudRate, __ArrHelper__selectbaudRate_76_0
+5	119	177	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	177		acquire __TextOutMutex
+5	119	178	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	178		mov __TextOutArgs.Location.X, __signed_stack_001selectbaudRate
+5	119	180	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	180		mov __TextOutArgs.Location.Y, __signed_stack_002selectbaudRate
+5	119	182	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	182		set __TextOutArgs.Options, 0
+5	119	185	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	185		numtostr __TextOutArgs.Text, __D0selectbaudRate
+5	119	188	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	188		syscall 13, __TextOutArgs
+5	119	191	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	191		mov __D0selectbaudRate, __TextOutArgs.Result
+5	119	193	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	120	193		release __TextOutMutex
+5	119	194	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	121	194	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	122	194		subcall getbtn, __getbtn_return
+5	121	196	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	122	196		mov __selectbaudRate_7qG2_currentBtn_7qG2_000, __D0getbtn
+5	121	198	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	121	198	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	121	198	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	122	198		mov __signed_stack_001selectbaudRate, __selectbaudRate_7qG2_currentBtn_7qG2_000
+5	121	200	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	121	200	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	122	200		set __D0selectbaudRate, 3
+5	121	203	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	122	203		cmp 5, __zfselectbaudRate, __signed_stack_001selectbaudRate, __D0selectbaudRate
+5	121	207	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	122	207		mov __D0selectbaudRate, __zfselectbaudRate
+5	122	209	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	123	209		brtst 4, __NXC_Label_712, __zfselectbaudRate
+5	122	212	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	123	212		mov __D0selectbaudRate, __selectbaudRate_7qG2_currentBtn_7qG2_000
+5	126	214		brcmp 4, __NXC_Label_718, __constVal2, __D0selectbaudRate
+5	127	218		brcmp 4, __NXC_Label_727, __constVal1, __D0selectbaudRate
+5	128	222		jmp __NXC_Label_717
+5	124	224	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	125	224	#line 125 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	126	224		sub __selectbaudRate_7qG2_choice_7qG2_000, __selectbaudRate_7qG2_choice_7qG2_000, __constVal1
+5	125	228	#line 125 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	125	228	#line 125 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	126	228		set __signed_stack_001selectbaudRate, 2
+5	125	231	#line 125 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	125	231	#line 125 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	126	231		set __D0selectbaudRate, 0
+5	126	234	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	234		acquire __RBtnMutex
+5	126	235	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	235		mov __RBtnArgs.Index, __signed_stack_001selectbaudRate
+5	126	237	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	237		mov __RBtnArgs.Reset, __D0selectbaudRate
+5	126	239	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	239		syscall 20, __RBtnArgs
+5	126	242	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	242		mov __D0selectbaudRate, __RBtnArgs.Pressed
+5	126	244	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	244		release __RBtnMutex
+5	126	245	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	245		tst 5, __zfselectbaudRate, __D0selectbaudRate
+5	126	248	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	248		brtst 4, __NXC_Label_720, __zfselectbaudRate
+5	7927	251	#line 7927 "NXCDefs.h"
+5	7928	251		wait 1
+5	7927	253	#line 7927 "NXCDefs.h"
+5	127	253	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	127	253	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	128	253		jmp __NXC_Label_719
+5	127	255	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	128	255	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	129	255		jmp __NXC_Label_717
+5	128	257	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	129	257	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	130	257	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	131	257		add __selectbaudRate_7qG2_choice_7qG2_000, __selectbaudRate_7qG2_choice_7qG2_000, __constVal1
+5	130	261	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	130	261	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	131	261		set __signed_stack_001selectbaudRate, 1
+5	130	264	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	130	264	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	131	264		set __D0selectbaudRate, 0
+5	131	267	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	267		acquire __RBtnMutex
+5	131	268	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	268		mov __RBtnArgs.Index, __signed_stack_001selectbaudRate
+5	131	270	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	270		mov __RBtnArgs.Reset, __D0selectbaudRate
+5	131	272	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	272		syscall 20, __RBtnArgs
+5	131	275	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	275		mov __D0selectbaudRate, __RBtnArgs.Pressed
+5	131	277	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	277		release __RBtnMutex
+5	131	278	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	278		tst 5, __zfselectbaudRate, __D0selectbaudRate
+5	131	281	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	281		brtst 4, __NXC_Label_729, __zfselectbaudRate
+5	7927	284	#line 7927 "NXCDefs.h"
+5	7928	284		wait 1
+5	7927	286	#line 7927 "NXCDefs.h"
+5	132	286	#line 132 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	132	286	#line 132 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	133	286		jmp __NXC_Label_728
+5	132	288	#line 132 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	133	288	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	133	288	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	134	288	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	134	288	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	135	288		mov __signed_stack_001selectbaudRate, __selectbaudRate_7qG2_choice_7qG2_000
+5	134	290	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	135	290	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	136	290		set __D0selectbaudRate, 7
+5	135	293	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	136	293		cmp 1, __zfselectbaudRate, __signed_stack_001selectbaudRate, __D0selectbaudRate
+5	135	297	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	136	297		mov __D0selectbaudRate, __zfselectbaudRate
+5	135	299	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	136	299		brtst 4, __NXC_Label_738, __zfselectbaudRate
+5	136	302	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	137	302		set __selectbaudRate_7qG2_choice_7qG2_000, 0
+5	136	305	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	136	305	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	136	305	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	137	305		jmp __NXC_Label_741
+5	136	307	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	137	307		mov __signed_stack_001selectbaudRate, __selectbaudRate_7qG2_choice_7qG2_000
+5	136	309	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	137	309	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	138	309		set __D0selectbaudRate, 0
+5	137	312	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	138	312		cmp 0, __zfselectbaudRate, __signed_stack_001selectbaudRate, __D0selectbaudRate
+5	137	316	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	138	316		mov __D0selectbaudRate, __zfselectbaudRate
+5	137	318	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	138	318		brtst 4, __NXC_Label_744, __zfselectbaudRate
+5	139	321	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	140	321		set __selectbaudRate_7qG2_choice_7qG2_000, 7
+5	139	324	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	139	324	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	139	324	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	139	324	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	139	324	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	140	324		mov __signed_stack_001selectbaudRate, __selectbaudRate_7qG2_choice_7qG2_000
+5	139	326	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	139	326	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	140	326		mov __DU0selectbaudRate, __selectbaudRate_7qG2_oldchoice_7qG2_000
+5	139	328	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	140	328		cmp 5, __zfselectbaudRate, __signed_stack_001selectbaudRate, __DU0selectbaudRate
+5	139	332	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	140	332		mov __D0selectbaudRate, __zfselectbaudRate
+5	140	334	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	141	334		brtst 4, __NXC_Label_749, __zfselectbaudRate
+5	140	337	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	141	337		set __ClearLine_7qG2_line_7qG2_000_inline_selectbaudRate, 32
+5	140	340	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	6076	340	#line 6076 "NXCDefs.h"
+5	6077	340	#pragma macro 7
+5	6077	340		acquire __TextOutMutex
+5	6077	341		mov __TextOutArgs.Location.X, __constVal0
+5	6077	343		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_selectbaudRate
+5	6077	345		mov __TextOutArgs.Options, __constVal0
+5	6077	347		mov __TextOutArgs.Text, __BlankLine
+5	6077	349		syscall 13, __TextOutArgs
+5	6077	352		release __TextOutMutex
+5	8689	353	#line 8689 "NXCDefs.h"
+5	6076	353	#line 6076 "NXCDefs.h"
+5	141	353	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	141	353	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	142	353		set __signed_stack_001selectbaudRate, 0
+5	141	356	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	141	356	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	142	356		set __signed_stack_002selectbaudRate, 32
+5	141	359	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	141	359	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	142	359		mov __signed_stack_003selectbaudRate, __selectbaudRate_7qG2_choice_7qG2_000
+5	141	361	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	141	361	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	142	361		index __ArrHelper__selectbaudRate_76_0, baud_rates_set, __signed_stack_003selectbaudRate
+5	141	365	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	142	365		mov __D0selectbaudRate, __ArrHelper__selectbaudRate_76_0
+5	142	367	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	367		acquire __TextOutMutex
+5	142	368	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	368		mov __TextOutArgs.Location.X, __signed_stack_001selectbaudRate
+5	142	370	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	370		mov __TextOutArgs.Location.Y, __signed_stack_002selectbaudRate
+5	142	372	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	372		set __TextOutArgs.Options, 0
+5	142	375	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	375		numtostr __TextOutArgs.Text, __D0selectbaudRate
+5	142	378	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	378		syscall 13, __TextOutArgs
+5	142	381	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	381		mov __D0selectbaudRate, __TextOutArgs.Result
+5	142	383	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	143	383		release __TextOutMutex
+5	142	384	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	144	384	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	145	384	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	146	384		mov __selectbaudRate_7qG2_oldchoice_7qG2_000, __selectbaudRate_7qG2_choice_7qG2_000
+5	145	386	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	145	386	#line 145 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	146	386	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	147	386		subcall getbtn, __getbtn_return
+5	146	388	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	147	388		mov __selectbaudRate_7qG2_currentBtn_7qG2_000, __D0getbtn
+5	146	390	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	146	390	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	147	390	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	148	390		jmp __NXC_Label_711
+5	147	392	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	148	392	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	149	392		mov __D0selectbaudRate, __selectbaudRate_7qG2_choice_7qG2_000
+5	148	394	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	149	394		subret __selectbaudRate_return
+5	148	396	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	155	396	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+5	156	396		subret __selectbaudRate_return
+6	157	0	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	158	0		set __Wait_7qG2_ms_7qG2_000_inline_enterCommandMode, 1000
+6	157	3	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	7921	3	#line 7921 "NXCDefs.h"
+6	7922	3		wait 1000
+6	7921	5	#line 7921 "NXCDefs.h"
+6	158	5	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	158	5	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	159	5	#pragma macro 5
+6	159	5		acquire __CHSWMutex
+6	159	6		mov __CHSWArgs.Buffer, cmd_enterCommandMode
+6	159	8		syscall 37, __CHSWArgs
+6	159	11		release __CHSWMutex
+6	8782	12	#line 8782 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	158	12	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	158	12	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	160	12	#line 160 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	161	12		subcall WaitForMessageToBeSent, __WaitForMessageToBeSent_return
+6	160	14	#line 160 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	160	14	#line 160 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	161	14		set __Wait_7qG2_ms_7qG2_000_inline_enterCommandMode, 1000
+6	160	17	#line 160 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	7921	17	#line 7921 "NXCDefs.h"
+6	7922	17		wait 1000
+6	7921	19	#line 7921 "NXCDefs.h"
+6	161	19	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	167	19	#line 167 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+6	168	19		subret __enterCommandMode_return
+7	169	0	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+7	170	0		arrinit __clearBuffer_7qG2_dummy_7qG2_000, __constVal0, __constVal128
+7	169	4	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+7	170	4	#pragma macro 5
+7	170	4		acquire __CHSRMutex
+7	170	5		syscall 38, __CHSRArgs
+7	170	8		mov __clearBuffer_7qG2_dummy_7qG2_000, __CHSRArgs.Buffer
+7	170	10		release __CHSRMutex
+7	8810	11	#line 8810 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+7	169	11	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+7	169	11	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+7	178	11	#line 178 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+7	179	11		subret __clearBuffer_return
+8	182	0	#line 182 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	183	0		arrinit __checkResponse_7qG2_OKresp_7qG2_000, __constVal0, __constVal2
+8	184	4	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	185	4		arrbuild __checkResponse_7qG2_OK_7qG2_000, __constVal79, __constVal75
+8	184	9	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	185	9	#pragma macro 5
+8	185	9		acquire __CHSRMutex
+8	185	10		syscall 38, __CHSRArgs
+8	185	13		mov __checkResponse_7qG2_response_7qG2_000, __CHSRArgs.Buffer
+8	185	15		mov __D0checkResponse, __CHSRArgs.Status
+8	185	17		release __CHSRMutex
+8	8835	18	#line 8835 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	184	18	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	184	18	#line 184 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	186	18	#line 186 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	187	18		arrsize __signed_stack_001checkResponse, __checkResponse_7qG2_response_7qG2_000
+8	186	21	#line 186 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	187	21	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	188	21		set __D0checkResponse, 2
+8	187	24	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	188	24		cmp 3, __zfcheckResponse, __signed_stack_001checkResponse, __D0checkResponse
+8	187	28	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	188	28		mov __D0checkResponse, __zfcheckResponse
+8	187	30	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	188	30		brtst 4, __NXC_Label_772, __zfcheckResponse
+8	187	33	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	188	33		arrsubset __checkResponse_7qG2_OKresp_7qG2_000, __checkResponse_7qG2_response_7qG2_000, __constVal0, __constVal2
+8	187	38	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	187	38	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	187	38	#line 187 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	190	38	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	191	38		cmp 4, __zfcheckResponse, __checkResponse_7qG2_OKresp_7qG2_000, __checkResponse_7qG2_OK_7qG2_000
+8	190	42	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	191	42		mov __D0checkResponse, __zfcheckResponse
+8	190	44	#line 190 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	191	44		brtst 4, __NXC_Label_775, __zfcheckResponse
+8	192	47	#line 192 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	193	47		set __DU0checkResponse, 1
+8	192	50	#line 192 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	192	50	#line 192 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	193	50		subret __checkResponse_return
+8	192	52	#line 192 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	192	52	#line 192 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	192	52	#line 192 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	193	52		mov __DU0checkResponse, __checkResponse_7qG2_showresponse_7qG2_000
+8	193	54	#line 193 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	194	54		tst 5, __zfcheckResponse, __DU0checkResponse
+8	193	57	#line 193 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	194	57		brtst 4, __NXC_Label_780, __zfcheckResponse
+8	194	60	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	195	60		mov __ByteArrayToStr_7qG2_data_7qG2_000_inline_checkResponse, __checkResponse_7qG2_OKresp_7qG2_000
+8	18495	62	#line 18495 "NXCDefs.h"
+8	18496	62		arrtostr __strbufByteArrayToStr_inline_checkResponse, __ByteArrayToStr_7qG2_data_7qG2_000_inline_checkResponse
+8	18495	65	#line 18495 "NXCDefs.h"
+8	195	65	#line 195 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	196	65		mov __strretvalcheckResponse, __strbufByteArrayToStr_inline_checkResponse
+8	195	67	#line 195 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	196	67		strcat __strbufcheckResponse, __strretvalcheckResponse
+8	195	71	#line 195 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	196	71		mov __checkResponse_7qG2_sString_7qG2_001, __strbufcheckResponse
+8	195	73	#line 195 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	195	73	#line 195 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	196	73		mov __ArrHelper__checkResponse_244_0, __constStr0019
+8	196	75	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	197	75		strcat __strbufcheckResponse, __checkResponse_7qG2_sString_7qG2_001
+8	196	79	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	197	79		mov __ArrHelper__checkResponse_244_1, __strbufcheckResponse
+8	196	81	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	197	81		strcat __strbufcheckResponse, __ArrHelper__checkResponse_244_0, __ArrHelper__checkResponse_244_1
+8	196	86	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	197	86		mov __checkResponse_7qG2_msg_7qG2_001, __strbufcheckResponse
+8	196	88	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	197	88		set __signed_stack_001checkResponse, 0
+8	196	91	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	196	91	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	197	91		set __signed_stack_002checkResponse, 0
+8	196	94	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	196	94	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	197	94		strcat __strbufcheckResponse, __checkResponse_7qG2_msg_7qG2_001
+8	197	98	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	98		acquire __TextOutMutex
+8	197	99	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	99		mov __TextOutArgs.Location.X, __signed_stack_001checkResponse
+8	197	101	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	101		mov __TextOutArgs.Location.Y, __signed_stack_002checkResponse
+8	197	103	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	103		set __TextOutArgs.Options, 0
+8	197	106	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	106		mov __TextOutArgs.Text, __strbufcheckResponse
+8	197	109	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	109		syscall 13, __TextOutArgs
+8	197	112	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	112		mov __D0checkResponse, __TextOutArgs.Result
+8	197	114	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	114		release __TextOutMutex
+8	197	115	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	198	115	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	199	115	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	200	115		set __DU0checkResponse, 0
+8	199	118	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	199	118	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	200	118		subret __checkResponse_return
+8	199	120	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	207	120	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+8	208	120		subret __checkResponse_return
+9	209	0	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	210	0		set __Wait_7qG2_ms_7qG2_000_inline_setPinMode, 100
+9	209	3	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	7921	3	#line 7921 "NXCDefs.h"
+9	7922	3		wait 100
+9	7921	5	#line 7921 "NXCDefs.h"
+9	210	5	#line 210 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	211	5	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	212	5		subcall clearBuffer, __clearBuffer_return
+9	211	7	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	211	7	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	212	7	#pragma macro 5
+9	212	7		acquire __CHSWMutex
+9	212	8		mov __CHSWArgs.Buffer, cmd_SetPin
+9	212	10		syscall 37, __CHSWArgs
+9	212	13		release __CHSWMutex
+9	8984	14	#line 8984 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	211	14	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	211	14	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	213	14	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	214	14		subcall WaitForMessageToBeSent, __WaitForMessageToBeSent_return
+9	213	16	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	213	16	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	214	16		set __Wait_7qG2_ms_7qG2_000_inline_setPinMode, 100
+9	213	19	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	7921	19	#line 7921 "NXCDefs.h"
+9	7922	19		wait 100
+9	7921	21	#line 7921 "NXCDefs.h"
+9	214	21	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	214	21	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	215	21		mov __checkResponse_7qG2_showresponse_7qG2_000, __setPinMode_7qG2_showresponse_7qG2_000
+9	214	23	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	215	23	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	216	23		subcall checkResponse, __checkResponse_return
+9	215	25	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	216	25		mov __DU0setPinMode, __DU0checkResponse
+9	215	27	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	216	27		subret __setPinMode_return
+9	215	29	#line 215 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	223	29	#line 223 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+9	224	29		subret __setPinMode_return
+10	225	0	#line 225 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	226	0		set __signed_stack_001setbaud, 5
+10	225	3	#line 225 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	225	3	#line 225 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	225	3	#line 225 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	226	3	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	226	3	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	227	3		add __D0setbaud, __setbaud_7qG2_rate_7qG2_000, __constVal48
+10	226	7	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	227	7		replace cmd_setbaudRate, cmd_setbaudRate, __signed_stack_001setbaud, __D0setbaud
+10	226	12	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	226	12	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	227	12		set __Wait_7qG2_ms_7qG2_000_inline_setbaud, 100
+10	226	15	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	7921	15	#line 7921 "NXCDefs.h"
+10	7922	15		wait 100
+10	7921	17	#line 7921 "NXCDefs.h"
+10	227	17	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	228	17	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	229	17		subcall clearBuffer, __clearBuffer_return
+10	228	19	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	228	19	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	229	19	#pragma macro 5
+10	229	19		acquire __CHSWMutex
+10	229	20		mov __CHSWArgs.Buffer, cmd_setbaudRate
+10	229	22		syscall 37, __CHSWArgs
+10	229	25		mov __D0setbaud, __CHSWArgs.Status
+10	229	27		release __CHSWMutex
+10	9057	28	#line 9057 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	228	28	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	228	28	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	230	28	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	231	28		subcall WaitForMessageToBeSent, __WaitForMessageToBeSent_return
+10	230	30	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	230	30	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	231	30		set __Wait_7qG2_ms_7qG2_000_inline_setbaud, 100
+10	230	33	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	7921	33	#line 7921 "NXCDefs.h"
+10	7922	33		wait 100
+10	7921	35	#line 7921 "NXCDefs.h"
+10	231	35	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	232	35	#line 232 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	233	35		mov __checkResponse_7qG2_showresponse_7qG2_000, __constVal1
+10	232	37	#line 232 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	233	37		subcall checkResponse, __checkResponse_return
+10	232	39	#line 232 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	233	39		mov __DU0setbaud, __DU0checkResponse
+10	232	41	#line 232 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	233	41		subret __setbaud_return
+10	232	43	#line 232 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	239	43	#line 239 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+10	240	43		subret __setbaud_return
+11	241	0	#line 241 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	242	0		set __Wait_7qG2_ms_7qG2_000_inline_saveConfiguration, 100
+11	241	3	#line 241 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	7921	3	#line 7921 "NXCDefs.h"
+11	7922	3		wait 100
+11	7921	5	#line 7921 "NXCDefs.h"
+11	242	5	#line 242 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	243	5	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	244	5		subcall clearBuffer, __clearBuffer_return
+11	243	7	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	243	7	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	244	7	#pragma macro 5
+11	244	7		acquire __CHSWMutex
+11	244	8		mov __CHSWArgs.Buffer, cmd_WriteConfig
+11	244	10		syscall 37, __CHSWArgs
+11	244	13		release __CHSWMutex
+11	9107	14	#line 9107 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	243	14	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	243	14	#line 243 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	245	14	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	246	14		subcall WaitForMessageToBeSent, __WaitForMessageToBeSent_return
+11	245	16	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	245	16	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	246	16		set __Wait_7qG2_ms_7qG2_000_inline_saveConfiguration, 100
+11	245	19	#line 245 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	7921	19	#line 7921 "NXCDefs.h"
+11	7922	19		wait 100
+11	7921	21	#line 7921 "NXCDefs.h"
+11	246	21	#line 246 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	247	21	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	248	21		mov __checkResponse_7qG2_showresponse_7qG2_000, __constVal1
+11	247	23	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	248	23		subcall checkResponse, __checkResponse_return
+11	247	25	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	248	25		mov __DU0saveConfiguration, __DU0checkResponse
+11	247	27	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	248	27		subret __saveConfiguration_return
+11	247	29	#line 247 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	255	29	#line 255 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+11	256	29		subret __saveConfiguration_return
+12	257	0	#line 257 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	258	0		set __Wait_7qG2_ms_7qG2_000_inline_resetNXTBee, 100
+12	257	3	#line 257 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	7921	3	#line 7921 "NXCDefs.h"
+12	7922	3		wait 100
+12	7921	5	#line 7921 "NXCDefs.h"
+12	258	5	#line 258 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	259	5	#line 259 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	260	5		subcall clearBuffer, __clearBuffer_return
+12	259	7	#line 259 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	259	7	#line 259 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	260	7	#pragma macro 5
+12	260	7		acquire __CHSWMutex
+12	260	8		mov __CHSWArgs.Buffer, cmd_resetNXTBee
+12	260	10		syscall 37, __CHSWArgs
+12	260	13		release __CHSWMutex
+12	9157	14	#line 9157 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	259	14	#line 259 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	259	14	#line 259 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	261	14	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	262	14		subcall WaitForMessageToBeSent, __WaitForMessageToBeSent_return
+12	261	16	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	261	16	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	262	16		set __Wait_7qG2_ms_7qG2_000_inline_resetNXTBee, 100
+12	261	19	#line 261 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	7921	19	#line 7921 "NXCDefs.h"
+12	7922	19		wait 100
+12	7921	21	#line 7921 "NXCDefs.h"
+12	262	21	#line 262 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	263	21	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	264	21		mov __checkResponse_7qG2_showresponse_7qG2_000, __constVal1
+12	263	23	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	264	23		subcall checkResponse, __checkResponse_return
+12	263	25	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	264	25		mov __DU0resetNXTBee, __DU0checkResponse
+12	263	27	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	264	27		subret __resetNXTBee_return
+12	263	29	#line 263 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	272	29	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+12	273	29		subret __resetNXTBee_return
+13	275	0	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	276	0		set __setupHighSpeedLink_7qG2_baud_index_7qG2_000, 0
+13	275	3	#line 275 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	277	3	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	3		arrbuild __setupHighSpeedLink_7qG2_propeller_7qG2_000, __constStr0020, __constStr0021
+13	277	8	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	8		set __setupHighSpeedLink_7qG2_baud_index_7qG2_000, 0
+13	277	11	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	277	11	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	11		mov __signed_stack_001setupHighSpeedLink, __setupHighSpeedLink_7qG2_baud_index_7qG2_000
+13	277	13	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	277	13	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	13		set __D0setupHighSpeedLink, 8
+13	277	16	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	16		cmp 0, __zfsetupHighSpeedLink, __signed_stack_001setupHighSpeedLink, __D0setupHighSpeedLink
+13	277	20	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	20		mov __D0setupHighSpeedLink, __zfsetupHighSpeedLink
+13	277	22	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	22		brtst 4, __NXC_Label_820, __zfsetupHighSpeedLink
+13	277	25	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	25		jmp __NXC_Label_821
+13	277	27	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	278	27		add __setupHighSpeedLink_7qG2_baud_index_7qG2_000, __setupHighSpeedLink_7qG2_baud_index_7qG2_000, __constVal1
+13	279	31	#line 279 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	280	31		jmp __NXC_Label_819
+13	280	33	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	281	33		mov __ArrHelper__setupHighSpeedLink_244_0, __constStr0022
+13	280	35	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	280	35	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	280	35	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	280	35	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	281	35		mod __signed_stack_001setupHighSpeedLink, __setupHighSpeedLink_7qG2_baud_index_7qG2_000, __constVal2
+13	280	39	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	280	39	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	281	39		index __ArrHelper__setupHighSpeedLink_83_0, __setupHighSpeedLink_7qG2_propeller_7qG2_000, __signed_stack_001setupHighSpeedLink
+13	280	43	#line 280 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	281	43		strcat __strretvalsetupHighSpeedLink, __ArrHelper__setupHighSpeedLink_83_0
+13	281	47	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	282	47		strcat __strbufsetupHighSpeedLink, __strretvalsetupHighSpeedLink
+13	281	51	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	282	51		mov __ArrHelper__setupHighSpeedLink_244_1, __strbufsetupHighSpeedLink
+13	281	53	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	282	53		strcat __strbufsetupHighSpeedLink, __ArrHelper__setupHighSpeedLink_244_0, __ArrHelper__setupHighSpeedLink_244_1
+13	281	58	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	282	58		mov __setupHighSpeedLink_7qG2_msg_7qG2_002, __strbufsetupHighSpeedLink
+13	281	60	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	281	60	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	282	60		set __signed_stack_001setupHighSpeedLink, 0
+13	281	63	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	281	63	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	282	63		set __signed_stack_002setupHighSpeedLink, 24
+13	281	66	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	281	66	#line 281 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	282	66		strcat __strbufsetupHighSpeedLink, __setupHighSpeedLink_7qG2_msg_7qG2_002
+13	283	70	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	70		acquire __TextOutMutex
+13	283	71	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	71		mov __TextOutArgs.Location.X, __signed_stack_001setupHighSpeedLink
+13	283	73	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	73		mov __TextOutArgs.Location.Y, __signed_stack_002setupHighSpeedLink
+13	283	75	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	75		set __TextOutArgs.Options, 0
+13	283	78	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	78		mov __TextOutArgs.Text, __strbufsetupHighSpeedLink
+13	283	80	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	80		syscall 13, __TextOutArgs
+13	283	83	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	83		mov __D0setupHighSpeedLink, __TextOutArgs.Result
+13	283	85	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	85		release __TextOutMutex
+13	283	86	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	283	86	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	86		mov __signed_stack_001setupHighSpeedLink, __setupHighSpeedLink_7qG2_baud_index_7qG2_000
+13	283	88	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	283	88	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	88		index __ArrHelper__setupHighSpeedLink_98_0, baud_uart, __signed_stack_001setupHighSpeedLink
+13	283	92	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	92		mov __setupHighSpeedLink_7qG2_baudval_7qG2_002, __ArrHelper__setupHighSpeedLink_98_0
+13	284	94	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	94	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	285	94	#pragma macro 8
+13	285	94		acquire __CHSCMutex
+13	285	95		mov __CHSCArgs.Command, __constVal1
+13	285	97		mov __CHSCArgs.BaudRate, __setupHighSpeedLink_7qG2_baudval_7qG2_002
+13	285	99		mov __CHSCArgs.Mode, __constVal2240
+13	285	101		syscall 88, __CHSCArgs
+13	285	104		mov __D0setupHighSpeedLink, __CHSCArgs.Result
+13	285	106		release __CHSCMutex
+13	285	107		wait 1
+13	9315	109	#line 9315 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	109	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	284	109	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	290	109	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	109		subcall enterCommandMode, __enterCommandMode_return
+13	290	111	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	290	111	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	111		set __setPinMode_7qG2_showresponse_7qG2_000, 0
+13	290	114	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	290	114	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	114		subcall setPinMode, __setPinMode_return
+13	290	116	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	116		mov __DU0setupHighSpeedLink, __DU0setPinMode
+13	290	118	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	118		tst 5, __zfsetupHighSpeedLink, __DU0setupHighSpeedLink
+13	290	121	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	121		mov __D0setupHighSpeedLink, __zfsetupHighSpeedLink
+13	290	123	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	123		brtst 5, __NXC_Label_837, __zfsetupHighSpeedLink
+13	290	126	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	126		mov __signed_stack_001setupHighSpeedLink, __D0setupHighSpeedLink
+13	290	128	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	128		set __setPinMode_7qG2_showresponse_7qG2_000, 0
+13	290	131	#line 290 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	131	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	292	131		subcall setPinMode, __setPinMode_return
+13	291	133	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	292	133		mov __DU0setupHighSpeedLink, __DU0setPinMode
+13	291	135	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	292	135		tst 5, __zfsetupHighSpeedLink, __DU0setupHighSpeedLink
+13	291	138	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	291	138	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	292	138		or __D0setupHighSpeedLink, __signed_stack_001setupHighSpeedLink, __zfsetupHighSpeedLink
+13	291	142	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	292	142		tst 5, __zfsetupHighSpeedLink, __D0setupHighSpeedLink
+13	291	145	#line 291 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	292	145		brtst 4, __NXC_Label_844, __zfsetupHighSpeedLink
+13	293	148	#line 293 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	294	148		jmp __NXC_Label_820
+13	293	150	#line 293 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	296	150	#line 296 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	296	150	#line 296 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	297	150		jmp __NXC_Label_822
+13	296	152	#line 296 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	296	152	#line 296 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	297	152		mov __signed_stack_001setupHighSpeedLink, __setupHighSpeedLink_7qG2_baud_index_7qG2_000
+13	296	154	#line 296 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	297	154	#line 297 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	298	154		set __D0setupHighSpeedLink, 8
+13	297	157	#line 297 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	298	157		cmp 4, __zfsetupHighSpeedLink, __signed_stack_001setupHighSpeedLink, __D0setupHighSpeedLink
+13	297	161	#line 297 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	298	161		mov __D0setupHighSpeedLink, __zfsetupHighSpeedLink
+13	297	163	#line 297 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	298	163		brtst 4, __NXC_Label_847, __zfsetupHighSpeedLink
+13	299	166	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	300	166		set __D0setupHighSpeedLink, -1
+13	299	169	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	300	169		subret __setupHighSpeedLink_return
+13	299	171	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	299	171	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	299	171	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	300	171	#pragma macro 5
+13	300	171		acquire __CHSWMutex
+13	300	172		mov __CHSWArgs.Buffer, cmd_ExitCommandMode
+13	300	174		syscall 37, __CHSWArgs
+13	300	177		mov __D0setupHighSpeedLink, __CHSWArgs.Status
+13	300	179		release __CHSWMutex
+13	9395	180	#line 9395 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	299	180	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	299	180	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	301	180	#line 301 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	302	180		subcall WaitForMessageToBeSent, __WaitForMessageToBeSent_return
+13	301	182	#line 301 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	301	182	#line 301 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	302	182		mov __signed_stack_001setupHighSpeedLink, __setupHighSpeedLink_7qG2_baud_index_7qG2_000
+13	301	184	#line 301 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	301	184	#line 301 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	302	184		index __ArrHelper__setupHighSpeedLink_76_0, baud_rates, __signed_stack_001setupHighSpeedLink
+13	301	188	#line 301 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	302	188		mov __D0setupHighSpeedLink, __ArrHelper__setupHighSpeedLink_76_0
+13	302	190	#line 302 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	303	190		subret __setupHighSpeedLink_return
+13	302	192	#line 302 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	308	192	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+13	309	192		subret __setupHighSpeedLink_return
+14	403	0	#line 403 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc"
+14	404	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+1	PlaySound	829	NXCDefs.h
+2	WaitForMessageToBeSent	1222	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+3	getbtn	1239	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+4	showIntro	1358	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+5	selectbaudRate	1492	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+6	enterCommandMode	1890	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+7	clearBuffer	1911	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+8	checkResponse	1924	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+9	setPinMode	2046	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+10	setbaud	2077	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+11	saveConfiguration	2122	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+12	resetNXTBee	2153	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+13	setupHighSpeedLink	2184	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc
+14	__initialize_global_data	2378	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\nxtbee_Setup.nxc

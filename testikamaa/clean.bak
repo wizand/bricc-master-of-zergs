@@ -1,0 +1,14 @@
+task main() {
+     OnFwd(OUT_B, 30);
+}
+
+what is this color now
+OnFwd()
+
+int main(void) {
+
+    printf("is this gonna look fine?");
+    char definately[29];
+
+    SetBatteryState();
+}

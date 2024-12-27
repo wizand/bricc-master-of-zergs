@@ -1,0 +1,3051 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__TextOutMutex	9	0	0	4	52
+1	__CLSRMutex1	9	0	4	4	2
+2	__signed_stack_004move	6	1	8	4	2
+3	__signed_stack_001parseCommand	6	1	12	4	8
+4	__signed_stack_001rightMotor	6	1	16	4	4
+5	__CLSCSMutex1	9	0	20	4	2
+6	__signed_stack_002parseCommand	6	1	24	4	8
+7	__CLSWMutex1	9	0	28	4	2
+8	__signed_stack_003move	6	1	32	4	2
+9	__signed_stack_003lowerTheBridge	6	1	36	4	2
+10	__signed_stack_004lowerTheBridge	6	1	40	4	2
+11	__signed_stack_001lowerTheBridge	6	1	44	4	2
+12	__signed_stack_002lowerTheBridge	6	1	48	4	2
+13	__signed_stack_002move	6	1	52	4	2
+14	__PointOutMutex	9	0	56	4	18
+15	__RLSBmutex1	9	0	60	4	2
+16	__signed_stack_001move	6	1	64	4	6
+17	__signed_stack_002rightMotor	6	1	68	4	4
+18	__signed_stack_002textToScreen	6	1	72	4	2
+19	__signed_stack_001turn	6	1	76	4	2
+20	__signed_stack_001slaveProtocolHandler	6	1	80	4	2
+21	__signed_stack_001textToScreen	6	1	84	4	2
+22	__rotate_theAngle4	5	1	88	4	2
+23	MOTOR	9	0	92	4	4
+24	__signed_stack_001whereAmI	6	1	96	4	16
+25	__signed_stack_002whereAmI	6	1	100	4	8
+26	__signed_stack_002SetUpConnection	6	1	104	4	4
+27	__signed_stack_001searchPattern	6	1	108	4	4
+28	__ResetSensorMutex	9	0	112	4	2
+29	__signed_stack_003rightMotor	6	1	116	4	2
+30	__signed_stack_004rightMotor	6	1	120	4	2
+31	__unsigned_stack_001sensorPoller	5	1	124	4	2
+32	__signed_stack_001SetUpConnection	6	1	128	4	8
+33	__signed_stack_001SendLocation	6	1	132	4	6
+34	__signed_stack_002SendLocation	6	1	136	4	2
+35	__D0SendLocation	6	1	140	4	10
+36	__D0sensorPoller	6	1	144	4	8
+37	__D0searchPattern	6	1	148	4	6
+38	__DU0searchPattern	5	1	152	4	2
+39	__DU0slaveProtocolHandler	5	1	156	4	4
+40	__D0turn	6	1	160	4	3
+41	__D0SetUpConnection	6	1	164	4	16
+42	__D0slaveProtocolHandler	6	1	168	4	10
+43	__D0rightMotor	6	1	172	4	5
+44	__D0getParameter	6	1	176	4	11
+45	__D0FormatPosition	6	1	180	4	7
+46	__D0leftMotor	6	1	184	4	5
+47	__D0locationUpdate	6	1	188	4	19
+48	__D0CheckConnection	6	1	192	4	9
+49	__D0parseCommand	6	1	196	4	20
+50	__D0lowerTheBridge	6	1	200	4	2
+51	__D0move	6	1	204	4	8
+52	__D0whereAmI	6	1	208	4	18
+53	__MRMutex	9	0	212	4	4
+54	__signed_stack_003leftMotor	6	1	216	4	2
+55	__SRNTmpVal	6	1	220	4	4
+56	__signed_stack_002leftMotor	6	1	224	4	4
+57	__signed_stack_001locationUpdate	6	1	228	4	32
+58	__signed_stack_002locationUpdate	6	1	232	4	32
+59	__MWMutex	9	0	236	4	6
+60	__signed_stack_004leftMotor	6	1	240	4	2
+61	__RRNTmpVal	6	1	244	4	8
+62	__signed_stack_001CheckConnection	6	1	248	4	6
+63	__signed_stack_002CheckConnection	6	1	252	4	4
+64	__D0SetSensorLowspeed_inline_sensorPoller	6	1	256	4	3
+65	__DU0SetSensorLowspeed_inline_sensorPoller	5	1	260	4	2
+66	__signed_stack_002getParameter	6	1	264	4	4
+67	__signed_stack_001leftMotor	6	1	268	4	4
+68	__signed_stack_001FormatPosition	6	1	272	4	6
+69	__signed_stack_001getParameter	6	1	276	4	4
+70	__rotate_angle4	6	1	280	4	4
+71	__Wait_7qG2_ms_7qG2_000_inline_searchPattern	5	1	284	4	6
+72	__rotateMutex1	9	0	288	4	2
+73	__rotate_angle1	6	1	292	4	4
+74	__rotate_angle2	6	1	296	4	4
+75	__rotateMutex0	9	0	300	4	4
+76	__rotate_theAngle0	5	1	304	4	2
+77	__Wait_7qG2_ms_7qG2_000_inline_SetUpConnection	5	1	308	4	2
+78	__rotate_angle0	6	1	312	4	4
+79	__rotate_theAngle2	5	1	316	4	2
+80	__rotateMutex2	9	0	320	4	4
+81	__Wait_7qG2_ms_7qG2_000_inline_turn	5	1	324	4	3
+82	__Wait_7qG2_ms_7qG2_000_inline_parseCommand	5	1	328	4	8
+83	__Wait_7qG2_ms_7qG2_000_inline_GapFound	5	1	332	4	2
+84	__Wait_7qG2_ms_7qG2_000_inline_slaveProtocolHandler	5	1	336	4	4
+85	__Wait_7qG2_ms_7qG2_000_inline_SendLocation	5	1	340	4	2
+86	__rotate_theAngle1	5	1	344	4	2
+87	__searchPattern_7qG2_times_7qG2_005	4	1	348	2	4
+88	__slaveProtocolHandler_7qG2_command_7qG2_000	4	1	350	2	5
+89	__constVal255	4	0	352	2	1
+90	__rotate_RotCount0	4	1	354	2	4
+91	__move_7qG2_degrees_7qG2_000	4	1	356	2	2
+92	__SendLocation_7qG2_queue_7qG2_000	4	1	358	2	5
+93	__searchPattern_7qG2_distance_7qG2_000	4	1	360	2	2
+94	__rotate_OldRotCount1	4	1	362	2	2
+95	__rotate_RotCount1	4	1	364	2	4
+96	__searchPattern_7qG2_i_7qG2_003	4	1	366	2	4
+97	__getParameter_7qG2_parameter_7qG2_000	4	1	368	2	6
+98	__searchPattern_7qG2_multiplier_7qG2_000	4	1	370	2	5
+99	__CheckConnection_7qG2_commLine_7qG2_000	4	1	372	2	2
+100	__parseCommand_7qG2_command_7qG2_000	4	1	374	2	3
+101	id	4	1	376	2	4
+102	__rotate_OldRotCount4	4	1	378	2	2
+103	__ArrHelper__whereAmI_73_0	4	1	380	2	8
+104	__move_7qG2_cm_7qG2_000	4	1	382	2	6
+105	__turn_7qG2_dir_7qG2_000	4	1	384	2	4
+106	__backwardsCm_7qG2_cm_7qG2_000	4	1	386	2	2
+107	__textToScreen_7qG2_row_7qG2_000	4	1	388	2	10
+108	__forwardCm_7qG2_cm_7qG2_000	4	1	390	2	3
+109	__rotate_RotCount4	4	1	392	2	4
+110	__rotate_OldRotCount2	4	1	394	2	2
+111	__SetUpConnection_7qG2_tries_7qG2_000	4	1	396	2	7
+112	__SetUpConnection_7qG2_connStatus_7qG2_002	4	1	398	2	2
+113	__constVal200	4	0	400	2	18
+114	__rotate_RotCount2	4	1	402	2	4
+115	__locationUpdate_7qG2_steering_7qG2_000	4	1	404	2	4
+116	__locationUpdate_7qG2_distance_7qG2_000	4	1	406	2	11
+117	__rotate_OldRotCount0	4	1	408	2	2
+118	TurningDegrees	4	1	410	2	7
+119	__sensorPoller_7qG2_sensorValue_7qG2_000	1	1	412	1	2
+120	__zfturn	1	1	413	1	3
+121	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	414	1	2
+122	__FormatPosition_return	1	1	415	1	3
+123	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	416	1	2
+124	__zfsearchPattern	1	1	417	1	8
+125	____initialize_global_data_return	1	1	418	1	3
+126	__constValNeg1	2	0	419	1	2
+127	__zfmove	1	1	420	1	6
+128	__zflocationUpdate	1	1	421	1	14
+129	__zfSendLocation	1	1	422	1	6
+130	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorPoller	1	1	423	1	2
+131	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	424	1	2
+132	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller	1	1	425	1	4
+133	__zfslaveProtocolHandler	1	1	426	1	9
+134	__zfsensorPoller	1	1	427	1	5
+135	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	428	1	2
+136	__zfSetUpConnection	1	1	429	1	8
+137	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller	1	1	430	1	2
+138	__backwardsCm_return	1	1	431	1	3
+139	__move_return	1	1	432	1	4
+140	__forwardCm_return	1	1	433	1	4
+141	__turnRight_return	1	1	434	1	4
+142	__turn_return	1	1	435	1	4
+143	__turnLeft_return	1	1	436	1	3
+144	__constVal96	2	0	437	1	8
+145	__textToScreen_return	1	1	438	1	11
+146	FOUND	1	1	439	1	5
+147	LOCATION	1	1	440	1	5
+148	__lowerTheBridge_return	1	1	441	1	3
+149	__SendLocation_return	1	1	442	1	3
+150	__whereAmI_return	1	1	443	1	4
+151	__locationUpdate_return	1	1	444	1	4
+152	__SetUpConnection_return	1	1	445	1	3
+153	__constVal63	2	0	446	1	4
+154	__ClearLine_7qG2_line_7qG2_000_inline_parseCommand	1	1	447	1	6
+155	__GapFound_return	1	1	448	1	3
+156	__zfSetSensorLowspeed_inline_sensorPoller	1	1	449	1	2
+157	__ClearLine_7qG2_line_7qG2_000_inline_SendLocation	1	1	450	1	2
+158	__parseCommand_return	1	1	451	1	3
+159	__CheckConnection_return	1	1	452	1	5
+160	__ClearLine_7qG2_line_7qG2_000_inline_rightMotor	1	1	453	1	2
+161	__ClearLine_7qG2_line_7qG2_000_inline_leftMotor	1	1	454	1	2
+162	__ClearLine_7qG2_line_7qG2_000_inline_getParameter	1	1	455	1	4
+163	__getParameter_return	1	1	456	1	6
+164	__ack_return	1	1	457	1	10
+165	__rotate_firstPort4	1	1	458	1	5
+166	__rotate_sync4	1	1	459	1	2
+167	__rotate_theTurnPct2	2	1	460	1	4
+168	__rotate_power4	1	1	461	1	4
+169	__rotate_theUF4	1	1	462	1	6
+170	__rotate_theOM4	1	1	463	1	7
+171	__rotate_stop4	1	1	464	1	2
+172	__rotate_turnpct4	2	1	465	1	3
+173	__rotate_thePower2	2	1	466	1	4
+174	__rotate_theRM2	1	1	467	1	4
+175	__rotate_theRS2	1	1	468	1	3
+176	__rotate_theUF2	1	1	469	1	6
+177	__rotate_theOM2	1	1	470	1	7
+178	__rotate_theRVD2	1	1	471	1	2
+179	__rotate_rs2	1	1	472	1	2
+180	__rotate_theRVP2	1	1	473	1	2
+181	__rotate_theRVI2	1	1	474	1	2
+182	__rotate_theRM4	1	1	475	1	4
+183	____RotateMotor1_return	1	1	476	1	3
+184	____RotateMotor2_return	1	1	477	1	3
+185	__constVal1	2	0	478	1	32
+186	__constVal0	2	1	479	1	53
+187	__constVal6	2	0	480	1	1
+188	__constVal4	2	0	481	1	1
+189	____RotateMotor4_return	1	1	482	1	3
+190	__constVal3	2	0	483	1	6
+191	__constVal32	2	0	484	1	28
+192	__rotate_theRVI4	1	1	485	1	2
+193	__rotate_theRVD4	1	1	486	1	2
+194	__rotate_theRS4	1	1	487	1	3
+195	__rotate_theRVP4	1	1	488	1	2
+196	__rotate_theTurnPct4	2	1	489	1	4
+197	____RotateMotor0_return	1	1	490	1	3
+198	__rotate_rs4	1	1	491	1	2
+199	__rotate_thePower4	2	1	492	1	4
+200	__rotate_theRVD0	1	1	493	1	2
+201	__rotate_rs0	1	1	494	1	2
+202	__rotate_theRVP0	1	1	495	1	2
+203	__rotate_theRVI0	1	1	496	1	2
+204	__rotate_power1	1	1	497	1	4
+205	__rotate_firstPort1	1	1	498	1	5
+206	__rotate_thePower0	2	1	499	1	4
+207	__rotate_theTurnPct0	2	1	500	1	4
+208	__rotate_theRS0	1	1	501	1	3
+209	__rotate_sync0	1	1	502	1	2
+210	__rotate_stop0	1	1	503	1	2
+211	__rotate_power0	1	1	504	1	4
+212	__rotate_firstPort0	1	1	505	1	5
+213	__rotate_theOM0	1	1	506	1	7
+214	__rotate_theRM0	1	1	507	1	4
+215	__rotate_turnpct0	2	1	508	1	3
+216	__rotate_theUF0	1	1	509	1	6
+217	__rotate_sync1	1	1	510	1	2
+218	__rotate_theTurnPct1	2	1	511	1	4
+219	__rotate_power2	1	1	512	1	4
+220	__rotate_rs1	1	1	513	1	2
+221	__rotate_thePower1	2	1	514	1	4
+222	__rotate_stop2	1	1	515	1	2
+223	__rotate_turnpct2	2	1	516	1	3
+224	__rotate_firstPort2	1	1	517	1	5
+225	__rotate_sync2	1	1	518	1	2
+226	__rotate_theRVD1	1	1	519	1	2
+227	__rotate_theUF1	1	1	520	1	6
+228	__rotate_theOM1	1	1	521	1	7
+229	__rotate_stop1	1	1	522	1	2
+230	__rotate_turnpct1	2	1	523	1	3
+231	__rotate_theRVP1	1	1	524	1	2
+232	__rotate_theRVI1	1	1	525	1	2
+233	__rotate_theRM1	1	1	526	1	4
+234	__rotate_theRS1	1	1	527	1	3
+235	__constVal5	2	0	528	1	1
+236	__constVal2	2	0	529	1	7
+237	__constVal10	2	0	530	1	3
+238	__RRNErr	1	1	531	1	2
+239	__RLSBResult1	2	1	532	1	7
+240	__RLSBytesCount1	1	1	533	1	7
+241	__RLSBIterations1	1	1	534	1	4
+242	__constVal20	2	0	535	1	2
+243	__zfFormatPosition	1	1	536	1	3
+244	__zfCheckConnection	1	1	537	1	3
+245	__constVal16	2	0	538	1	2
+246	__constVal15	2	0	539	1	1
+247	__constVal7	2	0	540	1	1
+248	__zfgetParameter	1	1	541	1	2
+249	____ResetSensorSubroutine_return	1	1	542	1	3
+250	__ResetSensorTmp	1	1	543	1	2
+251	__ResetSensorPort	1	1	544	1	3
+252	____ReadLSBytes1_return	1	1	545	1	3
+253	__CLSRArgs1	8	0	4	12	5
+254	__CLSRArgs1.Result	2	1	548	1	5
+255	__CLSRArgs1.Port	1	1	549	1	5
+256	__CLSRArgs1.Buffer	7	0	550	4	5
+257	__CLSRArgs1.Buffer.Buffer_type	1	0	0	1	0
+258	__CLSRArgs1.BufferLen	1	1	552	1	5
+259	__TextOutArgs	8	0	4	16	147
+260	__TextOutArgs.Result	2	1	556	1	147
+261	__TextOutArgs.Location	8	0	2	4	147
+262	__TextOutArgs.Location.X	4	1	560	2	147
+263	__TextOutArgs.Location.Y	4	1	562	2	147
+264	__TextOutArgs.Text	7	0	564	4	147
+265	__TextOutArgs.Text.Text_type	1	0	0	1	0
+266	__TextOutArgs.Options	5	1	568	4	147
+267	__CBTCSArgs	8	0	2	4	4
+268	__CBTCSArgs.Result	2	1	572	1	4
+269	__CBTCSArgs.Connection	1	1	573	1	4
+270	I	8	0	3	12	47
+271	I.positionRelative	7	0	576	4	47
+272	I.positionRelative.positionRelative_type	4	0	0	2	0
+273	I.positionOwn	7	0	578	4	47
+274	I.positionOwn.positionOwn_type	4	0	0	2	0
+275	I.heading	4	1	580	2	47
+276	__CLSCSArgs1	8	0	3	4	4
+277	__CLSCSArgs1.Result	2	1	584	1	4
+278	__CLSCSArgs1.Port	1	1	585	1	4
+279	__CLSCSArgs1.BytesReady	1	1	586	1	4
+280	__CLSWArgs1	8	0	4	12	5
+281	__CLSWArgs1.Result	2	1	588	1	5
+282	__CLSWArgs1.Port	1	1	589	1	5
+283	__CLSWArgs1.Buffer	7	0	590	4	5
+284	__CLSWArgs1.Buffer.Buffer_type	1	0	0	1	0
+285	__CLSWArgs1.ReturnLen	1	1	592	1	5
+286	__MWArgs	8	0	3	8	11
+287	__MWArgs.Result	2	1	596	1	11
+288	__MWArgs.QueueID	1	1	597	1	11
+289	__MWArgs.Message	7	0	598	4	11
+290	__MWArgs.Message.Message_type	1	0	0	1	0
+291	__PointOutArgs	8	0	3	12	36
+292	__PointOutArgs.Result	2	1	600	1	36
+293	__PointOutArgs.Location	8	0	2	4	36
+294	__PointOutArgs.Location.X	4	1	604	2	36
+295	__PointOutArgs.Location.Y	4	1	606	2	36
+296	__PointOutArgs.Options	5	1	608	4	36
+297	__MRArgs	8	0	4	8	10
+298	__MRArgs.Result	2	1	612	1	10
+299	__MRArgs.QueueID	1	1	613	1	10
+300	__MRArgs.Remove	1	1	614	1	10
+301	__MRArgs.Message	7	0	616	4	10
+302	__MRArgs.Message.Message_type	1	0	0	1	0
+303	__strbufSendLocation	7	0	618	4	6
+304	__strbufSendLocation.__strbufSendLocation_type	1	0	0	1	0
+305	__ArrHelper__slaveProtocolHandler_244_1	7	0	620	4	2
+306	__ArrHelper__slaveProtocolHandler_244_1.__ArrHelper__slaveProtocolHandler_244_1_type	1	0	0	1	0
+307	__constStr0036	7	0	622	4	1
+308	__constStr0036.__constStr0036_type	1	1	0	1	0
+309	__strretvalSendLocation	7	0	624	4	2
+310	__strretvalSendLocation.__strretvalSendLocation_type	1	0	0	1	0
+311	__ArrHelper__SendLocation_244_0	7	0	626	4	2
+312	__ArrHelper__SendLocation_244_0.__ArrHelper__SendLocation_244_0_type	1	0	0	1	0
+313	__ArrHelper__slaveProtocolHandler_244_0	7	0	628	4	2
+314	__ArrHelper__slaveProtocolHandler_244_0.__ArrHelper__slaveProtocolHandler_244_0_type	1	0	0	1	0
+315	__constStr0035	7	0	630	4	1
+316	__constStr0035.__constStr0035_type	1	1	0	1	0
+317	__constStr0034	7	0	632	4	1
+318	__constStr0034.__constStr0034_type	1	1	0	1	0
+319	__ArrHelper__parseCommand_244_1	7	0	634	4	6
+320	__ArrHelper__parseCommand_244_1.__ArrHelper__parseCommand_244_1_type	1	0	0	1	0
+321	__constStr0033	7	0	636	4	1
+322	__constStr0033.__constStr0033_type	1	1	0	1	0
+323	__ArrHelper__getParameter_244_0	7	0	638	4	2
+324	__ArrHelper__getParameter_244_0.__ArrHelper__getParameter_244_0_type	1	0	0	1	0
+325	__constStr0029	7	0	640	4	1
+326	__constStr0029.__constStr0029_type	1	1	0	1	0
+327	__constStr0028	7	0	642	4	1
+328	__constStr0028.__constStr0028_type	1	1	0	1	0
+329	__constStr0027	7	0	644	4	1
+330	__constStr0027.__constStr0027_type	1	1	0	1	0
+331	__ArrHelper__rightMotor_244_1	7	0	646	4	2
+332	__ArrHelper__rightMotor_244_1.__ArrHelper__rightMotor_244_1_type	1	0	0	1	0
+333	__ArrHelper__parseCommand_244_0	7	0	648	4	6
+334	__ArrHelper__parseCommand_244_0.__ArrHelper__parseCommand_244_0_type	1	0	0	1	0
+335	__constStr0032	7	0	650	4	1
+336	__constStr0032.__constStr0032_type	1	1	0	1	0
+337	__constStr0031	7	0	652	4	1
+338	__constStr0031.__constStr0031_type	1	1	0	1	0
+339	__ArrHelper__getParameter_244_1	7	0	654	4	2
+340	__ArrHelper__getParameter_244_1.__ArrHelper__getParameter_244_1_type	1	0	0	1	0
+341	__constStr0030	7	0	656	4	1
+342	__constStr0030.__constStr0030_type	1	1	0	1	0
+343	__ArrHelper__SendLocation_244_1	7	0	658	4	4
+344	__ArrHelper__SendLocation_244_1.__ArrHelper__SendLocation_244_1_type	1	0	0	1	0
+345	__strbufgetParameter	7	0	660	4	6
+346	__strbufgetParameter.__strbufgetParameter_type	1	0	0	1	0
+347	__rotate_ports0	7	0	662	4	6
+348	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+349	__strbufleftMotor	7	0	664	4	4
+350	__strbufleftMotor.__strbufleftMotor_type	1	0	0	1	0
+351	__strbufCheckConnection	7	0	666	4	4
+352	__strbufCheckConnection.__strbufCheckConnection_type	1	0	0	1	0
+353	__strretvalleftMotor	7	0	668	4	2
+354	__strretvalleftMotor.__strretvalleftMotor_type	1	0	0	1	0
+355	__OUT_ABC	7	0	670	4	1
+356	__OUT_ABC.__OUT_ABC_type	1	0	0	1	0
+357	__strretvalgetParameter	7	0	672	4	2
+358	__strretvalgetParameter.__strretvalgetParameter_type	1	0	0	1	0
+359	__constStr0038	7	0	674	4	1
+360	__constStr0038.__constStr0038_type	1	1	0	1	0
+361	__OUT_AC	7	0	676	4	4
+362	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+363	__constStr0037	7	0	678	4	1
+364	__constStr0037.__constStr0037_type	1	1	0	1	0
+365	__ArrHelper__SendLocation_244_2	7	0	680	4	2
+366	__ArrHelper__SendLocation_244_2.__ArrHelper__SendLocation_244_2_type	1	0	0	1	0
+367	__strretvalparseCommand	7	0	682	4	6
+368	__strretvalparseCommand.__strretvalparseCommand_type	1	0	0	1	0
+369	__strbufrightMotor	7	0	684	4	4
+370	__strbufrightMotor.__strbufrightMotor_type	1	0	0	1	0
+371	__rotate_ports1	7	0	686	4	6
+372	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+373	__strretvalrightMotor	7	0	688	4	2
+374	__strretvalrightMotor.__strretvalrightMotor_type	1	0	0	1	0
+375	__strbufmove	7	0	690	4	4
+376	__strbufmove.__strbufmove_type	1	0	0	1	0
+377	__ArrHelper__SetUpConnection_244_1	7	0	692	4	4
+378	__ArrHelper__SetUpConnection_244_1.__ArrHelper__SetUpConnection_244_1_type	1	0	0	1	0
+379	__ArrHelper__SetUpConnection_244_0	7	0	694	4	4
+380	__ArrHelper__SetUpConnection_244_0.__ArrHelper__SetUpConnection_244_0_type	1	0	0	1	0
+381	__strbufparseCommand	7	0	696	4	16
+382	__strbufparseCommand.__strbufparseCommand_type	1	0	0	1	0
+383	__constStr0039	7	0	698	4	1
+384	__constStr0039.__constStr0039_type	1	1	0	1	0
+385	__constStr0015	7	0	700	4	1
+386	__constStr0015.__constStr0015_type	1	1	0	1	0
+387	__constStr0016	7	0	702	4	1
+388	__constStr0016.__constStr0016_type	1	1	0	1	0
+389	__constStr0014	7	0	704	4	1
+390	__constStr0014.__constStr0014_type	1	1	0	1	0
+391	__constStr0012	7	0	706	4	1
+392	__constStr0012.__constStr0012_type	1	1	0	1	0
+393	__constStr0013	7	0	708	4	1
+394	__constStr0013.__constStr0013_type	1	1	0	1	0
+395	__constStr0017	7	0	710	4	4
+396	__constStr0017.__constStr0017_type	1	1	0	1	0
+397	__strretvalwhereAmI	7	0	712	4	14
+398	__strretvalwhereAmI.__strretvalwhereAmI_type	1	0	0	1	0
+399	__strbufwhereAmI	7	0	714	4	47
+400	__strbufwhereAmI.__strbufwhereAmI_type	1	0	0	1	0
+401	__ArrHelper__whereAmI_244_2	7	0	716	4	10
+402	__ArrHelper__whereAmI_244_2.__ArrHelper__whereAmI_244_2_type	1	0	0	1	0
+403	__ArrHelper__whereAmI_244_0	7	0	718	4	8
+404	__ArrHelper__whereAmI_244_0.__ArrHelper__whereAmI_244_0_type	1	0	0	1	0
+405	__ArrHelper__whereAmI_244_1	7	0	720	4	14
+406	__ArrHelper__whereAmI_244_1.__ArrHelper__whereAmI_244_1_type	1	0	0	1	0
+407	__RLSReadBuf1	7	0	722	4	8
+408	__RLSReadBuf1.__RLSReadBuf1_type	1	0	0	1	0
+409	__SendLocation_7qG2_location_7qG2_000	7	0	724	4	3
+410	__SendLocation_7qG2_location_7qG2_000.__SendLocation_7qG2_location_7qG2_000_type	1	0	0	1	0
+411	__RLSLastGoodRead1	7	0	726	4	2
+412	__RLSLastGoodRead1.__RLSLastGoodRead1_type	1	0	0	1	0
+413	__BlankLine	7	0	728	4	8
+414	__BlankLine.__BlankLine_type	1	0	0	1	0
+415	__RLSBbufLSWrite1	7	0	730	4	1
+416	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+417	__textToScreen_7qG2_text_7qG2_000	7	0	732	4	10
+418	__textToScreen_7qG2_text_7qG2_000.__textToScreen_7qG2_text_7qG2_000_type	1	0	0	1	0
+419	__whereAmI_7qG2_location_7qG2_000	7	0	734	4	4
+420	__whereAmI_7qG2_location_7qG2_000.__whereAmI_7qG2_location_7qG2_000_type	1	0	0	1	0
+421	__constStr0011	7	0	736	4	1
+422	__constStr0011.__constStr0011_type	1	1	0	1	0
+423	__constStr0010	7	0	738	4	2
+424	__constStr0010.__constStr0010_type	1	1	0	1	0
+425	__rotate_ports4	7	0	740	4	6
+426	__rotate_ports4.__rotate_ports4_type	1	0	0	1	0
+427	__whereAmI_7qG2_coords_7qG2_000	7	0	742	4	5
+428	__whereAmI_7qG2_coords_7qG2_000.__whereAmI_7qG2_coords_7qG2_000_type	1	0	0	1	0
+429	__rotate_ports2	7	0	744	4	6
+430	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+431	__constStr0024	7	0	746	4	1
+432	__constStr0024.__constStr0024_type	1	1	0	1	0
+433	__constStr0023	7	0	748	4	1
+434	__constStr0023.__constStr0023_type	1	1	0	1	0
+435	__ArrHelper__leftMotor_244_0	7	0	750	4	2
+436	__ArrHelper__leftMotor_244_0.__ArrHelper__leftMotor_244_0_type	1	0	0	1	0
+437	__constStr0022	7	0	752	4	1
+438	__constStr0022.__constStr0022_type	1	1	0	1	0
+439	__constStr0025	7	0	754	4	1
+440	__constStr0025.__constStr0025_type	1	1	0	1	0
+441	__strbufSetUpConnection	7	0	756	4	10
+442	__strbufSetUpConnection.__strbufSetUpConnection_type	1	0	0	1	0
+443	__constStr0026	7	0	758	4	1
+444	__constStr0026.__constStr0026_type	1	1	0	1	0
+445	__strretvalSetUpConnection	7	0	760	4	4
+446	__strretvalSetUpConnection.__strretvalSetUpConnection_type	1	0	0	1	0
+447	__ArrHelper__leftMotor_244_1	7	0	762	4	2
+448	__ArrHelper__leftMotor_244_1.__ArrHelper__leftMotor_244_1_type	1	0	0	1	0
+449	__ArrHelper__rightMotor_244_0	7	0	764	4	2
+450	__ArrHelper__rightMotor_244_0.__ArrHelper__rightMotor_244_0_type	1	0	0	1	0
+451	__ArrHelper__whereAmI_244_5	7	0	766	4	2
+452	__ArrHelper__whereAmI_244_5.__ArrHelper__whereAmI_244_5_type	1	0	0	1	0
+453	__constStr0018	7	0	768	4	1
+454	__constStr0018.__constStr0018_type	1	1	0	1	0
+455	__ArrHelper__whereAmI_244_4	7	0	770	4	6
+456	__ArrHelper__whereAmI_244_4.__ArrHelper__whereAmI_244_4_type	1	0	0	1	0
+457	__ArrHelper__whereAmI_244_3	7	0	772	4	8
+458	__ArrHelper__whereAmI_244_3.__ArrHelper__whereAmI_244_3_type	1	0	0	1	0
+459	__strbufturn	7	0	774	4	4
+460	__strbufturn.__strbufturn_type	1	0	0	1	0
+461	__constStr0019	7	0	776	4	1
+462	__constStr0019.__constStr0019_type	1	1	0	1	0
+463	__strbufslaveProtocolHandler	7	0	778	4	8
+464	__strbufslaveProtocolHandler.__strbufslaveProtocolHandler_type	1	0	0	1	0
+465	__constStr0021	7	0	780	4	1
+466	__constStr0021.__constStr0021_type	1	1	0	1	0
+467	__constStr0020	7	0	782	4	1
+468	__constStr0020.__constStr0020_type	1	1	0	1	0
+469	__strbuftextToScreen	7	0	784	4	2
+470	__strbuftextToScreen.__strbuftextToScreen_type	1	0	0	1	0
+471	__strretvalslaveProtocolHandler	7	0	786	4	2
+472	__strretvalslaveProtocolHandler.__strretvalslaveProtocolHandler_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	73	0	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	74	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	73	2	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	74	2	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	75	2		subcall FormatPosition, __FormatPosition_return
+0	74	4	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	76	4	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	77	4		set TurningDegrees, 0
+0	76	7	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	76	7	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	77	7	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	78	7		set FOUND, 0
+0	77	10	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	77	10	#line 77 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	79	10	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	80	10		set LOCATION, 0
+0	79	13	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	79	13	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	81	13	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	82	13		set id, 0
+0	81	16	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	81	16	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	6069	16	#line 6069 "NXCDefs.h"
+0	6070	16	#pragma macro 6
+0	6070	16		acquire __PointOutMutex
+0	6070	17		mov __PointOutArgs.Location.X, __constVal200
+0	6070	20		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	23		mov __PointOutArgs.Options, __constVal1
+0	6070	25		syscall 14, __PointOutArgs
+0	6070	28		release __PointOutMutex
+0	12667	29	#line 12667 "NXCDefs.h"
+0	6069	29	#line 6069 "NXCDefs.h"
+0	83	29	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	85	29	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	85	29	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+0	86	29		exit 0, 0
+1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	4477	3		sign __rotate_thePower0, __rotate_angle0
+1	4478	6		abs __rotate_theAngle0, __rotate_angle0
+1	4479	9		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	4481	13		set __rotate_theUF0, 23
+1	4482	16		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	4483	19		set __rotate_theOM0, 7
+1	4484	22		set __rotate_theRM0, 2
+1	4485	25		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	4486	27		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	4487	30		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	4488	34		jmp __rotate_Start0
+1	4490	36		set __rotate_theOM0, 3
+1	4491	39		set __rotate_theRM0, 0
+1	4492	42		set __rotate_theTurnPct0, 0
+1	4494	45		set __rotate_theRS0, 32
+1	4495	48		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	4498	71		index __rotate_firstPort0, __rotate_ports0, 65535
+1	4500	75		getout __rotate_power0, __rotate_firstPort0, 2
+1	4501	79		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	4502	82		getout __rotate_rs0, __rotate_firstPort0, 6
+1	4503	86		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	4505	90		brtst 4, __rotate_Reset0, __rotate_stop0
+1	4507	93		set __rotate_theOM0, 7
+1	4508	96		set __rotate_theUF0, 7
+1	4509	99		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	4511	114		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4513	118		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	4514	120		wait 50
+1	4516	122		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4517	126		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	4518	130		set __rotate_theOM0, 4
+1	4519	133		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	4522	144		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	4523	147		setout __rotate_ports0, 0, __constVal32
+1	4525	152		subret ____RotateMotor0_return
+2	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+2	4530	3		sign __rotate_thePower1, __rotate_angle1
+2	4531	6		abs __rotate_theAngle1, __rotate_angle1
+2	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+2	4534	13		set __rotate_theUF1, 23
+2	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+2	4536	19		set __rotate_theOM1, 7
+2	4537	22		set __rotate_theRM1, 2
+2	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+2	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+2	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+2	4541	34		jmp __rotate_Start1
+2	4543	36		set __rotate_theOM1, 3
+2	4544	39		set __rotate_theRM1, 0
+2	4545	42		set __rotate_theTurnPct1, 0
+2	4547	45		set __rotate_theRS1, 32
+2	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+2	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+2	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+2	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+2	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+2	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+2	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+2	4560	93		set __rotate_theOM1, 7
+2	4561	96		set __rotate_theUF1, 7
+2	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+2	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+2	4567	120		wait 50
+2	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+2	4571	130		set __rotate_theOM1, 4
+2	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+2	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+2	4576	147		setout __rotate_ports1, 0, __constVal32
+2	4578	152		subret ____RotateMotor1_return
+3	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
+3	4583	3		sign __rotate_thePower2, __rotate_angle2
+3	4584	6		abs __rotate_theAngle2, __rotate_angle2
+3	4585	9		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+3	4587	13		set __rotate_theUF2, 23
+3	4588	16		brtst 4, __rotate_NoSync2, __rotate_sync2
+3	4589	19		set __rotate_theOM2, 7
+3	4590	22		set __rotate_theRM2, 2
+3	4591	25		mov __rotate_theTurnPct2, __rotate_turnpct2
+3	4592	27		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+3	4593	30		add __rotate_theUF2, __rotate_theUF2, __constVal32
+3	4594	34		jmp __rotate_Start2
+3	4596	36		set __rotate_theOM2, 3
+3	4597	39		set __rotate_theRM2, 0
+3	4598	42		set __rotate_theTurnPct2, 0
+3	4600	45		set __rotate_theRS2, 32
+3	4601	48		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+3	4604	71		index __rotate_firstPort2, __rotate_ports2, 65535
+3	4606	75		getout __rotate_power2, __rotate_firstPort2, 2
+3	4607	79		brtst 4, __rotate_doneRunning2, __rotate_power2
+3	4608	82		getout __rotate_rs2, __rotate_firstPort2, 6
+3	4609	86		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+3	4611	90		brtst 4, __rotate_Reset2, __rotate_stop2
+3	4613	93		set __rotate_theOM2, 7
+3	4614	96		set __rotate_theUF2, 7
+3	4615	99		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+3	4617	114		getout __rotate_RotCount2, __rotate_firstPort2, 14
+3	4619	118		mov __rotate_OldRotCount2, __rotate_RotCount2
+3	4620	120		wait 50
+3	4622	122		getout __rotate_RotCount2, __rotate_firstPort2, 14
+3	4623	126		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+3	4624	130		set __rotate_theOM2, 4
+3	4625	133		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+3	4628	144		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+3	4629	147		setout __rotate_ports2, 0, __constVal32
+3	4631	152		subret ____RotateMotor2_return
+4	4688	0		brtst 4, __rotate_Done4, __rotate_angle4
+4	4689	3		sign __rotate_thePower4, __rotate_angle4
+4	4690	6		abs __rotate_theAngle4, __rotate_angle4
+4	4691	9		mul __rotate_thePower4, __rotate_thePower4, __rotate_power4
+4	4693	13		set __rotate_theUF4, 23
+4	4694	16		brtst 4, __rotate_NoSync4, __rotate_sync4
+4	4695	19		set __rotate_theOM4, 7
+4	4696	22		set __rotate_theRM4, 2
+4	4697	25		mov __rotate_theTurnPct4, __rotate_turnpct4
+4	4698	27		brtst 4, __rotate_Start4, __rotate_theTurnPct4
+4	4699	30		add __rotate_theUF4, __rotate_theUF4, __constVal32
+4	4700	34		jmp __rotate_Start4
+4	4702	36		set __rotate_theOM4, 3
+4	4703	39		set __rotate_theRM4, 0
+4	4704	42		set __rotate_theTurnPct4, 0
+4	4706	45		set __rotate_theRS4, 32
+4	4707	48		setout __rotate_ports4, 1, __rotate_theOM4, 8, __rotate_theRM4, 5, __rotate_theAngle4, 6, __rotate_theRS4, 10, __rotate_theRVP4, 11, __rotate_theRVI4, 12, __rotate_theRVD4, 2, __rotate_thePower4, 7, __rotate_turnpct4, 0, __rotate_theUF4
+4	4710	71		index __rotate_firstPort4, __rotate_ports4, 65535
+4	4712	75		getout __rotate_power4, __rotate_firstPort4, 2
+4	4713	79		brtst 4, __rotate_doneRunning4, __rotate_power4
+4	4714	82		getout __rotate_rs4, __rotate_firstPort4, 6
+4	4715	86		brcmp 4, __rotate_Running4, __rotate_rs4, __constVal32
+4	4717	90		brtst 4, __rotate_Reset4, __rotate_stop4
+4	4719	93		set __rotate_theOM4, 7
+4	4720	96		set __rotate_theUF4, 7
+4	4721	99		setout __rotate_ports4, 1, __rotate_theOM4, 8, __constVal1, 6, __rotate_theRS4, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF4
+4	4723	114		getout __rotate_RotCount4, __rotate_firstPort4, 14
+4	4725	118		mov __rotate_OldRotCount4, __rotate_RotCount4
+4	4726	120		wait 50
+4	4728	122		getout __rotate_RotCount4, __rotate_firstPort4, 14
+4	4729	126		brcmp 5, __rotate_Stabilize4, __rotate_OldRotCount4, __rotate_RotCount4
+4	4730	130		set __rotate_theOM4, 4
+4	4731	133		setout __rotate_ports4, 8, __rotate_theRM4, 6, __constVal0, 1, __rotate_theOM4, 0, __constVal1
+4	4734	144		brtst 4, __rotate_Done4, __rotate_theTurnPct4
+4	4735	147		setout __rotate_ports4, 0, __constVal32
+4	4737	152		subret ____RotateMotor4_return
+5	4885	0		setin __constVal1, __ResetSensorPort, 5
+5	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+5	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+5	4889	11		subret ____ResetSensorSubroutine_return
+6	5710	0	#pragma macro 25
+6	5710	0		acquire __CLSWMutex1
+6	5710	1		set __CLSWArgs1.Port, 1
+6	5710	4		mov __CLSWArgs1.ReturnLen, __RLSBytesCount1
+6	5710	6		mov __CLSWArgs1.Buffer, __RLSReadBuf1
+6	5710	8		syscall 21, __CLSWArgs1
+6	5710	11		mov __RLSBResult1, __CLSWArgs1.Result
+6	5710	13		release __CLSWMutex1
+6	5710	14	#line 5710 "NXTDefs.h"
+6	5711	14		brtst 4, __RLSBReturn1, __RLSBytesCount1
+6	5712	17		arrinit __RLSReadBuf1, __constVal0, __RLSBytesCount1
+6	5713	21		brtst 5, __RLSBError1, __RLSBResult1
+6	5714	24		set __RLSBIterations1, 4
+6	5716	27	#pragma macro 23
+6	5716	27		acquire __CLSCSMutex1
+6	5716	28		set __CLSCSArgs1.Port, 1
+6	5716	31		syscall 23, __CLSCSArgs1
+6	5716	34		mov __RLSBytesCount1, __CLSCSArgs1.BytesReady
+6	5716	36		mov __RLSBResult1, __CLSCSArgs1.Result
+6	5716	38		release __CLSCSMutex1
+6	5716	39	#line 5716 "NXTDefs.h"
+6	5717	39		sub __RLSBIterations1, __RLSBIterations1, __constVal1
+6	5718	43		brtst 2, __RLSBError1, __RLSBIterations1
+6	5719	46		brtst 0, __RLSBError1, __RLSBResult1
+6	5720	49		brtst 4, __RLSBReadyToRead1, __RLSBResult1
+6	5722	52		wait 15
+6	5723	54		jmp __RLSBDoCheckStatus1
+6	5726	56	#pragma macro 25
+6	5726	56		acquire __CLSRMutex1
+6	5726	57		set __CLSRArgs1.Port, 1
+6	5726	60		mov __CLSRArgs1.BufferLen, __RLSBytesCount1
+6	5726	62		syscall 22, __CLSRArgs1
+6	5726	65		mov __RLSReadBuf1, __CLSRArgs1.Buffer
+6	5726	68		mov __RLSBResult1, __CLSRArgs1.Result
+6	5726	70		release __CLSRMutex1
+6	5726	71	#line 5726 "NXTDefs.h"
+6	5727	71		brtst 5, __RLSBError1, __RLSBResult1
+6	5728	74		mov __RLSLastGoodRead1, __RLSReadBuf1
+6	5729	76		jmp __RLSBDone1
+6	5731	78		mov __RLSReadBuf1, __RLSLastGoodRead1
+6	5733	80		arrsize __RLSBytesCount1, __RLSReadBuf1
+6	5735	83		subret ____ReadLSBytes1_return
+7	6069	0	#line 6069 "NXCDefs.h"
+7	6070	0	#pragma macro 6
+7	6070	0		acquire __PointOutMutex
+7	6070	1		mov __PointOutArgs.Location.X, __constVal200
+7	6070	4		mov __PointOutArgs.Location.Y, __constVal200
+7	6070	7		mov __PointOutArgs.Options, __constVal1
+7	6070	9		syscall 14, __PointOutArgs
+7	6070	12		release __PointOutMutex
+7	9573	13	#line 9573 "NXCDefs.h"
+7	6069	13	#line 6069 "NXCDefs.h"
+7	21	13	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	21	13	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	22	13		set __signed_stack_001textToScreen, 5
+7	21	16	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	21	16	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	22	16		mov __signed_stack_002textToScreen, __textToScreen_7qG2_row_7qG2_000
+7	21	18	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	21	18	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	22	18		strcat __strbuftextToScreen, __textToScreen_7qG2_text_7qG2_000
+7	22	22	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	23	22		acquire __TextOutMutex
+7	22	23	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	23	23		mov __TextOutArgs.Location.X, __signed_stack_001textToScreen
+7	22	26	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	23	26		mov __TextOutArgs.Location.Y, __signed_stack_002textToScreen
+7	22	29	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	23	29		set __TextOutArgs.Options, 0
+7	22	32	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	23	32		mov __TextOutArgs.Text, __strbuftextToScreen
+7	22	35	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	23	35		syscall 13, __TextOutArgs
+7	22	38	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	22	38	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	23	38		release __TextOutMutex
+7	22	39	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	32	39	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+7	33	39		subret __textToScreen_return
+8	6069	0	#line 6069 "NXCDefs.h"
+8	6070	0	#pragma macro 6
+8	6070	0		acquire __PointOutMutex
+8	6070	1		mov __PointOutArgs.Location.X, __constVal200
+8	6070	4		mov __PointOutArgs.Location.Y, __constVal200
+8	6070	7		mov __PointOutArgs.Options, __constVal1
+8	6070	9		syscall 14, __PointOutArgs
+8	6070	12		release __PointOutMutex
+8	9631	13	#line 9631 "NXCDefs.h"
+8	6069	13	#line 6069 "NXCDefs.h"
+8	50	13	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	51	13	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	52	13		strcat __strbufwhereAmI, __constStr0010
+8	51	17	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	52	17		mov __whereAmI_7qG2_coords_7qG2_000, __strbufwhereAmI
+8	54	19	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	19		strcat __strbufwhereAmI, __constStr0010
+8	54	23	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	23		mov __whereAmI_7qG2_location_7qG2_000, __strbufwhereAmI
+8	54	25	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	25		set __signed_stack_001whereAmI, 5
+8	54	28	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	54	28	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	28		set __signed_stack_002whereAmI, 56
+8	54	31	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	54	31	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	31		strcat __strbufwhereAmI, __constStr0011
+8	55	35	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	35		acquire __TextOutMutex
+8	55	36	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	36		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	55	39	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	39		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	55	42	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	42		set __TextOutArgs.Options, 0
+8	55	45	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	45		mov __TextOutArgs.Text, __strbufwhereAmI
+8	55	48	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	48		syscall 13, __TextOutArgs
+8	55	51	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	51		mov __D0whereAmI, __TextOutArgs.Result
+8	55	54	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	54		release __TextOutMutex
+8	55	55	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	55	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	55		set __signed_stack_001whereAmI, 10
+8	55	58	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	58	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	58		set __signed_stack_002whereAmI, 48
+8	55	61	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	55	61	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	56	61		strcat __strbufwhereAmI, __constStr0012
+8	57	65	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	65		acquire __TextOutMutex
+8	57	66	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	66		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	57	69	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	69		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	57	72	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	72		set __TextOutArgs.Options, 0
+8	57	75	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	75		mov __TextOutArgs.Text, __strbufwhereAmI
+8	57	78	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	78		syscall 13, __TextOutArgs
+8	57	81	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	81		mov __D0whereAmI, __TextOutArgs.Result
+8	57	84	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	84		release __TextOutMutex
+8	57	85	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	57	85	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	85		mov __ArrHelper__whereAmI_244_0, __constStr0013
+8	57	87	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	87		set __signed_stack_001whereAmI, 0
+8	57	90	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	57	90	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	90		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	57	94	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	94		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	57	96	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	96		numtostr __strretvalwhereAmI, __D0whereAmI
+8	57	99	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	99		mov __ArrHelper__whereAmI_244_1, __strretvalwhereAmI
+8	57	101	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	101		mov __ArrHelper__whereAmI_244_2, __constStr0014
+8	57	103	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	103		set __signed_stack_001whereAmI, 1
+8	57	106	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	57	106	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	106		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	57	110	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	110		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	57	112	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	112		numtostr __strretvalwhereAmI, __D0whereAmI
+8	57	115	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	115		mov __ArrHelper__whereAmI_244_3, __strretvalwhereAmI
+8	58	117	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	117		strcat __strbufwhereAmI, __constStr0015
+8	58	121	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	121		mov __ArrHelper__whereAmI_244_4, __strbufwhereAmI
+8	58	123	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	123		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_3, __ArrHelper__whereAmI_244_4
+8	58	128	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	128		mov __ArrHelper__whereAmI_244_3, __strbufwhereAmI
+8	58	130	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	130		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_2, __ArrHelper__whereAmI_244_3
+8	58	135	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	135		mov __ArrHelper__whereAmI_244_2, __strbufwhereAmI
+8	58	137	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	137		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_1, __ArrHelper__whereAmI_244_2
+8	58	142	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	142		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	58	144	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	144		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	58	149	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	149		mov __whereAmI_7qG2_coords_7qG2_000, __strbufwhereAmI
+8	58	151	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	151	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	151		set __signed_stack_001whereAmI, 10
+8	58	154	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	154	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	154		set __signed_stack_002whereAmI, 40
+8	58	157	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	58	157	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	59	157		strcat __strbufwhereAmI, __whereAmI_7qG2_coords_7qG2_000
+8	60	161	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	161		acquire __TextOutMutex
+8	60	162	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	162		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	60	165	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	165		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	60	168	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	168		set __TextOutArgs.Options, 0
+8	60	171	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	171		mov __TextOutArgs.Text, __strbufwhereAmI
+8	60	174	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	174		syscall 13, __TextOutArgs
+8	60	177	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	177		mov __D0whereAmI, __TextOutArgs.Result
+8	60	180	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	180		release __TextOutMutex
+8	60	181	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	60	181	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	181		mov __ArrHelper__whereAmI_244_0, __constStr0016
+8	60	183	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	183		mov __D0whereAmI, I.heading
+8	61	186	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	186		numtostr __strretvalwhereAmI, __D0whereAmI
+8	61	189	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	189		strcat __strbufwhereAmI, __strretvalwhereAmI
+8	61	193	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	193		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	61	195	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	195		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	61	200	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	200		mov __whereAmI_7qG2_coords_7qG2_000, __strbufwhereAmI
+8	61	202	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	202	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	202		set __signed_stack_001whereAmI, 10
+8	61	205	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	205	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	205		set __signed_stack_002whereAmI, 32
+8	61	208	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	61	208	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	62	208		strcat __strbufwhereAmI, __whereAmI_7qG2_coords_7qG2_000
+8	65	212	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	212		acquire __TextOutMutex
+8	65	213	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	213		mov __TextOutArgs.Location.X, __signed_stack_001whereAmI
+8	65	216	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	216		mov __TextOutArgs.Location.Y, __signed_stack_002whereAmI
+8	65	219	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	219		set __TextOutArgs.Options, 0
+8	65	222	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	222		mov __TextOutArgs.Text, __strbufwhereAmI
+8	65	225	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	225		syscall 13, __TextOutArgs
+8	65	228	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	228		mov __D0whereAmI, __TextOutArgs.Result
+8	65	231	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	231		release __TextOutMutex
+8	65	232	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	65	232	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	232		set __signed_stack_001whereAmI, 0
+8	65	235	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	65	235	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	235		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	65	239	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	239		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	65	241	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	241		numtostr __strretvalwhereAmI, __D0whereAmI
+8	65	244	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	244		mov __ArrHelper__whereAmI_244_0, __strretvalwhereAmI
+8	65	246	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	246		mov __ArrHelper__whereAmI_244_1, __constStr0017
+8	65	248	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	248		set __signed_stack_001whereAmI, 1
+8	65	251	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	65	251	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	251		index __ArrHelper__whereAmI_73_0, I.positionOwn, __signed_stack_001whereAmI
+8	65	255	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	255		mov __D0whereAmI, __ArrHelper__whereAmI_73_0
+8	66	257	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	257		numtostr __strretvalwhereAmI, __D0whereAmI
+8	66	260	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	260		strcat __strbufwhereAmI, __strretvalwhereAmI
+8	66	264	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	264		mov __ArrHelper__whereAmI_244_2, __strbufwhereAmI
+8	66	266	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	266		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_1, __ArrHelper__whereAmI_244_2
+8	66	271	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	271		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	66	273	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	273		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	66	278	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	278		mov __whereAmI_7qG2_location_7qG2_000, __strbufwhereAmI
+8	66	280	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	66	280	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	280		mov __ArrHelper__whereAmI_244_0, __strbufwhereAmI
+8	66	282	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	282		mov __ArrHelper__whereAmI_244_1, __constStr0017
+8	66	284	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	284		mov __D0whereAmI, I.heading
+8	66	287	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	287		numtostr __strretvalwhereAmI, __D0whereAmI
+8	66	290	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	290		mov __ArrHelper__whereAmI_244_2, __strretvalwhereAmI
+8	66	292	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	292		mov __ArrHelper__whereAmI_244_3, __constStr0017
+8	66	294	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	294		set __D0whereAmI, 2
+8	66	297	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	297		numtostr __strretvalwhereAmI, __D0whereAmI
+8	66	300	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	67	300		mov __ArrHelper__whereAmI_244_4, __strretvalwhereAmI
+8	68	302	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	302		strcat __strbufwhereAmI, __constStr0017
+8	68	306	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	306		mov __ArrHelper__whereAmI_244_5, __strbufwhereAmI
+8	68	308	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	308		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_4, __ArrHelper__whereAmI_244_5
+8	68	313	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	313		mov __ArrHelper__whereAmI_244_4, __strbufwhereAmI
+8	68	315	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	315		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_3, __ArrHelper__whereAmI_244_4
+8	68	320	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	320		mov __ArrHelper__whereAmI_244_3, __strbufwhereAmI
+8	68	322	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	322		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_2, __ArrHelper__whereAmI_244_3
+8	68	327	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	327		mov __ArrHelper__whereAmI_244_2, __strbufwhereAmI
+8	68	329	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	329		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_1, __ArrHelper__whereAmI_244_2
+8	68	334	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	334		mov __ArrHelper__whereAmI_244_1, __strbufwhereAmI
+8	68	336	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	336		strcat __strbufwhereAmI, __ArrHelper__whereAmI_244_0, __ArrHelper__whereAmI_244_1
+8	68	341	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	341		mov __whereAmI_7qG2_location_7qG2_000, __strbufwhereAmI
+8	68	343	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	68	343	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	343		strcat __strbufwhereAmI, __whereAmI_7qG2_location_7qG2_000
+8	68	347	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	69	347		mov __SendLocation_7qG2_location_7qG2_000, __strbufwhereAmI
+8	70	349	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	71	349		subcall SendLocation, __SendLocation_return
+8	70	351	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	70	351	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	70	351	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	7921	351	#line 7921 "NXCDefs.h"
+8	7922	351		wait 200
+8	7921	353	#line 7921 "NXCDefs.h"
+8	71	353	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	80	353	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+8	81	353		subret __whereAmI_return
+9	81	0	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	82	0		set __signed_stack_001lowerTheBridge, 50
+9	81	3	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	81	3	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	82	3		set __signed_stack_002lowerTheBridge, 90
+9	81	6	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	81	6	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	82	6		set __signed_stack_003lowerTheBridge, 0
+9	81	9	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	81	9	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	82	9		set __signed_stack_004lowerTheBridge, 0
+9	81	12	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	81	12	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	82	12		set __D0lowerTheBridge, 1
+9	82	15	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	83	15	#pragma macro 33
+9	83	15		acquire __rotateMutex1
+9	83	16		arrbuild __rotate_ports1, __constVal1
+9	83	20		mov __rotate_power1, __signed_stack_001lowerTheBridge
+9	83	23		mov __rotate_angle1, __signed_stack_002lowerTheBridge
+9	83	25		mov __rotate_turnpct1, __signed_stack_003lowerTheBridge
+9	83	28		mov __rotate_sync1, __signed_stack_004lowerTheBridge
+9	83	31		mov __rotate_stop1, __D0lowerTheBridge
+9	83	34		mov __rotate_theRVP1, __constVal32
+9	83	36		mov __rotate_theRVI1, __constVal0
+9	83	38		mov __rotate_theRVD1, __constVal96
+9	83	40		subcall __RotateMotor1, ____RotateMotor1_return
+9	83	43		release __rotateMutex1
+9	9995	44	#line 9995 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	82	44	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	91	44	#line 91 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+9	92	44		subret __lowerTheBridge_return
+10	103	0	#line 103 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+10	104	0		mov __move_7qG2_cm_7qG2_000, __forwardCm_7qG2_cm_7qG2_000
+10	103	2	#line 103 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+10	104	2	#line 104 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+10	105	2		subcall move, __move_return
+10	104	4	#line 104 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+10	113	4	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+10	114	4		subret __forwardCm_return
+11	116	0	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	116	0	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	116	0	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	116	0	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	117	0		mul __move_7qG2_cm_7qG2_000, __backwardsCm_7qG2_cm_7qG2_000, __constValNeg1
+11	116	4	#line 116 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	118	4	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	119	4		subcall move, __move_return
+11	118	6	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	128	6	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+11	129	6		subret __backwardsCm_return
+12	129	0	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+12	130	0		set __turn_7qG2_dir_7qG2_000, 10
+12	129	3	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+12	130	3	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+12	131	3		subcall turn, __turn_return
+12	130	5	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+12	139	5	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+12	140	5		subret __turnLeft_return
+13	140	0	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+13	141	0		set __turn_7qG2_dir_7qG2_000, -10
+13	140	3	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+13	141	3	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+13	142	3		subcall turn, __turn_return
+13	141	5	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+13	159	5	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+13	160	5		subret __turnRight_return
+14	161	0	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	162	0		mov __locationUpdate_7qG2_distance_7qG2_000, __move_7qG2_cm_7qG2_000
+14	161	2	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	161	2	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	162	2		set __locationUpdate_7qG2_steering_7qG2_000, 0
+14	161	5	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	163	5	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	5		subcall locationUpdate, __locationUpdate_return
+14	163	8	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	163	8	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	8		mov __signed_stack_001move, __move_7qG2_cm_7qG2_000
+14	163	10	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	163	10	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	10		set __D0move, 0
+14	163	13	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	13		cmp 1, __zfmove, __signed_stack_001move, __D0move
+14	163	17	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	17		mov __D0move, __zfmove
+14	163	19	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	19		brtst 4, __NXC_Label_684, __zfmove
+14	163	22	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	22		set __textToScreen_7qG2_row_7qG2_000, 56
+14	163	25	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	163	25	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	25		strcat __strbufmove, __constStr0018
+14	163	29	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	29		mov __textToScreen_7qG2_text_7qG2_000, __strbufmove
+14	164	31	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	31		subcall textToScreen, __textToScreen_return
+14	164	34	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	34	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	34	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	34		mov __signed_stack_001move, __move_7qG2_cm_7qG2_000
+14	164	36	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	36	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	36		set __D0move, 0
+14	164	39	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	39		cmp 0, __zfmove, __signed_stack_001move, __D0move
+14	164	43	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	43		mov __D0move, __zfmove
+14	164	45	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	45		brtst 4, __NXC_Label_689, __zfmove
+14	164	48	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	48		set __textToScreen_7qG2_row_7qG2_000, 56
+14	164	51	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	164	51	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	51		strcat __strbufmove, __constStr0019
+14	164	55	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	165	55		mov __textToScreen_7qG2_text_7qG2_000, __strbufmove
+14	166	57	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	167	57		subcall textToScreen, __textToScreen_return
+14	166	60	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	166	60	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	166	60	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	166	60	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	168	60	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	168	60	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	169	60		mul __move_7qG2_degrees_7qG2_000, __move_7qG2_cm_7qG2_000, __constVal20
+14	168	64	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	169	64	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	170	64		acquire MOTOR
+14	169	65	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	169	65	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	170	65		set __signed_stack_001move, 50
+14	169	68	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	169	68	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	170	68		mov __signed_stack_002move, __move_7qG2_degrees_7qG2_000
+14	169	70	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	169	70	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	170	70		set __signed_stack_003move, 0
+14	169	73	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	169	73	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	170	73		set __signed_stack_004move, 1
+14	169	76	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	169	76	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	170	76		set __D0move, 1
+14	170	79	#line 170 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	171	79	#pragma macro 35
+14	171	79		acquire __rotateMutex0
+14	171	80		acquire __rotateMutex2
+14	171	81		mov __rotate_ports4, __OUT_AC
+14	171	83		mov __rotate_power4, __signed_stack_001move
+14	171	86		mov __rotate_angle4, __signed_stack_002move
+14	171	88		mov __rotate_turnpct4, __signed_stack_003move
+14	171	91		mov __rotate_sync4, __signed_stack_004move
+14	171	94		mov __rotate_stop4, __D0move
+14	171	96		mov __rotate_theRVP4, __constVal32
+14	171	98		mov __rotate_theRVI4, __constVal0
+14	171	100		mov __rotate_theRVD4, __constVal96
+14	171	102		subcall __RotateMotor4, ____RotateMotor4_return
+14	171	105		release __rotateMutex2
+14	171	106		release __rotateMutex0
+14	10221	107	#line 10221 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	170	107	#line 170 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	174	107	#line 174 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	175	107		release MOTOR
+14	174	108	#line 174 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	174	108	#line 174 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	174	108	#line 174 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	7921	108	#line 7921 "NXCDefs.h"
+14	7922	108		wait 400
+14	7921	110	#line 7921 "NXCDefs.h"
+14	175	110	#line 175 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	188	110	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+14	189	110		subret __move_return
+15	191	0	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+15	191	0	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+15	192	0		exit 0, 1
+16	196	0	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	197	0		set __ClearLine_7qG2_line_7qG2_000_inline_leftMotor, 0
+16	196	3	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	6076	3	#line 6076 "NXCDefs.h"
+16	6077	3	#pragma macro 7
+16	6077	3		acquire __TextOutMutex
+16	6077	4		mov __TextOutArgs.Location.X, __constVal0
+16	6077	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_leftMotor
+16	6077	8		mov __TextOutArgs.Options, __constVal0
+16	6077	10		mov __TextOutArgs.Text, __BlankLine
+16	6077	13		syscall 13, __TextOutArgs
+16	6077	16		release __TextOutMutex
+16	10262	17	#line 10262 "NXCDefs.h"
+16	6076	17	#line 6076 "NXCDefs.h"
+16	197	17	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	197	17	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	17		set __signed_stack_001leftMotor, 5
+16	197	20	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	197	20	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	20		set __signed_stack_002leftMotor, 0
+16	197	23	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	197	23	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	23		mov __ArrHelper__leftMotor_244_0, __constStr0020
+16	197	25	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	25		mov __D0leftMotor, TurningDegrees
+16	197	27	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	27		numtostr __strretvalleftMotor, __D0leftMotor
+16	197	30	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	30		strcat __strbufleftMotor, __strretvalleftMotor
+16	197	34	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	34		mov __ArrHelper__leftMotor_244_1, __strbufleftMotor
+16	197	36	#line 197 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	36		strcat __strbufleftMotor, __ArrHelper__leftMotor_244_0, __ArrHelper__leftMotor_244_1
+16	198	41	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	41		acquire __TextOutMutex
+16	198	42	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	42		mov __TextOutArgs.Location.X, __signed_stack_001leftMotor
+16	198	45	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	45		mov __TextOutArgs.Location.Y, __signed_stack_002leftMotor
+16	198	48	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	48		set __TextOutArgs.Options, 0
+16	198	51	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	51		mov __TextOutArgs.Text, __strbufleftMotor
+16	198	53	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	53		syscall 13, __TextOutArgs
+16	198	56	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	56		mov __D0leftMotor, __TextOutArgs.Result
+16	198	59	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	59		release __TextOutMutex
+16	198	60	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	60	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	60		set __signed_stack_001leftMotor, 50
+16	198	63	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	63	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	63	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	63	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	63	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	63		mul __signed_stack_002leftMotor, TurningDegrees, __constVal1
+16	198	67	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	67	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	67		set __signed_stack_003leftMotor, 0
+16	198	70	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	70	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	70		set __signed_stack_004leftMotor, 0
+16	198	73	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	198	73	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	73		set __D0leftMotor, 1
+16	199	76	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	200	76	#pragma macro 33
+16	200	76		acquire __rotateMutex0
+16	200	77		arrbuild __rotate_ports0, __constVal0
+16	200	81		mov __rotate_power0, __signed_stack_001leftMotor
+16	200	84		mov __rotate_angle0, __signed_stack_002leftMotor
+16	200	86		mov __rotate_turnpct0, __signed_stack_003leftMotor
+16	200	89		mov __rotate_sync0, __signed_stack_004leftMotor
+16	200	92		mov __rotate_stop0, __D0leftMotor
+16	200	95		mov __rotate_theRVP0, __constVal32
+16	200	97		mov __rotate_theRVI0, __constVal0
+16	200	99		mov __rotate_theRVD0, __constVal96
+16	200	101		subcall __RotateMotor0, ____RotateMotor0_return
+16	200	104		release __rotateMutex0
+16	10343	105	#line 10343 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	199	105	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+16	200	105		exit -1, -1
+17	204	0	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	205	0		set __ClearLine_7qG2_line_7qG2_000_inline_rightMotor, 8
+17	204	3	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	6076	3	#line 6076 "NXCDefs.h"
+17	6077	3	#pragma macro 7
+17	6077	3		acquire __TextOutMutex
+17	6077	4		mov __TextOutArgs.Location.X, __constVal0
+17	6077	6		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_rightMotor
+17	6077	8		mov __TextOutArgs.Options, __constVal0
+17	6077	10		mov __TextOutArgs.Text, __BlankLine
+17	6077	13		syscall 13, __TextOutArgs
+17	6077	16		release __TextOutMutex
+17	10359	17	#line 10359 "NXCDefs.h"
+17	6076	17	#line 6076 "NXCDefs.h"
+17	205	17	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	205	17	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	17		set __signed_stack_001rightMotor, 5
+17	205	20	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	205	20	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	20		set __signed_stack_002rightMotor, 8
+17	205	23	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	205	23	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	23		mov __ArrHelper__rightMotor_244_0, __constStr0021
+17	205	25	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	25		mov __D0rightMotor, TurningDegrees
+17	205	27	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	27		numtostr __strretvalrightMotor, __D0rightMotor
+17	205	30	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	30		strcat __strbufrightMotor, __strretvalrightMotor
+17	205	34	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	34		mov __ArrHelper__rightMotor_244_1, __strbufrightMotor
+17	205	36	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	36		strcat __strbufrightMotor, __ArrHelper__rightMotor_244_0, __ArrHelper__rightMotor_244_1
+17	206	41	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	41		acquire __TextOutMutex
+17	206	42	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	42		mov __TextOutArgs.Location.X, __signed_stack_001rightMotor
+17	206	45	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	45		mov __TextOutArgs.Location.Y, __signed_stack_002rightMotor
+17	206	48	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	48		set __TextOutArgs.Options, 0
+17	206	51	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	51		mov __TextOutArgs.Text, __strbufrightMotor
+17	206	53	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	53		syscall 13, __TextOutArgs
+17	206	56	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	56		mov __D0rightMotor, __TextOutArgs.Result
+17	206	59	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	59		release __TextOutMutex
+17	206	60	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	60	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	60		set __signed_stack_001rightMotor, 50
+17	206	63	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	63	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	63	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	63	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	63	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	63		mul __signed_stack_002rightMotor, TurningDegrees, __constValNeg1
+17	206	67	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	67	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	67		set __signed_stack_003rightMotor, 0
+17	206	70	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	70	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	70		set __signed_stack_004rightMotor, 0
+17	206	73	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	206	73	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	73		set __D0rightMotor, 1
+17	207	76	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	208	76	#pragma macro 33
+17	208	76		acquire __rotateMutex2
+17	208	77		arrbuild __rotate_ports2, __constVal2
+17	208	81		mov __rotate_power2, __signed_stack_001rightMotor
+17	208	84		mov __rotate_angle2, __signed_stack_002rightMotor
+17	208	86		mov __rotate_turnpct2, __signed_stack_003rightMotor
+17	208	89		mov __rotate_sync2, __signed_stack_004rightMotor
+17	208	92		mov __rotate_stop2, __D0rightMotor
+17	208	95		mov __rotate_theRVP2, __constVal32
+17	208	97		mov __rotate_theRVI2, __constVal0
+17	208	99		mov __rotate_theRVD2, __constVal96
+17	208	101		subcall __RotateMotor2, ____RotateMotor2_return
+17	208	104		release __rotateMutex2
+17	10440	105	#line 10440 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	207	105	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+17	208	105		exit -1, -1
+18	214	0	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	215	0		set __locationUpdate_7qG2_distance_7qG2_000, 0
+18	214	3	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	214	3	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	215	3		mov __locationUpdate_7qG2_steering_7qG2_000, __turn_7qG2_dir_7qG2_000
+18	214	5	#line 214 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	216	5	#line 216 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	217	5		subcall locationUpdate, __locationUpdate_return
+18	216	8	#line 216 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	216	8	#line 216 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	217	8		set __Wait_7qG2_ms_7qG2_000_inline_turn, 100
+18	216	11	#line 216 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	7921	11	#line 7921 "NXCDefs.h"
+18	7922	11		wait 100
+18	7921	13	#line 7921 "NXCDefs.h"
+18	218	13	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	218	13	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	219	13		mov __signed_stack_001turn, __turn_7qG2_dir_7qG2_000
+18	218	15	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	218	15	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	219	15		set __D0turn, 0
+18	218	18	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	219	18		cmp 1, __zfturn, __signed_stack_001turn, __D0turn
+18	218	22	#line 218 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	219	22		mov __D0turn, __zfturn
+18	219	24	#line 219 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	220	24		brtst 4, __NXC_Label_750, __zfturn
+18	219	27	#line 219 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	220	27		set __textToScreen_7qG2_row_7qG2_000, 56
+18	219	30	#line 219 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	219	30	#line 219 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	220	30		strcat __strbufturn, __constStr0022
+18	219	34	#line 219 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	220	34		mov __textToScreen_7qG2_text_7qG2_000, __strbufturn
+18	220	36	#line 220 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	221	36		subcall textToScreen, __textToScreen_return
+18	220	39	#line 220 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	226	39	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	227	39		set TurningDegrees, 272
+18	226	42	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	226	42	#line 226 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	227	42	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	228	42		jmp __NXC_Label_755
+18	227	44	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	228	44		set __textToScreen_7qG2_row_7qG2_000, 56
+18	227	47	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	227	47	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	228	47		strcat __strbufturn, __constStr0023
+18	227	51	#line 227 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	228	51		mov __textToScreen_7qG2_text_7qG2_000, __strbufturn
+18	228	53	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	229	53		subcall textToScreen, __textToScreen_return
+18	228	56	#line 228 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	229	56	#line 229 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	230	56		set TurningDegrees, -285
+18	229	59	#line 229 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	229	59	#line 229 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	231	59	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	233	59	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	234	59		acquire MOTOR
+18	233	60	#line 233 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	234	60	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	235	60		start turningControl
+18	234	62	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	234	62	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	235	62		set __Wait_7qG2_ms_7qG2_000_inline_turn, 200
+18	234	65	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	7921	65	#line 7921 "NXCDefs.h"
+18	7922	65		wait 200
+18	7921	67	#line 7921 "NXCDefs.h"
+18	236	67	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	240	67	#line 240 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	241	67		release MOTOR
+18	240	68	#line 240 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	240	68	#line 240 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	241	68		set __Wait_7qG2_ms_7qG2_000_inline_turn, 250
+18	240	71	#line 240 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	7921	71	#line 7921 "NXCDefs.h"
+18	7922	71		wait 250
+18	7921	73	#line 7921 "NXCDefs.h"
+18	242	73	#line 242 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	251	73	#line 251 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+18	252	73		subret __turn_return
+19	252	0	#line 252 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	253	0		mov __D0locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	253	2	#line 253 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	254	2		tst 5, __zflocationUpdate, __D0locationUpdate
+19	253	5	#line 253 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	254	5		brtst 4, __NXC_Label_766, __zflocationUpdate
+19	253	8	#line 253 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	254	8		mov __D0locationUpdate, I.heading
+19	257	11		brcmp 4, __NXC_Label_770, __constVal0, __D0locationUpdate
+19	258	15		brcmp 4, __NXC_Label_779, __constVal1, __D0locationUpdate
+19	259	19		brcmp 4, __NXC_Label_788, __constVal2, __D0locationUpdate
+19	260	23		brcmp 4, __NXC_Label_797, __constVal3, __D0locationUpdate
+19	261	27		jmp __NXC_Label_769
+19	264	29	#line 264 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	264	29	#line 264 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	265	29		set __signed_stack_001locationUpdate, 1
+19	264	32	#line 264 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	264	32	#line 264 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	265	32		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+19	265	36	#line 265 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	265	36	#line 265 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	266	36		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	265	40	#line 265 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	266	40		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	265	45	#line 265 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	265	45	#line 265 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	266	45		set __signed_stack_001locationUpdate, 1
+19	265	48	#line 265 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	265	48	#line 265 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	266	48		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+19	266	52	#line 266 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	266	52	#line 266 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	267	52		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	266	56	#line 266 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	267	56		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	266	61	#line 266 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	267	61	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	268	61		jmp __NXC_Label_769
+19	267	63	#line 267 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	270	63	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	270	63	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	271	63		set __signed_stack_001locationUpdate, 0
+19	270	66	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	270	66	#line 270 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	271	66		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+19	271	70	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	271	70	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	272	70		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	271	74	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	272	74		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	271	79	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	271	79	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	272	79		set __signed_stack_001locationUpdate, 0
+19	271	82	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	271	82	#line 271 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	272	82		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+19	272	86	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	272	86	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	273	86		add __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	272	90	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	273	90		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	272	95	#line 272 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	273	95	#line 273 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	274	95		jmp __NXC_Label_769
+19	273	97	#line 273 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	276	97	#line 276 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	276	97	#line 276 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	277	97		set __signed_stack_001locationUpdate, 1
+19	276	100	#line 276 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	276	100	#line 276 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	277	100		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+19	277	104	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	277	104	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	278	104		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	277	108	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	278	108		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	277	113	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	277	113	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	278	113		set __signed_stack_001locationUpdate, 1
+19	277	116	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	277	116	#line 277 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	278	116		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+19	278	120	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	278	120	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	279	120		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	278	124	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	279	124		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	278	129	#line 278 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	279	129	#line 279 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	280	129		jmp __NXC_Label_769
+19	279	131	#line 279 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	282	131	#line 282 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	282	131	#line 282 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	283	131		set __signed_stack_001locationUpdate, 0
+19	282	134	#line 282 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	282	134	#line 282 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	283	134		index __signed_stack_002locationUpdate, I.positionOwn, __signed_stack_001locationUpdate
+19	283	138	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	283	138	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	284	138		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	283	142	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	284	142		replace I.positionOwn, I.positionOwn, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	283	147	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	283	147	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	284	147		set __signed_stack_001locationUpdate, 0
+19	283	150	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	283	150	#line 283 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	284	150		index __signed_stack_002locationUpdate, I.positionRelative, __signed_stack_001locationUpdate
+19	284	154	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	284	154	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	285	154		sub __signed_stack_002locationUpdate, __signed_stack_002locationUpdate, __locationUpdate_7qG2_distance_7qG2_000
+19	284	158	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	285	158		replace I.positionRelative, I.positionRelative, __signed_stack_001locationUpdate, __signed_stack_002locationUpdate
+19	284	163	#line 284 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	285	163	#line 285 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	285	163	#line 285 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	288	163	#line 288 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	299	163	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	300	163		jmp __NXC_Label_806
+19	299	165	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	300	165		mov __signed_stack_001locationUpdate, __locationUpdate_7qG2_steering_7qG2_000
+19	299	167	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	299	167	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	300	167		set __D0locationUpdate, 0
+19	299	170	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	300	170		cmp 0, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+19	299	174	#line 299 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	300	174		mov __D0locationUpdate, __zflocationUpdate
+19	300	176	#line 300 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	301	176		brtst 4, __NXC_Label_809, __zflocationUpdate
+19	300	179	#line 300 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	301	179		mov __signed_stack_001locationUpdate, I.heading
+19	300	182	#line 300 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	300	182	#line 300 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	301	182		set __D0locationUpdate, 0
+19	300	185	#line 300 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	301	185		cmp 4, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+19	300	189	#line 300 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	301	189		mov __D0locationUpdate, __zflocationUpdate
+19	301	191	#line 301 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	302	191		brtst 4, __NXC_Label_812, __zflocationUpdate
+19	302	194	#line 302 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	303	194		set I.heading, 3
+19	302	197	#line 302 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	302	197	#line 302 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	302	197	#line 302 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	303	197		jmp __NXC_Label_815
+19	303	199	#line 303 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	304	199		sub I.heading, I.heading, __constVal1
+19	303	203	#line 303 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	303	203	#line 303 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	305	203	#line 305 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	306	203		jmp __NXC_Label_816
+19	305	205	#line 305 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	306	205		mov __signed_stack_001locationUpdate, __locationUpdate_7qG2_steering_7qG2_000
+19	305	207	#line 305 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	305	207	#line 305 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	306	207		set __D0locationUpdate, 0
+19	305	210	#line 305 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	306	210		cmp 1, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+19	305	214	#line 305 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	306	214		mov __D0locationUpdate, __zflocationUpdate
+19	306	216	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	307	216		brtst 4, __NXC_Label_819, __zflocationUpdate
+19	306	219	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	307	219		mov __signed_stack_001locationUpdate, I.heading
+19	306	222	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	306	222	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	307	222		set __D0locationUpdate, 3
+19	306	225	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	307	225		cmp 4, __zflocationUpdate, __signed_stack_001locationUpdate, __D0locationUpdate
+19	306	229	#line 306 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	307	229		mov __D0locationUpdate, __zflocationUpdate
+19	307	231	#line 307 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	308	231		brtst 4, __NXC_Label_822, __zflocationUpdate
+19	308	234	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	309	234		set I.heading, 0
+19	308	237	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	308	237	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	308	237	#line 308 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	309	237		jmp __NXC_Label_825
+19	309	239	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	310	239		add I.heading, I.heading, __constVal1
+19	309	243	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	309	243	#line 309 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	313	243	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	313	243	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	313	243	#line 313 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	316	243	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	317	243		set LOCATION, 1
+19	316	246	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	316	246	#line 316 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	317	246	#line 317 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc"
+19	318	246		subret __locationUpdate_return
+20	30	0	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	31	0	#pragma macro 5
+20	31	0		mov __CBTCSArgs.Connection, __CheckConnection_7qG2_commLine_7qG2_000
+20	31	3		syscall 28, __CBTCSArgs
+20	10857	6	#line 10857 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	30	6	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	31	6		not __signed_stack_001CheckConnection, __CBTCSArgs.Result
+20	30	9	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	30	9	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	31	9		set __D0CheckConnection, 0
+20	30	12	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	31	12		cmp 4, __zfCheckConnection, __signed_stack_001CheckConnection, __D0CheckConnection
+20	30	16	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	31	16		mov __D0CheckConnection, __zfCheckConnection
+20	31	19	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	32	19		brtst 4, __NXC_Label_830, __zfCheckConnection
+20	31	22	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	32	22		set __signed_stack_001CheckConnection, 10
+20	31	25	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	31	25	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	32	25		set __signed_stack_002CheckConnection, 32
+20	31	28	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	31	28	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	32	28		strcat __strbufCheckConnection, __constStr0024
+20	32	32	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	32		acquire __TextOutMutex
+20	32	33	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	33		mov __TextOutArgs.Location.X, __signed_stack_001CheckConnection
+20	32	36	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	36		mov __TextOutArgs.Location.Y, __signed_stack_002CheckConnection
+20	32	39	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	39		set __TextOutArgs.Options, 0
+20	32	42	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	42		mov __TextOutArgs.Text, __strbufCheckConnection
+20	32	44	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	44		syscall 13, __TextOutArgs
+20	32	47	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	47		mov __D0CheckConnection, __TextOutArgs.Result
+20	32	50	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	50		release __TextOutMutex
+20	32	51	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	32	51	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	51		set __signed_stack_001CheckConnection, 10
+20	32	54	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	32	54	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	54		set __signed_stack_002CheckConnection, 24
+20	32	57	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	32	57	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	57		strcat __strbufCheckConnection, __constStr0025
+20	33	61	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	61		acquire __TextOutMutex
+20	33	62	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	62		mov __TextOutArgs.Location.X, __signed_stack_001CheckConnection
+20	33	65	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	65		mov __TextOutArgs.Location.Y, __signed_stack_002CheckConnection
+20	33	68	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	68		set __TextOutArgs.Options, 0
+20	33	71	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	71		mov __TextOutArgs.Text, __strbufCheckConnection
+20	33	73	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	73		syscall 13, __TextOutArgs
+20	33	76	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	76		mov __D0CheckConnection, __TextOutArgs.Result
+20	33	79	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	34	79		release __TextOutMutex
+20	33	80	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	80	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	33	80	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	7921	80	#line 7921 "NXCDefs.h"
+20	7922	80		wait 3000
+20	7921	82	#line 7921 "NXCDefs.h"
+20	34	82	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	35	82	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	36	82		set __D0CheckConnection, -1
+20	35	85	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	36	85		subret __CheckConnection_return
+20	35	87	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	36	87	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	37	87	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	38	87		set __D0CheckConnection, 1
+20	37	90	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	38	90		subret __CheckConnection_return
+20	37	92	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	54	92	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+20	55	92		subret __CheckConnection_return
+21	55	0	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+21	56	0	#pragma macro 7
+21	56	0		acquire __MWMutex
+21	56	1		add __MWArgs.QueueID, __constVal3, __constVal10
+21	56	5		mov __SRNTmpVal, __constVal255
+21	56	7		flatten __MWArgs.Message, __SRNTmpVal
+21	56	10		syscall 26, __MWArgs
+21	56	13		release __MWMutex
+21	10970	14	#line 10970 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+21	55	14	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+21	55	14	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+21	68	14	#line 68 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+21	69	14		subret __ack_return
+22	71	0	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	72	0		set __getParameter_7qG2_parameter_7qG2_000, 0
+22	71	3	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	71	3	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	72	3		set __ClearLine_7qG2_line_7qG2_000_inline_getParameter, 40
+22	71	6	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	6076	6	#line 6076 "NXCDefs.h"
+22	6077	6	#pragma macro 7
+22	6077	6		acquire __TextOutMutex
+22	6077	7		mov __TextOutArgs.Location.X, __constVal0
+22	6077	9		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_getParameter
+22	6077	11		mov __TextOutArgs.Options, __constVal0
+22	6077	13		mov __TextOutArgs.Text, __BlankLine
+22	6077	16		syscall 13, __TextOutArgs
+22	6077	19		release __TextOutMutex
+22	10999	20	#line 10999 "NXCDefs.h"
+22	6076	20	#line 6076 "NXCDefs.h"
+22	72	20	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	72	20	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	73	20		set __signed_stack_001getParameter, 0
+22	72	23	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	72	23	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	73	23		set __signed_stack_002getParameter, 40
+22	72	26	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	72	26	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	73	26		strcat __strbufgetParameter, __constStr0026
+22	74	30	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	30		acquire __TextOutMutex
+22	74	31	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	31		mov __TextOutArgs.Location.X, __signed_stack_001getParameter
+22	74	34	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	34		mov __TextOutArgs.Location.Y, __signed_stack_002getParameter
+22	74	37	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	37		set __TextOutArgs.Options, 0
+22	74	40	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	40		mov __TextOutArgs.Text, __strbufgetParameter
+22	74	42	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	42		syscall 13, __TextOutArgs
+22	74	45	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	45		mov __D0getParameter, __TextOutArgs.Result
+22	74	48	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	48		release __TextOutMutex
+22	74	49	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	74	49	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	74	49	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	49		not __D0getParameter, __getParameter_7qG2_parameter_7qG2_000
+22	75	52	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	76	52		tst 5, __zfgetParameter, __D0getParameter
+22	75	55	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	76	55		brtst 4, __NXC_Label_854, __zfgetParameter
+22	75	58	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	76	58	#pragma macro 9
+22	76	58		acquire __MRMutex
+22	76	59		mov __MRArgs.QueueID, __constVal2
+22	76	61		mov __MRArgs.Remove, __constVal1
+22	76	63		set __RRNTmpVal, 0
+22	76	66		syscall 27, __MRArgs
+22	76	69		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+22	76	74		mov __getParameter_7qG2_parameter_7qG2_000, __RRNTmpVal
+22	76	76		mov __D0getParameter, __MRArgs.Result
+22	76	79		release __MRMutex
+22	11045	80	#line 11045 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	80	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	75	80	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	78	80	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	79	80		jmp __NXC_Label_853
+22	78	82	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	78	82	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	79	82		set __ClearLine_7qG2_line_7qG2_000_inline_getParameter, 32
+22	78	85	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	6076	85	#line 6076 "NXCDefs.h"
+22	6077	85	#pragma macro 7
+22	6077	85		acquire __TextOutMutex
+22	6077	86		mov __TextOutArgs.Location.X, __constVal0
+22	6077	88		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_getParameter
+22	6077	90		mov __TextOutArgs.Options, __constVal0
+22	6077	92		mov __TextOutArgs.Text, __BlankLine
+22	6077	95		syscall 13, __TextOutArgs
+22	6077	98		release __TextOutMutex
+22	11059	99	#line 11059 "NXCDefs.h"
+22	6076	99	#line 6076 "NXCDefs.h"
+22	79	99	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	79	99	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	99		set __signed_stack_001getParameter, 0
+22	79	102	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	79	102	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	102		set __signed_stack_002getParameter, 32
+22	79	105	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	79	105	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	105		mov __ArrHelper__getParameter_244_0, __constStr0027
+22	79	107	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	107		mov __D0getParameter, __getParameter_7qG2_parameter_7qG2_000
+22	79	109	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	109		numtostr __strretvalgetParameter, __D0getParameter
+22	79	112	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	112		strcat __strbufgetParameter, __strretvalgetParameter
+22	79	116	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	116		mov __ArrHelper__getParameter_244_1, __strbufgetParameter
+22	79	118	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	80	118		strcat __strbufgetParameter, __ArrHelper__getParameter_244_0, __ArrHelper__getParameter_244_1
+22	80	123	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	123		acquire __TextOutMutex
+22	80	124	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	124		mov __TextOutArgs.Location.X, __signed_stack_001getParameter
+22	80	127	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	127		mov __TextOutArgs.Location.Y, __signed_stack_002getParameter
+22	80	130	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	130		set __TextOutArgs.Options, 0
+22	80	133	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	133		mov __TextOutArgs.Text, __strbufgetParameter
+22	80	135	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	135		syscall 13, __TextOutArgs
+22	80	138	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	138		mov __D0getParameter, __TextOutArgs.Result
+22	80	141	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	141		release __TextOutMutex
+22	80	142	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	81	142	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	82	142		mov __D0getParameter, __getParameter_7qG2_parameter_7qG2_000
+22	81	144	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	82	144		subret __getParameter_return
+22	81	146	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	93	146	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+22	94	146		subret __getParameter_return
+23	6069	0	#line 6069 "NXCDefs.h"
+23	6070	0	#pragma macro 6
+23	6070	0		acquire __PointOutMutex
+23	6070	1		mov __PointOutArgs.Location.X, __constVal200
+23	6070	4		mov __PointOutArgs.Location.Y, __constVal200
+23	6070	7		mov __PointOutArgs.Options, __constVal1
+23	6070	9		syscall 14, __PointOutArgs
+23	6070	12		release __PointOutMutex
+23	11118	13	#line 11118 "NXCDefs.h"
+23	6069	13	#line 6069 "NXCDefs.h"
+23	97	13	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	97	13	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	13		set __textToScreen_7qG2_row_7qG2_000, 40
+23	97	16	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	97	16	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	16		mov __ArrHelper__parseCommand_244_0, __constStr0028
+23	97	18	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	18		mov __D0parseCommand, __parseCommand_7qG2_command_7qG2_000
+23	97	20	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	20		numtostr __strretvalparseCommand, __D0parseCommand
+23	97	23	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	23		strcat __strbufparseCommand, __strretvalparseCommand
+23	97	27	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	27		mov __ArrHelper__parseCommand_244_1, __strbufparseCommand
+23	97	29	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	29		strcat __strbufparseCommand, __ArrHelper__parseCommand_244_0, __ArrHelper__parseCommand_244_1
+23	97	34	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	98	34		mov __textToScreen_7qG2_text_7qG2_000, __strbufparseCommand
+23	99	36	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	100	36		subcall textToScreen, __textToScreen_return
+23	99	39	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	99	39	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	100	39		mov __D0parseCommand, __parseCommand_7qG2_command_7qG2_000
+23	103	41		brcmp 4, __NXC_Label_874, __constVal1, __D0parseCommand
+23	104	45		brcmp 4, __NXC_Label_899, __constVal4, __D0parseCommand
+23	105	49		brcmp 4, __NXC_Label_904, __constVal5, __D0parseCommand
+23	106	53		brcmp 4, __NXC_Label_909, __constVal6, __D0parseCommand
+23	107	57		brcmp 4, __NXC_Label_912, __constVal7, __D0parseCommand
+23	108	61		brcmp 4, __NXC_Label_915, __constVal20, __D0parseCommand
+23	109	65		brcmp 4, __NXC_Label_918, __constVal15, __D0parseCommand
+23	110	69		brcmp 4, __NXC_Label_925, __constVal16, __D0parseCommand
+23	111	73		jmp __NXC_Label_873
+23	104	75	#line 104 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	105	75	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	106	75		subcall getParameter, __getParameter_return
+23	105	78	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	106	78		mov id, __D0getParameter
+23	105	80	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	105	80	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	105	80	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	106	80		set __ClearLine_7qG2_line_7qG2_000_inline_parseCommand, 48
+23	105	83	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	6076	83	#line 6076 "NXCDefs.h"
+23	6077	83	#pragma macro 7
+23	6077	83		acquire __TextOutMutex
+23	6077	84		mov __TextOutArgs.Location.X, __constVal0
+23	6077	86		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_parseCommand
+23	6077	88		mov __TextOutArgs.Options, __constVal0
+23	6077	90		mov __TextOutArgs.Text, __BlankLine
+23	6077	93		syscall 13, __TextOutArgs
+23	6077	96		release __TextOutMutex
+23	11181	97	#line 11181 "NXCDefs.h"
+23	6076	97	#line 6076 "NXCDefs.h"
+23	106	97	#line 106 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	106	97	#line 106 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	107	97		set __ClearLine_7qG2_line_7qG2_000_inline_parseCommand, 40
+23	106	100	#line 106 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	6076	100	#line 6076 "NXCDefs.h"
+23	6077	100	#pragma macro 7
+23	6077	100		acquire __TextOutMutex
+23	6077	101		mov __TextOutArgs.Location.X, __constVal0
+23	6077	103		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_parseCommand
+23	6077	105		mov __TextOutArgs.Options, __constVal0
+23	6077	107		mov __TextOutArgs.Text, __BlankLine
+23	6077	110		syscall 13, __TextOutArgs
+23	6077	113		release __TextOutMutex
+23	11191	114	#line 11191 "NXCDefs.h"
+23	6076	114	#line 6076 "NXCDefs.h"
+23	107	114	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	107	114	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	108	114		set __ClearLine_7qG2_line_7qG2_000_inline_parseCommand, 32
+23	107	117	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	6076	117	#line 6076 "NXCDefs.h"
+23	6077	117	#pragma macro 7
+23	6077	117		acquire __TextOutMutex
+23	6077	118		mov __TextOutArgs.Location.X, __constVal0
+23	6077	120		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_parseCommand
+23	6077	122		mov __TextOutArgs.Options, __constVal0
+23	6077	124		mov __TextOutArgs.Text, __BlankLine
+23	6077	127		syscall 13, __TextOutArgs
+23	6077	130		release __TextOutMutex
+23	11201	131	#line 11201 "NXCDefs.h"
+23	6076	131	#line 6076 "NXCDefs.h"
+23	108	131	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	108	131	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	131		set __signed_stack_001parseCommand, 0
+23	108	134	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	108	134	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	134		set __signed_stack_002parseCommand, 48
+23	108	137	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	108	137	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	137		mov __ArrHelper__parseCommand_244_0, __constStr0029
+23	108	139	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	139		mov __D0parseCommand, id
+23	108	141	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	141		numtostr __strretvalparseCommand, __D0parseCommand
+23	108	144	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	144		strcat __strbufparseCommand, __strretvalparseCommand
+23	108	148	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	148		mov __ArrHelper__parseCommand_244_1, __strbufparseCommand
+23	108	150	#line 108 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	150		strcat __strbufparseCommand, __ArrHelper__parseCommand_244_0, __ArrHelper__parseCommand_244_1
+23	109	155	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	155		acquire __TextOutMutex
+23	109	156	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	156		mov __TextOutArgs.Location.X, __signed_stack_001parseCommand
+23	109	159	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	159		mov __TextOutArgs.Location.Y, __signed_stack_002parseCommand
+23	109	162	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	162		set __TextOutArgs.Options, 0
+23	109	165	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	165		mov __TextOutArgs.Text, __strbufparseCommand
+23	109	167	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	167		syscall 13, __TextOutArgs
+23	109	170	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	170		mov __D0parseCommand, __TextOutArgs.Result
+23	109	173	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	173		release __TextOutMutex
+23	109	174	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	109	174	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	110	174		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 150
+23	109	177	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	177	#line 7921 "NXCDefs.h"
+23	7922	177		wait 150
+23	7921	179	#line 7921 "NXCDefs.h"
+23	110	179	#line 110 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	111	179	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	112	179		subcall ack, __ack_return
+23	111	182	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	111	182	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	112	182		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 1000
+23	111	185	#line 111 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	185	#line 7921 "NXCDefs.h"
+23	7922	185		wait 1000
+23	7921	187	#line 7921 "NXCDefs.h"
+23	112	187	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	6069	187	#line 6069 "NXCDefs.h"
+23	6070	187	#pragma macro 6
+23	6070	187		acquire __PointOutMutex
+23	6070	188		mov __PointOutArgs.Location.X, __constVal200
+23	6070	191		mov __PointOutArgs.Location.Y, __constVal200
+23	6070	194		mov __PointOutArgs.Options, __constVal1
+23	6070	196		syscall 14, __PointOutArgs
+23	6070	199		release __PointOutMutex
+23	11275	200	#line 11275 "NXCDefs.h"
+23	6069	200	#line 6069 "NXCDefs.h"
+23	113	200	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	113	200	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	200		set __signed_stack_001parseCommand, 0
+23	113	203	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	113	203	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	203		set __signed_stack_002parseCommand, 48
+23	113	206	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	113	206	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	206		mov __ArrHelper__parseCommand_244_0, __constStr0030
+23	113	208	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	208		mov __D0parseCommand, id
+23	113	210	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	210		numtostr __strretvalparseCommand, __D0parseCommand
+23	113	213	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	213		strcat __strbufparseCommand, __strretvalparseCommand
+23	113	217	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	217		mov __ArrHelper__parseCommand_244_1, __strbufparseCommand
+23	113	219	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	114	219		strcat __strbufparseCommand, __ArrHelper__parseCommand_244_0, __ArrHelper__parseCommand_244_1
+23	114	224	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	224		acquire __TextOutMutex
+23	114	225	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	225		mov __TextOutArgs.Location.X, __signed_stack_001parseCommand
+23	114	228	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	228		mov __TextOutArgs.Location.Y, __signed_stack_002parseCommand
+23	114	231	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	231		set __TextOutArgs.Options, 0
+23	114	234	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	234		mov __TextOutArgs.Text, __strbufparseCommand
+23	114	236	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	236		syscall 13, __TextOutArgs
+23	114	239	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	239		mov __D0parseCommand, __TextOutArgs.Result
+23	114	242	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	242		release __TextOutMutex
+23	114	243	#line 114 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	115	243	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	116	243		jmp __NXC_Label_873
+23	115	245	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	119	245	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	119	245	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	120	245		subcall getParameter, __getParameter_return
+23	119	248	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	120	248		mov __forwardCm_7qG2_cm_7qG2_000, __D0getParameter
+23	119	250	#line 119 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	120	250	#line 120 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	121	250		subcall forwardCm, __forwardCm_return
+23	120	253	#line 120 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	120	253	#line 120 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	121	253		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 300
+23	120	256	#line 120 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	256	#line 7921 "NXCDefs.h"
+23	7922	256		wait 300
+23	7921	258	#line 7921 "NXCDefs.h"
+23	121	258	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	122	258	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	123	258		subcall ack, __ack_return
+23	122	261	#line 122 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	123	261	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	124	261		jmp __NXC_Label_873
+23	123	263	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	126	263	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	126	263	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	127	263		subcall getParameter, __getParameter_return
+23	126	266	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	127	266		mov __backwardsCm_7qG2_cm_7qG2_000, __D0getParameter
+23	126	268	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	127	268	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	128	268		subcall backwardsCm, __backwardsCm_return
+23	127	270	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	127	270	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	128	270		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 300
+23	127	273	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	273	#line 7921 "NXCDefs.h"
+23	7922	273		wait 300
+23	7921	275	#line 7921 "NXCDefs.h"
+23	128	275	#line 128 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	129	275	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	130	275		subcall ack, __ack_return
+23	129	278	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	130	278	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	131	278		jmp __NXC_Label_873
+23	130	280	#line 130 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	133	280	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	134	280	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	135	280		subcall turnLeft, __turnLeft_return
+23	134	283	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	134	283	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	135	283		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 300
+23	134	286	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	286	#line 7921 "NXCDefs.h"
+23	7922	286		wait 300
+23	7921	288	#line 7921 "NXCDefs.h"
+23	135	288	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	136	288	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	137	288		subcall ack, __ack_return
+23	136	291	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	137	291	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	138	291		jmp __NXC_Label_873
+23	137	293	#line 137 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	140	293	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	141	293	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	142	293		subcall turnRight, __turnRight_return
+23	141	295	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	141	295	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	142	295		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 300
+23	141	298	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	298	#line 7921 "NXCDefs.h"
+23	7922	298		wait 300
+23	7921	300	#line 7921 "NXCDefs.h"
+23	142	300	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	143	300	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	144	300		subcall ack, __ack_return
+23	143	303	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	144	303	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	145	303		jmp __NXC_Label_873
+23	144	305	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	147	305	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	148	305	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	149	305		subcall whereAmI, __whereAmI_return
+23	148	308	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	148	308	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	149	308		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 300
+23	148	311	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	311	#line 7921 "NXCDefs.h"
+23	7922	311		wait 300
+23	7921	313	#line 7921 "NXCDefs.h"
+23	149	313	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	150	313	#line 150 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	151	313		subcall ack, __ack_return
+23	150	316	#line 150 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	151	316	#line 151 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	152	316		jmp __NXC_Label_873
+23	151	318	#line 151 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	154	318	#line 154 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	154	318	#line 154 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	155	318		set __Wait_7qG2_ms_7qG2_000_inline_parseCommand, 300
+23	154	321	#line 154 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	7921	321	#line 7921 "NXCDefs.h"
+23	7922	321		wait 300
+23	7921	323	#line 7921 "NXCDefs.h"
+23	155	323	#line 155 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	157	323	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	158	323		subcall ack, __ack_return
+23	157	326	#line 157 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	6069	326	#line 6069 "NXCDefs.h"
+23	6070	326	#pragma macro 6
+23	6070	326		acquire __PointOutMutex
+23	6070	327		mov __PointOutArgs.Location.X, __constVal200
+23	6070	330		mov __PointOutArgs.Location.Y, __constVal200
+23	6070	333		mov __PointOutArgs.Options, __constVal1
+23	6070	335		syscall 14, __PointOutArgs
+23	6070	338		release __PointOutMutex
+23	11461	339	#line 11461 "NXCDefs.h"
+23	6069	339	#line 6069 "NXCDefs.h"
+23	158	339	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	158	339	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	159	339		set __signed_stack_001parseCommand, 0
+23	158	342	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	158	342	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	159	342		set __signed_stack_002parseCommand, 56
+23	158	345	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	158	345	#line 158 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	159	345		strcat __strbufparseCommand, __constStr0031
+23	161	349	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	349		acquire __TextOutMutex
+23	161	350	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	350		mov __TextOutArgs.Location.X, __signed_stack_001parseCommand
+23	161	353	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	353		mov __TextOutArgs.Location.Y, __signed_stack_002parseCommand
+23	161	356	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	356		set __TextOutArgs.Options, 0
+23	161	359	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	359		mov __TextOutArgs.Text, __strbufparseCommand
+23	161	361	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	361		syscall 13, __TextOutArgs
+23	161	364	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	364		mov __D0parseCommand, __TextOutArgs.Result
+23	161	367	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	367		release __TextOutMutex
+23	161	368	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	162	368	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	163	368		start beginSearch
+23	162	370	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	163	370	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	164	370		jmp __NXC_Label_873
+23	163	372	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	166	372	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	167	372	#line 167 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	168	372	#pragma macro 7
+23	168	372		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+23	11504	395	#line 11504 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	167	395	#line 167 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	6069	395	#line 6069 "NXCDefs.h"
+23	6070	395	#pragma macro 6
+23	6070	395		acquire __PointOutMutex
+23	6070	396		mov __PointOutArgs.Location.X, __constVal200
+23	6070	399		mov __PointOutArgs.Location.Y, __constVal200
+23	6070	402		mov __PointOutArgs.Options, __constVal1
+23	6070	404		syscall 14, __PointOutArgs
+23	6070	407		release __PointOutMutex
+23	11507	408	#line 11507 "NXCDefs.h"
+23	6069	408	#line 6069 "NXCDefs.h"
+23	168	408	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	168	408	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	169	408		set __signed_stack_001parseCommand, 0
+23	168	411	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	168	411	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	169	411		set __signed_stack_002parseCommand, 56
+23	168	414	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	168	414	#line 168 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	169	414		strcat __strbufparseCommand, __constStr0032
+23	169	418	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	418		acquire __TextOutMutex
+23	169	419	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	419		mov __TextOutArgs.Location.X, __signed_stack_001parseCommand
+23	169	422	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	422		mov __TextOutArgs.Location.Y, __signed_stack_002parseCommand
+23	169	425	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	425		set __TextOutArgs.Options, 0
+23	169	428	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	428		mov __TextOutArgs.Text, __strbufparseCommand
+23	169	430	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	430		syscall 13, __TextOutArgs
+23	169	433	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	433		mov __D0parseCommand, __TextOutArgs.Result
+23	169	436	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	436		release __TextOutMutex
+23	169	437	#line 169 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	170	437	#line 170 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	171	437		stopthread sensorPoller
+23	170	439	#line 170 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	172	439	#line 172 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	173	439		stopthread searchPattern
+23	172	441	#line 172 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	173	441	#line 173 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	174	441		subcall ack, __ack_return
+23	173	444	#line 173 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	174	444	#line 174 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	174	444	#line 174 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	188	444	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	188	444	#line 188 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+23	189	444		subret __parseCommand_return
+24	191	0	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	192	0		subcall SetUpConnection, __SetUpConnection_return
+24	191	2	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	191	2	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	192	2		set __Wait_7qG2_ms_7qG2_000_inline_slaveProtocolHandler, 300
+24	191	5	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	7921	5	#line 7921 "NXCDefs.h"
+24	7922	5		wait 300
+24	7921	7	#line 7921 "NXCDefs.h"
+24	193	7	#line 193 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	195	7	#line 195 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	196	7		set __slaveProtocolHandler_7qG2_command_7qG2_000, 0
+24	195	10	#line 195 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	6069	10	#line 6069 "NXCDefs.h"
+24	6070	10	#pragma macro 6
+24	6070	10		acquire __PointOutMutex
+24	6070	11		mov __PointOutArgs.Location.X, __constVal200
+24	6070	14		mov __PointOutArgs.Location.Y, __constVal200
+24	6070	17		mov __PointOutArgs.Options, __constVal1
+24	6070	19		syscall 14, __PointOutArgs
+24	6070	22		release __PointOutMutex
+24	11588	23	#line 11588 "NXCDefs.h"
+24	6069	23	#line 6069 "NXCDefs.h"
+24	196	23	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	196	23	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	197	23		set __textToScreen_7qG2_row_7qG2_000, 56
+24	196	26	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	196	26	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	197	26		strcat __strbufslaveProtocolHandler, __constStr0033
+24	196	30	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	197	30		mov __textToScreen_7qG2_text_7qG2_000, __strbufslaveProtocolHandler
+24	198	32	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	199	32		subcall textToScreen, __textToScreen_return
+24	198	35	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	198	35	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	199	35		set __D0slaveProtocolHandler, 1
+24	200	38	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	201	38		tst 5, __zfslaveProtocolHandler, __D0slaveProtocolHandler
+24	200	41	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	201	41		brtst 4, __NXC_Label_937, __zfslaveProtocolHandler
+24	200	44	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	201	44		set __Wait_7qG2_ms_7qG2_000_inline_slaveProtocolHandler, 200
+24	200	47	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	7921	47	#line 7921 "NXCDefs.h"
+24	7922	47		wait 200
+24	7921	49	#line 7921 "NXCDefs.h"
+24	202	49	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	202	49	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	203	49	#pragma macro 9
+24	203	49		acquire __MRMutex
+24	203	50		mov __MRArgs.QueueID, __constVal1
+24	203	52		mov __MRArgs.Remove, __constVal1
+24	203	54		set __RRNTmpVal, 0
+24	203	57		syscall 27, __MRArgs
+24	203	60		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+24	203	65		mov __slaveProtocolHandler_7qG2_command_7qG2_000, __RRNTmpVal
+24	203	67		mov __D0slaveProtocolHandler, __MRArgs.Result
+24	203	70		release __MRMutex
+24	11624	71	#line 11624 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	202	71	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	202	71	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	203	71	#line 203 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	204	71		mov __signed_stack_001slaveProtocolHandler, __slaveProtocolHandler_7qG2_command_7qG2_000
+24	203	73	#line 203 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	203	73	#line 203 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	204	73		set __D0slaveProtocolHandler, 0
+24	203	76	#line 203 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	204	76		cmp 5, __zfslaveProtocolHandler, __signed_stack_001slaveProtocolHandler, __D0slaveProtocolHandler
+24	203	80	#line 203 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	204	80		mov __D0slaveProtocolHandler, __zfslaveProtocolHandler
+24	204	82	#line 204 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	205	82		brtst 4, __NXC_Label_944, __zfslaveProtocolHandler
+24	6069	85	#line 6069 "NXCDefs.h"
+24	6070	85	#pragma macro 6
+24	6070	85		acquire __PointOutMutex
+24	6070	86		mov __PointOutArgs.Location.X, __constVal200
+24	6070	89		mov __PointOutArgs.Location.Y, __constVal200
+24	6070	92		mov __PointOutArgs.Options, __constVal1
+24	6070	94		syscall 14, __PointOutArgs
+24	6070	97		release __PointOutMutex
+24	11642	98	#line 11642 "NXCDefs.h"
+24	6069	98	#line 6069 "NXCDefs.h"
+24	205	98	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	205	98	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	206	98		set __textToScreen_7qG2_row_7qG2_000, 48
+24	205	101	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	205	101	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	206	101		strcat __strbufslaveProtocolHandler, __constStr0034
+24	205	105	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	206	105		mov __textToScreen_7qG2_text_7qG2_000, __strbufslaveProtocolHandler
+24	206	107	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	107		subcall textToScreen, __textToScreen_return
+24	206	110	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	206	110	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	110		set __textToScreen_7qG2_row_7qG2_000, 40
+24	206	113	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	206	113	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	113		mov __ArrHelper__slaveProtocolHandler_244_0, __constStr0035
+24	206	115	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	115		mov __D0slaveProtocolHandler, __slaveProtocolHandler_7qG2_command_7qG2_000
+24	206	117	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	117		numtostr __strretvalslaveProtocolHandler, __D0slaveProtocolHandler
+24	206	120	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	120		strcat __strbufslaveProtocolHandler, __strretvalslaveProtocolHandler
+24	206	124	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	124		mov __ArrHelper__slaveProtocolHandler_244_1, __strbufslaveProtocolHandler
+24	206	127	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	127		strcat __strbufslaveProtocolHandler, __ArrHelper__slaveProtocolHandler_244_0, __ArrHelper__slaveProtocolHandler_244_1
+24	206	132	#line 206 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	132		mov __textToScreen_7qG2_text_7qG2_000, __strbufslaveProtocolHandler
+24	207	134	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	208	134		subcall textToScreen, __textToScreen_return
+24	207	137	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	207	137	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	208	137		set __Wait_7qG2_ms_7qG2_000_inline_slaveProtocolHandler, 250
+24	207	140	#line 207 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	7921	140	#line 7921 "NXCDefs.h"
+24	7922	140		wait 250
+24	7921	142	#line 7921 "NXCDefs.h"
+24	208	142	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	208	142	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	209	142		mov __parseCommand_7qG2_command_7qG2_000, __slaveProtocolHandler_7qG2_command_7qG2_000
+24	208	144	#line 208 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	209	144	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	210	144		subcall parseCommand, __parseCommand_return
+24	209	147	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	210	147		mov __D0slaveProtocolHandler, __D0parseCommand
+24	209	149	#line 209 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	211	149	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	211	149	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	212	149		mov __DU0slaveProtocolHandler, LOCATION
+24	211	151	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	212	151		tst 5, __zfslaveProtocolHandler, __DU0slaveProtocolHandler
+24	211	154	#line 211 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	212	154		brtst 4, __NXC_Label_957, __zfslaveProtocolHandler
+24	212	157	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	213	157		subcall whereAmI, __whereAmI_return
+24	212	160	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	212	160	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	212	160	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	213	160		set __Wait_7qG2_ms_7qG2_000_inline_slaveProtocolHandler, 120
+24	212	163	#line 212 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	7921	163	#line 7921 "NXCDefs.h"
+24	7922	163		wait 120
+24	7921	165	#line 7921 "NXCDefs.h"
+24	213	165	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	213	165	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	214	165		mov __DU0slaveProtocolHandler, FOUND
+24	213	167	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	214	167		tst 5, __zfslaveProtocolHandler, __DU0slaveProtocolHandler
+24	213	170	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	214	170		brtst 4, __NXC_Label_962, __zfslaveProtocolHandler
+24	213	173	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	214	173	#pragma macro 7
+24	214	173		acquire __MWMutex
+24	214	174		add __MWArgs.QueueID, __constVal16, __constVal10
+24	214	178		mov __SRNTmpVal, __constVal2
+24	214	181		flatten __MWArgs.Message, __SRNTmpVal
+24	214	184		syscall 26, __MWArgs
+24	214	187		mov __D0slaveProtocolHandler, __MWArgs.Result
+24	214	190		release __MWMutex
+24	11738	191	#line 11738 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	213	191	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	213	191	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	213	191	#line 213 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	225	191	#line 225 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	226	191		jmp __NXC_Label_936
+24	225	193	#line 225 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+24	226	193		exit -1, -1
+25	230	0	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	0		set __SendLocation_7qG2_queue_7qG2_000, 0
+25	230	3	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	230	3	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	3		set __signed_stack_001SendLocation, 2
+25	230	6	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	230	6	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	6		set __D0SendLocation, 1
+25	230	9	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	9		cmp 4, __zfSendLocation, __signed_stack_001SendLocation, __D0SendLocation
+25	230	13	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	13		mov __D0SendLocation, __zfSendLocation
+25	230	15	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	15		brtst 4, __NXC_Label_967, __zfSendLocation
+25	230	18	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	18		set __SendLocation_7qG2_queue_7qG2_000, 4
+25	230	21	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	230	21	#line 230 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	21	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	232	21		jmp __NXC_Label_970
+25	231	23	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	232	23		set __signed_stack_001SendLocation, 2
+25	231	26	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	26	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	232	26		set __D0SendLocation, 2
+25	231	29	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	232	29		cmp 4, __zfSendLocation, __signed_stack_001SendLocation, __D0SendLocation
+25	231	33	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	232	33		mov __D0SendLocation, __zfSendLocation
+25	231	35	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	232	35		brtst 4, __NXC_Label_973, __zfSendLocation
+25	231	38	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	232	38		set __SendLocation_7qG2_queue_7qG2_000, 5
+25	231	41	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	231	41	#line 231 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	234	41	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	234	41	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	234	41	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	235	41		set __Wait_7qG2_ms_7qG2_000_inline_SendLocation, 200
+25	234	44	#line 234 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	7921	44	#line 7921 "NXCDefs.h"
+25	7922	44		wait 200
+25	7921	46	#line 7921 "NXCDefs.h"
+25	235	46	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	235	46	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	236	46		set __ClearLine_7qG2_line_7qG2_000_inline_SendLocation, 56
+25	235	49	#line 235 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	6076	49	#line 6076 "NXCDefs.h"
+25	6077	49	#pragma macro 7
+25	6077	49		acquire __TextOutMutex
+25	6077	50		mov __TextOutArgs.Location.X, __constVal0
+25	6077	52		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_SendLocation
+25	6077	54		mov __TextOutArgs.Options, __constVal0
+25	6077	56		mov __TextOutArgs.Text, __BlankLine
+25	6077	59		syscall 13, __TextOutArgs
+25	6077	62		release __TextOutMutex
+25	11834	63	#line 11834 "NXCDefs.h"
+25	6076	63	#line 6076 "NXCDefs.h"
+25	236	63	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	236	63	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	63		set __signed_stack_001SendLocation, 0
+25	236	66	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	236	66	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	66		set __signed_stack_002SendLocation, 56
+25	236	69	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	236	69	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	69		mov __D0SendLocation, __SendLocation_7qG2_queue_7qG2_000
+25	236	71	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	71		numtostr __strretvalSendLocation, __D0SendLocation
+25	236	74	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	74		mov __ArrHelper__SendLocation_244_0, __strretvalSendLocation
+25	236	76	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	76		mov __ArrHelper__SendLocation_244_1, __constStr0036
+25	236	78	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	78		strcat __strbufSendLocation, __SendLocation_7qG2_location_7qG2_000
+25	236	82	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	82		mov __ArrHelper__SendLocation_244_2, __strbufSendLocation
+25	236	84	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	84		strcat __strbufSendLocation, __ArrHelper__SendLocation_244_1, __ArrHelper__SendLocation_244_2
+25	236	89	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	89		mov __ArrHelper__SendLocation_244_1, __strbufSendLocation
+25	236	91	#line 236 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	91		strcat __strbufSendLocation, __ArrHelper__SendLocation_244_0, __ArrHelper__SendLocation_244_1
+25	237	96	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	96		acquire __TextOutMutex
+25	237	97	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	97		mov __TextOutArgs.Location.X, __signed_stack_001SendLocation
+25	237	100	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	100		mov __TextOutArgs.Location.Y, __signed_stack_002SendLocation
+25	237	103	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	103		set __TextOutArgs.Options, 0
+25	237	106	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	106		mov __TextOutArgs.Text, __strbufSendLocation
+25	237	108	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	108		syscall 13, __TextOutArgs
+25	237	111	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	111		mov __D0SendLocation, __TextOutArgs.Result
+25	237	114	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	114		release __TextOutMutex
+25	237	115	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	115	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	115	#pragma macro 6
+25	238	115		acquire __MWMutex
+25	238	116		add __MWArgs.QueueID, __SendLocation_7qG2_queue_7qG2_000, __constVal10
+25	238	120		mov __MWArgs.Message, __SendLocation_7qG2_location_7qG2_000
+25	238	122		syscall 26, __MWArgs
+25	238	125		mov __D0SendLocation, __MWArgs.Result
+25	238	128		release __MWMutex
+25	11887	129	#line 11887 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	129	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	237	129	#line 237 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	238	129	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	239	129		set __Wait_7qG2_ms_7qG2_000_inline_SendLocation, 150
+25	238	132	#line 238 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	7921	132	#line 7921 "NXCDefs.h"
+25	7922	132		wait 150
+25	7921	134	#line 7921 "NXCDefs.h"
+25	239	134	#line 239 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	240	134	#line 240 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	241	134		set LOCATION, 0
+25	240	137	#line 240 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	240	137	#line 240 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	242	137	#line 242 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc"
+25	243	137		subret __SendLocation_return
+26	30	0	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	31	0		set __searchPattern_7qG2_multiplier_7qG2_000, 1
+26	30	3	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	32	3	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	33	3		set __searchPattern_7qG2_distance_7qG2_000, 10
+26	32	6	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	32	6	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	32	6	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	33	6		not __DU0searchPattern, FOUND
+26	32	9	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	33	9		tst 5, __zfsearchPattern, __DU0searchPattern
+26	32	12	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	33	12		brtst 4, __NXC_Label_995, __zfsearchPattern
+26	32	15	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	33	15		jmp __NXC_Label_996
+26	32	17	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	32	17	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	32	17	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	32	17	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	33	17		add __searchPattern_7qG2_multiplier_7qG2_000, __searchPattern_7qG2_multiplier_7qG2_000, __constVal2
+26	32	21	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	34	21	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	21		jmp __NXC_Label_994
+26	34	23	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	23		set __searchPattern_7qG2_i_7qG2_003, 0
+26	34	26	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	34	26	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	26		mov __signed_stack_001searchPattern, __searchPattern_7qG2_i_7qG2_003
+26	34	28	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	34	28	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	28		mov __D0searchPattern, __searchPattern_7qG2_multiplier_7qG2_000
+26	34	30	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	30		cmp 0, __zfsearchPattern, __signed_stack_001searchPattern, __D0searchPattern
+26	34	34	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	34		mov __D0searchPattern, __zfsearchPattern
+26	34	36	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	36		brtst 4, __NXC_Label_1003, __zfsearchPattern
+26	34	39	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	39		jmp __NXC_Label_1004
+26	34	41	#line 34 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	35	41		add __searchPattern_7qG2_i_7qG2_003, __searchPattern_7qG2_i_7qG2_003, __constVal1
+26	36	45	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	37	45		jmp __NXC_Label_1002
+26	36	47	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	37	47		set __Wait_7qG2_ms_7qG2_000_inline_searchPattern, 150
+26	36	50	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	7921	50	#line 7921 "NXCDefs.h"
+26	7922	50		wait 150
+26	7921	52	#line 7921 "NXCDefs.h"
+26	37	52	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	37	52	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	52		set __searchPattern_7qG2_times_7qG2_005, 0
+26	37	55	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	37	55	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	55		mov __signed_stack_001searchPattern, __searchPattern_7qG2_times_7qG2_005
+26	37	57	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	37	57	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	57		mov __D0searchPattern, __searchPattern_7qG2_multiplier_7qG2_000
+26	37	59	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	59		cmp 0, __zfsearchPattern, __signed_stack_001searchPattern, __D0searchPattern
+26	37	63	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	63		mov __D0searchPattern, __zfsearchPattern
+26	37	65	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	65		brtst 4, __NXC_Label_1013, __zfsearchPattern
+26	37	68	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	68		jmp __NXC_Label_1014
+26	37	70	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	38	70		add __searchPattern_7qG2_times_7qG2_005, __searchPattern_7qG2_times_7qG2_005, __constVal1
+26	38	74	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	39	74		jmp __NXC_Label_1012
+26	38	76	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	39	76		mov __forwardCm_7qG2_cm_7qG2_000, __searchPattern_7qG2_distance_7qG2_000
+26	38	78	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	39	78	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	40	78		subcall forwardCm, __forwardCm_return
+26	39	81	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	39	81	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	40	81		set __Wait_7qG2_ms_7qG2_000_inline_searchPattern, 150
+26	39	84	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	7921	84	#line 7921 "NXCDefs.h"
+26	7922	84		wait 150
+26	7921	86	#line 7921 "NXCDefs.h"
+26	40	86	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	41	86	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	42	86	#pragma macro 7
+26	42	86		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+26	12065	109	#line 12065 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	41	109	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	41	109	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	42	109		set __Wait_7qG2_ms_7qG2_000_inline_searchPattern, 150
+26	41	112	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	7921	112	#line 7921 "NXCDefs.h"
+26	7922	112		wait 150
+26	7921	114	#line 7921 "NXCDefs.h"
+26	42	114	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	47	114	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	48	114		jmp __NXC_Label_1015
+26	47	116	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	47	116	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	48	116		set __Wait_7qG2_ms_7qG2_000_inline_searchPattern, 200
+26	47	119	#line 47 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	7921	119	#line 7921 "NXCDefs.h"
+26	7922	119		wait 200
+26	7921	121	#line 7921 "NXCDefs.h"
+26	48	121	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	49	121	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	50	121		subcall turnRight, __turnRight_return
+26	49	123	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	49	123	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	50	123		set __Wait_7qG2_ms_7qG2_000_inline_searchPattern, 180
+26	49	126	#line 49 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	7921	126	#line 7921 "NXCDefs.h"
+26	7922	126		wait 180
+26	7921	128	#line 7921 "NXCDefs.h"
+26	50	128	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	52	128	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	53	128	#pragma macro 7
+26	53	128		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+26	12105	151	#line 12105 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	52	151	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	52	151	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	53	151		set __Wait_7qG2_ms_7qG2_000_inline_searchPattern, 100
+26	52	154	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	7921	154	#line 7921 "NXCDefs.h"
+26	7922	154		wait 100
+26	7921	156	#line 7921 "NXCDefs.h"
+26	53	156	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	56	156	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	57	156		jmp __NXC_Label_1005
+26	56	158	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	69	158	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	70	158		jmp __NXC_Label_997
+26	69	160	#line 69 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+26	70	160		exit -1, -1
+27	71	0	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	72	0		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 300
+27	71	3	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	7921	3	#line 7921 "NXCDefs.h"
+27	7922	3		wait 300
+27	7921	5	#line 7921 "NXCDefs.h"
+27	72	5	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	73	5	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	74	5		set LOCATION, 1
+27	73	8	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	73	8	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	74	8	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	75	8		subcall lowerTheBridge, __lowerTheBridge_return
+27	74	11	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	74	11	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	75	11		set __Wait_7qG2_ms_7qG2_000_inline_GapFound, 300
+27	74	14	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	7921	14	#line 7921 "NXCDefs.h"
+27	7922	14		wait 300
+27	7921	16	#line 7921 "NXCDefs.h"
+27	75	16	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	88	16	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+27	89	16		subret __GapFound_return
+28	90	0	#line 90 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	91	0		set __sensorPoller_7qG2_sensorValue_7qG2_000, 0
+28	90	3	#line 90 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	90	3	#line 90 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	91	3		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller, 1
+28	90	6	#line 90 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	92	6	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	93	6		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorPoller, __constVal1
+28	3758	8	#line 3758 "NXCDefs.h"
+28	3759	8		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller
+28	3758	10	#line 3758 "NXCDefs.h"
+28	3758	10	#line 3758 "NXCDefs.h"
+28	3759	10		mov __DU0SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_sensorPoller
+28	3758	12	#line 3758 "NXCDefs.h"
+28	3759	12		tst 5, __zfSetSensorLowspeed_inline_sensorPoller, __DU0SetSensorLowspeed_inline_sensorPoller
+28	3758	15	#line 3758 "NXCDefs.h"
+28	3759	15		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_sensorPoller
+28	3758	18	#line 3758 "NXCDefs.h"
+28	3759	18		set __D0SetSensorLowspeed_inline_sensorPoller, 11
+28	3758	21	#line 3758 "NXCDefs.h"
+28	3759	21		jmp __004__NXC_Label_37
+28	3758	23	#line 3758 "NXCDefs.h"
+28	3759	23		set __D0SetSensorLowspeed_inline_sensorPoller, 10
+28	3758	26	#line 3758 "NXCDefs.h"
+28	3759	26		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __D0SetSensorLowspeed_inline_sensorPoller
+28	3663	28	#line 3663 "NXCDefs.h"
+28	3664	28		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, 0
+28	3663	32	#line 3663 "NXCDefs.h"
+28	3759	32	#line 3759 "NXCDefs.h"
+28	3759	32	#line 3759 "NXCDefs.h"
+28	3760	32		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller
+28	3759	34	#line 3759 "NXCDefs.h"
+28	3759	34	#line 3759 "NXCDefs.h"
+28	3760	34		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, 0
+28	3759	37	#line 3759 "NXCDefs.h"
+28	3676	37	#line 3676 "NXCDefs.h"
+28	3677	37		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, 1
+28	3676	41	#line 3676 "NXCDefs.h"
+28	3760	41	#line 3760 "NXCDefs.h"
+28	3760	41	#line 3760 "NXCDefs.h"
+28	3761	41		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_sensorPoller
+28	3760	43	#line 3760 "NXCDefs.h"
+28	3694	43	#line 3694 "NXCDefs.h"
+28	3695	43	#pragma macro 4
+28	3695	43		acquire __ResetSensorMutex
+28	3695	44		mov __ResetSensorPort, __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_sensorPoller
+28	3695	47		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+28	3695	50		release __ResetSensorMutex
+28	12268	51	#line 12268 "NXCDefs.h"
+28	3694	51	#line 3694 "NXCDefs.h"
+28	3761	51	#line 3761 "NXCDefs.h"
+28	92	51	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	92	51	#line 92 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	93	51		set __D0sensorPoller, 1
+28	93	54	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	94	54		tst 5, __zfsensorPoller, __D0sensorPoller
+28	93	57	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	94	57		brtst 4, __NXC_Label_1043, __zfsensorPoller
+28	93	60	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	94	60	#pragma macro 26
+28	94	60		acquire __RLSBmutex1
+28	94	61		mov __RLSReadBuf1, __RLSBbufLSWrite1
+28	94	63		set __RLSBytesCount1, 1
+28	94	66		wait 15
+28	94	68		subcall __ReadLSBytes1, ____ReadLSBytes1_return
+28	94	71		index __D0sensorPoller, __RLSReadBuf1, 65535
+28	94	75		release __RLSBmutex1
+28	12282	76	#line 12282 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	93	76	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	94	76		mov __sensorPoller_7qG2_sensorValue_7qG2_000, __D0sensorPoller
+28	93	78	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	93	78	#line 93 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	94	78	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	95	78		mov __unsigned_stack_001sensorPoller, __D0sensorPoller
+28	94	80	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	94	80	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	95	80		set __D0sensorPoller, 15
+28	94	83	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	95	83		cmp 1, __zfsensorPoller, __unsigned_stack_001sensorPoller, __D0sensorPoller
+28	94	87	#line 94 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	95	87		mov __D0sensorPoller, __zfsensorPoller
+28	96	89	#line 96 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	97	89		brtst 4, __NXC_Label_1050, __zfsensorPoller
+28	97	92	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	98	92	#pragma macro 7
+28	98	92		setout __OUT_ABC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+28	12304	115	#line 12304 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	97	115	#line 97 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	98	115	#line 98 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	99	115		set FOUND, 1
+28	98	118	#line 98 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	98	118	#line 98 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	99	118	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	100	118		stopthread searchPattern
+28	99	120	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	102	120	#line 102 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	103	120		subcall GapFound, __GapFound_return
+28	102	122	#line 102 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	104	122	#line 104 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	118	122	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	119	122		jmp __NXC_Label_1042
+28	118	124	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+28	119	124		exit -1, -1
+29	124	0	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+29	124	0	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc"
+29	125	0		exit 0, 1
+30	28	0	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	29	0		arrinit I.positionRelative, __constVal0, __constVal2
+30	28	4	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	28	4	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	30	4	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	31	4		arrinit I.positionOwn, __constVal0, __constVal2
+30	30	8	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	30	8	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	35	8	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	36	8		set I.heading, 0
+30	35	11	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	35	11	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	35	11	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	36	11		set __signed_stack_001FormatPosition, 2
+30	35	14	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	35	14	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	36	14		set __D0FormatPosition, 1
+30	35	17	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	36	17		cmp 4, __zfFormatPosition, __signed_stack_001FormatPosition, __D0FormatPosition
+30	35	21	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	36	21		mov __D0FormatPosition, __zfFormatPosition
+30	36	24	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	37	24		brtst 4, __NXC_Label_1057, __zfFormatPosition
+30	36	27	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	37	27		set __signed_stack_001FormatPosition, 0
+30	36	30	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	37	30	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	38	30		set __D0FormatPosition, -10
+30	37	33	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	38	33		replace I.positionOwn, I.positionOwn, __signed_stack_001FormatPosition, __D0FormatPosition
+30	37	38	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	38	38	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	39	38		jmp __NXC_Label_1062
+30	38	40	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	39	40		set __signed_stack_001FormatPosition, 0
+30	38	43	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	39	43	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	40	43		set __D0FormatPosition, 10
+30	39	46	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	40	46		replace I.positionOwn, I.positionOwn, __signed_stack_001FormatPosition, __D0FormatPosition
+30	39	51	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	40	51	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	41	51		set I.heading, 2
+30	40	54	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	40	54	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	51	54	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	51	54	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+30	52	54		subret __FormatPosition_return
+31	53	0	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	0		set __SetUpConnection_7qG2_tries_7qG2_000, 0
+31	53	3	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	53	3	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	3		mov __signed_stack_001SetUpConnection, __SetUpConnection_7qG2_tries_7qG2_000
+31	53	5	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	53	5	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	5		set __D0SetUpConnection, 5
+31	53	8	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	8		cmp 0, __zfSetUpConnection, __signed_stack_001SetUpConnection, __D0SetUpConnection
+31	53	12	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	12		mov __D0SetUpConnection, __zfSetUpConnection
+31	53	14	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	14		brtst 4, __NXC_Label_1072, __zfSetUpConnection
+31	53	17	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	17		jmp __NXC_Label_1073
+31	53	19	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	54	19		add __SetUpConnection_7qG2_tries_7qG2_000, __SetUpConnection_7qG2_tries_7qG2_000, __constVal1
+31	54	23	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	55	23		jmp __NXC_Label_1071
+31	54	25	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	55	25		set __CheckConnection_7qG2_commLine_7qG2_000, 0
+31	54	28	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	55	28	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	28		subcall CheckConnection, __CheckConnection_return
+31	55	31	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	31		mov __SetUpConnection_7qG2_connStatus_7qG2_002, __D0CheckConnection
+31	55	33	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	55	33	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	33		mov __D0SetUpConnection, __D0CheckConnection
+31	55	35	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	35		tst 5, __zfSetUpConnection, __D0SetUpConnection
+31	55	38	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	38		brtst 4, __NXC_Label_1083, __zfSetUpConnection
+31	56	41	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	41		set __SetUpConnection_7qG2_tries_7qG2_000, 9
+31	56	44	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	44	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	44	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	44	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	44		set __signed_stack_001SetUpConnection, 5
+31	56	47	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	47	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	47		set __signed_stack_002SetUpConnection, 56
+31	56	50	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	56	50	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	50		mov __ArrHelper__SetUpConnection_244_0, __constStr0037
+31	56	52	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	52		mov __D0SetUpConnection, __SetUpConnection_7qG2_tries_7qG2_000
+31	56	54	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	54		numtostr __strretvalSetUpConnection, __D0SetUpConnection
+31	56	57	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	57		strcat __strbufSetUpConnection, __strretvalSetUpConnection
+31	56	61	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	61		mov __ArrHelper__SetUpConnection_244_1, __strbufSetUpConnection
+31	56	63	#line 56 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	63		strcat __strbufSetUpConnection, __ArrHelper__SetUpConnection_244_0, __ArrHelper__SetUpConnection_244_1
+31	57	68	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	68		acquire __TextOutMutex
+31	57	69	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	69		mov __TextOutArgs.Location.X, __signed_stack_001SetUpConnection
+31	57	72	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	72		mov __TextOutArgs.Location.Y, __signed_stack_002SetUpConnection
+31	57	75	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	75		set __TextOutArgs.Options, 0
+31	57	78	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	78		mov __TextOutArgs.Text, __strbufSetUpConnection
+31	57	81	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	81		syscall 13, __TextOutArgs
+31	57	84	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	84		mov __D0SetUpConnection, __TextOutArgs.Result
+31	57	87	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	87		release __TextOutMutex
+31	57	88	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	88	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	88		set __signed_stack_001SetUpConnection, 5
+31	57	91	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	91	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	91		set __signed_stack_002SetUpConnection, 48
+31	57	94	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	57	94	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	94		mov __ArrHelper__SetUpConnection_244_0, __constStr0038
+31	57	96	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	96		mov __D0SetUpConnection, __SetUpConnection_7qG2_connStatus_7qG2_002
+31	57	98	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	98		numtostr __strretvalSetUpConnection, __D0SetUpConnection
+31	57	101	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	101		strcat __strbufSetUpConnection, __strretvalSetUpConnection
+31	57	105	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	105		mov __ArrHelper__SetUpConnection_244_1, __strbufSetUpConnection
+31	57	107	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	107		strcat __strbufSetUpConnection, __ArrHelper__SetUpConnection_244_0, __ArrHelper__SetUpConnection_244_1
+31	58	112	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	112		acquire __TextOutMutex
+31	58	113	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	113		mov __TextOutArgs.Location.X, __signed_stack_001SetUpConnection
+31	58	116	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	116		mov __TextOutArgs.Location.Y, __signed_stack_002SetUpConnection
+31	58	119	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	119		set __TextOutArgs.Options, 0
+31	58	122	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	122		mov __TextOutArgs.Text, __strbufSetUpConnection
+31	58	125	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	125		syscall 13, __TextOutArgs
+31	58	128	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	128		mov __D0SetUpConnection, __TextOutArgs.Result
+31	58	131	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	131		release __TextOutMutex
+31	58	132	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	58	132	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	59	132		set __Wait_7qG2_ms_7qG2_000_inline_SetUpConnection, 500
+31	58	135	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	7921	135	#line 7921 "NXCDefs.h"
+31	7922	135		wait 500
+31	7921	137	#line 7921 "NXCDefs.h"
+31	59	137	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	61	137	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	62	137		jmp __NXC_Label_1074
+31	61	139	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	61	139	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	62	139		mov __signed_stack_001SetUpConnection, __SetUpConnection_7qG2_tries_7qG2_000
+31	61	141	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	61	141	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	62	141		set __D0SetUpConnection, 10
+31	61	144	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	62	144		cmp 5, __zfSetUpConnection, __signed_stack_001SetUpConnection, __D0SetUpConnection
+31	61	148	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	62	148		mov __D0SetUpConnection, __zfSetUpConnection
+31	62	150	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	63	150		brtst 4, __NXC_Label_1102, __zfSetUpConnection
+31	62	153	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	63	153		set __textToScreen_7qG2_row_7qG2_000, 48
+31	62	156	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	62	156	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	63	156		strcat __strbufSetUpConnection, __constStr0039
+31	62	160	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	63	160		mov __textToScreen_7qG2_text_7qG2_000, __strbufSetUpConnection
+31	63	162	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	64	162		subcall textToScreen, __textToScreen_return
+31	63	165	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	63	165	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	64	165		set __Wait_7qG2_ms_7qG2_000_inline_SetUpConnection, 3000
+31	63	168	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	7921	168	#line 7921 "NXCDefs.h"
+31	7922	168		wait 3000
+31	7921	170	#line 7921 "NXCDefs.h"
+31	64	170	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	64	170	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	65	170		set __D0SetUpConnection, 1
+31	65	173	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	66	173		stop __D0SetUpConnection
+31	65	175	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	71	175	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	71	175	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+31	72	175		subret __SetUpConnection_return
+32	88	0	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc"
+32	89	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc
+1	__RotateMotor0	32	NXTDefs.h
+2	__RotateMotor1	186	NXTDefs.h
+3	__RotateMotor2	340	NXTDefs.h
+4	__RotateMotor4	494	NXTDefs.h
+5	__ResetSensorSubroutine	648	NXTDefs.h
+6	__ReadLSBytes1	661	NXTDefs.h
+7	textToScreen	746	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+8	whereAmI	787	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+9	lowerTheBridge	1142	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+10	forwardCm	1188	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+11	backwardsCm	1194	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+12	turnLeft	1202	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+13	turnRight	1209	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+14	move	1216	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+15	turningControl	1328	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+16	leftMotor	1331	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+17	rightMotor	1439	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+18	turn	1547	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+19	locationUpdate	1622	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveActions.nxc
+20	CheckConnection	1870	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc
+21	ack	1964	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc
+22	getParameter	1980	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc
+23	parseCommand	2128	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc
+24	slaveProtocolHandler	2574	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc
+25	SendLocation	2770	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveCommProtocol.nxc
+26	searchPattern	2909	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc
+27	GapFound	3072	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc
+28	sensorPoller	3090	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc
+29	beginSearch	3217	C:\Users\Wizand\Ohjelmointi\BricC source\.\SlaveSearchProtocol.nxc
+30	FormatPosition	3220	C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc
+31	SetUpConnection	3276	C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc
+32	__initialize_global_data	3453	C:\Users\Wizand\Ohjelmointi\BricC source\Slave.nxc

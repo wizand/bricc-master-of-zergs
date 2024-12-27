@@ -1,0 +1,38 @@
+task main() {
+     OnFwd(OUT_B, 30);
+}
+
+what is this color now
+     void OnFwd()  {
+
+}
+
+int testi(void) {
+
+    printf("is this gonna look fine?");
+    char definately[29];
+
+    /////////////////////////////////////////
+    // SETTING COLORS
+    SetBatteryState();
+    SetAbortFlag();
+    SensorBoolean();
+    
+    //////////////////////////////////////////
+    // VARIABLES
+    int isMovement = 0;
+    bool isSensors = true;
+    char[] name = "Testi";
+    long force = 2312312;
+    int testi = 43242;
+    
+    while(true) {
+      SENSOR_1 = testi;
+
+      if ( SENSOR_1 == testi && isSensor ) {
+         force = 22;
+         Off();
+      }
+
+    }
+}

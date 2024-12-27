@@ -1,0 +1,458 @@
+void move(int cm);
+void turn(int dir);
+void locationUpdate(int distance, int steering);
+
+
+//////////////////////////////
+// CONSTANTS
+//////////////////////////////
+#define MOTOR_A_SPEED 55
+#define MOTOR_B_SPEED 55
+#define MOTOR_C_SPEED 55
+#define MOTOR_AC_SPEED 60
+
+#define DEG_CONVERSION_CONSTANT 18
+
+struct MySelf {
+       // [0] X [1] Y coordinates related to the master
+       int positionRelative[2];
+       // [0] X [1] Y coordinates related to my starting spot
+       int positionOwn[2];
+        // Direction i am facing
+       int heading;
+};
+
+////////////////////////////////////
+// GLOBAL VARIABLES
+////////////////////////////////////
+
+MySelf I; //Global
+int TurningDegrees = 0;
+
+///////////////////////////////////
+// CONSTANTS FOR THE COMMANDS
+///////////////////////////////////
+#define MOVE_FORWARD 4
+#define MOVE_BACKWARDS 5
+#define TURN_LEFT 6
+#define TURN_RIGHT 7
+#define BEGIN_SEARCH 15
+#define WHERE_AM_I 20
+
+///////////////////////////////////
+// CONSTANTS FOR THE DIRECTIONS
+///////////////////////////////////
+#define NORTH 0
+#define EAST 1
+#define SOUTH 2
+#define WEST 3
+
+
+///////////////////////////////
+// GLOBAL VARIABLE
+///////////////////////////////
+mutex MOTOR;
+
+////////////////////////////////////
+// FORMAT POSITION PARAMETERS
+////////////////////////////////////
+/***************************
+* Called to format and initialize the position parameters.
+****************************/
+void FormatPosition() {
+
+      //X and Y coordinates related to the master
+      ArrayInit(I.positionRelative, 0, 2);
+      //X and Y coordinates related to myself
+      ArrayInit(I.positionOwn, 0, 2);
+      //Direction im looking at
+      I.heading = 0;
+}
+
+void whereAmI() {
+    ClearScreen();
+    string coords = "";  // Variable to store the current coordinates for pritning
+    string location = ""; // Variable to store the current coordinates for sending to master
+
+    // For debugging, printing the current location coordinates to the NXT display
+    TextOut(5, LCD_LINE1, "MY LOCATION:");
+    TextOut(10, LCD_LINE2, "MY COORDS X,Y (OWN)" );
+
+    coords = "(" + NumToStr( I.positionOwn[0] ) + "," + NumToStr( I.positionOwn[1] ) + ")";
+    TextOut(10, LCD_LINE3, coords );
+
+    TextOut(5, LCD_LINE4, "MY COORDS X,Y (REL)" );
+
+    coords = "(" + NumToStr( I.positionRelative[0] ) + "," + NumToStr( I.positionRelative[1] ) + ")";
+    TextOut(10, LCD_LINE5, coords );
+
+    coords = "MY HEADING: " + NumToStr(I.heading);
+    TextOut(10, LCD_LINE7, coords );
+
+
+    // Prepare data for location update
+    // Format is X_Y_H_
+    location = NumToStr( I.positionOwn[0] ) + "_" + NumToStr( I.positionOwn[1] );
+    location = location + "_" + NumToStr(I.heading) + "_";
+
+    //SendLocation(location);
+    // The box to which send the data to
+    // at the Master end is set here. ZERG parameter is
+    // set manually until ZERG identity is implemented properly.
+  /*  int queue = 0;
+    if ( ZERG == 1 ) { queue = 4; }
+       else if ( ZERG == 2 ) { queue = 5; }
+       else if ( ZERG == 3 ) { queue = 6; }
+   */
+    // Send data as a response to the Master
+    //SendResponseString( queue, location );
+
+    //Wait(500);
+}
+
+
+///////////////////////////////////
+// MOVE FORWARD IN CENTIMETERS
+///////////////////////////////////
+void forwardCm(int cm) {
+     /*
+     Wrapper function for moving the robot forward.
+     Will call the move(int) function
+     */
+
+     move(cm * 1);
+}
+
+///////////////////////////////////
+// MOVE BACKWARD IN CENTIMETERS
+///////////////////////////////////
+void backwardsCm(int cm) {
+     /*
+     Wrapper function for moving the robot backward.
+     Will at first turn the robot over and then move forwards.
+     */
+
+     move(cm * -1);
+
+   //  turn(10);
+    // Wait(600);
+   //  turn(10);
+   //  Wait(600);
+   //  forwardCm(cm);
+   
+}
+
+///////////////////////////////////
+// TURN LEFT FUCTION
+///////////////////////////////////
+void turnLeft() {
+     /*
+     Wrapper function for turning the robot left 90 degrees.
+     Will call the turn(int) function with negative value.
+     */
+
+     turn(10);
+}
+
+///////////////////////////////////
+// TURN RIGHT FUCTION
+///////////////////////////////////
+void turnRight() {
+     /*
+     Wrapper function for turning the robot right 90 degrees.
+     Will call the turn(int) function with positive value.
+     */
+
+     turn(-10);
+}
+
+
+///////////////////////////////////////////
+// MOVE FUNCTION
+///////////////////////////////////////////
+void move(int cm) {
+     //One one degree of movement with 18,5cm wheel is
+     // 18,5cm/360'
+     //Therefore one centimeter of movement is
+     // 1cm / ( 18,5 / 360' ) degrees.
+     // Which is approximately 19,45 degrees.
+     //For now we are using DEG_CONVERSION_CONSTANT' as an approximation to avoid cpu-heavy float
+     //calculation
+
+     int degrees = cm * DEG_CONVERSION_CONSTANT;
+
+     Acquire(MOTOR);
+        //RotateMotor(OUT_A, MOTOR_A_SPEED, degree);
+        RotateMotorEx(OUT_AC, MOTOR_AC_SPEED, degrees, 0, true, true);
+     Release(MOTOR);
+
+     locationUpdate(cm, 0);
+
+     Wait(700);
+}
+
+///////////////////////////////////
+// MOTOR CONTROL FOR TURNING
+///////////////////////////////////
+task leftMotor() {
+     ClearLine(LCD_LINE8);
+     TextOut(5, LCD_LINE8, "LM: " + NumToStr(TurningDegrees));
+     RotateMotorEx(OUT_A, MOTOR_A_SPEED, TurningDegrees *1, 0, false, true );
+}
+
+task rightMotor() {
+     ClearLine(LCD_LINE7);
+     TextOut(5, LCD_LINE7, "RM: " + NumToStr(TurningDegrees));
+     RotateMotorEx(OUT_C, MOTOR_C_SPEED, TurningDegrees *-1, 0, false, true );
+}
+
+task turningControl() {
+     ClearLine(LCD_LINE6);
+     TextOut(5, LCD_LINE6, "TD: " + NumToStr(TurningDegrees));
+     //Making the motors start turning simultaniously (threading).
+     Precedes(leftMotor , rightMotor );
+}
+
+
+///////////////////////////////////
+// TURNING FUCTION
+///////////////////////////////////
+void turn(int dir) {
+
+
+     ClearLine(LCD_LINE7);
+     TextOut(5, LCD_LINE7, "Turnig: " + NumToStr(dir));
+     Wait(500);
+
+     if (dir > 0) { //We are turning right
+         //ClearLine(LCD_LINE1);
+         //TextOut(5, LCD_LINE1, "Turning right");
+        //textToScreen(LCD_LINE1, "Turning right");
+        TurningDegrees = 262;
+     } else { //or tuning left.
+        //textToScreen(LCD_LINE1, "Turning left");
+        TurningDegrees = -275;
+     }
+
+     Acquire(MOTOR);
+      /*   //RotateMotorEx(OUT_AC, MOTOR_AC_SPEED, 200, degrees, true, true);
+         RotateMotor(OUT_A, MOTOR_A_SPEED, degrees);
+         RotateMotor(OUT_C, MOTOR_C_SPEED, degrees * -1 );
+      */
+      StartTask( turningControl );
+      Wait(300);
+     Release(MOTOR);
+
+     locationUpdate(0, dir);
+
+     Wait(400);
+
+}
+
+////////////////////////////////////////
+// UPDATE LOCATION
+////////////////////////////////////////
+/****************************************
+* Function keeps track of the Zerg location and heading
+* when ever there is movement or turning.
+*/
+void locationUpdate(int distance, int steering) {
+      if ( distance ) {
+         switch ( I.heading ) {
+         /***************************************
+         * HEADINGS: 0 north
+         *           1 east
+         *           2 south
+         *           3 west
+         ****************************************
+         * In the position arrays [0] is x coordinate
+                                  [1] is y coordinate
+         */
+                case NORTH: { // HEADING IS UP
+                   I.positionOwn[1] += distance;
+                   I.positionRelative[1] += distance;
+                   break;
+                }
+
+                case EAST: { // HEADING IS RIGHT
+                   I.positionOwn[0] += distance;
+                   I.positionRelative[0] += distance;
+                   break;
+                }
+
+                case SOUTH: {  //HEADING IS DOWN
+                   I.positionOwn[1] -= distance;
+                   I.positionRelative[1] -= distance;
+                   break;
+                }
+
+                case WEST: { //HEADING IS LEFT
+                   I.positionOwn[0] -= distance;
+                   I.positionRelative[0] -= distance;
+                   break;
+                }
+         }
+
+      } else {
+      /********************************
+      * In case distance is 0 the bot is turning.
+      *
+      * If steering is positive, the bot is turning right and the heading value
+      * is to be increased (but if the heading is already 3 then it will go back
+      * to 0.
+      * If steering is negative, the bot is turning left and the heading value
+      * is to be decreased (but if the heading is already 0 then it will go back
+      * to 3.
+      ********************************/
+        if ( steering < 0 ) {
+           if ( I.heading == NORTH ) {
+              I.heading = WEST;
+           } else I.heading--;
+        }
+
+        else if ( steering > 0 ) {
+           if ( I.heading == WEST ) {
+              I.heading = NORTH;
+           } else I.heading++;
+        }
+
+      }
+
+}
+
+bool FOUND;
+#define DISTANCE 15
+
+task moveTask() {
+
+     int multiplier = 1;
+     int distance = 10;
+
+     for(; !FOUND ; multiplier = multiplier + 2) {  // the square is expanding with +2 to forward direction on every round
+
+
+                  for (int times = 0; times < multiplier; times++) {
+                      forwardCm(distance);
+                      Wait(150);
+                      Off(OUT_AC);
+                      Wait(150);
+                  }
+
+                  Wait(200);
+                  turnRight();
+                  Wait(180);
+                  Off(OUT_AC);
+
+                  Wait(100);
+     }
+
+}
+
+
+task sensorPoller() {
+    byte sensorValue = 0;
+    SetSensorLowspeed(IN_2);
+
+    while ( true ) {
+          sensorValue = SensorUS(IN_2);
+          if ( sensorValue > DISTANCE ) {
+             TextOut(0,LCD_LINE3, "KOLO JUMALAUTA!" );
+             Off(OUT_ABC);
+             FOUND = true;
+             //StopTask(moveTask);
+             whereAmI();
+             
+             Wait(2000);
+
+             RotateMotorEx(OUT_B,50, 90,0,false,true);
+
+             Wait(2000);
+          }
+    }
+}
+
+task search() {
+     Precedes( sensorPoller, moveTask);
+
+}
+task main() {
+
+   FOUND = false;
+   FormatPosition();
+   TurningDegrees = 0;
+   
+   StartTask(search);
+
+   Wait(1000);
+
+   int i;
+   /*for (i = 0; i < 12; i++) {
+     forwardCm(50);
+     Wait(100);
+     Off(OUT_ABC);
+     whereAmI();
+
+
+     Wait(500);
+
+     turnLeft();
+     Wait(100);
+     Off(OUT_ABC);
+     whereAmI();
+
+     Wait(500);
+
+   }
+
+   forwardCm(35);
+   Wait(150);
+   Off(OUT_ABC);
+   whereAmI();
+   
+   Wait(500);
+   
+   turnLeft();
+   Wait(150);
+   Off(OUT_ABC);
+   whereAmI();
+   
+   Wait(500);
+   
+   turnLeft();
+   Wait(150);
+   Off(OUT_ABC);
+   whereAmI();
+
+   Wait(500);
+   
+   forwardCm(35);
+   Wait(100);
+   Off(OUT_ABC);
+   whereAmI();
+
+   Wait(500);
+   turnRight();
+   Wait(100);
+   Off(OUT_ABC);
+   whereAmI();
+   
+   Wait(500);
+   turnRight();
+   Wait(100);
+   Off(OUT_ABC);
+   whereAmI();
+
+
+   
+   Wait(2000);
+   
+   /*
+   forwardCm(20);
+   whereAmI();
+   
+   Wait(2000);
+   backwardsCm(35);
+     */
+   whereAmI();
+   Wait(4000);
+}

@@ -1,0 +1,92 @@
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+////
+////  NXTBEE RAW SEND 4.0
+////  NXTBee Sender program
+////  For use with the NXTBee and Mindstorms NXT
+////  www.dexterindustries.com
+////  Use the latest release of NXC (1.2.1 r4 or later).
+////  You can find it at http://bricxcc.sourceforge.net/nbc/
+////
+////  John Hansen helped adapt this code to NXC.
+////  http://bricxcc.sourceforge.net/
+////
+////  More information on the NXTBee can be found at
+////  http://www.dexterindustries.com/NXTBee.html
+////
+////  3/21/2011
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+
+
+
+void SendRS485Bool1(const bool value)
+{
+  byte msg[];
+  ArrayBuild(msg, value, 0);
+  SetHSOutputBuffer(0, 2, msg);
+  SetHSOutputBufferOutPtr(0);
+  SetHSOutputBufferInPtr(2);
+  SetHSState(HS_SEND_DATA);
+  SetHSFlags(HS_UPDATE); //send it
+}
+
+void SendRS485Number1(const int value)
+{
+  string msg = Flatten(value);
+  SetHSOutputBuffer(0, 5, msg);
+  SetHSOutputBufferOutPtr(0);
+  SetHSOutputBufferInPtr(5);
+  SetHSState(HS_SEND_DATA);
+  SetHSFlags(HS_UPDATE); //send it
+}
+
+void SendRS485String1(const string msg)
+{
+  byte mlen = ArrayLen(msg);
+  SetHSOutputBuffer(0, mlen, msg);
+  SetHSOutputBufferOutPtr(0);
+  SetHSOutputBufferInPtr(mlen);
+  SetHSState(HS_SEND_DATA);
+  SetHSFlags(HS_UPDATE); //send it
+}
+
+
+inline void WaitForMessageToBeSent()
+{
+  // use hi level API functions (preferred)
+  while (RS485SendingData())
+    Wait(MS_1);
+}
+
+task main()
+{
+  // configure the S4 port as RS485
+  UseRS485();
+
+  // make sure the RS485 system is turned on
+  // hi level API function call
+  RS485Enable();
+
+  // initialize the UART to default values
+  // hi level API function call
+  RS485Uart(HS_BAUD_9600, HS_MODE_DEFAULT); // use 9600 baud rather than default rate
+
+  Wait(MS_10);
+  int i;
+  while (true) {
+    string msg;
+    //msg = "9";
+    msg = "goofy ";
+    msg += NumToStr(i);
+    TextOut(0, LCD_LINE1, msg);
+    SendRS485String(msg); // this is exactly the same as RS485Write but takes a string instead of a byte array
+    WaitForMessageToBeSent();
+    i++;
+    Wait(SEC_1);
+  }
+  // disable RS485 (not usually needed)
+  RS485Disable();
+}
+
+

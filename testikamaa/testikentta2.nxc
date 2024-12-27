@@ -1,0 +1,62 @@
+struct MySelf {
+       // [0] X [1] Y coordinates related to the master
+       int positionRelative[2];
+       // [0] X [1] Y coordinates related to my starting spot
+       int positionOwn[2];
+        // Direction i am facing
+       int heading;
+};
+
+MySelf I; //Global
+
+enum { A = 4, B, C, D = 30 };
+#define AA 4
+
+void FormatPosition() {
+                      // X coordinate related to the master
+      //I.positionRelative[0] = 0;
+                      // Y coordinate related to the master
+      //I.positionRelative[1] = 0;
+                     // X coordinate related to myself
+                    ArrayInit(I.positionRelative, 0, 2);
+                     ArrayInit(I.positionOwn, 0, 2);
+      //I.positionOwn[0] = 0;
+                     // Y coordinate related to myself
+      //I.positionOwn[1] = 0;
+                     // Direction i am facing
+      //I.heading = 0;
+}
+
+
+task main() {
+
+      ClearScreen();
+
+      string t = "";
+
+      t = "moro" + " sano por" + NumToStr(2);
+      TextOut(0, LCD_LINE1, t);
+      
+      FormatPosition();
+      
+      string coords = "(" + NumToStr( I.positionOwn[0] );
+      // + "," + NumToStr( I.positionOwn[1] ) + ")" );
+      TextOut(0, LCD_LINE2, coords);
+      Wait(3000);
+     /*
+      FormatPosition();
+      
+      TextOut(0, LCD_LINE1, "position: ");
+      TextOut(0, LCD_LINE2, NumToStr(I.positionOwn[0]) );
+
+      Wait(3000);*/
+/*     Wait(300);
+     SendResponseNumber(3,10);
+     Wait(300);
+   */
+   //
+//   if ( A == 4 ) { TextOut(0, LCD_LINE2, "juu"); }
+//   int a[3] = { AA, B, 4 };
+//
+
+}

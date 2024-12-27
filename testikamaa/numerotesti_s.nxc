@@ -1,0 +1,20 @@
+
+
+task main() {
+
+     int number;
+     int times = 0;
+     ClearScreen();
+     while (true) {
+
+           Wait(400);
+           SendResponseNumber(4, 50);
+
+
+
+
+     }
+
+
+
+}

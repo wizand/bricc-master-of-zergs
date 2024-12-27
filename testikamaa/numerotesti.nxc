@@ -1,0 +1,28 @@
+
+
+task main() {
+
+     int number;
+     int times = 0;
+     ClearScreen();
+     while (true) {
+           TextOut(0,LCD_LINE1, "Kysyt‰‰n boxista 7");
+           ClearLine(LCD_LINE2);
+           TextOut(0,LCD_LINE2, "Kierros: " + NumToStr(times) );
+
+           Wait(200);
+           ReceiveRemoteNumber(7, true, number);
+           
+           ClearLine(LCD_LINE3);
+           TextOut(0,LCD_LINE3, "Boxissa nyt: " + NumToStr(number) );
+           
+           
+           if ( number == 5 ) {
+              TextOut(0,LCD_LINE4, "FEMMA TULI: " + NumToStr(number) );
+              Wait(7000);
+              break;
+           }
+           times++;
+     }
+
+}

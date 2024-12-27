@@ -1,0 +1,396 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	6
+1	__signed_stack_002main	6	1	4	4	4
+2	__SRSTmpLongVal	6	1	8	4	8
+3	__RRNTmpVal	6	1	12	4	13
+4	__D0main	6	1	16	4	11
+5	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	20	4	16
+6	__main_7qG2_des_7qG2_000	4	1	24	2	6
+7	__constVal200	4	0	26	2	2
+8	__constVal255	4	0	28	2	1
+9	__main_7qG2_cmd_7qG2_000	4	1	30	2	5
+10	__main_7qG2_par_7qG2_000	4	1	32	2	5
+11	__constVal7	2	0	34	1	1
+12	__constVal8	2	0	35	1	1
+13	__PFTmp	1	1	36	1	1
+14	____initialize_global_data_return	1	1	37	1	3
+15	__ClearLine_7qG2_line_7qG2_000_inline_main	1	1	38	1	2
+16	__constVal9	2	0	39	1	1
+17	__zfmain	1	1	40	1	5
+18	__constVal3	2	0	41	1	4
+19	__constVal0	2	1	42	1	2
+20	__constVal1	2	0	43	1	7
+21	__constVal2	2	0	44	1	5
+22	__constVal5	2	0	45	1	3
+23	__constVal6	2	0	46	1	2
+24	__RRNErr	1	1	47	1	3
+25	__MRArgs	8	0	4	8	12
+26	__MRArgs.Result	2	1	48	1	12
+27	__MRArgs.QueueID	1	1	49	1	12
+28	__MRArgs.Remove	1	1	50	1	12
+29	__MRArgs.Message	7	0	52	4	12
+30	__MRArgs.Message.Message_type	1	0	0	1	0
+31	__TextOutArgs	8	0	4	16	15
+32	__TextOutArgs.Result	2	1	56	1	15
+33	__TextOutArgs.Location	8	0	2	4	15
+34	__TextOutArgs.Location.X	4	1	60	2	15
+35	__TextOutArgs.Location.Y	4	1	62	2	15
+36	__TextOutArgs.Text	7	0	64	4	15
+37	__TextOutArgs.Text.Text_type	1	0	0	1	0
+38	__TextOutArgs.Options	5	1	68	4	15
+39	__PointOutArgs	8	0	3	12	4
+40	__PointOutArgs.Result	2	1	72	1	4
+41	__PointOutArgs.Location	8	0	2	4	4
+42	__PointOutArgs.Location.X	4	1	76	2	4
+43	__PointOutArgs.Location.Y	4	1	78	2	4
+44	__PointOutArgs.Options	5	1	80	4	4
+45	__CBTWArgs	8	0	3	8	12
+46	__CBTWArgs.Result	2	1	84	1	12
+47	__CBTWArgs.Connection	1	1	85	1	12
+48	__CBTWArgs.Buffer	7	0	86	4	12
+49	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+50	__constStr0013	7	0	88	4	2
+51	__constStr0013.__constStr0013_type	1	1	0	1	0
+52	__BlankLine	7	0	90	4	1
+53	__BlankLine.__BlankLine_type	1	0	0	1	0
+54	__constStr0010	7	0	92	4	1
+55	__constStr0010.__constStr0010_type	1	1	0	1	0
+56	__constStr0009	7	0	94	4	1
+57	__constStr0009.__constStr0009_type	1	1	0	1	0
+58	__constStr0012	7	0	96	4	1
+59	__constStr0012.__constStr0012_type	1	1	0	1	0
+60	__constStr0011	7	0	98	4	1
+61	__constStr0011.__constStr0011_type	1	1	0	1	0
+62	__SRSTmpBuf	7	0	100	4	24
+63	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+64	__ArrHelper__main_244_0	7	0	102	4	2
+65	__ArrHelper__main_244_0.__ArrHelper__main_244_0_type	1	0	0	1	0
+66	__ArrHelper__main_244_1	7	0	104	4	4
+67	__ArrHelper__main_244_1.__ArrHelper__main_244_1_type	1	0	0	1	0
+68	__DCMessageWritePacket	7	0	106	4	4
+69	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+70	__SRSFlattenBuf	7	0	108	4	6
+71	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+72	__SRSSendBuf	7	0	110	4	8
+73	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+74	__ArrHelper__main_244_5	7	0	112	4	2
+75	__ArrHelper__main_244_5.__ArrHelper__main_244_5_type	1	0	0	1	0
+76	__strbufmain	7	0	114	4	14
+77	__strbufmain.__strbufmain_type	1	0	0	1	0
+78	__strretvalmain	7	0	116	4	6
+79	__strretvalmain.__strretvalmain_type	1	0	0	1	0
+80	__ArrHelper__main_244_2	7	0	118	4	4
+81	__ArrHelper__main_244_2.__ArrHelper__main_244_2_type	1	0	0	1	0
+82	__ArrHelper__main_244_3	7	0	120	4	4
+83	__ArrHelper__main_244_3.__ArrHelper__main_244_3_type	1	0	0	1	0
+84	__ArrHelper__main_244_4	7	0	122	4	4
+85	__ArrHelper__main_244_4.__ArrHelper__main_244_4_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	27	0	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	28	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	27	2	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	28	2	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	29	2		set __main_7qG2_cmd_7qG2_000, 0
+0	28	5	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	29	5	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	30	5		set __main_7qG2_par_7qG2_000, 0
+0	29	8	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	31	8	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	32	8		set __main_7qG2_des_7qG2_000, 0
+0	31	11	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	32	11	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	32	11	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	6069	11	#line 6069 "NXCDefs.h"
+0	6070	11	#pragma macro 6
+0	6070	11		mov __PointOutArgs.Location.X, __constVal200
+0	6070	13		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	15		mov __PointOutArgs.Options, __constVal1
+0	6070	17		syscall 14, __PointOutArgs
+0	3659	20	#line 3659 "NXCDefs.h"
+0	6069	20	#line 6069 "NXCDefs.h"
+0	35	20	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	35	20	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	36	20		set __D0main, 1
+0	36	23	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	37	23		tst 5, __zfmain, __D0main
+0	36	26	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	37	26		brtst 4, __NXC_Label_498, __zfmain
+0	36	29	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	37	29		set __ClearLine_7qG2_line_7qG2_000_inline_main, 56
+0	36	32	#line 36 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	6076	32	#line 6076 "NXCDefs.h"
+0	6077	32	#pragma macro 7
+0	6077	32		mov __TextOutArgs.Location.X, __constVal0
+0	6077	34		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_main
+0	6077	36		mov __TextOutArgs.Options, __constVal0
+0	6077	38		mov __TextOutArgs.Text, __BlankLine
+0	6077	40		syscall 13, __TextOutArgs
+0	3682	43	#line 3682 "NXCDefs.h"
+0	6076	43	#line 6076 "NXCDefs.h"
+0	37	43	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	37	43	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	38	43		set __signed_stack_001main, 0
+0	37	46	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	37	46	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	38	46		set __signed_stack_002main, 56
+0	37	49	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	37	49	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	38	49		strcat __strbufmain, __constStr0009
+0	38	53	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	38	53	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	53		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	38	55	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	55		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	38	57	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	57		set __TextOutArgs.Options, 0
+0	38	60	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	60		mov __TextOutArgs.Text, __strbufmain
+0	38	62	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	62		syscall 13, __TextOutArgs
+0	38	65	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	38	65	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	38	65	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	38	65	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	65		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	38	68	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	68	#line 7921 "NXCDefs.h"
+0	7922	68		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	71	#line 7921 "NXCDefs.h"
+0	39	71	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	71	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	40	71	#pragma macro 9
+0	40	71		mov __MRArgs.QueueID, __constVal7
+0	40	73		mov __MRArgs.Remove, __constVal1
+0	40	75		set __RRNTmpVal, 0
+0	40	78		syscall 27, __MRArgs
+0	40	81		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	40	86		mov __main_7qG2_cmd_7qG2_000, __RRNTmpVal
+0	3731	88	#line 3731 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	88	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	39	88	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	41	88	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	42	88		mov __signed_stack_001main, __RRNTmpVal
+0	41	90	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	41	90	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	42	90		set __D0main, 0
+0	41	93	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	42	93		cmp 5, __zfmain, __signed_stack_001main, __D0main
+0	41	97	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	42	97		mov __D0main, __zfmain
+0	42	99	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	43	99		brtst 4, __NXC_Label_511, __zfmain
+0	42	102	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	43	102		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	42	105	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	105	#line 7921 "NXCDefs.h"
+0	7922	105		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	108	#line 7921 "NXCDefs.h"
+0	43	108	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	43	108	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	44	108	#pragma macro 9
+0	44	108		mov __MRArgs.QueueID, __constVal8
+0	44	110		mov __MRArgs.Remove, __constVal1
+0	44	112		set __RRNTmpVal, 0
+0	44	115		syscall 27, __MRArgs
+0	44	118		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	44	123		mov __main_7qG2_par_7qG2_000, __RRNTmpVal
+0	3759	125	#line 3759 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	43	125	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	43	125	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	45	125	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	46	125		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	45	128	#line 45 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	128	#line 7921 "NXCDefs.h"
+0	7922	128		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	131	#line 7921 "NXCDefs.h"
+0	46	131	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	46	131	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	47	131	#pragma macro 9
+0	47	131		mov __MRArgs.QueueID, __constVal9
+0	47	133		mov __MRArgs.Remove, __constVal1
+0	47	135		set __RRNTmpVal, 0
+0	47	138		syscall 27, __MRArgs
+0	47	141		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+0	47	146		mov __main_7qG2_des_7qG2_000, __RRNTmpVal
+0	3773	148	#line 3773 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	46	148	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	46	148	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	48	148	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	148		set __signed_stack_001main, 0
+0	48	151	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	48	151	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	151		set __signed_stack_002main, 56
+0	48	154	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	48	154	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	154		mov __ArrHelper__main_244_0, __constStr0010
+0	48	156	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	156		mov __D0main, __main_7qG2_cmd_7qG2_000
+0	48	158	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	158		numtostr __strretvalmain, __D0main
+0	48	161	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	161		mov __ArrHelper__main_244_1, __strretvalmain
+0	48	163	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	163		mov __ArrHelper__main_244_2, __constStr0011
+0	48	165	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	165		mov __D0main, __main_7qG2_par_7qG2_000
+0	48	167	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	167		numtostr __strretvalmain, __D0main
+0	48	170	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	170		mov __ArrHelper__main_244_3, __strretvalmain
+0	48	172	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	172		mov __ArrHelper__main_244_4, __constStr0012
+0	48	174	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	174		mov __D0main, __main_7qG2_des_7qG2_000
+0	48	176	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	176		numtostr __strretvalmain, __D0main
+0	48	179	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	179		strcat __strbufmain, __strretvalmain
+0	48	183	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	183		mov __ArrHelper__main_244_5, __strbufmain
+0	48	185	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	185		strcat __strbufmain, __ArrHelper__main_244_4, __ArrHelper__main_244_5
+0	48	190	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	190		mov __ArrHelper__main_244_4, __strbufmain
+0	48	192	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	192		strcat __strbufmain, __ArrHelper__main_244_3, __ArrHelper__main_244_4
+0	48	197	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	197		mov __ArrHelper__main_244_3, __strbufmain
+0	48	199	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	199		strcat __strbufmain, __ArrHelper__main_244_2, __ArrHelper__main_244_3
+0	48	204	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	204		mov __ArrHelper__main_244_2, __strbufmain
+0	48	206	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	206		strcat __strbufmain, __ArrHelper__main_244_1, __ArrHelper__main_244_2
+0	48	211	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	211		mov __ArrHelper__main_244_1, __strbufmain
+0	48	213	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	49	213		strcat __strbufmain, __ArrHelper__main_244_0, __ArrHelper__main_244_1
+0	50	218	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	50	218	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	51	218		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	50	220	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	51	220		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	50	222	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	51	222		set __TextOutArgs.Options, 0
+0	50	225	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	51	225		mov __TextOutArgs.Text, __strbufmain
+0	50	227	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	51	227		syscall 13, __TextOutArgs
+0	50	230	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	50	230	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	50	230	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	50	230	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	51	230		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	50	233	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	233	#line 7921 "NXCDefs.h"
+0	7922	233		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	236	#line 7921 "NXCDefs.h"
+0	52	236	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	52	236	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	53	236	#pragma macro 14
+0	53	236		mov __SRSTmpBuf, __DCMessageWritePacket
+0	53	238		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal1
+0	53	243		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+0	53	248		mov __SRSTmpLongVal, __main_7qG2_cmd_7qG2_000
+0	53	250		flatten __SRSFlattenBuf, __SRSTmpLongVal
+0	53	253		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+0	53	258		mov __CBTWArgs.Connection, __main_7qG2_des_7qG2_000
+0	53	260		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	53	262		syscall 29, __CBTWArgs
+0	3866	265	#line 3866 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	52	265	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	52	265	#line 52 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	53	265	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	54	265		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	53	268	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	268	#line 7921 "NXCDefs.h"
+0	7922	268		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	271	#line 7921 "NXCDefs.h"
+0	54	271	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	54	271	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	55	271	#pragma macro 14
+0	55	271		mov __SRSTmpBuf, __DCMessageWritePacket
+0	55	273		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal2
+0	55	278		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+0	55	283		mov __SRSTmpLongVal, __main_7qG2_par_7qG2_000
+0	55	285		flatten __SRSFlattenBuf, __SRSTmpLongVal
+0	55	288		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+0	55	293		mov __CBTWArgs.Connection, __main_7qG2_des_7qG2_000
+0	55	295		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	55	297		syscall 29, __CBTWArgs
+0	3880	300	#line 3880 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	54	300	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	54	300	#line 54 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	55	300	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	56	300		set __Wait_7qG2_ms_7qG2_000_inline_main, 400
+0	55	303	#line 55 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	303	#line 7921 "NXCDefs.h"
+0	7922	303		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	306	#line 7921 "NXCDefs.h"
+0	58	306	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	58	306	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	59	306	#pragma macro 14
+0	59	306		mov __SRSTmpBuf, __DCMessageWritePacket
+0	59	308		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal6
+0	59	313		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+0	59	318		mov __SRSTmpLongVal, __constVal255
+0	59	320		flatten __SRSFlattenBuf, __SRSTmpLongVal
+0	59	323		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+0	59	328		mov __CBTWArgs.Connection, __constVal1
+0	59	330		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	59	332		syscall 29, __CBTWArgs
+0	3894	335	#line 3894 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	58	335	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	58	335	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	59	335	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	60	335		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	59	338	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	338	#line 7921 "NXCDefs.h"
+0	7922	338		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	341	#line 7921 "NXCDefs.h"
+0	60	341	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	60	341	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	61	341	#pragma macro 13
+0	61	341		mov __SRSTmpBuf, __DCMessageWritePacket
+0	61	343		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal6
+0	61	348		arrsize __SRSTmpLongVal, __constStr0013
+0	61	351		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __SRSTmpLongVal
+0	61	356		arrbuild __SRSSendBuf, __SRSTmpBuf, __constStr0013
+0	61	361		mov __CBTWArgs.Connection, __constVal1
+0	61	363		mov __CBTWArgs.Buffer, __SRSSendBuf
+0	61	365		syscall 29, __CBTWArgs
+0	3908	368	#line 3908 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	60	368	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	60	368	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	61	368	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	62	368		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	61	371	#line 61 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	7921	371	#line 7921 "NXCDefs.h"
+0	7922	371		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	374	#line 7921 "NXCDefs.h"
+0	62	374	#line 62 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	63	374	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	64	374		set __main_7qG2_cmd_7qG2_000, 0
+0	63	377	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	63	377	#line 63 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	64	377	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	65	377		set __main_7qG2_par_7qG2_000, 0
+0	64	380	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	64	380	#line 64 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	65	380	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	66	380		set __main_7qG2_des_7qG2_000, 0
+0	65	383	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	65	383	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	70	383	#line 70 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	72	383	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	73	383		jmp __NXC_Label_497
+0	72	385	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+0	73	385		exit -1, -1
+1	73	0	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc"
+1	74	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc
+1	__initialize_global_data	388	C:\Users\Wizand\Ohjelmointi\BricC source\MasterSkeleton.nxc

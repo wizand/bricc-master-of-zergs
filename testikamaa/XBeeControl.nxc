@@ -1,0 +1,71 @@
+///////////////////////////////////////
+// XBee controls  V 0.1
+// 4.7 2011
+//
+// Programmed by Petteri Loisko
+// using NXTBEE RAW RECEIVE PROGRAM from
+// dexterindustries.com as an reference.
+//
+//////////////////////////////////////
+// The file has functions to handle initializing the RS-485
+// for use and for sending data in number & string form.
+//
+// CAUTION: Lacking proper testing becouse of broken components!
+//////////////////////////////////////
+
+void XBSendNumber( int number );
+void XBSendString( string message );
+void InitUART();
+void WaitTillSent();
+void PrepareOutputBuffer( string message, int length );
+
+task XBWaitForData() {
+     string buf;
+     while (true) {
+           until( RS485DataAvailable() );
+           RS485Read( buf );
+           TextOut(0, LCD_LINE3, buf);
+           Wait(950);
+           ClearLine(LCD_LINE3);
+
+     }
+}
+
+void XBSendNumber( int number ) {
+       PrepareOutputBuffer( Flatten(number), 5 );
+       SetHSFlags(HS_UPDATE); // send output buffer
+       WaitTillSent();
+}
+
+void XBSendString( string message ) {
+       byte len = ArrayLen(message);
+       PrepareOutputBuffer( message, len );
+       SetHSFlags(HS_UPDATE); // send output buffer
+       WaitTillSent();
+}
+
+void InitUART() {
+     UseRS485();
+     Wait(50);
+     RS485Enable();
+     Wait(50);
+     RS485Uart(HS_BAUD_9600, HS_MODE_DEFAULT);
+     Wait(50);
+}
+
+void WaitTillSent() {
+       while (RS485SendingData() ) Wait(10); //wait untill buffer is sent
+}
+
+
+void PrepareOutputBuffer( string message, int length ) {
+     SetHSOutputBuffer(0, length, message); //Setting message to the buffer
+                                       //Offsett 0 bytes
+                                       //lenght in bytes
+                                       //message as string
+     byte len = length;
+     SetHSOutputBufferOutPtr(0); // ?
+     SetHSOutputBufferInPtr(len);  // ?
+     SetHSState(HS_SEND_DATA);
+     
+}

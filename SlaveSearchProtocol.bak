@@ -1,0 +1,132 @@
+/***********************************************************************
+* SLAVE SEARCH PROTOCOL
+* Version 1.0
+* Programmed by: Petteri Loisko
+* 8th of July 2011
+*
+*************************************************************************
+*   FUCTIONALITY
+*   SlaveSearchProtocol.nxc consists of actions that are to be performed when
+*   command BEGIN_SEARCH (15) has been given. Mainly it has one thread for polling
+*   the sensor for the gap, one thread for moving the robot through the search pattern
+*   and then instructions on what to do when the gap is found.
+*
+*   Function prototypes and constants can be found in the SlaveHeader.nxc -file
+*
+*************************************************************************/
+
+//////////////////////////////////////
+// SEARCH PATTERN
+//////////////////////////////////////
+/**************************************
+* This thread handles the movement of the robot.
+* The pattern forms a expanding spiral kind of shape
+* (with 90* corners) around the master bot.
+* It will go on larger and larger
+* untill it is told to stop when the gap is found.
+**************************************/
+task searchPattern() {
+
+     int multiplier = 1;
+     int distance = 20;
+
+     for(; !FOUND ; multiplier = multiplier + 2) {  // the square is expanding with +2 to forward direction on every round
+     
+                  for (int times = 0; times < multiplier; times++) {
+                      forwardCm(distance);
+                      Wait(170);
+                      Off(OUT_AC);
+                      Wait(170);
+                  }
+
+                  Wait(220);
+                  turnRight();
+                  Wait(190);
+                  Off(OUT_AC);
+
+                  Wait(150);
+     }
+     
+}
+
+
+
+//////////////////////////////////////
+// GAP IS FOUND
+//////////////////////////////////////
+/**************************************
+* When the sensor detects a gap, it calls this function.
+* GapFound() will send the Master a notification that
+* the gap is found and the Zerg number as a parameter
+* so the master knows to stop the other bot.
+* Then the slave will send its current location to the
+* master and lower the bridge piece.
+**************************************/
+void GapFound() {
+
+     LOCATION = true;
+
+     lowerTheBridge();  // Lowering the arm with the bridge piece.
+     BRIDGE_DOWN = true;
+
+
+}
+
+//////////////////////////////////////
+// SENSOR POLLER
+//////////////////////////////////////
+/**************************************
+* This thread will check if the distance between
+* the US sensor and surface is more than DISTANCE
+* and that way determing if there is a gap ahead or not.
+*
+* In case the gap is found, thread will stop the motors and
+* also stop the movement thread. Then it calls GapFound()-function
+**************************************/
+task sensorPoller() {
+    byte sensorValue = 0;
+    SetSensorLowspeed(IN_2);
+    for (int i = 0; i < 5; i++) {
+              sensorValue = SensorUS(IN_2);
+              Wait(100);
+    }
+    
+    FOUND = false;
+    
+    while ( true ) {
+          Wait(75);
+          
+          sensorValue = SensorUS(IN_2);
+          
+          if ( sensorValue > DISTANCE ) {
+             FOUND = true;
+
+             Off(OUT_ABC);
+
+             StopTask(searchPattern);
+
+             break;
+
+          }
+    }
+}
+
+//////////////////////////////////////
+// BEGIN THE SEARCH
+//////////////////////////////////////
+/**************************************
+* This tiny thread is started when master gives the command
+* to start looking for the gap.
+*
+* Thread will only format the FOUND boolean to false
+* to indicate that gap has not been found yet.
+* Then it will set up the sensorPoller and searchPattern
+* threads and quit executing.
+**************************************/
+task beginSearch() {
+    FOUND = false;
+   //StopTask(slaveProtocolHandler);
+   Precedes(sensorPoller, searchPattern);
+
+
+}

@@ -1,0 +1,221 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001XBWaitForData	6	1	0	4	2
+1	__PointOutMutex	9	0	4	4	2
+2	__signed_stack_002XBWaitForData	6	1	8	4	2
+3	__CHSCSMutex	9	0	12	4	2
+4	__D0InitUART	6	1	16	4	2
+5	__D0XBWaitForData	6	1	20	4	8
+6	__CHSRMutex	9	0	24	4	2
+7	__TextOutMutex	9	0	28	4	4
+8	__Wait_7qG2_ms_7qG2_000_inline_InitUART	5	1	32	4	3
+9	__constVal200	4	0	36	2	2
+10	__constVal2240	4	0	38	2	2
+11	____initialize_global_data_return	1	1	40	1	3
+12	__InitUART_return	1	1	41	1	3
+13	__ClearLine_7qG2_line_7qG2_000_inline_XBWaitForData	1	1	42	1	2
+14	__zfXBWaitForData	1	1	43	1	4
+15	__constVal12	2	0	44	1	1
+16	__constVal1	2	0	45	1	2
+17	__constVal3	2	0	46	1	1
+18	__constVal0	2	1	47	1	3
+19	__constVal15	2	0	48	1	1
+20	__constVal5	2	0	49	1	1
+21	__TextOutArgs	8	0	4	16	11
+22	__TextOutArgs.Result	2	1	52	1	11
+23	__TextOutArgs.Location	8	0	2	4	11
+24	__TextOutArgs.Location.X	4	1	56	2	11
+25	__TextOutArgs.Location.Y	4	1	58	2	11
+26	__TextOutArgs.Text	7	0	60	4	11
+27	__TextOutArgs.Text.Text_type	1	0	0	1	0
+28	__TextOutArgs.Options	5	1	64	4	11
+29	__CHSRArgs	8	0	2	8	3
+30	__CHSRArgs.Status	2	1	68	1	3
+31	__CHSRArgs.Buffer	7	0	70	4	3
+32	__CHSRArgs.Buffer.Buffer_type	1	0	0	1	0
+33	__CHSCArgs	8	0	4	8	10
+34	__CHSCArgs.Result	2	1	72	1	10
+35	__CHSCArgs.Command	1	1	73	1	10
+36	__CHSCArgs.BaudRate	1	1	74	1	10
+37	__CHSCArgs.Mode	3	1	76	2	10
+38	__PointOutArgs	8	0	3	12	4
+39	__PointOutArgs.Result	2	1	80	1	4
+40	__PointOutArgs.Location	8	0	2	4	4
+41	__PointOutArgs.Location.X	4	1	84	2	4
+42	__PointOutArgs.Location.Y	4	1	86	2	4
+43	__PointOutArgs.Options	5	1	88	4	4
+44	__CHSCSArgs	8	0	2	4	2
+45	__CHSCSArgs.SendingData	1	1	92	1	2
+46	__CHSCSArgs.DataAvailable	1	1	93	1	2
+47	__strbufXBWaitForData	7	0	94	4	2
+48	__strbufXBWaitForData.__strbufXBWaitForData_type	1	0	0	1	0
+49	__XBWaitForData_7qG2_buf_7qG2_000	7	0	96	4	2
+50	__XBWaitForData_7qG2_buf_7qG2_000.__XBWaitForData_7qG2_buf_7qG2_000_type	1	0	0	1	0
+51	__BlankLine	7	0	98	4	1
+52	__BlankLine.__BlankLine_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	4	0	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+0	5	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	4	2	#line 4 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+0	5	2	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+0	6	2		subcall InitUART, __InitUART_return
+0	5	4	#line 5 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+0	6069	4	#line 6069 "NXCDefs.h"
+0	6070	4	#pragma macro 6
+0	6070	4		acquire __PointOutMutex
+0	6070	5		mov __PointOutArgs.Location.X, __constVal200
+0	6070	7		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	9		mov __PointOutArgs.Options, __constVal1
+0	6070	11		syscall 14, __PointOutArgs
+0	6070	14		release __PointOutMutex
+0	6870	15	#line 6870 "NXCDefs.h"
+0	6069	15	#line 6069 "NXCDefs.h"
+0	6	15	#line 6 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+0	10	15	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+0	11	15		start XBWaitForData
+0	10	17	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+0	11	17		exit -1, -1
+1	26	0	#line 26 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	27	0		set __D0XBWaitForData, 1
+1	27	3	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	3		tst 5, __zfXBWaitForData, __D0XBWaitForData
+1	27	6	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	6		brtst 4, __NXC_Label_613, __zfXBWaitForData
+1	27	9	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	9	#pragma macro 5
+1	28	9		acquire __CHSCSMutex
+1	28	10		syscall 39, __CHSCSArgs
+1	28	13		mov __D0XBWaitForData, __CHSCSArgs.DataAvailable
+1	28	15		release __CHSCSMutex
+1	6660	16	#line 6660 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	27	16	#line 27 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	16		not __D0XBWaitForData, __D0XBWaitForData
+1	28	19	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	29	19		tst 5, __zfXBWaitForData, __D0XBWaitForData
+1	28	22	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	29	22		brtst 4, __NXC_Label_617, __zfXBWaitForData
+1	28	25	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	25	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	29	25		jmp __NXC_Label_616
+1	28	27	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	27	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	29	27	#pragma macro 5
+1	29	27		acquire __CHSRMutex
+1	29	28		syscall 38, __CHSRArgs
+1	29	31		mov __XBWaitForData_7qG2_buf_7qG2_000, __CHSRArgs.Buffer
+1	29	33		mov __D0XBWaitForData, __CHSRArgs.Status
+1	29	35		release __CHSRMutex
+1	6677	36	#line 6677 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	36	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	28	36	#line 28 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	29	36	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	30	36		set __signed_stack_001XBWaitForData, 0
+1	29	39	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	29	39	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	30	39		set __signed_stack_002XBWaitForData, 40
+1	29	42	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	29	42	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	30	42		strcat __strbufXBWaitForData, __XBWaitForData_7qG2_buf_7qG2_000
+1	30	46	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	46		acquire __TextOutMutex
+1	30	47	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	47		mov __TextOutArgs.Location.X, __signed_stack_001XBWaitForData
+1	30	49	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	49		mov __TextOutArgs.Location.Y, __signed_stack_002XBWaitForData
+1	30	51	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	51		set __TextOutArgs.Options, 0
+1	30	54	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	54		mov __TextOutArgs.Text, __strbufXBWaitForData
+1	30	56	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	56		syscall 13, __TextOutArgs
+1	30	59	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	59		mov __D0XBWaitForData, __TextOutArgs.Result
+1	30	61	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	61		release __TextOutMutex
+1	30	62	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	30	62	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	30	62	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	7921	62	#line 7921 "NXCDefs.h"
+1	7922	62		wait 950
+1	7921	64	#line 7921 "NXCDefs.h"
+1	31	64	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	31	64	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	32	64		set __ClearLine_7qG2_line_7qG2_000_inline_XBWaitForData, 40
+1	31	67	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	6076	67	#line 6076 "NXCDefs.h"
+1	6077	67	#pragma macro 7
+1	6077	67		acquire __TextOutMutex
+1	6077	68		mov __TextOutArgs.Location.X, __constVal0
+1	6077	70		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_XBWaitForData
+1	6077	72		mov __TextOutArgs.Options, __constVal0
+1	6077	74		mov __TextOutArgs.Text, __BlankLine
+1	6077	76		syscall 13, __TextOutArgs
+1	6077	79		release __TextOutMutex
+1	6736	80	#line 6736 "NXCDefs.h"
+1	6076	80	#line 6076 "NXCDefs.h"
+1	33	80	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	37	80	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	38	80		jmp __NXC_Label_612
+1	37	82	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+1	38	82		exit -1, -1
+2	38	0	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	39	0	#pragma macro 2
+2	39	0		setin __constVal12, __constVal3, 0
+2	39	4		wait 1
+2	6747	6	#line 6747 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	38	6	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	38	6	#line 38 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	39	6	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	40	6		set __Wait_7qG2_ms_7qG2_000_inline_InitUART, 50
+2	39	9	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	7921	9	#line 7921 "NXCDefs.h"
+2	7922	9		wait 50
+2	7921	11	#line 7921 "NXCDefs.h"
+2	40	11	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	40	11	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	41	11	#pragma macro 8
+2	41	11		mov __CHSCArgs.Command, __constVal0
+2	41	13		mov __CHSCArgs.BaudRate, __constVal15
+2	41	15		mov __CHSCArgs.Mode, __constVal2240
+2	41	17		syscall 88, __CHSCArgs
+2	41	20		mov __D0InitUART, __CHSCArgs.Result
+2	41	22		wait 1
+2	6765	24	#line 6765 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	40	24	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	40	24	#line 40 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	41	24	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	42	24		set __Wait_7qG2_ms_7qG2_000_inline_InitUART, 50
+2	41	27	#line 41 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	7921	27	#line 7921 "NXCDefs.h"
+2	7922	27		wait 50
+2	7921	29	#line 7921 "NXCDefs.h"
+2	42	29	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	42	29	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	43	29	#pragma macro 8
+2	43	29		mov __CHSCArgs.Command, __constVal1
+2	43	31		mov __CHSCArgs.BaudRate, __constVal5
+2	43	33		mov __CHSCArgs.Mode, __constVal2240
+2	43	35		syscall 88, __CHSCArgs
+2	43	38		mov __D0InitUART, __CHSCArgs.Result
+2	43	40		wait 1
+2	6779	42	#line 6779 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	42	42	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	42	42	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	43	42	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	44	42		set __Wait_7qG2_ms_7qG2_000_inline_InitUART, 50
+2	43	45	#line 43 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	7921	45	#line 7921 "NXCDefs.h"
+2	7922	45		wait 50
+2	7921	47	#line 7921 "NXCDefs.h"
+2	44	47	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	46	47	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc"
+2	47	47		subret __InitUART_return
+3	13	0	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc"
+3	14	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc
+1	XBWaitForData	20	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc
+2	InitUART	105	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\.\XBeeControl.nxc
+3	__initialize_global_data	154	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\XBTesti_recieve.nxc

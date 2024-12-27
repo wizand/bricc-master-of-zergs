@@ -1,0 +1,15 @@
+inline testi(int n) {
+   n = 5;
+}
+
+
+task main() {
+
+int number = 3;
+
+testi(number);
+
+TextOut(3, LCD_LINE3, NumToStr(number) );
+Wait(3999);
+
+}

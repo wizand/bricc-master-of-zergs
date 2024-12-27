@@ -1,0 +1,71 @@
+#define ZERG_1 2
+#define ZERG_2 3
+#define ZERG_3 4
+
+/////////////////
+// OUT GOING BOXES
+/////////////////
+#define OUT_COMMAND 1
+#define OUT_PARAMETER 2
+
+/////////////////
+// INBOUND BOXES
+/////////////////
+/*
+#define IN_ACK_Z1 3
+#define IN_ACK_Z2 4
+#define IN_ACK_Z3 5   */
+
+#define IN_ACK 3
+
+#define IN_CMD 7
+#define IN_PAR 8
+#define IN_DES 9
+
+
+task main() {
+
+     int cmd = 0;
+     int par = 0;
+     int des = 0;
+     
+     int ack = 0;
+     ClearScreen();
+     
+     
+     while(true) {
+       ClearLine(LCD_LINE1);
+       TextOut(0,LCD_LINE1,"LISTENING" );
+       Wait(2000);
+       ReceiveRemoteNumber(IN_CMD, true, cmd);
+       
+       if (cmd != 0) {
+          Wait(300);
+          ReceiveRemoteNumber(IN_PAR, true, par);
+          
+          Wait(300);
+          ReceiveRemoteNumber(IN_DES, true, des);
+          
+          TextOut(0,LCD_LINE1,"C:" + NumToStr(cmd) + " P:" + NumToStr(par) + " D:" + NumToStr(des) );
+          
+          Wait(400);
+          
+          SendRemoteNumber(des, OUT_COMMAND, cmd);
+          Wait(400);
+          SendRemoteNumber(des, OUT_PARAMETER, par);
+          Wait(400);
+          
+
+          SendRemoteNumber(1, 6, 0xFF);
+          Wait(300);
+          SendRemoteString(1, 6, "ACK");
+          Wait(300);
+          cmd = 0;
+          par = 0;
+          des = 0;
+       }
+       
+
+     }
+
+}

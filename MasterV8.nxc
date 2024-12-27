@@ -1,0 +1,328 @@
+#include "MasterHeader.nxc"
+#include "Master_locations.nxc"
+#include "MasterSearchProtocol.nxc"
+
+/////////////////
+// OUT GOING BOXES
+/////////////////
+#define OUT_COMMAND 1
+#define OUT_PARAMETER 2
+
+#define OUT_LOC 7   // Location information to the Android
+
+#define GAP_FOUND 6
+
+/////////////////
+// INBOUND BOXES
+/////////////////
+
+#define IN_ACK 3
+
+
+#define IN_CMD 7
+#define IN_PAR 8
+#define IN_DES 9
+
+sub BTWait (int connection){  //wait until BT is idle
+   until(BluetoothStatus(connection)==NO_ERR);
+}
+
+byte __buffer[];
+byte __array[];
+
+sub BTSendMessage(byte connection, byte mailbox, string msg){ //send a BT message
+   byte len,Smb;
+   int i;
+   BTWait(connection);
+   if(connection!=0){ //master-related routine
+      ArrayInit(__buffer,0,80);
+      ArrayInit(__array,0,59);
+      StrToByteArray(msg,__array);
+      len = ArrayLen(__array);
+      __buffer[0] = 0x80; //no reply telegram
+      __buffer[1] = 0x09; //MessageWrite Direct Command
+      __buffer[2] = mailbox; //inbox number
+      __buffer[3] = len+1; //message size
+      for (i=4;i<(len+4);i++){
+         __buffer[i] = __array[i-4];
+      }
+   BluetoothWrite(connection,__buffer);
+   BTWait(connection);
+   }
+   else {  //slave-related routine
+      Smb = mailbox+10;
+      SendMessage(Smb,msg);
+      BTWait(connection);
+   }
+}
+
+string BTReceiveMessage(byte connection, byte mailbox, byte flush){ //receive a BT message
+   string msg;
+   BTWait(connection);
+   ReceiveMessage(mailbox,flush,msg);
+   BTWait(connection);
+   return msg;
+}
+
+
+///////////////////////////////////////////////////
+// FUNCTION TO WAIT FOR ACKNOWLEDGEMENT
+///////////////////////////////////////////////////
+int getAck() {
+
+    int ack = 0;
+    int timeout = 0;
+    TextOut(5,LCD_LINE3, "Waiting for ack");
+
+    while (ack == 0 || timeout == 30 ) {
+          Wait(100);
+
+          ReceiveRemoteNumber(IN_ACK, true, ack);
+          timeout++;
+    }
+
+    ClearLine(LCD_LINE3);
+    if ( ack ) {
+       TextOut(5, LCD_LINE3, "ACK recieved");
+       Wait(150);
+       return 1;
+    } else {
+       TextOut(5, LCD_LINE3, "Error with ACK");
+       return -1;
+    }
+
+    return 0;
+}
+
+//////////////////////////////////////////////////
+// FUNCTION TO SEND COMMAND
+//////////////////////////////////////////////////
+void sendCommand(int cmd, int des) {
+     TextOut(5, LCD_LINE7, "Send C:" + NumToStr(cmd) + " D:" + NumToStr(des) );
+     BTWait(des);
+     SendRemoteNumber(des, OUT_COMMAND, cmd);
+     BTWait(des);
+
+}
+
+
+///////////////////////////////////////////////////
+// FUNCTION TO SEND PARAMETERS
+///////////////////////////////////////////////////
+void sendParameter(int par, int des) {
+     TextOut(5, LCD_LINE8, "Send P:" + NumToStr(par) + " D:" + NumToStr(des));
+     BTWait(des);
+     SendRemoteNumber(des, OUT_PARAMETER, par);
+     BTWait(des);
+}
+
+void sendZergIdentities() {
+
+   TextOut(0,LCD_LINE1,"Sending id to Z1" );
+   sendCommand(1, ZERG_1);
+  // Wait(200);
+   sendParameter(1, ZERG_1);
+  // Wait(200);
+   getAck();
+
+   ClearLine(LCD_LINE1);
+   TextOut(0,LCD_LINE1,"Sending id to Z2" );
+  // Wait(200);
+   sendCommand(1, ZERG_2);
+ //  Wait(200);
+   sendParameter(2, ZERG_2);
+ //  Wait(200);
+   getAck();
+   ClearLine(LCD_LINE1);
+   TextOut(0,LCD_LINE1,"Identities OK." );
+
+   Wait(250);
+}
+
+void notifyZergs() {
+
+}
+
+task main() {
+
+     ClearScreen();
+
+
+     LOC = false;
+     SEARCH = false;
+
+     locations = "";
+
+     int cmd = 0;
+     int par = 0;
+     int des = 0;
+
+     int ack = 0;
+
+     string buf1 = "";
+     string buf2 = "";
+     string loc1 = "-10_0_0_1_";
+     string loc2 = "10_0_2_2_";
+     string combination;
+     int update = 0;
+
+   // sendZergIdentities();
+
+
+     ClearScreen();
+     TextOut(0,LCD_LINE1,"MASTER LISTENING" );
+
+     while(true) {
+
+       Wait(50);
+
+       if ( !SEARCH ) {
+         ReceiveRemoteNumber(IN_CMD, true, cmd);
+
+         if (cmd != 0) {
+            if (cmd == 15 ) {
+
+               SEARCH = true;
+               FormatLocations();
+
+               BTWait(1);
+               SendRemoteString(1, OUT_COMMAND, "ACK");
+               BTWait(1);
+
+               //Relying the scout-order to the zerglings
+               ClearLine(LCD_LINE1);
+               TextOut(0,LCD_LINE1,"Sending cmd to Z1" );
+               sendCommand(15, ZERG_1);
+               sendParameter(15, ZERG_1);
+               getAck();
+
+               ClearLine(LCD_LINE1);
+               TextOut(0,LCD_LINE1,"Sending cmd to Z2" );
+               sendCommand(15, ZERG_2);
+               sendParameter(15, ZERG_2);
+               getAck();
+
+               ClearScreen();
+               TextOut(0,LCD_LINE1, "STARTING SEARCH");
+               Wait(500);
+
+            } else {
+                //Wait(200);
+                BTWait(1);
+                ReceiveRemoteNumber(IN_PAR, true, par);
+                BTWait(1);
+                //Wait(200);
+                BTWait(1);
+                ReceiveRemoteNumber(IN_DES, true, des);
+                BTWait(1);
+
+                TextOut(0,LCD_LINE2,"COMMAND RECEIVED" );
+                TextOut(0,LCD_LINE3,"C:" + NumToStr(cmd) + " P:" + NumToStr(par) + " D:" + NumToStr(des) );
+
+                sendCommand(cmd, des);
+                sendParameter(par, des);
+
+                ClearLine(LCD_LINE2);
+                ClearLine(LCD_LINE3);
+                ClearLine(LCD_LINE7);
+                ClearLine(LCD_LINE8);
+
+                int ack = getAck();
+
+                ClearLine(LCD_LINE3);
+                cmd = 0;
+                par = 0;
+                des = 0;
+              }
+         }
+       }
+         string s;
+         int gap1 = 0;
+         int gap2 = 0;
+
+         string z1tmp;
+         string z2tmp;
+
+      /* if (SEARCH) { s = "true"; } else { s = "false"; }
+          ClearLine(LCD_LINE5);
+          TextOut(0, LCD_LINE5, s);
+                       */
+       if ( SEARCH ) {
+           //////////////////////////////////////////
+            sendCommand(25, ZERG_1);
+
+            z1tmp = BTReceiveMessage(2, 6, TRUE);
+           // BTWait(2);
+            //ReceiveRemoteNumber(6,true, gap1);
+           // BTWait(2);
+
+            TextOut(0, LCD_LINE5, z1tmp);
+            //NumOut(20, LCD_LINE6, gap1);
+
+
+            if ( gap1 == 1 ) {
+               ClearLine(LCD_LINE5);
+               TextOut(0, LCD_LINE5, "Z1 FOUND GAP");
+               Wait(3000);
+               SEARCH = false;
+            }
+
+            sendCommand(25, ZERG_2);
+            Wait(150);
+            z2tmp = BTReceiveMessage(3, 6, TRUE);
+            //BTWait(3);
+            //ReceiveRemoteNumber(6,true, gap2);
+            //BTWait(3);
+            TextOut(0, LCD_LINE6, z2tmp);
+            //NumOut(50, LCD_LINE6, gap2);
+
+            if ( gap2 == 2 ) {
+               ClearLine(LCD_LINE6);
+               TextOut(10, LCD_LINE6, "Z2 FOUND GAP");
+               Wait(3000);
+               SEARCH  = false;
+            }
+         }
+         ////////////////////////////////////////////
+         if ( LOCATION ) {
+          update++;
+
+          sendCommand(20, ZERG_1);
+
+            while ( true ) {
+              BTWait(2);
+              ReceiveRemoteString(IN_LOCATION_Z1, true, buf1);
+              BTWait(2);
+              if ( StrLen(buf1) > 4 ) {
+                   loc1 = buf1;
+                   break;
+              }
+            }
+
+          sendCommand(20, ZERG_2);
+
+            while(true) {
+              BTWait(3);
+              ReceiveRemoteString(IN_LOCATION_Z2, true, buf2);
+              BTWait(3);
+              if ( StrLen(buf2) > 4 ) {
+                 loc2 = buf2;
+                 break;
+              }
+            }
+
+          TextOut(0, LCD_LINE1, "L1: " + loc1 + " " + NumToStr(update) );
+          TextOut(0, LCD_LINE2, "L2: " + loc2);
+
+          combination = loc1 + loc2;
+
+          TextOut(0, LCD_LINE3, combination);
+
+          BTWait(1);
+          SendRemoteString(1, 7, combination );
+          BTWait(1);
+
+         }
+       }
+     }
+}

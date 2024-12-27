@@ -1,0 +1,377 @@
+#include "MasterHeader.nxc"
+#include "MasterActions.nxc"
+#include "MasterSearchProtocol.nxc"
+
+/////////////////////////////////////////////////////////
+// MasterV7.nxc
+/////////////////////////////////////////////////////////
+// MASTER MAIN FILE
+// Version 7.0
+// Programed by: Petteri Loisko
+// 11th of July 2011
+//
+/////////////////////////////////////////////////////////
+// The file contains most of the Master robot functionality
+// concerning the communication with the slaves (NXT's and
+// Android phone)
+//
+/////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////
+// BLUETOOTH WAIT
+/////////////////////////////////////////////////
+/************************************************
+* This little function will loop until the bluetooth
+* state on the given connection line is idle.
+************************************************/
+sub BTWait (int connection){  //wait until BT is idle
+   until(BluetoothStatus(connection)==NO_ERR);
+}
+
+/////////////////////////////////////////////
+// COORDINATE PARSER
+/////////////////////////////////////////////
+/******************************************
+* This function is used to parse coordinate
+* parameters from the location string from.
+* The location string has the position data
+* separated with underscores (_).
+*******************************************/
+int ParseCoordinates(string location) {
+
+       int i = 0; // For the for-loop index
+       int counter = 0; // To keep track of the underscores
+
+       int underscores[5]; // Underscore positions
+       ArrayInit(underscores,0,5); // Init
+
+       for (; i < StrLen( location ); i++ ) {    // Going through the string
+          if ( StrIndex(location, i) == 0x5F ) { // If the byte in current string index is 0x5F (ascii for '_')
+             underscores[counter] = i;           // mark up the underscore position
+             counter++;                          // On we go
+
+          }
+          if ( counter == 5 ) break;     // If three underscores has been found, break out of the loop
+       }
+
+       // Parsing the substrings between the underscores
+       // x coordinate is between position 0 and underscore one
+       // y coordinate begins from the the underscore one and ends at the next one
+       // etc.. Notice that the third parameter (length) isnt counted from the beginning of the string
+       // but from the offset.
+       string x = SubStr(location, 0, underscores[0]);                                     // x coordinate
+       string y = SubStr(location, underscores[0]+1, underscores[1]-(underscores[0]+1) );  // y coordinate
+       string h = SubStr(location, underscores[1]+1, underscores[2]-(underscores[1]+1) );  // heading
+       string z = SubStr(location, underscores[2]+1, underscores[3]-(underscores[2]+1) );  // robot identity
+       string f = SubStr(location, underscores[3]+1, underscores[4]-(underscores[3]+1) );  // is the bot gap's founder
+
+       coordBuffer[0] = StrToNum(x);
+       coordBuffer[1] = StrToNum(y);
+       coordBuffer[2] = StrToNum(h);
+       coordBuffer[3] = StrToNum(z);
+       coordBuffer[4] = StrToNum(f);
+
+       return coordBuffer[4];
+
+}
+
+///////////////////////////////////////////////////
+// FUNCTION TO WAIT FOR ACKNOWLEDGEMENT
+///////////////////////////////////////////////////
+/**************************************
+* getAck funtion waits for the slave to
+* send an acknowledgement from succesfully
+* recieved and accoplished command.
+* This is to make the communication protocol
+* a bit more reliable.
+***************************************/
+int getAck() {
+
+    int ack = 0;
+    int timeout = 0;
+    TextOut(5,LCD_LINE3, "Waiting for ack");
+
+    while (ack == 0 || timeout == 30 ) {
+          Wait(100);
+
+          ReceiveRemoteNumber(IN_ACK, true, ack);
+          timeout++;
+    }
+
+    ClearLine(LCD_LINE3);
+    if ( ack ) {
+       TextOut(5, LCD_LINE3, "ACK recieved");
+       Wait(150);
+       return 1;
+    } else {
+       TextOut(5, LCD_LINE3, "Error with ACK");
+       return -1;
+    }
+
+    return 0;
+}
+
+//////////////////////////////////////////////////
+// FUNCTION TO SEND COMMAND
+//////////////////////////////////////////////////
+/***********************************
+* Command send wrapper function to send
+* simple command code to given destination.
+* Function uses BTWait -functions to see if
+* the communication line is idle and thus free to
+* send the command.
+************************************/
+void sendCommand(int cmd, int des) {
+     TextOut(5, LCD_LINE7, "Send C:" + NumToStr(cmd) + " D:" + NumToStr(des) );
+     BTWait(des);
+     SendRemoteNumber(des, OUT_COMMAND, cmd);
+     BTWait(des);
+
+}
+
+
+///////////////////////////////////////////////////
+// FUNCTION TO SEND PARAMETERS
+///////////////////////////////////////////////////
+/***********************************
+* parameter send wrapper function to send
+* parameters for alraedy sent command to given destination.
+* Function uses BTWait -functions to see if
+* the communication line is idle and thus free to
+* send the parameter.
+************************************/
+void sendParameter(int par, int des) {
+     TextOut(5, LCD_LINE8, "Send P:" + NumToStr(par) + " D:" + NumToStr(des));
+     BTWait(des);
+     SendRemoteNumber(des, OUT_PARAMETER, par);
+     BTWait(des);
+}
+
+////////////////////////////////////
+// ZERG IDENTITY SETTER
+////////////////////////////////////
+/***********************************
+* Function's purpose is to send identity code
+* for each individual slave robots to avoid
+* having to manually set it on the slave code.
+*
+* NOT USED IN THIS IMPLEMENTATION!
+************************************/
+void sendZergIdentities() {
+
+   TextOut(0,LCD_LINE1,"Sending id to Z1" );
+   sendCommand(1, ZERG_1);
+  // Wait(200);
+   sendParameter(1, ZERG_1);
+  // Wait(200);
+   getAck();
+
+   ClearLine(LCD_LINE1);
+   TextOut(0,LCD_LINE1,"Sending id to Z2" );
+  // Wait(200);
+   sendCommand(1, ZERG_2);
+ //  Wait(200);
+   sendParameter(2, ZERG_2);
+ //  Wait(200);
+   getAck();
+   ClearLine(LCD_LINE1);
+   TextOut(0,LCD_LINE1,"Identities OK." );
+
+   Wait(250);
+}
+
+//////////////////////////////
+// MASTER MAIN FUCNTION
+//////////////////////////////
+/******************************
+* The master code execution starts here.
+* The main task handles most of the master functionality
+* including polling possible commands from the
+* Android and sending them forward. It will
+* also handle the location tracking and relying
+* when the Search task begins.
+*******************************/
+task main() {
+
+     ClearScreen();
+
+
+     FOUNDER = 0;
+     LOC = false;
+     SEARCH = false;
+     
+     ArrayInit(coordBuffer, 0, 5);
+
+     locations = "";
+
+     int cmd = 0;
+     int par = 0;
+     int des = 0;
+
+     int ack = 0;
+     
+     //STARTING POSITIONS FOR THE BOTS
+     string buf1 = "-25_0_0_1_2_";
+     string buf2 = "25_0_2_2_2_";
+     string loc1 = "-25_0_0_1_2_";
+     string loc2 = "25_0_2_2_2_";
+     string mloc = "0_0_0_3_2_";
+   //  string combination;
+     int update = 0;
+
+      FormatLocations();
+   // sendZergIdentities();    // not implemented in this version
+
+
+     ClearScreen();
+     TextOut(0,LCD_LINE1,"MASTER LISTENING" );
+
+     while(true) {
+
+         Wait(50);
+
+         if ( !SEARCH ) {
+           ReceiveRemoteNumber(IN_CMD, true, cmd);    // Polling mailbox IN_CMD for incoming commands
+                                                      // from the Android phone
+           if (cmd != 0) {  // In case there is command code received
+              if (cmd == 15 ) {     // If the command code is 15 it means that the search procedure
+                                    // should be started and zergs notified
+                 SEARCH = true;
+                 LOC = true;
+
+                 BTWait(1);
+                 SendRemoteString(1, OUT_COMMAND, "ACK");   // Response to the android
+                 BTWait(1);
+
+                 //Relying the scout-order to the zerglings
+                 ClearLine(LCD_LINE1);
+                 TextOut(0,LCD_LINE1,"Sending cmd to Z1" );  // Notifying Zerg1 about the new orders
+                 sendCommand(15, ZERG_1);
+                 sendParameter(15, ZERG_1);
+                 getAck();
+
+                 ClearLine(LCD_LINE1);
+                 TextOut(0,LCD_LINE1,"Sending cmd to Z2" );   // Notifying Zerg2 about the new orders
+                 sendCommand(15, ZERG_2);
+                 sendParameter(15, ZERG_2);
+                 getAck();
+
+                 ClearScreen();
+                 TextOut(0,LCD_LINE1, "STARTING SEARCH");
+                 Wait(500);
+
+              } else {         // If the gotten command isnt the "start search"
+                  //Wait(200);
+                  BTWait(1);
+                  ReceiveRemoteNumber(IN_PAR, true, par);   // get parameters for the command
+                  BTWait(1);
+                  //Wait(200);
+                  BTWait(1);
+                  ReceiveRemoteNumber(IN_DES, true, des);    // get the destincation for the command
+                  BTWait(1);
+
+                  TextOut(0,LCD_LINE2,"COMMAND RECEIVED" );
+                  TextOut(0,LCD_LINE3,"C:" + NumToStr(cmd) + " P:" + NumToStr(par) + " D:" + NumToStr(des) );
+
+                  sendCommand(cmd, des);         // Send the command to the given destination
+                  sendParameter(par, des);       // Send the parameters to the give destination
+
+                  ClearLine(LCD_LINE2);
+                  ClearLine(LCD_LINE3);
+                  ClearLine(LCD_LINE7);
+                  ClearLine(LCD_LINE8);
+
+                  int ack = getAck();
+
+                  ClearLine(LCD_LINE3);
+                  cmd = 0;
+                  par = 0;
+                  des = 0;
+                }
+           }
+         }
+
+         if ( LOC ) {
+              update++;
+              int f1 = 2;
+              int f2 = 2;
+               Wait(70);
+              sendCommand(20, ZERG_1);   // Telling Zerg1 to send location information
+              Wait(50);
+              while ( true ) {
+                BTWait(2);
+                ReceiveRemoteString(IN_LOCATION_Z1, true, buf1);    // Catching the location information
+                BTWait(2);
+                if ( StrLen(buf1) > 4 ) {           // In case real location data has been received, the string
+                     loc1 = buf1;                   //will be longer than 4 characters and can be used.
+                     break;
+                }
+              }
+              
+              f1 = ParseCoordinates(loc1);          // Parsing the found -parameter of the location string
+              TextOut(0,LCD_LINE5, NumToStr(f1) + " " +loc1 );
+             if ( f1 == 1 ) {                       // If zerg1 has found the gap, the Aftermath task will begin
+                                                    // and the Zerg2 will be notified.
+                 TextOut(0,LCD_LINE7, "Z1 FOUND" );
+                 TextOut(55,LCD_LINE5, NumToStr(f1) );
+
+                 FOUNDER = 1;
+
+                 Wait(100);
+                 sendCommand(16, ZERG_2);
+                 getAck();
+                 
+                 Wait(500);
+                 
+                 StartTask(Aftermath);
+                 break;
+              }
+              Wait(70);
+              sendCommand(20, ZERG_2);       // Telling Zerg2 to send location information
+              Wait(50);
+              while(true) {
+                BTWait(3);
+                ReceiveRemoteString(IN_LOCATION_Z2, true, buf2);   // Catching the location information
+                BTWait(3);
+                if ( StrLen(buf2) > 4 ) {
+                   loc2 = buf2;        // In case real location data has been received, the string
+                   break;              //will be longer than 4 characters and can be used.
+                }
+              }
+
+              f2 = ParseCoordinates(loc2);        // Parsing the found -parameter of the location string
+              TextOut(0,LCD_LINE6, NumToStr(f2) + " " +loc2 );
+              if ( f2 == 1 ) {                          // If zerg2 has found the gap, the Aftermath task will begin
+                 TextOut(0,LCD_LINE8, "Z2 FOUND!" );    // and the Zerg1 will be notified.
+                 TextOut(55,LCD_LINE8, NumToStr(f2) );
+                 
+                 FOUNDER = 2;
+                 
+                 Wait(100);
+                 sendCommand(16, ZERG_1);
+                 getAck();
+
+                 Wait(500);
+
+                 StartTask(Aftermath);
+                 break;
+
+                 
+
+              }
+
+              TextOut(0, LCD_LINE1, "L1: " + loc1 + " " + NumToStr(update) );
+              TextOut(0, LCD_LINE2, "L2: " + loc2);
+
+              updateLocationsToMap(loc1, loc2, mloc);    // Send the combinated location informatoin to
+                                                         // the android phone for the map
+
+         }
+       }
+   ///////////////////////////////////////////////////////////////////
+   
+
+   
+
+}

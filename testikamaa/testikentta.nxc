@@ -1,0 +1,181 @@
+////////////////////////////////////////////////////
+// ADD COMMANDS TO QUEUE
+////////////////////////////////////////////////////
+/*(order[]) CommandPacker(int commands[], int parameters[], int destinations[]) {
+      order o_tmp, o_tmp2;
+      o_tmp.command = commands[0];
+      o_tmp.parameter = parameters[0];
+      o_tmp.destination = destination[0];
+
+      o_tmp2.command = commands[1];
+      o_tmp2.parameter = parameters[1];
+      o_tmp2.destination = destination[1];
+
+      order os[2];
+      os[0] = o_tmp;
+      os[1] = o_tmp2;
+      
+      return os;
+} */
+ /*
+struct testi {
+       int a[10];
+       int b[10];
+       int c[10];
+};
+
+struct yks {
+  int a;
+  int b;
+  int c;
+
+}
+
+int foo(testi t) {
+   for (int i = 0; i < ArrayLen(ta); i++) {
+         TextOut(i*6, LCD_LINE1, NumToStr(t.a[i] ) );
+         TextOut(10+i*6, LCD_LINE2, NumToStr(t.b[i] ) );
+   }
+}
+
+task main() {
+     int ta[] = {1,2,3,4,5,6,7,8,9,10};
+     int tb[] = {3,4,5,6,7,8,9,11,22,33};
+     int tc[] = {9,9,9,9,8,8,8,8,7,7};
+
+     testi t;
+     yks y;
+
+     ArrayInit(t.a, 0, 10);
+     ArrayInit(t.b, 0, 10);
+     ArrayInit(t.c, 0, 10);
+     memcpy(t.a, ta, 1);
+     memcpy(t.b, tb, 1);
+     memcpy(t.c, tc, 1);
+
+     //TextOut(20, LCD_LINE1, NumToStr( t.b[4] ) );
+     
+
+     for ( int i = 0; i < ArrayLen(ta); i++) {
+         foo(t, i);
+     }
+
+     for (int i = 0; i < ArrayLen(ta); i++) {
+         TextOut(i*6, LCD_LINE1, NumToStr(t.a[i] ) );
+         TextOut(10+i*6, LCD_LINE2, NumToStr(t.b[i] ) );
+     }
+     Wait(3000);
+
+}  */
+
+/*void teksti() {
+     string s = "33_22_11_";
+     string buf[3];
+     string xcoord = "";
+     string ycoord = "";
+     string hcoord = "";
+     
+     int x, y, h = 1;
+     
+     TextOut(2, LCD_LINE1, s);
+     
+     int index = 0;
+     for ( int underscores = 0; underscores < 3; underscores++) {
+          TextOut(0, LCD_LINE5, "US: " + NumToStr(underscores) );
+          Wait(1000);
+          
+          for ( ; index < StrLen(s); index++ ) {
+          TextOut(0, LCD_LINE6, "INX: " + NumToStr(index) + " C: " + NumToStr( StrIndex(s, index) ) );
+          Wait(1000);
+          
+              if ( StrIndex(s, index) == 0x5F ) {
+                 buf[underscores] = SubStr(s, x, index );
+                 x = index;
+                 index++;
+                 ClearScreen();
+                 break;
+              }
+          }
+     }
+     
+     TextOut(2, LCD_LINE2, buf[0] + "   " + NumToStr(x) );
+     TextOut(2, LCD_LINE3, buf[1] + "   " + NumToStr(y) );
+     TextOut(2, LCD_LINE4, buf[2] + "   " + NumToStr(h) );
+       /*
+     for (int i = 0; i < StrLen(s); i++) {
+         if ( StrIndex(s, i) == 0x5F ) {
+            x = i;
+            break;
+         }
+     }
+
+     xcoord = SubStr(s, 0, x);
+     
+     for (int i = x+1; i < StrLen(s); i++) {
+         if ( StrIndex(s, i) == 0x5F ) {
+            y = i;
+            break;
+         }
+     }
+     
+     ycoord = SubStr(s, 3, 4);
+
+     for (int i = y+1; i < StrLen(s); i++) {
+         if ( StrIndex(s, i) == 0x5F ) {
+            h = i;
+            break;
+         }
+     }
+
+     hcoord = SubStr(s, y+1, h );
+     
+     TextOut(2, LCD_LINE2, xcoord + "   " + NumToStr(x) );
+     TextOut(2, LCD_LINE3, ycoord + "   " + NumToStr(y) );
+     TextOut(2, LCD_LINE4, hcoord + "   " + NumToStr(h) );
+
+
+}  */
+
+void teksti() {
+     string buffer = "5_-22_1_";
+
+     int i = 0;
+     int counter = 0;
+
+     int us[3];
+     ArrayInit(us,0,3);
+     
+     for (; i < StrLen( buffer ); i++ ) {
+        if ( StrIndex(buffer, i) == 0x5F ) {
+           us[counter] = i;
+           counter++;
+
+        }
+        if ( counter == 3 ) break;
+
+     }
+     
+     string x = SubStr(buffer, 0, us[0]);
+     string y = SubStr(buffer, us[0]+1, us[1]-(us[0]+1) );
+     string z = SubStr(buffer, us[1]+1, us[2]-(us[1]+1) );
+     
+     TextOut(2, LCD_LINE2, x + "  " + NumToStr(us[0]) );
+     TextOut(2, LCD_LINE3, y + "  " + NumToStr(us[1]) );
+     TextOut(2, LCD_LINE4, z + "  " + NumToStr(us[2]) );
+
+
+}
+
+task main() {
+  /*
+  TextOut(10, LCD_LINE2, "BT dev num:");
+  TextOut(10, LCD_LINE3, NumToStr(BTConnectionHandleNum(0)) );
+  TextOut(10, LCD_LINE4, NumToStr(BTConnectionHandleNum(1)) );
+  TextOut(10, LCD_LINE5, NumToStr(BTConnectionHandleNum(2)) );
+  TextOut(10, LCD_LINE6, NumToStr(BTConnectionHandleNum(3)) ); */
+
+   teksti();
+
+   Wait(8000);
+
+}

@@ -1,0 +1,358 @@
+/***********************************************************************
+* MASTER ROBOT
+* Version 0.0
+* Programmed by: Petteri Loisko
+*
+************************************************************************
+*   FUCTIONALITY
+*
+*/
+
+/////////////////
+// RECEIVING DEVICES
+/////////////////
+#define ZERG_1 2
+#define ZERG_2 3
+#define ZERG_3 4
+
+/////////////////
+// OUT GOING BOXES
+/////////////////
+#define OUT_COMMAND 1
+#define OUT_PARAMETER 2
+
+/////////////////
+// INBOUND BOXES
+/////////////////
+/*
+#define IN_ACK_Z1 3
+#define IN_ACK_Z2 4
+#define IN_ACK_Z3 5   */
+
+#define IN_ACK 3
+
+#define IN_CMD 7
+#define IN_PAR 8
+#define IN_DES 9
+
+#define MOVE_FORWARD 4
+#define MOVE_BACKWARDS 5
+#define TURN_LEFT 6
+#define TURN_RIGHT 7
+#define WHERE 20
+
+
+struct commandPack {
+       int commands[20];
+       int parameters[20];
+       int destinations[20];
+};
+
+struct order {
+       int command;
+       int parameter;
+       int destination;
+};
+
+mutex COMMANDS;
+
+bool READY;
+
+int tempCommands[20] =     { 99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99 };
+int tempParameters[20] =   { 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0, 0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 ,0 };
+int tempDestinations[20] = { 99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99 };
+
+//////////////////////////////////////////////////
+// CONNECTION CHECK
+//////////////////////////////////////////////////
+int CheckConnection(int commLine) {
+    if ( !BluetoothStatus(commLine) == NO_ERR) {
+       TextOut(10, LCD_LINE4, "Error with the");
+       TextOut(10,LCD_LINE5, "connection");
+       Wait(2000);
+       return -1;
+    }
+    return 0;
+}
+
+//////////////////////////////////////////////////
+// FUNCTION TO SEND COMMAND
+//////////////////////////////////////////////////
+void sendCommand(order o) {
+     TextOut(5, LCD_LINE1, "Sending command " + NumToStr(o.command) + " " + NumToStr(o.destination) );
+     SendRemoteNumber(o.destination, OUT_COMMAND, o.command);
+}
+
+///////////////////////////////////////////////////
+// FUNCTION TO SEND PARAMETERS
+///////////////////////////////////////////////////
+void sendParameter(order o) {
+     TextOut(5, LCD_LINE2, "Sending parameter");
+     SendRemoteNumber(o.destination, OUT_PARAMETER, o.parameter);
+}
+
+///////////////////////////////////////////////////
+// FUNCTION TO WAIT FOR ACKNOWLEDGEMENT
+///////////////////////////////////////////////////
+void getAck() {
+
+    int ack = 0;
+    TextOut(5,LCD_LINE3, "Waiting for ack");
+
+    while (ack == 0) {
+          ReceiveRemoteNumber(IN_ACK, true, ack);
+    }
+    ClearLine(LCD_LINE3);
+    TextOut(5, LCD_LINE3, "ACK recieved");
+    Wait(500);
+}
+
+////////////////////////////////////////////////////
+// PACKING COMMAND ARRAYS TO STRUCTURES
+////////////////////////////////////////////////////
+commandPack CommandPacker(int commands[], int parameters[], int destinations[]) {
+      commandPack cmdPack;
+
+
+
+      //Initializing the arrays in the structure with zeroes.
+      ArrayInit(cmdPack.commands, 0, 20);
+      ArrayInit(cmdPack.parameters, 0, 20);
+      ArrayInit(cmdPack.destinations, 0, 20);
+      
+      //Copying the command arrays to the structure.
+      memcpy(cmdPack.commands, commands, 1);
+      memcpy(cmdPack.parameters, parameters, 1);
+      memcpy(cmdPack.destinations, destinations, 1);
+
+      ClearLine(LCD_LINE6);
+      TextOut(0, LCD_LINE6, "PACK " + NumToStr(cmdPack.commands[0]) );
+      Wait(300);
+
+      return cmdPack;
+}
+
+////////////////////////////////////////////////////
+// EXECUTE COMMANDS FROM COMMAND PACK
+////////////////////////////////////////////////////
+int executeCommands(commandPack cmdPack) {
+
+     READY = false;
+     order o;
+     
+     for (int cmd = 0; cmd < ArrayLen(cmdPack.commands); cmd++) {
+         if (cmdPack.commands[cmd] != 99) { // First command "99" marks the end of command queue.
+
+            //Building the order
+            o.command = cmdPack.commands[cmd];
+            o.parameter = cmdPack.parameters[cmd];
+            o.destination = cmdPack.destinations[cmd];
+            
+            ClearLine(LCD_LINE8);
+            TextOut(0,LCD_LINE8, "EXE " + NumToStr(o.command) + " " + NumToStr(o.destination) );
+
+            //Formatting the current cmdPack slot
+            cmdPack.commands[cmd] = 99;
+            cmdPack.parameters[cmd] = 0;
+            cmdPack.destinations[cmd] = 99;
+            
+            //Executing the order
+            
+            //switch case rakenne jossa eri komennoilla voi olla eri ehdot
+            sendCommand(o);
+            Wait(200); // Moment to breath
+            sendParameter(o);
+            Wait(200); // Moment to breath
+            getAck();
+            Wait(1500);
+         } else { // All commands have been executed
+            Wait(500);
+            ClearScreen();
+            TextOut(10, LCD_LINE4, "All commands");
+            TextOut(20,LCD_LINE5, "executed");
+            Wait(1200);
+            READY = true;
+            return 0;
+         }
+         
+         
+
+     }
+
+}
+
+////////////////////////////////////////////////////
+// SYNC COMMAND QUEUES
+////////////////////////////////////////////////////
+commandPack synchCommandQueues(int commands[], int parameters[], int destinations[]) {
+
+        /**
+         Copying the arrays so mutex COMMANDS can be released asap.
+        */
+        Acquire(COMMANDS);
+        
+          for ( int i = 0; i < ArrayLen(tempCommands); i++) {
+              commands[i] = tempCommands[i];
+              parameters[i] = tempParameters[i];
+              destinations[i] = tempDestinations[i];
+              
+              tempCommands[i] = 99;
+              tempParameters[i] = 0;
+              tempDestinations[i] = 99;
+          }
+
+        Release(COMMANDS);
+        
+        ClearLine(LCD_LINE6);
+        TextOut(0,LCD_LINE6, "SYNC " + NumToStr(commands[0]) + " " + NumToStr(destinations[0]) );
+        Wait(1000);
+        
+
+        return CommandPacker(commands, parameters, destinations);
+}
+
+
+////////////////////////////////////////////////////
+// FUNCTION TO KEEP BUILDING THE COMMAND QUEUE
+////////////////////////////////////////////////////
+void addToList(order newOrder) {
+     Acquire(COMMANDS); //Making sure that this function is the only one handling
+                        //the command arrays at the moment.
+
+
+     ClearLine(LCD_LINE7);
+     TextOut(0,LCD_LINE7, "ADDTOLIST " + NumToStr(newOrder.command) + " " + NumToStr(newOrder.destination) );
+     for( int i = 0; i < ArrayLen(tempCommands); i++ ) {
+         if ( tempCommands[i] == 99 ) { // Setting the new command to the first unused slot in the command array
+            tempCommands[i] = newOrder.command;
+            tempParameters[i] = newOrder.parameter;
+            tempDestinations[i] = newOrder.destination;
+
+            break; //breaking out from the loop
+         }
+
+     }
+     
+     Release(COMMANDS); //Releasing the command array for others to use
+
+}
+
+////////////////////////////////////////////////////
+// THREAD WHICH LISTENS FOR MORE COMMANDS
+////////////////////////////////////////////////////
+task listenForCommands() {
+     //Checking if the master is online.
+      //CheckConnection(0);
+      
+      ClearScreen();
+      TextOut(0, LCD_LINE5, "Listening..");
+      
+
+      order newOrder;
+
+      int tmpCmd = 99;
+      int tmpPar = 0;
+      int tmpDest = 99;
+
+      while(true) {
+          Wait(600);
+          ClearLine(LCD_LINE6);
+          //Reading a new command from the master of the master
+          ReceiveRemoteNumber(IN_CMD,true, tmpCmd);
+
+          if ( tmpCmd != 0 ) { //New command found
+              ClearLine(LCD_LINE5);
+              TextOut(0,LCD_LINE6, "KOMENTO! " + NumToStr(tmpCmd));
+              ReceiveRemoteNumber(IN_PAR, true, tmpPar); //get parameters for the command
+              Wait(400);
+              ReceiveRemoteNumber(IN_DES, true, tmpDest); //get destination for the command
+              Wait(200);
+
+            //setting up the order
+            newOrder.command = tmpCmd;
+            newOrder.parameter = tmpPar;
+            newOrder.destination = tmpDest;
+
+            //adding the newly acquired order to the list
+            addToList(newOrder);
+            Wait(399);
+            ClearLine(LCD_LINE7);
+
+            //formatting the order
+            newOrder.command = 99;
+            newOrder.parameter = 0;
+            newOrder.destination = 99;
+          }
+      }
+}
+
+////////////////////////////////////////////////////
+// MAIN FUNCTIONS
+////////////////////////////////////////////////////
+task main() {
+
+            //Checking through the Bt-connections to make sure all zergs are connected.
+ // for(int connection = 1, connection < 4, connection++) CheckConnection(connection);
+
+    //CheckConnection(1);
+
+    READY = false;
+
+    /*****************************************
+    * INITIAL ORDERS FOR ALL THE ZERGS GO TO THE FOLLOWING ARRAYS.
+    * THE ARRAY WILL BE EXECUTED ORDER BY ORDER UNTILL THE FIRST
+    * COMMAND '99' COMES ALONG
+    *******************************************/
+
+    int commands[20] =     { MOVE_FORWARD, MOVE_BACKWARDS, WHERE,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99 };
+    int parameters[20] =   { 30,           20,             0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+    int destinations[20] = { ZERG_1,       ZERG_1,         ZERG_1,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99 };
+
+
+    //Initial command queues packing
+    commandPack cmdPack = CommandPacker(commands, parameters, destinations);
+    
+    
+
+    Wait(500);
+    ClearScreen();
+    TextOut(5, LCD_LINE1, "Commands packed.");
+    Wait(750);
+    
+    //Executing the initial commands
+    executeCommands(cmdPack);
+    Wait(800);
+    
+
+    //Starting the thread that listens for commands from the cell phone
+    StartTask(listenForCommands);
+
+    /*Beginning of the phase 2.
+      Listen for new commands from cellphone master */
+    while(true) {
+
+        Wait(300);
+       // ClearScreen();
+
+        if ( READY ) {
+
+          ClearLine(LCD_LINE1);
+          ClearLine(LCD_LINE2);
+          TextOut(5, LCD_LINE1, "Processing new");
+          TextOut(5, LCD_LINE2, "commands..");
+
+        
+          //Synchronizing the newly received commands to a command pack structure
+          cmdPack = synchCommandQueues(commands, parameters, destinations);
+          //Executing the new orders.
+          Wait(1000);
+          executeCommands(cmdPack);
+
+        }
+   }
+
+    ClearScreen();
+    TextOut(5,LCD_LINE4, "All done");
+    Wait(1500);
+    StopAllTasks();
+}

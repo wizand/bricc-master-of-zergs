@@ -1,0 +1,11 @@
+#include "XBeeControl.nxc"
+
+task main() {
+
+     InitUART();
+     ClearScreen();
+     StartTask( XBWaitForData );
+
+
+
+}

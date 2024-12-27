@@ -1,0 +1,136 @@
+/***********************************************************************
+* MASTER ROBOT
+* Version 0.0
+* Programmed by: Petteri Loisko
+*
+*************************************************************************
+*   FUCTIONALITY
+*
+*/
+
+#define ZERG_1 1
+#define ZERG_2 2
+
+#define OUT_COMMAND 1
+#define IN_COMMAND 1
+#define IN_ACK 4
+
+int CheckConnection(int commLine) {
+    if ( !BluetoothStatus(commLine) == NO_ERR) {
+       TextOut(10, LCD_LINE4, "Error with the");
+       TextOut(10,LCD_LINE5, "connection");
+       Wait(3000);
+       return -1;
+    }
+
+    TextOut(10, LCD_LINE4, "Connection");
+    TextOut(10, LCD_LINE5, "established.");
+    Wait(1000);
+    ClearScreen();
+
+    return 0;
+}
+
+
+
+task listenForShit() {
+
+   //  CheckConnection(0);
+     
+     TextOut(10,LCD_LINE1, "LOOTISSA:");
+     
+     string temp = "tyhja";
+     int command = 0;
+     int parameter = 8;
+     int destination = 8;
+     while (true) {
+     
+           //ReceiveRemoteString(1, true, temp);
+           ReceiveRemoteNumber(7, true, command);
+           if (  command  ) {
+
+             Wait(300);
+             ReceiveRemoteNumber(8, true, parameter);
+             Wait(300);
+             ReceiveRemoteNumber(9, true, destination);
+
+             TextOut(1, LCD_LINE3, ":" + NumToStr(command) + ":" + NumToStr(parameter) + ":" + NumToStr(destination)  );
+           }
+           
+
+           if ( command == 4 && parameter > 0 && destination > 0 && destination < 4 ) {
+              TextOut(0, LCD_LINE5, "Liikutaan eteen");
+              TextOut(0, LCD_LINE6, NumToStr(parameter) + " senttiä");
+              TextOut(0, LCD_LINE7, "Zergillä " + NumToStr(destination -1) );
+           }
+           Wait(3000);
+           ClearLine(LCD_LINE3);
+           ClearLine(LCD_LINE4);
+           command = 0;
+           temp = "tyhja";
+           
+     }
+
+}
+
+task chainTest() {
+     //CheckConnection(0);
+
+     //CheckConnection(1);
+     Wait(1000);
+     int temp;
+
+     while(true) {
+        ReceiveRemoteNumber(1, true, temp);
+        if (temp == 1) {
+            SendRemoteNumber(1, 1, 4);
+            Wait(400);
+            SendRemoteNumber(1, 2, 10);
+            Wait(400);
+        }
+        
+     }
+
+
+}
+/*
+task slavetest() {
+     //CheckConnection(0);
+
+
+     Wait(1000);
+     int temp;
+
+     while(true) {
+        ReceiveRemoteNumber(1, true, temp);
+        if (temp == 1) {
+            TextOut();
+        }
+
+     }
+
+
+}
+    */
+task main() {
+
+     StartTask(listenForShit);
+    // StartTask(chainTest);
+     while(true);
+
+
+    /*CheckConnection(1);
+    int ack = 0;
+
+    TextOut(15,15,"sending 4");
+    SendRemoteNumber(ZERG_1, OUT_COMMAND, 4);
+    Wait(1000);
+    while( ack == 0 ) {
+           ReceiveRemoteNumber(IN_ACK, true, ack);
+    }
+    Wait(2000);
+    string ack_str = NumToStr(ack);
+    TextOut(20, LCD_LINE5, NumToStr(ack) );
+    Wait(5000);
+      */
+}

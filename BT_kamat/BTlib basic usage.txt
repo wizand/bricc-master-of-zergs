@@ -1,0 +1,56 @@
+NXC Bluetooth library
+Developed by Daniele Benedettelli, January 2007
+contact me: daniele_benedettelli@yahoo.it
+
+visit my webpage http:\\robotics.benedettelli.com
+______________________________________________________________
+
+To use this library, just include it at the top of your program like this:
+
+#include "NXCDefs.h"
+#include "BTlib.nxc"
+______________________________________________________________
+
+Use 
+
+BTCommCheck(CONN);
+
+to check if the NXTs are connected, where 
+CONN must be set to 0 in the slave program, 
+and must be set to 1,2 or 3 in the master program:
+it returns 0 if there's an error, so you can stop the program, 
+connect NXTs via menu and start program again.
+
+______________________________________________________________
+
+Use
+
+BTWait(CONN);
+
+to wait for a BT transaction to end, where CONN is defined as above.
+______________________________________________________________
+
+Use
+
+BTSendMessage(CONN,MAILBOX,MSG);
+
+to send a string message, specifying which connection CONN to use, 
+to which mailbox MAILBOX send data 
+and the message MSG itself. 
+To send a number, first convert it to a string using NXC function 
+
+s = NumToStr(n)
+______________________________________________________________
+
+Use
+
+MSG = BTReceiveMessage(CONN, MAILBOX, FLUSH);
+
+to receive a string message, specifying which connection CONN to use, 
+from which mailbox MAILBOX pick the data, 
+if you want or not to clear remote message (FLUSH). 
+The function returns the message MSG. 
+
+
+
+

@@ -1,0 +1,395 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	4
+1	__D0ParseCoordinates	6	1	4	4	35
+2	__D0main	6	1	8	4	2
+3	__signed_stack_002main	6	1	12	4	4
+4	__signed_stack_003ParseCoordinates	6	1	16	4	8
+5	__signed_stack_002ParseCoordinates	6	1	20	4	18
+6	__signed_stack_001ParseCoordinates	6	1	24	4	27
+7	__ParseCoordinates_7qG2_found_7qG2_000	4	1	28	2	2
+8	__ParseCoordinates_7qG2_counter_7qG2_000	4	1	30	2	5
+9	__ParseCoordinates_7qG2_i_7qG2_000	4	1	32	2	6
+10	__main_7qG2_x_7qG2_000	4	1	34	2	2
+11	__ArrHelper__ParseCoordinates_73_0	4	1	36	2	26
+12	__constVal200	4	0	38	2	2
+13	__constVal1	2	0	40	1	12
+14	__ParseCoordinates_return	1	1	41	1	4
+15	____initialize_global_data_return	1	1	42	1	3
+16	__constVal0	2	1	43	1	2
+17	__zfParseCoordinates	1	1	44	1	9
+18	__constVal5	2	0	45	1	2
+19	__PointOutArgs	8	0	3	12	4
+20	__PointOutArgs.Result	2	1	48	1	4
+21	__PointOutArgs.Location	8	0	2	4	4
+22	__PointOutArgs.Location.X	4	1	52	2	4
+23	__PointOutArgs.Location.Y	4	1	54	2	4
+24	__PointOutArgs.Options	5	1	56	4	4
+25	__TextOutArgs	8	0	4	16	10
+26	__TextOutArgs.Result	2	1	60	1	10
+27	__TextOutArgs.Location	8	0	2	4	10
+28	__TextOutArgs.Location.X	4	1	64	2	10
+29	__TextOutArgs.Location.Y	4	1	66	2	10
+30	__TextOutArgs.Text	7	0	68	4	10
+31	__TextOutArgs.Text.Text_type	1	0	0	1	0
+32	__TextOutArgs.Options	5	1	72	4	10
+33	__strbufmain	7	0	76	4	6
+34	__strbufmain.__strbufmain_type	1	0	0	1	0
+35	__main_7qG2_s_7qG2_000	7	0	78	4	3
+36	__main_7qG2_s_7qG2_000.__main_7qG2_s_7qG2_000_type	1	0	0	1	0
+37	__constStr0009	7	0	80	4	1
+38	__constStr0009.__constStr0009_type	1	1	0	1	0
+39	__strbufParseCoordinates	7	0	82	4	22
+40	__strbufParseCoordinates.__strbufParseCoordinates_type	1	0	0	1	0
+41	__strretvalParseCoordinates	7	0	84	4	10
+42	__strretvalParseCoordinates.__strretvalParseCoordinates_type	1	0	0	1	0
+43	__ParseCoordinates_7qG2_location_7qG2_000	7	0	86	4	8
+44	__ParseCoordinates_7qG2_location_7qG2_000.__ParseCoordinates_7qG2_location_7qG2_000_type	1	0	0	1	0
+45	__ParseCoordinates_7qG2_f_7qG2_000	7	0	88	4	2
+46	__ParseCoordinates_7qG2_f_7qG2_000.__ParseCoordinates_7qG2_f_7qG2_000_type	1	0	0	1	0
+47	__ParseCoordinates_7qG2_underscores_7qG2_000	7	0	90	4	17
+48	__ParseCoordinates_7qG2_underscores_7qG2_000.__ParseCoordinates_7qG2_underscores_7qG2_000_type	4	0	0	2	0
+#SOURCES
+Clump	Line	PC	Source
+0	44	0	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	45	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	44	2	#line 44 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	6069	2	#line 6069 "NXCDefs.h"
+0	6070	2	#pragma macro 6
+0	6070	2		mov __PointOutArgs.Location.X, __constVal200
+0	6070	4		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	6		mov __PointOutArgs.Options, __constVal1
+0	6070	8		syscall 14, __PointOutArgs
+0	6382	11	#line 6382 "NXCDefs.h"
+0	6069	11	#line 6069 "NXCDefs.h"
+0	46	11	#line 46 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	48	11	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	49	11		strcat __strbufmain, __constStr0009
+0	48	15	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	49	15		mov __main_7qG2_s_7qG2_000, __strbufmain
+0	48	17	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	49	17		strcat __strbufmain, __main_7qG2_s_7qG2_000
+0	48	21	#line 48 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	49	21		mov __ParseCoordinates_7qG2_location_7qG2_000, __strbufmain
+0	50	23	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	23		subcall ParseCoordinates, __ParseCoordinates_return
+0	50	25	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	25		mov __main_7qG2_x_7qG2_000, __D0ParseCoordinates
+0	50	27	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	50	27	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	27		set __signed_stack_001main, 0
+0	50	30	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	50	30	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	30		set __signed_stack_002main, 56
+0	50	33	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	50	33	#line 50 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	33		strcat __strbufmain, __main_7qG2_s_7qG2_000
+0	51	37	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	37	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	37		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	51	39	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	39		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	51	41	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	41		set __TextOutArgs.Options, 0
+0	51	44	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	44		mov __TextOutArgs.Text, __strbufmain
+0	51	46	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	46		syscall 13, __TextOutArgs
+0	51	49	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	49	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	49	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	49	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	49		set __signed_stack_001main, 0
+0	51	52	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	52	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	52		set __signed_stack_002main, 48
+0	51	55	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	51	55	#line 51 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	52	55		mov __D0main, __main_7qG2_x_7qG2_000
+0	53	57	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	53	57	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	54	57		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	53	59	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	54	59		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	53	61	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	54	61		set __TextOutArgs.Options, 0
+0	53	64	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	54	64		numtostr __TextOutArgs.Text, __D0main
+0	53	67	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	54	67		syscall 13, __TextOutArgs
+0	53	70	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	53	70	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	53	70	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	53	70	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	53	70	#line 53 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	7921	70	#line 7921 "NXCDefs.h"
+0	7922	70		wait 6000
+0	7921	72	#line 7921 "NXCDefs.h"
+0	57	72	#line 57 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+0	58	72		exit -1, -1
+1	10	0	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	11	0		set __ParseCoordinates_7qG2_i_7qG2_000, 0
+1	10	3	#line 10 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	12	3	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	13	3		set __ParseCoordinates_7qG2_counter_7qG2_000, 0
+1	12	6	#line 12 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	13	6	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	14	6		arrinit __ParseCoordinates_7qG2_underscores_7qG2_000, __constVal0, __constVal5
+1	13	10	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	14	10		arrinit __ParseCoordinates_7qG2_underscores_7qG2_000, __constVal0, __constVal5
+1	13	14	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	13	14	#line 13 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	15	14	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	14		mov __signed_stack_001ParseCoordinates, __ParseCoordinates_7qG2_i_7qG2_000
+1	15	16	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	15	16	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	16		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+1	15	20	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	20		arrsize __D0ParseCoordinates, __strbufParseCoordinates
+1	16	23		sub __D0ParseCoordinates, __D0ParseCoordinates, __constVal1
+1	15	27	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	27		cmp 0, __zfParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	15	31	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	31		mov __D0ParseCoordinates, __zfParseCoordinates
+1	15	33	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	33		brtst 4, __NXC_Label_609, __zfParseCoordinates
+1	15	36	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	36		jmp __NXC_Label_610
+1	15	38	#line 15 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	38		add __ParseCoordinates_7qG2_i_7qG2_000, __ParseCoordinates_7qG2_i_7qG2_000, __constVal1
+1	16	42	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	17	42		jmp __NXC_Label_608
+1	16	44	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	17	44		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+1	16	48	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	17	48		mov __D0ParseCoordinates, __ParseCoordinates_7qG2_i_7qG2_000
+1	16	50	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	17	50		index __signed_stack_001ParseCoordinates, __strbufParseCoordinates, __D0ParseCoordinates
+1	16	54	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	16	54	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	17	54		set __D0ParseCoordinates, 95
+1	16	57	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	17	57		cmp 4, __zfParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	16	61	#line 16 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	17	61		mov __D0ParseCoordinates, __zfParseCoordinates
+1	17	63	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	18	63		brtst 4, __NXC_Label_618, __zfParseCoordinates
+1	17	66	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	18	66		mov __signed_stack_001ParseCoordinates, __ParseCoordinates_7qG2_counter_7qG2_000
+1	17	68	#line 17 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	18	68	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	19	68		mov __D0ParseCoordinates, __ParseCoordinates_7qG2_i_7qG2_000
+1	18	70	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	19	70		replace __ParseCoordinates_7qG2_underscores_7qG2_000, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	18	75	#line 18 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	20	75	#line 20 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	21	75		add __ParseCoordinates_7qG2_counter_7qG2_000, __ParseCoordinates_7qG2_counter_7qG2_000, __constVal1
+1	20	79	#line 20 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	21	79	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	21	79	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	22	79		mov __signed_stack_001ParseCoordinates, __ParseCoordinates_7qG2_counter_7qG2_000
+1	21	81	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	21	81	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	22	81		set __D0ParseCoordinates, 5
+1	21	84	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	22	84		cmp 4, __zfParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	21	88	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	22	88		mov __D0ParseCoordinates, __zfParseCoordinates
+1	21	90	#line 21 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	22	90		brtst 4, __NXC_Label_625, __zfParseCoordinates
+1	22	93	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	23	93		jmp __NXC_Label_609
+1	22	95	#line 22 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	29	95	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	29	95	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	95		jmp __NXC_Label_611
+1	29	97	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	29	97	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	97		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+1	29	101	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	101		set __signed_stack_001ParseCoordinates, 0
+1	29	104	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	29	104	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	104		set __signed_stack_002ParseCoordinates, 0
+1	29	107	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	29	107	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	107		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+1	29	111	#line 29 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	111		mov __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+1	30	113	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	113		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	30	118	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	118		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+1	30	122	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	122	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	122		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+1	30	126	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	126		set __signed_stack_001ParseCoordinates, 0
+1	30	129	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	129	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	129		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates
+1	30	133	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	133	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	133	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	133	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	133		add __signed_stack_001ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	30	137	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	137	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	137		set __signed_stack_002ParseCoordinates, 1
+1	30	140	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	140	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	140		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+1	30	144	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	144		mov __signed_stack_002ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+1	30	146	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	146	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	146		set __signed_stack_003ParseCoordinates, 0
+1	30	149	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	149	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	149		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_003ParseCoordinates
+1	30	153	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	153	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	153	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	30	153	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	153		add __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	30	157	#line 30 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	157		sub __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __D0ParseCoordinates
+1	31	161	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	161		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	31	166	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	166		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+1	31	170	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	170	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	170		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+1	31	174	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	174		set __signed_stack_001ParseCoordinates, 1
+1	31	177	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	177	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	177		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates
+1	31	181	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	181	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	181	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	181	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	181		add __signed_stack_001ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	31	185	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	185	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	185		set __signed_stack_002ParseCoordinates, 2
+1	31	188	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	188	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	188		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+1	31	192	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	192		mov __signed_stack_002ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+1	31	194	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	194	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	194		set __signed_stack_003ParseCoordinates, 1
+1	31	197	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	197	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	197		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_003ParseCoordinates
+1	31	201	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	201	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	201	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	31	201	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	201		add __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	31	205	#line 31 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	205		sub __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __D0ParseCoordinates
+1	32	209	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	209		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	32	214	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	214		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+1	32	218	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	218	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	218		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+1	32	222	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	222		set __signed_stack_001ParseCoordinates, 2
+1	32	225	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	225	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	225		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates
+1	32	229	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	229	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	229	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	229	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	229		add __signed_stack_001ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	32	233	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	233	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	233		set __signed_stack_002ParseCoordinates, 3
+1	32	236	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	236	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	236		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+1	32	240	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	240		mov __signed_stack_002ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+1	32	242	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	242	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	242		set __signed_stack_003ParseCoordinates, 2
+1	32	245	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	245	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	245		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_003ParseCoordinates
+1	32	249	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	249	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	249	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	32	249	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	249		add __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	32	253	#line 32 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	253		sub __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __D0ParseCoordinates
+1	33	257	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	257		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	33	262	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	262		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+1	33	266	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	266	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	266		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_location_7qG2_000
+1	33	270	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	270		set __signed_stack_001ParseCoordinates, 3
+1	33	273	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	273	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	273		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_001ParseCoordinates
+1	33	277	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	277	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	277	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	277	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	277		add __signed_stack_001ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	33	281	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	281	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	281		set __signed_stack_002ParseCoordinates, 4
+1	33	284	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	284	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	284		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_002ParseCoordinates
+1	33	288	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	288		mov __signed_stack_002ParseCoordinates, __ArrHelper__ParseCoordinates_73_0
+1	33	290	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	290	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	290		set __signed_stack_003ParseCoordinates, 3
+1	33	293	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	293	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	293		index __ArrHelper__ParseCoordinates_73_0, __ParseCoordinates_7qG2_underscores_7qG2_000, __signed_stack_003ParseCoordinates
+1	33	297	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	297	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	297	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	33	297	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	297		add __D0ParseCoordinates, __ArrHelper__ParseCoordinates_73_0, __constVal1
+1	33	301	#line 33 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	34	301		sub __D0ParseCoordinates, __signed_stack_002ParseCoordinates, __D0ParseCoordinates
+1	35	305	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	36	305		strsubset __strretvalParseCoordinates, __strbufParseCoordinates, __signed_stack_001ParseCoordinates, __D0ParseCoordinates
+1	35	310	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	36	310		strcat __strbufParseCoordinates, __strretvalParseCoordinates
+1	35	314	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	36	314		mov __ParseCoordinates_7qG2_f_7qG2_000, __strbufParseCoordinates
+1	35	316	#line 35 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	36	316		strcat __strbufParseCoordinates, __ParseCoordinates_7qG2_f_7qG2_000
+1	37	320	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	38	320		strtonum __ParseCoordinates_7qG2_found_7qG2_000, __signed_stack_001ParseCoordinates, __strbufParseCoordinates, 65535, 65535
+1	37	326	#line 37 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	39	326	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	40	326		mov __D0ParseCoordinates, __ParseCoordinates_7qG2_found_7qG2_000
+1	39	328	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	40	328		subret __ParseCoordinates_return
+1	39	330	#line 39 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	42	330	#line 42 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+1	43	330		subret __ParseCoordinates_return
+2	60	0	#line 60 "C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc"
+2	61	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc
+1	ParseCoordinates	75	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc
+2	__initialize_global_data	407	C:\Users\Wizand\Ohjelmointi\BricC source\testikamaa\parsetesti.nxc

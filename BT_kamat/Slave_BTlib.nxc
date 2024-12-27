@@ -1,0 +1,40 @@
+// MASTER program to test BTlib
+#include "NXCDefs.h"
+#include "BTlib.nxc"
+#define BT_CONN 1 //line where slave is connected
+#define MAILBOX 0
+
+sub slaveBTCheck(int conn){
+   string cStr;
+   cStr = NumToStr(conn);
+   cStr = StrCat("on line",cStr);
+   if (!BTCommCheck(conn)){
+      TextOut(5,LCD_LINE2,true,"*Connect NXT");
+      TextOut(5,LCD_LINE3,false,cStr);
+      TextOut(60,LCD_LINE3,false,"from");
+      TextOut(5,LCD_LINE4,false,"master NXT menu");
+      Wait(3000);
+      Stop(true);
+   }
+}
+
+task main(){
+   string in, out, iStr;
+   int i = 0;
+   slaveBTCheck(0);
+   TextOut(10,LCD_LINE1,true,"Slave Test");
+   TextOut(5,LCD_LINE2,false,"IN:");
+   TextOut(5,LCD_LINE4,false,"OUT:");
+   while(true){
+     iStr = NumToStr(i);
+     out = StrCat("S",iStr);
+     in = BTReceiveMessage(0, MAILBOX, TRUE);
+     TextOut(5,LCD_LINE3,false,"                ");
+     TextOut(5,LCD_LINE3,false,in);
+     BTSendMessage(0,MAILBOX,out);
+     TextOut(5,LCD_LINE5,false,"                ");
+     TextOut(5,LCD_LINE5,false,out);
+     Wait(100); //take breath (optional)
+     i++;
+   }
+}

@@ -1,0 +1,15 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	____initialize_global_data_return	1	1	0	1	3
+#SOURCES
+Clump	Line	PC	Source
+0	51	0	#line 51 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	52	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	51	2	#line 51 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+0	53	2		exit -1, -1
+1	120	0	#line 120 "C:\Users\Wizand\AppData\Local\Temp\temp.nxc"
+1	121	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\AppData\Local\Temp\temp.nxc
+1	__initialize_global_data	5	C:\Users\Wizand\AppData\Local\Temp\temp.nxc

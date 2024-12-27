@@ -1,0 +1,331 @@
+/***********************************************************************
+* SLAVE ACTIONS
+* Version 2.5
+* Programmed by: Petteri Loisko
+* 8th of July 2011
+*************************************************************************
+*  This file handles the actions the Zerg can perform concerning movement,
+*  steering and location information handling.
+*
+* All the function prototypes and constants can be found in SlaveHeader.nxc -file
+*/
+
+///////////////////////////////////
+// TEXT TO THE LCD DISPLAY
+///////////////////////////////////
+/**********************************
+* Quick wrapper function for printing text.
+* Semi-obsolete.
+**********************************/
+void textToScreen(int row, string text) {
+     ClearScreen();
+     TextOut(5, row, text);
+}
+
+///////////////////////////////////
+// WHO AM I
+///////////////////////////////////
+/**********************************
+* FUNCTIONALITY NOT YET IMPLEMENTED
+* The idea of the function is to communicate the
+* identity of current ZERG.
+***********************************/
+void whoAmI() {
+     textToScreen(LCD_LINE3, "No one!");
+}
+
+///////////////////////////////////
+// WHERE AM I
+///////////////////////////////////
+/**********************************
+* Function handles the reporting current location
+* to the master.
+*
+* whereAmI displays the coordinates of current position
+* to the LCD display as well as formats the location parameters
+* to a pre-agreed string form. Then calls a SendLocation -funtion to
+* send the coordinate string to the Master.
+***********************************/
+void whereAmI() {
+    ClearScreen();
+    string coords = "";  // Variable to store the current coordinates for pritning
+    string location = ""; // Variable to store the current coordinates for sending to master
+    
+    // For debugging, printing the current location coordinates to the NXT display
+    TextOut(5, LCD_LINE1, "MY LOCATION:");
+    TextOut(10, LCD_LINE2, "MY COORDS X,Y (OWN)" );
+    
+    coords = "(" + NumToStr( I.positionOwn[0] ) + "," + NumToStr( I.positionOwn[1] ) + ")";
+    TextOut(10, LCD_LINE3, coords );
+
+    coords = "MY HEADING: " + NumToStr(I.heading);
+    TextOut(10, LCD_LINE4, coords );
+    
+    // Prepare data for location update
+    // String format is X_Y_H_
+    location = NumToStr( I.positionOwn[0] ) + "_" + NumToStr( I.positionOwn[1] );
+    location = location + "_" + NumToStr(I.heading) + "_" + NumToStr(ZERG) + "_";
+
+    string f = NumToStr(2);
+    if ( FOUND == true ) {
+       f = NumToStr(1);
+
+       TextOut(0,LCD_LINE6, "GF: " + f);
+       location = location + f + "_";
+    } else if (FOUND == false) {
+       f = NumToStr(2);
+
+       TextOut(0,LCD_LINE6, "GF: " + f);
+       location = location + f + "_";
+    }
+
+    SendLocation(location);
+
+    Wait(200);
+}
+
+///////////////////////////////////
+// LOWER THE BRIDGE
+///////////////////////////////////
+/**********************************
+* Function for lowering the robot arm with
+* the bridge piece attached.
+**********************************/
+void lowerTheBridge() {
+     RotateMotorEx(OUT_B,50, 95,0,false,true);
+}
+
+///////////////////////////////////
+// RAISE THE BRIDGE
+///////////////////////////////////
+/**********************************
+* Function for raising the robot arm with
+* the bridge piece attached.
+**********************************/
+void raiseTheBridge() {
+     RotateMotorEx(OUT_B,100, -80,0,false,true);
+}
+///////////////////////////////////
+// MOVE FORWARD IN CENTIMETERS
+///////////////////////////////////
+/*************************************
+* Wrapper function for moving the robot forward.
+* Will call the move(int) function with positive value.
+**************************************/
+void forwardCm(int cm) {
+
+     move(cm);
+}
+
+///////////////////////////////////
+// MOVE BACKWARD IN CENTIMETERS
+///////////////////////////////////
+/*************************************
+* Wrapper function for moving the robot backward.
+* Will call the move(int) function with negative value.
+**************************************/
+void backwardsCm(int cm) {
+
+
+     move(cm * -1);
+
+}
+
+///////////////////////////////////
+// TURN LEFT FUCTION
+///////////////////////////////////
+/**********************************
+* Wrapper function for turning the robot left 90 degrees.
+* Will call the turn(int) function with positive value.
+**********************************/
+
+void turnLeft() {
+     turn(10);
+}
+
+///////////////////////////////////
+// TURN RIGHT FUCTION
+///////////////////////////////////
+/**********************************
+* Wrapper function for turning the robot right 90 degrees.
+* Will call the turn(int) function with negative value.
+**********************************/
+void turnRight() {
+     turn(-10);
+}
+
+///////////////////////////////////////////
+// MOVE FUNCTION
+///////////////////////////////////////////
+/****************************************
+* Function moves the robot either forward or backward
+* depending on the parameter cm which gives the distance to travel
+* in centimeters.
+*
+* One one degree of movement with 18,5cm wheel is
+* 18,5cm/360'
+* Therefore one centimeter of movement is
+* 1cm / ( 18,5 / 360' ) degrees.
+* Which is approximately 19,45 degrees.
+* For now we are using DEG_CONVERSION_CONSTANT (see from SlaveHeader.nxc) as an approximation to avoid cpu-heavy float
+* calculation
+*****************************************/
+void move(int cm) {
+
+
+
+   //if ( cm > 0 ) textToScreen(LCD_LINE1, "Moving forward");
+   //if ( cm < 0 ) textToScreen(LCD_LINE1, "Moving backward");
+
+     int degrees = cm * DEG_CONVERSION_CONSTANT; // Converting the centimeters to degrees.
+
+     Acquire(MOTOR);  // Lock the motors for this thread
+        RotateMotorEx(OUT_AC, MOTOR_AC_SPEED, degrees, 0, true, true);
+     Release(MOTOR); // Release the motors for other use
+     
+     locationUpdate(cm, 0);  // Updating the current position with the amount of distance travelled.
+
+     Wait(700);
+}
+
+///////////////////////////////////
+// MOTOR CONTROL FOR TURNING
+///////////////////////////////////
+/************************************
+* turningColtrol starts the left- and right motor controls
+* simultaniously so the the robot would turn smoothly.
+*
+* leftMotor thread controls the left morot and turns it according to the
+* value of TurningDegrees. rightMotor turns the right wheel same amount
+* to the opposite direction.
+*/
+task turningControl() {
+     //Making the motors start turning simultaniously (threading).
+     Precedes(leftMotor , rightMotor );
+}
+task leftMotor() {
+
+     //RotateMotor(OUT_A,MOTOR_A_SPEED, TurningDegrees);
+     
+     ClearLine(LCD_LINE8);
+     TextOut(5, LCD_LINE8, "LM: " + NumToStr(TurningDegrees));
+     RotateMotorEx(OUT_A, MOTOR_A_SPEED, TurningDegrees *1, 0, false, true );
+}
+
+task rightMotor() {
+     //RotateMotor(OUT_C, MOTOR_C_SPEED, TurningDegrees *-1);
+     
+     ClearLine(LCD_LINE7);
+     TextOut(5, LCD_LINE7, "RM: " + NumToStr(TurningDegrees));
+     RotateMotorEx(OUT_C, MOTOR_C_SPEED, TurningDegrees *-1, 0, false, true );
+}
+
+///////////////////////////////////
+// TURNING FUCTION
+///////////////////////////////////
+void turn(int dir) {
+
+
+
+     Wait(200);
+
+     if (dir > 0) { //We are turning right
+      //  textToScreen(LCD_LINE1, "Turning right");
+        TurningDegrees = 245;         // TurningDegrees is the amount of degrees the other wheel
+                                      // turns forward and the other one turns backward (depending if the
+                                      // bot is told to turn left or right obviously).
+                                      // The actual amout is tweaked depending on various elements like
+                                      // NXT battery level, surface material, tire cleanliness etc..
+                                      // Goal is to make the bot turn exactly 90'.
+     } else { //or tuning left.
+      //  textToScreen(LCD_LINE1, "Turning left");
+        TurningDegrees = -258;
+     }
+     
+     Acquire(MOTOR); // Lock the motors for this thread
+
+       StartTask( turningControl );
+       Wait(400);
+
+     Release(MOTOR); // Release the motors for other use
+     
+     locationUpdate(0, dir); // Updating the location information
+
+     Wait(400);
+
+}
+
+////////////////////////////////////////
+// UPDATE LOCATION
+////////////////////////////////////////
+/****************************************
+* Function keeps track of the Zerg location and heading.
+* This function is called every time movement or turning occurs.
+******************************************/
+void locationUpdate(int distance, int steering) {
+      if ( distance ) {
+         switch ( I.heading ) {
+         /***************************************
+         * HEADINGS: 0 north
+         *           1 east
+         *           2 south
+         *           3 west
+         ****************************************
+         * In the position arrays [0] is x coordinate
+                                  [1] is y coordinate
+         */
+                case NORTH: { // HEADING IS UP
+                   I.positionOwn[1] += distance;
+                   I.positionRelative[1] += distance;
+                   break;
+                }
+
+                case EAST: { // HEADING IS RIGHT
+                   I.positionOwn[0] += distance;
+                   I.positionRelative[0] += distance;
+                   break;
+                }
+
+                case SOUTH: {  //HEADING IS DOWN
+                   I.positionOwn[1] -= distance;
+                   I.positionRelative[1] -= distance;
+                   break;
+                }
+                
+                case WEST: { //HEADING IS LEFT
+                   I.positionOwn[0] -= distance;
+                   I.positionRelative[0] -= distance;
+                   break;
+                }
+         }
+
+      } else {
+      /********************************
+      * In case distance is 0 the bot is turning.
+      *
+      * If steering is positive, the bot is turning right and the heading value
+      * is to be increased (but if the heading is already 3 then it will go back
+      * to 0.
+      * If steering is negative, the bot is turning left and the heading value
+      * is to be decreased (but if the heading is already 0 then it will go back
+      * to 3.
+      ********************************/
+        if ( steering < 0 ) {
+           if ( I.heading == NORTH ) {
+              I.heading = WEST;
+           } else I.heading--;
+        }
+
+        else if ( steering > 0 ) {
+           if ( I.heading == WEST ) {
+              I.heading = NORTH;
+           } else I.heading++;
+        }
+
+      }
+      
+      LOCATION = true; // Setting up the flag that tells
+                       // there is new location information to send
+
+}
+

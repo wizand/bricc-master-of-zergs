@@ -1,0 +1,128 @@
+////////////////////////////////////////////////////////////
+/// WHICH SLAVE IS IN QUESTION?
+////////////////////////////////////////////////////////////
+/* This is only temporary solution (hopefully) to indicate which slave's
+* code this is
+*/
+#define ZERG 2
+
+//////////////////////////////////////////////////////////
+// SLAVE HEADER FILE V1.0
+// Written by Petteri Loisko
+// 8th of July 2011
+//
+//////////////////////////////////////////////////////////
+//
+// Purpose of this file is to have all the important slave related constant,
+// data structures and function prototypes in the same place well organized.
+// Has no actual functioning except for declaring some variables
+//
+/////////////////////////////////////////////////////////
+
+////////////////////////////////////////////
+// DATA STRUCTURES
+////////////////////////////////////////////
+struct MySelf {
+       // [0] X [1] Y coordinates related to the master
+       int positionRelative[2];
+       // [0] X [1] Y coordinates related to my starting spot
+       int positionOwn[2];
+        // Direction i am facing
+       int heading;
+};
+
+/////////////////////////////////////////////
+// GLOBAL VARIABLES
+/////////////////////////////////////////////
+
+MySelf I; //datastructure for slave's position
+int TurningDegrees = 0; // Controlling the amount of degrees the slave turns
+mutex MOTOR; // For making sure only one thread controls the motors at any given time
+bool FOUND; // Determines if the gap has been founded yet
+
+
+bool LOCATION;
+
+bool MASTER_NOTIFIED;
+bool BRIDGE_DOWN;
+bool OTHER_Z_FOUND;
+
+int id;
+////////////////////////////////////////////
+// CONSTANTS FOR THE COMMANDS
+////////////////////////////////////////////
+#define IDENTITY 1
+#define MOVE_FORWARD 4
+#define MOVE_BACKWARDS 5
+#define TURN_LEFT 6
+#define TURN_RIGHT 7
+#define BEGIN_SEARCH 15
+#define GAP_FOUND 16
+#define WHERE_AM_I 20
+
+////////////////////////////////////////////
+// CONSTANTS FOR THE DIRECTIONS
+////////////////////////////////////////////
+#define NORTH 0
+#define EAST 1
+#define SOUTH 2
+#define WEST 3
+
+////////////////////////////////////////////
+// FUNCTIONS & CONSTANTS IN Slave.nxc
+////////////////////////////////////////////
+#define MASTER 0
+
+void FormatPosition();
+void SetUpConnection();
+
+/////////////////////////////////////////////////
+// FUNCTIONS IN SlaveSearchProtocol.nxc
+/////////////////////////////////////////////////
+#define DISTANCE 15
+
+task searchPattern();
+task sensorPoller();
+task beginSearch();
+void GapFound();
+
+//////////////////////////////////////////////////
+// FUCNTIONS & CONSTANTS IN SlaveCommProtocolV2.nxc
+//////////////////////////////////////////////////
+#define OUT_MESSAGE 3
+#define OUT_ACK 3
+#define IN_COMMAND 1
+#define IN_PARAMETER 2
+
+sub BTWait(int connection);
+int CheckConnection(int commLine);
+void ack();
+int getParameter();
+int parseCommand(int command);
+task slaveProtocolHandler();
+void SendLocation(string location);
+
+////////////////////////////////////////////////
+// FUNCTIONS & CONSTANTS IN SlaveActions.nxc
+////////////////////////////////////////////////
+#define MOTOR_A_SPEED 55
+#define MOTOR_B_SPEED 55
+#define MOTOR_C_SPEED 55
+#define MOTOR_AC_SPEED 65
+
+#define DEG_CONVERSION_CONSTANT 20
+
+void textToScreen(int row, string text);
+void whoAmI();
+void whereAmI();
+void forwardCm(int cm);
+void backwardsCm(int cm);
+void turnLeft();
+void turnRight();
+void move(int cm);
+void turn(int dir);
+task turningControl();
+task leftMotor();
+task rightMotor();
+void locationUpdate(int distance, int steering);
+

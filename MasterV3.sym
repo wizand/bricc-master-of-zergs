@@ -1,0 +1,1136 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	6
+1	__DU0listenForCommands	5	1	4	4	2
+2	__D0sendCommand	6	1	8	4	6
+3	__D0StopAllTasks_inline_main	6	1	12	4	2
+4	__D0sendParameter	6	1	16	4	6
+5	__Wait_7qG2_ms_7qG2_000_inline_executeCommands	5	1	20	4	8
+6	__Wait_7qG2_ms_7qG2_000_inline_listenForCommands	5	1	24	4	6
+7	__D0executeCommands	6	1	28	4	3
+8	__D0listenForCommands	6	1	32	4	39
+9	__DU0executeCommands	5	1	36	4	2
+10	__signed_stack_001sendCommand	6	1	40	4	2
+11	__signed_stack_002main	6	1	44	4	2
+12	__signed_stack_002sendCommand	6	1	48	4	2
+13	__signed_stack_002sendParameter	6	1	52	4	2
+14	__signed_stack_001sendParameter	6	1	56	4	2
+15	__unsigned_stack_001executeCommands	5	1	60	4	2
+16	__signed_stack_001executeCommands	6	1	64	4	16
+17	__signed_stack_001listenForCommands	6	1	68	4	28
+18	__signed_stack_001main	6	1	72	4	4
+19	__signed_stack_002listenForCommands	6	1	76	4	14
+20	__RemoteMutex	9	0	80	4	4
+21	__MRMutex	9	0	84	4	6
+22	__PointOutMutex	9	0	88	4	4
+23	__TextOutMutex	9	0	92	4	32
+24	__RRNTmpVal	6	1	96	4	12
+25	__CBTWMutex	9	0	100	4	4
+26	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	104	4	6
+27	__SRSTmpLongVal	6	1	108	4	4
+28	amount	4	1	112	2	22
+29	__listenForCommands_7qG2_des_7qG2_000	4	1	114	2	6
+30	__ArrHelper__executeCommands_73_0	4	1	116	2	16
+31	__sendParameter_7qG2_des_7qG2_000	4	1	118	2	4
+32	__sendCommand_7qG2_des_7qG2_000	4	1	120	2	4
+33	__sendCommand_7qG2_cmd_7qG2_000	4	1	122	2	4
+34	__listenForCommands_7qG2_par_7qG2_000	4	1	124	2	7
+35	__listenForCommands_7qG2_cmd_7qG2_000	4	1	126	2	9
+36	__constVal200	4	0	128	2	4
+37	__sendParameter_7qG2_par_7qG2_000	4	1	130	2	4
+38	__zfmain	1	1	132	1	5
+39	__sendParameter_return	1	1	133	1	4
+40	__constVal0	2	1	134	1	30
+41	__RRNErr	1	1	135	1	3
+42	__executeCommands_return	1	1	136	1	3
+43	__constVal3	2	0	137	1	2
+44	__constVal2	2	0	138	1	3
+45	BUFFER_SWITCH	1	1	139	1	6
+46	__constVal1	2	0	140	1	9
+47	__sendCommand_return	1	1	141	1	4
+48	__constVal5	2	0	142	1	2
+49	__constVal20	2	0	143	1	6
+50	__constVal9	2	0	144	1	1
+51	____initialize_global_data_return	1	1	145	1	3
+52	__constVal7	2	0	146	1	1
+53	__constVal8	2	0	147	1	1
+54	__PFTmp	1	1	148	1	1
+55	__ClearLine_7qG2_line_7qG2_000_inline_listenForCommands	1	1	149	1	12
+56	__zfexecuteCommands	1	1	150	1	5
+57	__zflistenForCommands	1	1	151	1	7
+58	__constValNeg1	2	0	152	1	2
+59	__listenForCommands_Spawner_return	1	1	153	1	1
+60	__TextOutArgs	8	0	4	16	90
+61	__TextOutArgs.Result	2	1	156	1	90
+62	__TextOutArgs.Location	8	0	2	4	90
+63	__TextOutArgs.Location.X	4	1	160	2	90
+64	__TextOutArgs.Location.Y	4	1	162	2	90
+65	__TextOutArgs.Text	7	0	164	4	90
+66	__TextOutArgs.Text.Text_type	1	0	0	1	0
+67	__TextOutArgs.Options	5	1	168	4	90
+68	__PointOutArgs	8	0	3	12	8
+69	__PointOutArgs.Result	2	1	172	1	8
+70	__PointOutArgs.Location	8	0	2	4	8
+71	__PointOutArgs.Location.X	4	1	176	2	8
+72	__PointOutArgs.Location.Y	4	1	178	2	8
+73	__PointOutArgs.Options	5	1	180	4	8
+74	__CBTWArgs	8	0	3	8	8
+75	__CBTWArgs.Result	2	1	184	1	8
+76	__CBTWArgs.Connection	1	1	185	1	8
+77	__CBTWArgs.Buffer	7	0	186	4	8
+78	__CBTWArgs.Buffer.Buffer_type	1	0	0	1	0
+79	__MRArgs	8	0	4	8	15
+80	__MRArgs.Result	2	1	188	1	15
+81	__MRArgs.QueueID	1	1	189	1	15
+82	__MRArgs.Remove	1	1	190	1	15
+83	__MRArgs.Message	7	0	192	4	15
+84	__MRArgs.Message.Message_type	1	0	0	1	0
+85	__constStr0018	7	0	194	4	1
+86	__constStr0018.__constStr0018_type	1	1	0	1	0
+87	secDestinations	7	0	196	4	6
+88	secDestinations.secDestinations_type	4	0	0	2	0
+89	__constStr0019	7	0	198	4	1
+90	__constStr0019.__constStr0019_type	1	1	0	1	0
+91	__constStr0017	7	0	200	4	1
+92	__constStr0017.__constStr0017_type	1	1	0	1	0
+93	__constStr0010	7	0	202	4	2
+94	__constStr0010.__constStr0010_type	1	1	0	1	0
+95	__constStr0009	7	0	204	4	1
+96	__constStr0009.__constStr0009_type	1	1	0	1	0
+97	__constStr0011	7	0	206	4	1
+98	__constStr0011.__constStr0011_type	1	1	0	1	0
+99	__constStr0012	7	0	208	4	1
+100	__constStr0012.__constStr0012_type	1	1	0	1	0
+101	__constStr0013	7	0	210	4	1
+102	__constStr0013.__constStr0013_type	1	1	0	1	0
+103	__constStr0020	7	0	212	4	1
+104	__constStr0020.__constStr0020_type	1	1	0	1	0
+105	__constStr0016	7	0	214	4	2
+106	__constStr0016.__constStr0016_type	1	1	0	1	0
+107	__constStr0014	7	0	216	4	1
+108	__constStr0014.__constStr0014_type	1	1	0	1	0
+109	__constStr0015	7	0	218	4	2
+110	__constStr0015.__constStr0015_type	1	1	0	1	0
+111	secParameters	7	0	220	4	5
+112	secParameters.secParameters_type	4	0	0	2	0
+113	__ArrHelper__sendParameter_244_1	7	0	222	4	4
+114	__ArrHelper__sendParameter_244_1.__ArrHelper__sendParameter_244_1_type	1	0	0	1	0
+115	__ArrHelper__sendParameter_244_0	7	0	224	4	2
+116	__ArrHelper__sendParameter_244_0.__ArrHelper__sendParameter_244_0_type	1	0	0	1	0
+117	__ArrHelper__sendCommand_244_3	7	0	226	4	2
+118	__ArrHelper__sendCommand_244_3.__ArrHelper__sendCommand_244_3_type	1	0	0	1	0
+119	__ArrHelper__sendParameter_244_2	7	0	228	4	4
+120	__ArrHelper__sendParameter_244_2.__ArrHelper__sendParameter_244_2_type	1	0	0	1	0
+121	__ArrHelper__listenForCommands_244_1	7	0	230	4	10
+122	__ArrHelper__listenForCommands_244_1.__ArrHelper__listenForCommands_244_1_type	1	0	0	1	0
+123	__ArrHelper__listenForCommands_244_0	7	0	232	4	6
+124	__ArrHelper__listenForCommands_244_0.__ArrHelper__listenForCommands_244_0_type	1	0	0	1	0
+125	__ArrHelper__sendParameter_244_3	7	0	234	4	2
+126	__ArrHelper__sendParameter_244_3.__ArrHelper__sendParameter_244_3_type	1	0	0	1	0
+127	__ArrHelper__sendCommand_244_2	7	0	236	4	4
+128	__ArrHelper__sendCommand_244_2.__ArrHelper__sendCommand_244_2_type	1	0	0	1	0
+129	__SRSSendBuf	7	0	238	4	4
+130	__SRSSendBuf.__SRSSendBuf_type	1	0	0	1	0
+131	__SRSTmpBuf	7	0	240	4	12
+132	__SRSTmpBuf.__SRSTmpBuf_type	1	0	0	1	0
+133	__BlankLine	7	0	242	4	6
+134	__BlankLine.__BlankLine_type	1	0	0	1	0
+135	__SRSFlattenBuf	7	0	244	4	4
+136	__SRSFlattenBuf.__SRSFlattenBuf_type	1	0	0	1	0
+137	__ArrHelper__sendCommand_244_1	7	0	246	4	4
+138	__ArrHelper__sendCommand_244_1.__ArrHelper__sendCommand_244_1_type	1	0	0	1	0
+139	__ArrHelper__sendCommand_244_0	7	0	248	4	2
+140	__ArrHelper__sendCommand_244_0.__ArrHelper__sendCommand_244_0_type	1	0	0	1	0
+141	__DCMessageWritePacket	7	0	250	4	2
+142	__DCMessageWritePacket.__DCMessageWritePacket_type	1	0	0	1	0
+143	__strretvalsendParameter	7	0	252	4	4
+144	__strretvalsendParameter.__strretvalsendParameter_type	1	0	0	1	0
+145	__strbufsendParameter	7	0	254	4	8
+146	__strbufsendParameter.__strbufsendParameter_type	1	0	0	1	0
+147	__strretvalsendCommand	7	0	256	4	4
+148	__strretvalsendCommand.__strretvalsendCommand_type	1	0	0	1	0
+149	priCommands	7	0	258	4	5
+150	priCommands.priCommands_type	4	0	0	2	0
+151	secCommands	7	0	260	4	5
+152	secCommands.secCommands_type	4	0	0	2	0
+153	priDestinations	7	0	262	4	6
+154	priDestinations.priDestinations_type	4	0	0	2	0
+155	priParameters	7	0	264	4	5
+156	priParameters.priParameters_type	4	0	0	2	0
+157	__strbufsendCommand	7	0	266	4	8
+158	__strbufsendCommand.__strbufsendCommand_type	1	0	0	1	0
+159	__ArrHelper__listenForCommands_244_4	7	0	268	4	4
+160	__ArrHelper__listenForCommands_244_4.__ArrHelper__listenForCommands_244_4_type	1	0	0	1	0
+161	__ArrHelper__listenForCommands_244_3	7	0	270	4	6
+162	__ArrHelper__listenForCommands_244_3.__ArrHelper__listenForCommands_244_3_type	1	0	0	1	0
+163	__ArrHelper__listenForCommands_244_2	7	0	272	4	8
+164	__ArrHelper__listenForCommands_244_2.__ArrHelper__listenForCommands_244_2_type	1	0	0	1	0
+165	__ArrHelper__listenForCommands_244_5	7	0	274	4	2
+166	__ArrHelper__listenForCommands_244_5.__ArrHelper__listenForCommands_244_5_type	1	0	0	1	0
+167	__strbufmain	7	0	276	4	2
+168	__strbufmain.__strbufmain_type	1	0	0	1	0
+169	__strretvallistenForCommands	7	0	278	4	12
+170	__strretvallistenForCommands.__strretvallistenForCommands_type	1	0	0	1	0
+171	__strbuflistenForCommands	7	0	280	4	32
+172	__strbuflistenForCommands.__strbuflistenForCommands_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	161	0	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	162	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	161	2	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	161	2	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	162	2		arrinit priCommands, __constVal0, __constVal0
+0	161	6	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	161	6	#line 161 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	162	6	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	163	6		arrinit priParameters, __constVal0, __constVal0
+0	162	10	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	162	10	#line 162 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	163	10	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	164	10		arrinit priDestinations, __constVal0, __constVal0
+0	163	14	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	163	14	#line 163 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	164	14	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	165	14		arrinit secCommands, __constVal0, __constVal0
+0	164	18	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	164	18	#line 164 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	165	18	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	166	18		arrinit secParameters, __constVal0, __constVal0
+0	165	22	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	165	22	#line 165 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	166	22	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	167	22		arrinit secDestinations, __constVal0, __constVal0
+0	166	26	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	166	26	#line 166 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	6069	26	#line 6069 "NXCDefs.h"
+0	6070	26	#pragma macro 6
+0	6070	26		acquire __PointOutMutex
+0	6070	27		mov __PointOutArgs.Location.X, __constVal200
+0	6070	29		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	31		mov __PointOutArgs.Options, __constVal1
+0	6070	33		syscall 14, __PointOutArgs
+0	6070	36		release __PointOutMutex
+0	4962	37	#line 4962 "NXCDefs.h"
+0	6069	37	#line 6069 "NXCDefs.h"
+0	179	37	#line 179 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	181	37	#line 181 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	182	37		mov amount, __constValNeg1
+0	181	39	#line 181 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	181	39	#line 181 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	181	39	#line 181 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	182	39		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	181	42	#line 181 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	7921	42	#line 7921 "NXCDefs.h"
+0	7922	42		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	45	#line 7921 "NXCDefs.h"
+0	183	45	#line 183 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	186	45	#line 186 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	187	45		set BUFFER_SWITCH, 1
+0	186	48	#line 186 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	186	48	#line 186 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	191	48	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	192	48		subcall __listenForCommands_Spawner, __listenForCommands_Spawner_return
+0	191	50	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	191	50	#line 191 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	192	50		set __D0main, 1
+0	193	53	#line 193 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	194	53		tst 5, __zfmain, __D0main
+0	193	56	#line 193 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	194	56		brtst 4, __NXC_Label_669, __zfmain
+0	193	59	#line 193 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	194	59		set __Wait_7qG2_ms_7qG2_000_inline_main, 2000
+0	193	62	#line 193 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	7921	62	#line 7921 "NXCDefs.h"
+0	7922	62		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	65	#line 7921 "NXCDefs.h"
+0	194	65	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	194	65	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	195	65		mov __signed_stack_001main, amount
+0	194	67	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	194	67	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	195	67		mov __D0main, __constValNeg1
+0	194	69	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	195	69		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	194	73	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	195	73		mov __D0main, __zfmain
+0	194	75	#line 194 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	195	75		brtst 4, __NXC_Label_676, __zfmain
+0	196	78	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	197	78		subcall executeCommands, __executeCommands_return
+0	196	80	#line 196 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	198	80	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	198	80	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	199	80		jmp __NXC_Label_668
+0	198	82	#line 198 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	6069	82	#line 6069 "NXCDefs.h"
+0	6070	82	#pragma macro 6
+0	6070	82		acquire __PointOutMutex
+0	6070	83		mov __PointOutArgs.Location.X, __constVal200
+0	6070	85		mov __PointOutArgs.Location.Y, __constVal200
+0	6070	87		mov __PointOutArgs.Options, __constVal1
+0	6070	89		syscall 14, __PointOutArgs
+0	6070	92		release __PointOutMutex
+0	5039	93	#line 5039 "NXCDefs.h"
+0	6069	93	#line 6069 "NXCDefs.h"
+0	199	93	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	199	93	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	200	93		set __signed_stack_001main, 5
+0	199	96	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	199	96	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	200	96		set __signed_stack_002main, 32
+0	199	99	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	199	99	#line 199 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	200	99		strcat __strbufmain, __constStr0020
+0	200	103	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	103		acquire __TextOutMutex
+0	200	104	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	104		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	200	106	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	106		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	200	108	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	108		set __TextOutArgs.Options, 0
+0	200	111	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	111		mov __TextOutArgs.Text, __strbufmain
+0	200	113	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	113		syscall 13, __TextOutArgs
+0	200	116	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	116		mov __D0main, __TextOutArgs.Result
+0	200	118	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	118		release __TextOutMutex
+0	200	119	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	200	119	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	201	119		set __Wait_7qG2_ms_7qG2_000_inline_main, 1500
+0	200	122	#line 200 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	7921	122	#line 7921 "NXCDefs.h"
+0	7922	122		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	125	#line 7921 "NXCDefs.h"
+0	201	125	#line 201 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	7934	125	#line 7934 "NXCDefs.h"
+0	7935	125		set __D0StopAllTasks_inline_main, 1
+0	7934	128	#line 7934 "NXCDefs.h"
+0	7935	128		stop __D0StopAllTasks_inline_main
+0	7934	130	#line 7934 "NXCDefs.h"
+0	202	130	#line 202 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+0	203	130		exit -1, -1
+1	58	0	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	0		set __signed_stack_001sendCommand, 5
+1	58	3	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	58	3	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	3		set __signed_stack_002sendCommand, 56
+1	58	6	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	58	6	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	6		mov __ArrHelper__sendCommand_244_0, __constStr0009
+1	58	8	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	8		mov __D0sendCommand, __sendCommand_7qG2_cmd_7qG2_000
+1	58	10	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	10		numtostr __strretvalsendCommand, __D0sendCommand
+1	58	13	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	13		mov __ArrHelper__sendCommand_244_1, __strretvalsendCommand
+1	58	15	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	15		mov __ArrHelper__sendCommand_244_2, __constStr0010
+1	58	17	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	17		mov __D0sendCommand, __sendCommand_7qG2_des_7qG2_000
+1	58	19	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	19		numtostr __strretvalsendCommand, __D0sendCommand
+1	58	22	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	22		strcat __strbufsendCommand, __strretvalsendCommand
+1	58	26	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	26		mov __ArrHelper__sendCommand_244_3, __strbufsendCommand
+1	58	28	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	28		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_2, __ArrHelper__sendCommand_244_3
+1	58	33	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	33		mov __ArrHelper__sendCommand_244_2, __strbufsendCommand
+1	58	35	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	35		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_1, __ArrHelper__sendCommand_244_2
+1	58	40	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	40		mov __ArrHelper__sendCommand_244_1, __strbufsendCommand
+1	58	42	#line 58 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	42		strcat __strbufsendCommand, __ArrHelper__sendCommand_244_0, __ArrHelper__sendCommand_244_1
+1	59	47	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	47		acquire __TextOutMutex
+1	59	48	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	48		mov __TextOutArgs.Location.X, __signed_stack_001sendCommand
+1	59	50	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	50		mov __TextOutArgs.Location.Y, __signed_stack_002sendCommand
+1	59	52	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	52		set __TextOutArgs.Options, 0
+1	59	55	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	55		mov __TextOutArgs.Text, __strbufsendCommand
+1	59	57	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	57		syscall 13, __TextOutArgs
+1	59	60	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	60		mov __D0sendCommand, __TextOutArgs.Result
+1	59	62	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	62		release __TextOutMutex
+1	59	63	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	63	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	60	63	#pragma macro 14
+1	60	63		acquire __RemoteMutex
+1	60	64		mov __SRSTmpBuf, __DCMessageWritePacket
+1	60	66		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal1
+1	60	71		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+1	60	76		mov __SRSTmpLongVal, __sendCommand_7qG2_cmd_7qG2_000
+1	60	78		flatten __SRSFlattenBuf, __SRSTmpLongVal
+1	60	81		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+1	60	86		acquire __CBTWMutex
+1	60	87		mov __CBTWArgs.Connection, __sendCommand_7qG2_des_7qG2_000
+1	60	89		mov __CBTWArgs.Buffer, __SRSSendBuf
+1	60	91		syscall 29, __CBTWArgs
+1	60	94		mov __D0sendCommand, __CBTWArgs.Result
+1	60	96		release __CBTWMutex
+1	60	97		release __RemoteMutex
+1	4028	98	#line 4028 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	98	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	59	98	#line 59 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	65	98	#line 65 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+1	66	98		subret __sendCommand_return
+2	66	0	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	0		set __signed_stack_001sendParameter, 5
+2	66	3	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	66	3	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	3		set __signed_stack_002sendParameter, 48
+2	66	6	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	66	6	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	6		mov __ArrHelper__sendParameter_244_0, __constStr0011
+2	66	8	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	8		mov __D0sendParameter, __sendParameter_7qG2_par_7qG2_000
+2	66	10	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	10		numtostr __strretvalsendParameter, __D0sendParameter
+2	66	13	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	13		mov __ArrHelper__sendParameter_244_1, __strretvalsendParameter
+2	66	15	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	15		mov __ArrHelper__sendParameter_244_2, __constStr0010
+2	66	17	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	17		mov __D0sendParameter, __sendParameter_7qG2_des_7qG2_000
+2	66	19	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	19		numtostr __strretvalsendParameter, __D0sendParameter
+2	66	22	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	22		strcat __strbufsendParameter, __strretvalsendParameter
+2	66	26	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	26		mov __ArrHelper__sendParameter_244_3, __strbufsendParameter
+2	66	28	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	28		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_2, __ArrHelper__sendParameter_244_3
+2	66	33	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	33		mov __ArrHelper__sendParameter_244_2, __strbufsendParameter
+2	66	35	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	35		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_1, __ArrHelper__sendParameter_244_2
+2	66	40	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	40		mov __ArrHelper__sendParameter_244_1, __strbufsendParameter
+2	66	42	#line 66 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	42		strcat __strbufsendParameter, __ArrHelper__sendParameter_244_0, __ArrHelper__sendParameter_244_1
+2	67	47	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	47		acquire __TextOutMutex
+2	67	48	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	48		mov __TextOutArgs.Location.X, __signed_stack_001sendParameter
+2	67	50	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	50		mov __TextOutArgs.Location.Y, __signed_stack_002sendParameter
+2	67	52	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	52		set __TextOutArgs.Options, 0
+2	67	55	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	55		mov __TextOutArgs.Text, __strbufsendParameter
+2	67	57	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	57		syscall 13, __TextOutArgs
+2	67	60	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	60		mov __D0sendParameter, __TextOutArgs.Result
+2	67	62	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	62		release __TextOutMutex
+2	67	63	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	63	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	68	63	#pragma macro 14
+2	68	63		acquire __RemoteMutex
+2	68	64		mov __SRSTmpBuf, __DCMessageWritePacket
+2	68	66		replace __SRSTmpBuf, __SRSTmpBuf, __constVal2, __constVal2
+2	68	71		replace __SRSTmpBuf, __SRSTmpBuf, __constVal3, __constVal5
+2	68	76		mov __SRSTmpLongVal, __sendParameter_7qG2_par_7qG2_000
+2	68	78		flatten __SRSFlattenBuf, __SRSTmpLongVal
+2	68	81		arrbuild __SRSSendBuf, __SRSTmpBuf, __SRSFlattenBuf
+2	68	86		acquire __CBTWMutex
+2	68	87		mov __CBTWArgs.Connection, __sendParameter_7qG2_des_7qG2_000
+2	68	89		mov __CBTWArgs.Buffer, __SRSSendBuf
+2	68	91		syscall 29, __CBTWArgs
+2	68	94		mov __D0sendParameter, __CBTWArgs.Result
+2	68	96		release __CBTWMutex
+2	68	97		release __RemoteMutex
+2	4106	98	#line 4106 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	98	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	67	98	#line 67 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	71	98	#line 71 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+2	72	98		subret __sendParameter_return
+3	72	0	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	73	0		mov __unsigned_stack_001executeCommands, BUFFER_SWITCH
+3	72	2	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	72	2	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	73	2		set __D0executeCommands, 1
+3	72	5	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	73	5		cmp 4, __zfexecuteCommands, __unsigned_stack_001executeCommands, __D0executeCommands
+3	72	9	#line 72 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	73	9		mov __D0executeCommands, __zfexecuteCommands
+3	73	11	#line 73 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	74	11		brtst 4, __NXC_Label_507, __zfexecuteCommands
+3	74	14	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	75	14		set BUFFER_SWITCH, 0
+3	74	17	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	74	17	#line 74 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	75	17	#line 75 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	76	17		jmp __NXC_Label_510
+3	76	19	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	77	19		set BUFFER_SWITCH, 1
+3	76	22	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	76	22	#line 76 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	78	22	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	78	22	#line 78 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	79	22		mov __DU0executeCommands, BUFFER_SWITCH
+3	79	24	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	24		tst 5, __zfexecuteCommands, __DU0executeCommands
+3	79	27	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	27		brtst 4, __NXC_Label_515, __zfexecuteCommands
+3	79	30	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	30		mov __signed_stack_001executeCommands, amount
+3	79	32	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	79	32	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	32		index __ArrHelper__executeCommands_73_0, secCommands, __signed_stack_001executeCommands
+3	79	36	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	36		mov __sendCommand_7qG2_cmd_7qG2_000, __ArrHelper__executeCommands_73_0
+3	79	38	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	79	38	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	38		mov __signed_stack_001executeCommands, amount
+3	79	40	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	79	40	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	40		index __ArrHelper__executeCommands_73_0, secDestinations, __signed_stack_001executeCommands
+3	79	44	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	44		mov __sendCommand_7qG2_des_7qG2_000, __ArrHelper__executeCommands_73_0
+3	79	46	#line 79 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	46	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	81	46		subcall sendCommand, __sendCommand_return
+3	80	48	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	80	48	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	81	48		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 400
+3	80	51	#line 80 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	7921	51	#line 7921 "NXCDefs.h"
+3	7922	51		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_executeCommands
+3	7921	54	#line 7921 "NXCDefs.h"
+3	81	54	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	81	54	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	54		mov __signed_stack_001executeCommands, amount
+3	81	56	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	81	56	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	56		index __ArrHelper__executeCommands_73_0, secParameters, __signed_stack_001executeCommands
+3	81	60	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	60		mov __sendParameter_7qG2_par_7qG2_000, __ArrHelper__executeCommands_73_0
+3	81	62	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	81	62	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	62		mov __signed_stack_001executeCommands, amount
+3	81	64	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	81	64	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	64		index __ArrHelper__executeCommands_73_0, secDestinations, __signed_stack_001executeCommands
+3	81	68	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	68		mov __sendParameter_7qG2_des_7qG2_000, __ArrHelper__executeCommands_73_0
+3	81	70	#line 81 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	70	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	83	70		subcall sendParameter, __sendParameter_return
+3	82	72	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	82	72	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	83	72		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 400
+3	82	75	#line 82 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	7921	75	#line 7921 "NXCDefs.h"
+3	7922	75		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_executeCommands
+3	7921	78	#line 7921 "NXCDefs.h"
+3	83	78	#line 83 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	85	78	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	86	78		sub amount, amount, __constVal1
+3	85	82	#line 85 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	86	82	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	82		jmp __NXC_Label_536
+3	86	84	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	84		mov __signed_stack_001executeCommands, amount
+3	86	86	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	86	86	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	86		index __ArrHelper__executeCommands_73_0, priCommands, __signed_stack_001executeCommands
+3	86	90	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	90		mov __sendCommand_7qG2_cmd_7qG2_000, __ArrHelper__executeCommands_73_0
+3	86	92	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	86	92	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	92		mov __signed_stack_001executeCommands, amount
+3	86	94	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	86	94	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	94		index __ArrHelper__executeCommands_73_0, priDestinations, __signed_stack_001executeCommands
+3	86	98	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	98		mov __sendCommand_7qG2_des_7qG2_000, __ArrHelper__executeCommands_73_0
+3	86	100	#line 86 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	100	#line 87 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	88	100		subcall sendCommand, __sendCommand_return
+3	87	102	#line 87 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	87	102	#line 87 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	88	102		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 400
+3	87	105	#line 87 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	7921	105	#line 7921 "NXCDefs.h"
+3	7922	105		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_executeCommands
+3	7921	108	#line 7921 "NXCDefs.h"
+3	88	108	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	88	108	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	108		mov __signed_stack_001executeCommands, amount
+3	88	110	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	88	110	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	110		index __ArrHelper__executeCommands_73_0, priParameters, __signed_stack_001executeCommands
+3	88	114	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	114		mov __sendParameter_7qG2_par_7qG2_000, __ArrHelper__executeCommands_73_0
+3	88	116	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	88	116	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	116		mov __signed_stack_001executeCommands, amount
+3	88	118	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	88	118	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	118		index __ArrHelper__executeCommands_73_0, priDestinations, __signed_stack_001executeCommands
+3	88	122	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	122		mov __sendParameter_7qG2_des_7qG2_000, __ArrHelper__executeCommands_73_0
+3	88	124	#line 88 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	124	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	90	124		subcall sendParameter, __sendParameter_return
+3	89	126	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	89	126	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	90	126		set __Wait_7qG2_ms_7qG2_000_inline_executeCommands, 400
+3	89	129	#line 89 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	7921	129	#line 7921 "NXCDefs.h"
+3	7922	129		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_executeCommands
+3	7921	132	#line 7921 "NXCDefs.h"
+3	90	132	#line 90 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	91	132	#line 91 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	92	132		sub amount, amount, __constVal1
+3	91	136	#line 91 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	95	136	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	95	136	#line 95 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+3	96	136		subret __executeCommands_return
+4	98	0	#line 98 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	99	0		set __listenForCommands_7qG2_cmd_7qG2_000, 0
+4	98	3	#line 98 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	99	3	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	100	3		set __listenForCommands_7qG2_par_7qG2_000, 0
+4	99	6	#line 99 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	101	6	#line 101 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	102	6		set __listenForCommands_7qG2_des_7qG2_000, 0
+4	101	9	#line 101 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	101	9	#line 101 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	102	9		set __D0listenForCommands, 1
+4	102	12	#line 102 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	103	12		tst 5, __zflistenForCommands, __D0listenForCommands
+4	102	15	#line 102 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	103	15		brtst 4, __NXC_Label_564, __zflistenForCommands
+4	102	18	#line 102 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	103	18		set __Wait_7qG2_ms_7qG2_000_inline_listenForCommands, 500
+4	102	21	#line 102 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	7921	21	#line 7921 "NXCDefs.h"
+4	7922	21		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_listenForCommands
+4	7921	24	#line 7921 "NXCDefs.h"
+4	104	24	#line 104 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	104	24	#line 104 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	105	24		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 24
+4	104	27	#line 104 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	6076	27	#line 6076 "NXCDefs.h"
+4	6077	27	#pragma macro 7
+4	6077	27		acquire __TextOutMutex
+4	6077	28		mov __TextOutArgs.Location.X, __constVal0
+4	6077	30		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+4	6077	32		mov __TextOutArgs.Options, __constVal0
+4	6077	34		mov __TextOutArgs.Text, __BlankLine
+4	6077	36		syscall 13, __TextOutArgs
+4	6077	39		release __TextOutMutex
+4	4403	40	#line 4403 "NXCDefs.h"
+4	6076	40	#line 6076 "NXCDefs.h"
+4	105	40	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	105	40	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	106	40		set __signed_stack_001listenForCommands, 0
+4	105	43	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	105	43	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	106	43		set __signed_stack_002listenForCommands, 24
+4	105	46	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	105	46	#line 105 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	106	46		strcat __strbuflistenForCommands, __constStr0012
+4	107	50	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	50		acquire __TextOutMutex
+4	107	51	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	51		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+4	107	53	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	53		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+4	107	55	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	55		set __TextOutArgs.Options, 0
+4	107	58	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	58		mov __TextOutArgs.Text, __strbuflistenForCommands
+4	107	60	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	60		syscall 13, __TextOutArgs
+4	107	63	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	63		mov __D0listenForCommands, __TextOutArgs.Result
+4	107	65	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	65		release __TextOutMutex
+4	107	66	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	107	66	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	108	66	#pragma macro 9
+4	108	66		acquire __MRMutex
+4	108	67		mov __MRArgs.QueueID, __constVal7
+4	108	69		mov __MRArgs.Remove, __constVal1
+4	108	71		set __RRNTmpVal, 0
+4	108	74		syscall 27, __MRArgs
+4	108	77		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+4	108	82		mov __listenForCommands_7qG2_cmd_7qG2_000, __RRNTmpVal
+4	108	84		mov __D0listenForCommands, __MRArgs.Result
+4	108	86		release __MRMutex
+4	4438	87	#line 4438 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	107	87	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	107	87	#line 107 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	109	87	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	110	87		mov __signed_stack_001listenForCommands, __listenForCommands_7qG2_cmd_7qG2_000
+4	109	89	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	109	89	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	110	89		set __D0listenForCommands, 0
+4	109	92	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	110	92		cmp 5, __zflistenForCommands, __signed_stack_001listenForCommands, __D0listenForCommands
+4	109	96	#line 109 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	110	96		mov __D0listenForCommands, __zflistenForCommands
+4	112	98	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	113	98		brtst 4, __NXC_Label_577, __zflistenForCommands
+4	112	101	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	113	101		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 24
+4	112	104	#line 112 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	6076	104	#line 6076 "NXCDefs.h"
+4	6077	104	#pragma macro 7
+4	6077	104		acquire __TextOutMutex
+4	6077	105		mov __TextOutArgs.Location.X, __constVal0
+4	6077	107		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+4	6077	109		mov __TextOutArgs.Options, __constVal0
+4	6077	111		mov __TextOutArgs.Text, __BlankLine
+4	6077	113		syscall 13, __TextOutArgs
+4	6077	116		release __TextOutMutex
+4	4462	117	#line 4462 "NXCDefs.h"
+4	6076	117	#line 6076 "NXCDefs.h"
+4	113	117	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	113	117	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	114	117		set __signed_stack_001listenForCommands, 0
+4	113	120	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	113	120	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	114	120		set __signed_stack_002listenForCommands, 24
+4	113	123	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	113	123	#line 113 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	114	123		strcat __strbuflistenForCommands, __constStr0013
+4	115	127	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	127		acquire __TextOutMutex
+4	115	128	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	128		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+4	115	130	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	130		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+4	115	132	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	132		set __TextOutArgs.Options, 0
+4	115	135	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	135		mov __TextOutArgs.Text, __strbuflistenForCommands
+4	115	137	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	137		syscall 13, __TextOutArgs
+4	115	140	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	140		mov __D0listenForCommands, __TextOutArgs.Result
+4	115	142	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	142		release __TextOutMutex
+4	115	143	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	115	143	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	143		set __signed_stack_001listenForCommands, 0
+4	115	146	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	115	146	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	146		set __signed_stack_002listenForCommands, 0
+4	115	149	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	115	149	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	149		mov __ArrHelper__listenForCommands_244_0, __constStr0014
+4	115	151	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	151		mov __D0listenForCommands, __listenForCommands_7qG2_cmd_7qG2_000
+4	115	153	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	153		numtostr __strretvallistenForCommands, __D0listenForCommands
+4	115	156	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	156		strcat __strbuflistenForCommands, __strretvallistenForCommands
+4	115	160	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	160		mov __ArrHelper__listenForCommands_244_1, __strbuflistenForCommands
+4	115	162	#line 115 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	116	162		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_0, __ArrHelper__listenForCommands_244_1
+4	117	167	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	167		acquire __TextOutMutex
+4	117	168	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	168		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+4	117	170	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	170		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+4	117	172	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	172		set __TextOutArgs.Options, 0
+4	117	175	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	175		mov __TextOutArgs.Text, __strbuflistenForCommands
+4	117	177	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	177		syscall 13, __TextOutArgs
+4	117	180	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	180		mov __D0listenForCommands, __TextOutArgs.Result
+4	117	182	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	182		release __TextOutMutex
+4	117	183	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	117	183	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	183		set __Wait_7qG2_ms_7qG2_000_inline_listenForCommands, 350
+4	117	186	#line 117 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	7921	186	#line 7921 "NXCDefs.h"
+4	7922	186		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_listenForCommands
+4	7921	189	#line 7921 "NXCDefs.h"
+4	118	189	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	189	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	119	189	#pragma macro 9
+4	119	189		acquire __MRMutex
+4	119	190		mov __MRArgs.QueueID, __constVal8
+4	119	192		mov __MRArgs.Remove, __constVal1
+4	119	194		set __RRNTmpVal, 0
+4	119	197		syscall 27, __MRArgs
+4	119	200		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+4	119	205		mov __listenForCommands_7qG2_par_7qG2_000, __RRNTmpVal
+4	119	207		mov __D0listenForCommands, __MRArgs.Result
+4	119	209		release __MRMutex
+4	4550	210	#line 4550 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	210	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	118	210	#line 118 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	120	210	#line 120 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	121	210		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 0
+4	120	213	#line 120 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	6076	213	#line 6076 "NXCDefs.h"
+4	6077	213	#pragma macro 7
+4	6077	213		acquire __TextOutMutex
+4	6077	214		mov __TextOutArgs.Location.X, __constVal0
+4	6077	216		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+4	6077	218		mov __TextOutArgs.Options, __constVal0
+4	6077	220		mov __TextOutArgs.Text, __BlankLine
+4	6077	222		syscall 13, __TextOutArgs
+4	6077	225		release __TextOutMutex
+4	4560	226	#line 4560 "NXCDefs.h"
+4	6076	226	#line 6076 "NXCDefs.h"
+4	121	226	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	121	226	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	226		set __signed_stack_001listenForCommands, 0
+4	121	229	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	121	229	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	229		set __signed_stack_002listenForCommands, 0
+4	121	232	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	121	232	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	232		mov __ArrHelper__listenForCommands_244_0, __constStr0015
+4	121	234	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	234		mov __D0listenForCommands, __listenForCommands_7qG2_cmd_7qG2_000
+4	121	236	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	236		numtostr __strretvallistenForCommands, __D0listenForCommands
+4	121	239	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	239		mov __ArrHelper__listenForCommands_244_1, __strretvallistenForCommands
+4	121	241	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	241		mov __ArrHelper__listenForCommands_244_2, __constStr0016
+4	121	243	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	243		mov __D0listenForCommands, __listenForCommands_7qG2_par_7qG2_000
+4	121	245	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	245		numtostr __strretvallistenForCommands, __D0listenForCommands
+4	121	248	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	248		strcat __strbuflistenForCommands, __strretvallistenForCommands
+4	121	252	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	252		mov __ArrHelper__listenForCommands_244_3, __strbuflistenForCommands
+4	121	254	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	254		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_2, __ArrHelper__listenForCommands_244_3
+4	121	259	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	259		mov __ArrHelper__listenForCommands_244_2, __strbuflistenForCommands
+4	121	261	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	261		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_1, __ArrHelper__listenForCommands_244_2
+4	121	266	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	266		mov __ArrHelper__listenForCommands_244_1, __strbuflistenForCommands
+4	121	268	#line 121 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	122	268		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_0, __ArrHelper__listenForCommands_244_1
+4	123	273	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	273		acquire __TextOutMutex
+4	123	274	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	274		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+4	123	276	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	276		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+4	123	278	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	278		set __TextOutArgs.Options, 0
+4	123	281	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	281		mov __TextOutArgs.Text, __strbuflistenForCommands
+4	123	283	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	283		syscall 13, __TextOutArgs
+4	123	286	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	286		mov __D0listenForCommands, __TextOutArgs.Result
+4	123	288	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	288		release __TextOutMutex
+4	123	289	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	123	289	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	289		set __Wait_7qG2_ms_7qG2_000_inline_listenForCommands, 350
+4	123	292	#line 123 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	7921	292	#line 7921 "NXCDefs.h"
+4	7922	292		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_listenForCommands
+4	7921	295	#line 7921 "NXCDefs.h"
+4	124	295	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	295	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	125	295	#pragma macro 9
+4	125	295		acquire __MRMutex
+4	125	296		mov __MRArgs.QueueID, __constVal9
+4	125	298		mov __MRArgs.Remove, __constVal1
+4	125	300		set __RRNTmpVal, 0
+4	125	303		syscall 27, __MRArgs
+4	125	306		unflatten __RRNTmpVal, __RRNErr, __MRArgs.Message, __RRNTmpVal
+4	125	311		mov __listenForCommands_7qG2_des_7qG2_000, __RRNTmpVal
+4	125	313		mov __D0listenForCommands, __MRArgs.Result
+4	125	315		release __MRMutex
+4	4635	316	#line 4635 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	316	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	124	316	#line 124 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	126	316	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	127	316		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 0
+4	126	319	#line 126 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	6076	319	#line 6076 "NXCDefs.h"
+4	6077	319	#pragma macro 7
+4	6077	319		acquire __TextOutMutex
+4	6077	320		mov __TextOutArgs.Location.X, __constVal0
+4	6077	322		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+4	6077	324		mov __TextOutArgs.Options, __constVal0
+4	6077	326		mov __TextOutArgs.Text, __BlankLine
+4	6077	328		syscall 13, __TextOutArgs
+4	6077	331		release __TextOutMutex
+4	4645	332	#line 4645 "NXCDefs.h"
+4	6076	332	#line 6076 "NXCDefs.h"
+4	127	332	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	127	332	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	332		set __signed_stack_001listenForCommands, 0
+4	127	335	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	127	335	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	335		set __signed_stack_002listenForCommands, 0
+4	127	338	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	127	338	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	338		mov __ArrHelper__listenForCommands_244_0, __constStr0015
+4	127	340	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	340		mov __D0listenForCommands, __listenForCommands_7qG2_cmd_7qG2_000
+4	127	342	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	342		numtostr __strretvallistenForCommands, __D0listenForCommands
+4	127	345	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	345		mov __ArrHelper__listenForCommands_244_1, __strretvallistenForCommands
+4	127	347	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	347		mov __ArrHelper__listenForCommands_244_2, __constStr0016
+4	127	349	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	349		mov __D0listenForCommands, __listenForCommands_7qG2_par_7qG2_000
+4	127	351	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	351		numtostr __strretvallistenForCommands, __D0listenForCommands
+4	127	354	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	354		mov __ArrHelper__listenForCommands_244_3, __strretvallistenForCommands
+4	127	356	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	356		mov __ArrHelper__listenForCommands_244_4, __constStr0017
+4	127	358	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	358		mov __D0listenForCommands, __listenForCommands_7qG2_des_7qG2_000
+4	127	360	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	360		numtostr __strretvallistenForCommands, __D0listenForCommands
+4	127	363	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	363		strcat __strbuflistenForCommands, __strretvallistenForCommands
+4	127	367	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	367		mov __ArrHelper__listenForCommands_244_5, __strbuflistenForCommands
+4	127	369	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	369		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_4, __ArrHelper__listenForCommands_244_5
+4	127	374	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	374		mov __ArrHelper__listenForCommands_244_4, __strbuflistenForCommands
+4	127	376	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	376		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_3, __ArrHelper__listenForCommands_244_4
+4	127	381	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	381		mov __ArrHelper__listenForCommands_244_3, __strbuflistenForCommands
+4	127	383	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	383		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_2, __ArrHelper__listenForCommands_244_3
+4	127	388	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	388		mov __ArrHelper__listenForCommands_244_2, __strbuflistenForCommands
+4	127	390	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	390		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_1, __ArrHelper__listenForCommands_244_2
+4	127	395	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	395		mov __ArrHelper__listenForCommands_244_1, __strbuflistenForCommands
+4	127	397	#line 127 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	128	397		strcat __strbuflistenForCommands, __ArrHelper__listenForCommands_244_0, __ArrHelper__listenForCommands_244_1
+4	129	402	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	402		acquire __TextOutMutex
+4	129	403	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	403		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+4	129	405	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	405		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+4	129	407	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	407		set __TextOutArgs.Options, 0
+4	129	410	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	410		mov __TextOutArgs.Text, __strbuflistenForCommands
+4	129	412	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	412		syscall 13, __TextOutArgs
+4	129	415	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	415		mov __D0listenForCommands, __TextOutArgs.Result
+4	129	417	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	130	417		release __TextOutMutex
+4	129	418	#line 129 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	131	418	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	132	418		add amount, amount, __constVal1
+4	131	422	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	131	422	#line 131 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	132	422		mov __DU0listenForCommands, BUFFER_SWITCH
+4	132	424	#line 132 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	133	424		tst 5, __zflistenForCommands, __DU0listenForCommands
+4	132	427	#line 132 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	133	427		brtst 4, __NXC_Label_618, __zflistenForCommands
+4	132	430	#line 132 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	133	430		mov __signed_stack_001listenForCommands, amount
+4	132	432	#line 132 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	133	432	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	134	432		mov __D0listenForCommands, __listenForCommands_7qG2_cmd_7qG2_000
+4	133	434	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	134	434		replace priCommands, priCommands, __signed_stack_001listenForCommands, __D0listenForCommands
+4	133	439	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	133	439	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	134	439		mov __signed_stack_001listenForCommands, amount
+4	133	441	#line 133 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	134	441	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	135	441		mov __D0listenForCommands, __listenForCommands_7qG2_par_7qG2_000
+4	134	443	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	135	443		replace priParameters, priParameters, __signed_stack_001listenForCommands, __D0listenForCommands
+4	134	448	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	134	448	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	135	448		mov __signed_stack_001listenForCommands, amount
+4	134	450	#line 134 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	135	450	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	136	450		mov __D0listenForCommands, __listenForCommands_7qG2_des_7qG2_000
+4	135	452	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	136	452		replace priDestinations, priDestinations, __signed_stack_001listenForCommands, __D0listenForCommands
+4	135	457	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	135	457	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	136	457		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 16
+4	135	460	#line 135 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	6076	460	#line 6076 "NXCDefs.h"
+4	6077	460	#pragma macro 7
+4	6077	460		acquire __TextOutMutex
+4	6077	461		mov __TextOutArgs.Location.X, __constVal0
+4	6077	463		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+4	6077	465		mov __TextOutArgs.Options, __constVal0
+4	6077	467		mov __TextOutArgs.Text, __BlankLine
+4	6077	469		syscall 13, __TextOutArgs
+4	6077	472		release __TextOutMutex
+4	4784	473	#line 4784 "NXCDefs.h"
+4	6076	473	#line 6076 "NXCDefs.h"
+4	136	473	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	136	473	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	137	473		set __signed_stack_001listenForCommands, 0
+4	136	476	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	136	476	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	137	476		set __signed_stack_002listenForCommands, 16
+4	136	479	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	136	479	#line 136 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	137	479		strcat __strbuflistenForCommands, __constStr0018
+4	138	483	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	483		acquire __TextOutMutex
+4	138	484	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	484		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+4	138	486	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	486		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+4	138	488	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	488		set __TextOutArgs.Options, 0
+4	138	491	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	491		mov __TextOutArgs.Text, __strbuflistenForCommands
+4	138	493	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	493		syscall 13, __TextOutArgs
+4	138	496	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	496		mov __D0listenForCommands, __TextOutArgs.Result
+4	138	498	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	498		release __TextOutMutex
+4	138	499	#line 138 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	139	499	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	140	499		jmp __NXC_Label_637
+4	139	501	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	140	501		mov __signed_stack_001listenForCommands, amount
+4	139	503	#line 139 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	140	503	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	141	503		mov __D0listenForCommands, __listenForCommands_7qG2_cmd_7qG2_000
+4	140	505	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	141	505		replace secCommands, secCommands, __signed_stack_001listenForCommands, __D0listenForCommands
+4	140	510	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	140	510	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	141	510		mov __signed_stack_001listenForCommands, amount
+4	140	512	#line 140 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	141	512	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	142	512		mov __D0listenForCommands, __listenForCommands_7qG2_par_7qG2_000
+4	141	514	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	142	514		replace secParameters, secParameters, __signed_stack_001listenForCommands, __D0listenForCommands
+4	141	519	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	141	519	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	142	519		mov __signed_stack_001listenForCommands, amount
+4	141	521	#line 141 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	142	521	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	143	521		mov __D0listenForCommands, __listenForCommands_7qG2_des_7qG2_000
+4	142	523	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	143	523		replace secDestinations, secDestinations, __signed_stack_001listenForCommands, __D0listenForCommands
+4	142	528	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	142	528	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	143	528		set __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands, 16
+4	142	531	#line 142 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	6076	531	#line 6076 "NXCDefs.h"
+4	6077	531	#pragma macro 7
+4	6077	531		acquire __TextOutMutex
+4	6077	532		mov __TextOutArgs.Location.X, __constVal0
+4	6077	534		mov __TextOutArgs.Location.Y, __ClearLine_7qG2_line_7qG2_000_inline_listenForCommands
+4	6077	536		mov __TextOutArgs.Options, __constVal0
+4	6077	538		mov __TextOutArgs.Text, __BlankLine
+4	6077	540		syscall 13, __TextOutArgs
+4	6077	543		release __TextOutMutex
+4	4867	544	#line 4867 "NXCDefs.h"
+4	6076	544	#line 6076 "NXCDefs.h"
+4	143	544	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	143	544	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	144	544		set __signed_stack_001listenForCommands, 0
+4	143	547	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	143	547	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	144	547		set __signed_stack_002listenForCommands, 16
+4	143	550	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	143	550	#line 143 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	144	550		strcat __strbuflistenForCommands, __constStr0019
+4	144	554	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	554		acquire __TextOutMutex
+4	144	555	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	555		mov __TextOutArgs.Location.X, __signed_stack_001listenForCommands
+4	144	557	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	557		mov __TextOutArgs.Location.Y, __signed_stack_002listenForCommands
+4	144	559	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	559		set __TextOutArgs.Options, 0
+4	144	562	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	562		mov __TextOutArgs.Text, __strbuflistenForCommands
+4	144	564	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	564		syscall 13, __TextOutArgs
+4	144	567	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	567		mov __D0listenForCommands, __TextOutArgs.Result
+4	144	569	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	145	569		release __TextOutMutex
+4	144	570	#line 144 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	146	570	#line 146 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	147	570	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	148	570		set __listenForCommands_7qG2_cmd_7qG2_000, 0
+4	147	573	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	147	573	#line 147 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	148	573	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	149	573		set __listenForCommands_7qG2_par_7qG2_000, 0
+4	148	576	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	148	576	#line 148 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	149	576	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	150	576		set __listenForCommands_7qG2_des_7qG2_000, 0
+4	149	579	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	149	579	#line 149 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	153	579	#line 153 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	159	579	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	160	579		jmp __NXC_Label_563
+4	159	581	#line 159 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+4	160	581		exit -1, -1
+5	0	0		subret __listenForCommands_Spawner_return
+6	0	0		exit 0, 1
+7	205	0	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+7	206	0		arrinit priCommands, __constVal0, __constVal20
+7	205	4	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+7	206	4		arrinit priParameters, __constVal0, __constVal20
+7	205	8	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+7	206	8		arrinit priDestinations, __constVal0, __constVal20
+7	205	12	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+7	206	12		arrinit secCommands, __constVal0, __constVal20
+7	205	16	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+7	206	16		arrinit secParameters, __constVal0, __constVal20
+7	205	20	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+7	206	20		arrinit secDestinations, __constVal0, __constVal20
+7	205	24	#line 205 "C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc"
+7	206	24		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc
+1	sendCommand	133	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc
+2	sendParameter	233	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc
+3	executeCommands	333	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc
+4	listenForCommands	471	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc
+5	__listenForCommands_Returner	1055	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc
+6	__listenForCommands_Spawner	1057	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc
+7	__initialize_global_data	1060	C:\Users\Wizand\Ohjelmointi\BricC source\MasterV3.nxc

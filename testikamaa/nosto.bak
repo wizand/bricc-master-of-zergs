@@ -1,0 +1,16 @@
+#define POWER 100
+
+task main() {
+     Wait(2000);
+
+     RotateMotorEx(OUT_B,POWER, -110,0,false,true);
+     
+     Wait(2000);
+     
+     RotateMotorEx(OUT_B,70, 100,0,false,false);
+     
+     Wait(4000);
+
+
+
+}
